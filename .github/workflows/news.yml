@@ -1,0 +1,55 @@
+name: 更新新闻并发布网站
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: ai-rizhi-publish
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 验证备份结构与安全边界
+        run: python -m unittest discover -s tests -v
+      - name: 采集公开新闻源并保留结果
+        id: collect
+        run: python scripts/collect.py
+      - name: 保存新的内容与来源状态
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/library.json
+          if ! git diff --cached --quiet; then
+            git commit -m '更新新闻与检查状态'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+          retention-days: 1
+      - name: 发布同一个网站地址
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: 来源全失败时明确标记本次任务失败
+        if: steps.collect.outputs.collection_failed == 'true'
+        run: |
+          echo '全部新闻源失败：旧内容和失败状态已发布，下次计划继续重试。'
+          exit 1

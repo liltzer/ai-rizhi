@@ -1,0 +1,7 @@
+[
+  {"name":"量子位","url":"https://www.qbitai.com/feed","type":"media"},
+  {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","type":"official"},
+  {"name":"OpenAI","url":"https://openai.com/news/rss.xml","type":"official"},
+  {"name":"Hugging Face","url":"https://huggingface.co/blog/feed.xml","type":"official"},
+  {"name":"Google AI","url":"https://blog.google/technology/ai/rss/","type":"official"}
+]
