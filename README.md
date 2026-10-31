@@ -2,6 +2,12 @@
 
 手机、Windows 和 Mac 使用同一个公开网站。普通阅读不需要 GitHub 或 GPT 登录。
 
+网站地址：https://liltzer.github.io/ai-rizhi/
+
+源码与运行记录：https://github.com/liltzer/ai-rizhi
+
+Windows 可双击本目录的「打开AI日知.url」；手机在浏览器打开网站地址，可添加到主屏幕。阅读无需安装本项目或保持家中电脑开机。
+
 网页由 GitHub Pages 提供，新闻由 GitHub Actions 每小时第7和37分钟采集。定时任务可能因平台排队而延迟，不能承诺准点；页面始终显示最近成功采集时间，超过一小时会标注滞后。公开仓库60天无活动可能被平台停用定时任务，需要站长重新启用。
 
 ## 部署

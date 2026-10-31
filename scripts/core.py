@@ -1,6 +1,6 @@
 """AI 日知独立版：持久化、RSS/Atom增量采集、可选中文解读。"""
 from __future__ import annotations
-import calendar, concurrent.futures, datetime as dt, email.utils, hashlib, html, json, os, re, sqlite3, threading, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import calendar, concurrent.futures, datetime as dt, email.utils, gzip, hashlib, html, io, json, os, re, sqlite3, threading, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
@@ -100,6 +100,11 @@ class FeedFetcher:
             return data
     def fetch(self,source):
         raw=self.transport(source['url'])
+        # Some official feeds send gzip even without Accept-Encoding.
+        if raw.startswith(b'\x1f\x8b'):
+            with gzip.GzipFile(fileobj=io.BytesIO(raw)) as compressed:
+                raw=compressed.read(6*1024*1024+1)
+        if len(raw)>6*1024*1024:raise ValueError('来源内容过大')
         if b'<!DOCTYPE' in raw.upper() or b'<!ENTITY' in raw.upper():raise ValueError('不接受带外部实体的XML')
         root=ET.fromstring(raw);entries=root.findall('.//item');atom='{http://www.w3.org/2005/Atom}'
         if not entries:entries=root.findall(atom+'entry')

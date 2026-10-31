@@ -1,4 +1,4 @@
-import io,json,sys,tempfile,unittest
+import gzip,io,json,sys,tempfile,unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from core import Store,Updater,FeedFetcher,now
@@ -15,4 +15,13 @@ class CollectorTests(unittest.TestCase):
  def test_future_unknown_unsafe_ignored(self):
   data=b'<rss><channel><item><title>No date</title><link>https://example.org/a</link></item><item><title>Unsafe</title><link>javascript:alert(1)</link><pubDate>Fri, 30 Oct 2026 08:00:00 GMT</pubDate></item></channel></rss>'
   self.assertEqual(FeedFetcher(lambda url:data).fetch({'name':'Test','url':'https://example.org/rss'}),[])
+ def test_gzip_feed_preserves_articles(self):
+  source={'name':'Test','url':'https://example.org/rss'}
+  plain=FeedFetcher(self.feed).fetch(source)
+  compressed=FeedFetcher(lambda url:gzip.compress(self.feed(url))).fetch(source)
+  self.assertEqual([(a['id'],a['title'],a['summary']) for a in plain],[(a['id'],a['title'],a['summary']) for a in compressed])
+ def test_gzip_expanded_size_is_bounded(self):
+  data=gzip.compress(b'a'*(6*1024*1024+1))
+  with self.assertRaisesRegex(ValueError,'来源内容过大'):
+   FeedFetcher(lambda url:data).fetch({'name':'Test','url':'https://example.org/rss'})
 if __name__=='__main__':unittest.main()
