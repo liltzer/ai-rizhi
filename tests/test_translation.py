@@ -1,7 +1,7 @@
 import sys, unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from translation import needs_chinese,source_hash,translated,translate_articles,translation_status,terminology,WebTranslator
+from translation import needs_chinese,source_hash,translated,translate_articles,translation_status,terminology,WebTranslator,sentences
 
 class TranslationTests(unittest.TestCase):
     def article(self):return {'id':'one','title':'A new model for coding','summary':'The model can write code.','eventDate':'2026-11-23'}
@@ -37,5 +37,9 @@ class TranslationTests(unittest.TestCase):
         self.assertEqual(translator.batch(['Codex sandbox','Ordinary statute']),['Codex沙盒','普通法典'])
         translator.translate=lambda text:'合并成一段'
         with self.assertRaises(ValueError):translator.batch(['One title','One summary'])
+
+    def test_sentence_boundaries_keep_version_numbers(self):
+        self.assertEqual(sentences('GPT-6.2 works. It writes code.'),['GPT-6.2 works.','It writes code.'])
+        self.assertEqual(terminology('Codex helps this team','帮助这个团队'),'帮助这个团队（Codex）')
 
 if __name__=='__main__':unittest.main()

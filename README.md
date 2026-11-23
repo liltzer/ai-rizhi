@@ -30,9 +30,9 @@ GitHub 的标准公共 Actions runner 和公开仓库 Pages 可使用免费方�
 
 ## 内容
 
-默认以中文展示新闻标题和来源摘要，支持一键切换原文。后台通过 Google 免费网页翻译入口处理公开 RSS 标题、摘要，不调用付费 API，不需要读者登录 GPT 或安装插件。与付费 Cloud Translation API 不同，这个网页入口不提供可用性承诺；限流或失败会留在待翻译列表，下次更新继续。已有译文存入公开 JSON，阅读时不会实时请求翻译服务。
+默认以中文展示新闻标题和来源摘要，支持一键切换原文。后台使用离线 AI 神经翻译模型补译外文标题与摘要，不需要阅读者安装插件或登录 GPT。译文存入公开 JSON，阅读时不必等待翻译服务。
 
-每条译文带源文本哈希、引擎、修订号与翻译时间；源标题、摘要、日期及链接保留。翻译只覆盖 RSS 标题和摘要，不包含外链全文，也不冒充深度解说。产品名与术语做有限校正，机译仍可能有偏差。已有中文解说与原创流程图继续保留。
+每条译文带源文本哈希、引擎、修订号与翻译时间；源标题、摘要、日期及链接保留。翻译范围为 RSS 标题和摘要，不包含外链全文，也不冒充深度解说。产品名与术语做有限校正，机译仍可能有偏差。详情另提供“用中文阅读这篇原文”入口（跳转网页翻译服务），便于继续看完整网页。已有中文解说与原创流程图保留。
 
 公开数据在 site/library.json；收藏仅在当前浏览器保存，可导出 JSON 迁移，不跨设备自动同步。
 
@@ -45,11 +45,27 @@ GitHub 的标准公共 Actions runner 和公开仓库 Pages 可使用免费方�
 
 ## 翻译后台
 
-工作流先采集，再补译，最后保存并发布；每次翻译最多约 10 分钟，首次积压较多时分次处理。每批保存进度，限流或网络失败不会覆盖原文和已完成的译文，不会阻止新闻内容发布。前端明确显示待翻译和来源状态。使用 Python 标准库即可运行，不需要下载模型或放入 API 密钥。
+工作流先采集，再补译，最后保存并发布；每次翻译最多约 10 分钟，首次积压较多时分次处理。每批保存进度，模型准备或运行失败时保留原文和已完成译文，仍发布新闻及失败状态。前端显示实际完成数量和待翻译内容。
+
+使用 Meta 的 NLLB-200 distilled 600M 模型，CTranslate2 int8 CPU 推理；约 600MB 的模型只在后台运行，Actions cache 缓存模型，不进入前端。下载文件版本和 SHA-256 固定在 scripts/translation-model.json；加载前校验。不需要模型服务账号、API 密钥或公司的常开电脑。
+
+本机补译（Python 3.12，推荐隔离环境）：
 
 ```sh
+python -m pip install -r scripts/requirements-translation.txt
 python scripts/translation.py --seconds 600
 ```
+
+模型信息与许可：
+
+- 原模型：[Meta NLLB-200 distilled 600M](https://huggingface.co/facebook/nllb-200-distilled-600M)。
+- 转换权重：[JustFrederik / NLLB CTranslate2 int8](https://huggingface.co/JustFrederik/nllb-200-distilled-600M-ct2-int8)，固定提交 `302d78f00e6fdb50a1064059df7c392b735e9d05`。本项目增加分批缓存和术语校正。
+- 模型许可为 CC-BY-NC-4.0，本配置面向个人非商业新闻阅读。商业化前应换用许可适合的模型或服务。程序代码与模型许可分开，不将权重混入代码包。
+- 少量早期译文来自 Google 网页机译，已有合格缓存保留。`--engine web` 仅为手动备选；该网页入口可能限流，不是有可用性承诺的 Cloud Translation 付费 API。默认自动更新使用离线模型。
+
+## 发布
+
+仓库已观察到 deploy-pages 的 Results SDK 在文件上传后返回空列表，现使用 scripts/deploy_pages.py，通过官方 REST artifact 列表和 Pages 部署接口发布。只使用当前任务的短期 GITHUB_TOKEN 和 OIDC，不保存或输出凭据；等待部署真正成功才标记发布完成。
 
 ## 验证
 

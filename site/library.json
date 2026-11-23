@@ -4144,7 +4144,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "维斯塔普林特如何帮助小企业传播信息",
+        "summary": "小型企业主为发布或活动做准备, VistaPrint使用ChatGPT广告来展示像标签和品牌商品这样的产品如何帮助他们传播信息.",
+        "sourceHash": "d3618b0ee07626d044fb075a032e03503bfc7c9a8ed0b7279a2541861131817d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:57+08:00"
+      }
     },
     {
       "id": "rss-55d059b88c6c576a2f3d9ab4",
@@ -4163,7 +4171,15 @@
       ],
       "collectedAt": "2026-11-10T05:01:53+08:00",
       "checkedAt": "2026-11-10T05:01:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "你的专家有合作伙伴. 有希望能让他们团结在一起",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "cb629c4772bb1c2b803aa3ed1b4caaeb3338845a5e36547873262bcd8b714391",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:57+08:00"
+      }
     },
     {
       "id": "rss-ac8f18750241a65f1eaff594",
@@ -4182,7 +4198,15 @@
       ],
       "collectedAt": "2026-11-10T05:01:53+08:00",
       "checkedAt": "2026-11-10T05:01:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "尼莫特龙-个人-财务-日本:一个合成数据集捕捉日本人口和财务背景",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "7598cf3f67fdb98286522d0c8fb5ef0596a7abd0ba25d23bf61f56d56fa008d6",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:17+08:00"
+      }
     },
     {
       "id": "rss-2e34e84f0999c607fcd02663",
@@ -4201,7 +4225,15 @@
       ],
       "collectedAt": "2026-11-10T05:01:53+08:00",
       "checkedAt": "2026-11-10T05:01:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "库肯工业在几分钟内搜索了70年的绘画",
+        "summary": "库肯工业使用OpenAIAPI搜索70年的冷却塔图案. 工程师可以在4.5分钟内找到修复的图案,",
+        "sourceHash": "88c8df6c63328249d047c77841553fc1430c9314446ba6888d1520002b7bc231",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:57+08:00"
+      }
     },
     {
       "id": "rss-537678315f440b4dc0cb8a9f",
@@ -4410,7 +4442,15 @@
       ],
       "collectedAt": "2026-11-10T11:27:26+08:00",
       "checkedAt": "2026-11-10T11:27:26+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "控制室:在我们的研究基础设施中跟踪和停止模型工作负载的中心系统",
+        "summary": "了解OpenAI ⁇ 的控制室如何跟踪我们的研究基础设施中的模型工作负载,并在安全或安全问题出现时可以迅速阻止它们.",
+        "sourceHash": "cf1e6dc4cb0e1da948735bbec8c80fe62a0ed664443124a02a63f3443b9401cb",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:17+08:00"
+      }
     },
     {
       "id": "rss-02e9abf47eaf3fa01f98fe0d",
@@ -4429,7 +4469,15 @@
       ],
       "collectedAt": "2026-11-10T11:27:26+08:00",
       "checkedAt": "2026-11-10T11:27:26+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "CodeRabbit扩展了代理软件开发和发货量20倍",
+        "summary": "代码Rabbit使用OpenAI模型来管理和信任人工智能生成的代码,（Codex）",
+        "sourceHash": "1ef8a8b49e8853c5ac3b77f941be883bd8852ff00465e307d9bda971e9f7eeb9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:21+08:00"
+      }
     },
     {
       "id": "rss-aacddc96d056d7d3ed6d80b1",
@@ -4676,7 +4724,15 @@
       ],
       "collectedAt": "2026-11-07T07:28:47+08:00",
       "checkedAt": "2026-11-07T07:28:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "测量人工智能代理如何处理日常湿实验室科学",
+        "summary": "开放AI推出了BioBasicsBench,这是一项100个任务的基准测量AI代理如何解释原始实验数据并处理日常湿实验室科学.（OpenAI）",
+        "sourceHash": "8d8ba64c72579bd90dd3f0f55991b2826530635abbb3f53bc5878fe719f42611",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:23+08:00"
+      }
     },
     {
       "id": "rss-e15769ca5c01e8abe4981cf3",
@@ -4828,7 +4884,15 @@
       ],
       "collectedAt": "2026-11-06T19:26:07+08:00",
       "checkedAt": "2026-11-06T19:26:07+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "埃及和尼日利亚英语加入开放ASR排行榜",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "74f42787c35c66cc6e8914639e7499e58cfccecbfdbae1ecfcac2c78d7775e37",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:23+08:00"
+      }
     },
     {
       "id": "rss-485654c1f98a7cdcb6064f6e",
@@ -4847,7 +4911,15 @@
       ],
       "collectedAt": "2026-11-06T06:38:52+08:00",
       "checkedAt": "2026-11-06T06:38:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GeminiOmni 1.2 Flash:快速且经济,更长的剪辑",
+        "summary": "GeminiOmni 1.2 Flash带来原生15秒的视频生成和编辑,更强的一致性,",
+        "sourceHash": "eb33d901d18237fdfc23b159a90ced601bf41c81a8a15b1c786c06eb0d498ff1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:26+08:00"
+      }
     },
     {
       "id": "rss-f25b9201ad6bdcc6fc966e82",
@@ -4866,7 +4938,15 @@
       ],
       "collectedAt": "2026-11-06T06:38:52+08:00",
       "checkedAt": "2026-11-06T06:38:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "新的NVIDIA Cosmos 3 互动世界模拟的开放模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "93e33bcb3d2595b56f9f692bd4d3d6d3640e142c49fc093fd705bf89929d9d30",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:23+08:00"
+      }
     },
     {
       "id": "rss-1750855042e8ceec185ecc41",
@@ -4885,7 +4965,15 @@
       ],
       "collectedAt": "2026-11-06T06:38:52+08:00",
       "checkedAt": "2026-11-06T06:38:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GeminiOmni 1.2 Flash:快速且经济,更长的剪辑",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "4fdbfb4ce3c86285d527210a07ae172c2b8226e59c228c89194660f656026635",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:26+08:00"
+      }
     },
     {
       "id": "rss-bbd492caba72ca544b8bac32",
@@ -4904,7 +4992,15 @@
       ],
       "collectedAt": "2026-11-06T11:22:39+08:00",
       "checkedAt": "2026-11-06T11:22:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过Cult.fit建立了运营肌肉（Codex）",
+        "summary": "Cult.fit正在使用Codex来帮助各个职能团队构建工具,更快地移动,",
+        "sourceHash": "a8bc17115ef062805c2a43e40d6d6ed30d3e74843f4aed68a980d0cc5fb1a66f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:23+08:00"
+      }
     },
     {
       "id": "rss-616c68177b707eae60eb2b7e",
@@ -4923,7 +5019,15 @@
       ],
       "collectedAt": "2026-11-06T11:22:39+08:00",
       "checkedAt": "2026-11-06T11:22:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "澳大利亚大学正在创造人工智能原生毕业生",
+        "summary": "澳大利亚大学正在扩大使用ChatGPT的机会,并将人工智能带入教学和学习中,",
+        "sourceHash": "f7a21749f85849acef007f8d92686f37362451db40ca99c2243bad9420c943af",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:26+08:00"
+      }
     },
     {
       "id": "rss-a0a44ed09dc9a1089b4e099f",
@@ -4942,7 +5046,15 @@
       ],
       "collectedAt": "2026-11-07T02:23:00+08:00",
       "checkedAt": "2026-11-07T02:23:00+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "与Hacktron合作,寻找OpenAI ⁇ 系统中的漏洞",
+        "summary": "开通AI与哈克特龙合作,寻找漏洞,测试与第三方服务的连接,并通过边界人工智能加强防御.（OpenAI）",
+        "sourceHash": "f667df029e308a74596dcabb8434646a309849a1f026dc8cdfdcceac1b65f60a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:21+08:00"
+      }
     },
     {
       "id": "rss-5a90caffb2c87d2e6e8eb5c3",
@@ -4961,7 +5073,15 @@
       ],
       "collectedAt": "2026-11-07T02:23:00+08:00",
       "checkedAt": "2026-11-07T02:23:00+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "玩具区块:机器人学习和评估的控制世界",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f421b8ab35d186e22a9849673819be75014242d23b18cc8ce166e0e9a66de487",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:21+08:00"
+      }
     },
     {
       "id": "rss-b91eab90a94a3c43ea697446",
@@ -5037,7 +5157,15 @@
       ],
       "collectedAt": "2026-11-06T06:38:52+08:00",
       "checkedAt": "2026-11-06T06:38:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "网络问题GPT‐6:协调网络安全代理人的前进",
+        "summary": "引入GPT‐6网络,OpenAI ⁇ 的网络安全模型用于发现可利用的漏洞和开发解决方案,培训以保持在授权范围内.",
+        "sourceHash": "5d26d66453b12cf7a3d4e1b2829d91cffc04ca439f373cfff677f6e1ec07a2a2",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:26+08:00"
+      }
     },
     {
       "id": "rss-6a999ac344e500328ae9ad88",
@@ -5227,7 +5355,15 @@
       ],
       "collectedAt": "2026-11-05T04:54:34+08:00",
       "checkedAt": "2026-11-05T04:54:34+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "达尔玛字段提取器:任何文件,结构化字段在JSON中输出",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "1985efeacd4dab582e2fec09bf3685780a4eeaabb3cd3c08e835e1f0f9093bd9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:33+08:00"
+      }
     },
     {
       "id": "rss-25fa4dd18ec78a48a9233cc0",
@@ -5246,7 +5382,15 @@
       ],
       "collectedAt": "2026-11-06T00:45:02+08:00",
       "checkedAt": "2026-11-06T00:45:02+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为负责人工智能基础设施制定新的标准",
+        "summary": "开通AI推出了其国家社区契约和计算校园政策蓝图,以保护当地资源,创造就业机会,并指导负责任的人工智能基础设施发展.（OpenAI）",
+        "sourceHash": "9030113fa01575141ae1c47fa7a75e09324e6baa58b062826852347b329ca43b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:30+08:00"
+      }
     },
     {
       "id": "rss-c65c7708e93995ca45416c5e",
@@ -5265,7 +5409,15 @@
       ],
       "collectedAt": "2026-11-06T00:45:02+08:00",
       "checkedAt": "2026-11-06T00:45:02+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "仔细看看Phonon TTS. 在设备上发起高质量的语音,",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f851b0194c839b36136a129c3dcb8f6053f2bbd082bc73380dee9e0d72556769",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:59+08:00"
+      }
     },
     {
       "id": "rss-db9792e954d447010915e606",
@@ -5284,7 +5436,15 @@
       ],
       "collectedAt": "2026-11-06T11:22:39+08:00",
       "checkedAt": "2026-11-06T11:22:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "合并利用OpenAI技术构建产品和商业工具",
+        "summary": "合并使用GPT-6 Astra,ChatGPT和Codex来审查产品代码和支持营销. 它的团队还使用人工智能来规划高管晚餐和准备销售更新.",
+        "sourceHash": "c90310373e4105c96d7861c06aec5c10c5a81538d6b6d9e984aa18db46d31a61",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:57+08:00"
+      }
     },
     {
       "id": "rss-2d1d326185a62641bed05bf7",
@@ -5303,7 +5463,15 @@
       ],
       "collectedAt": "2026-11-06T11:22:39+08:00",
       "checkedAt": "2026-11-06T11:22:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Flipsnack 通过转换优化增长产品注册",
+        "summary": "Flipsnack 专注于让人们尝试其产品,增加注册,同时降低每次注册成本.（ChatGPT）",
+        "sourceHash": "13b811696de5e61c250919ab4a42c2079794a1e88d1a411d27c7ea731fb0693a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:30+08:00"
+      }
     },
     {
       "id": "rss-a8e215d1c3fca63aee0ffd81",
@@ -5322,7 +5490,15 @@
       ],
       "collectedAt": "2026-11-06T11:22:39+08:00",
       "checkedAt": "2026-11-06T11:22:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "富兰克林· ⁇ 普尔顿使用OpenAI来支持投资研究",
+        "summary": "从股权研究开始,Franklin Templeton正在开发人工智能工作流程,以帮助投资组合经理比较研究观点并检查投资风险.",
+        "sourceHash": "4e4a3eac327b56baef17dc275d038db2d721fcd91950ff51928db723b0f4a1e2",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:33+08:00"
+      }
     },
     {
       "id": "rss-a3433e936d2c04bfa7722c64",
@@ -5341,7 +5517,15 @@
       ],
       "collectedAt": "2026-11-05T04:54:34+08:00",
       "checkedAt": "2026-11-05T04:54:34+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "现在可以在 AWS GovCloud (美国东部) 上使用Daybreak Red",
+        "summary": "在AWS GovCloud (美国东部) 通过亚马逊Bedrock为授权网络安全工作提供GPT-5.6网络.",
+        "sourceHash": "faadb7ae0373a764bc9b254c869a867cc274c5cc159ee3480d9e9636b348a0b3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:36+08:00"
+      }
     },
     {
       "id": "rss-1be4fdd8e6ca80f0ec012771",
@@ -5360,7 +5544,15 @@
       ],
       "collectedAt": "2026-11-05T04:54:34+08:00",
       "checkedAt": "2026-11-05T04:54:34+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI将收购皮埃尔计算机公司.（OpenAI）",
+        "summary": "开通AI将收购皮埃尔计算机公司,扩大Codex ⁇ 的构建,理解和审查代码工具.（OpenAI）",
+        "sourceHash": "28237547198f6862770e9b53bab4a1577f5e0c31e2a7ce604102c0d30008a0ed",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:33+08:00"
+      }
     },
     {
       "id": "rss-4930107de9b722ac929d3cb0",
@@ -5398,7 +5590,15 @@
       ],
       "collectedAt": "2026-11-04T02:22:47+08:00",
       "checkedAt": "2026-11-04T02:22:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "与谷歌反重力技术的代理化学信息学",
+        "summary": "了解Google抗重力和我们的化学信息学技能如何加速药物发现工作流程,搜索化合物,",
+        "sourceHash": "66661ebafe57f547f0c2425651ed0661bbdfef4b869b958896bcd993695a5204",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:38+08:00"
+      }
     },
     {
       "id": "rss-4d3938441f216409a8f1b94c",
@@ -5417,7 +5617,15 @@
       ],
       "collectedAt": "2026-11-04T02:22:47+08:00",
       "checkedAt": "2026-11-04T02:22:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "板块:用你的设计语言教一个小模型建造甲板",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "b30e350c9bbfa4b0d2f57bcf1030ca0f978b4707299e5d629bc6f1f9e06d8347",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:38+08:00"
+      }
     },
     {
       "id": "rss-8d86676710497099b1091deb",
@@ -5436,7 +5644,15 @@
       ],
       "collectedAt": "2026-11-04T02:22:47+08:00",
       "checkedAt": "2026-11-04T02:22:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "测试语言模型如何追踪长文档的状态变化",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "8557b18ac4b257007fb450cbe33932417087294db739d0d382d35a660dd42124",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:36+08:00"
+      }
     },
     {
       "id": "rss-1e6f2ae7c668b9f9af7a1868",
@@ -5512,7 +5728,15 @@
       ],
       "collectedAt": "2026-11-05T09:26:18+08:00",
       "checkedAt": "2026-11-05T09:26:18+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "一千个更少的根源路径",
+        "summary": "在Linux内核中,OpenAI建立了一个自主管道, 发现,验证和生成948个本地特权升级漏洞的补丁.",
+        "sourceHash": "d99e0f6c85dae7b90938d116dcaecdc38a9a1a0e5b544c5859b0e9b19beebb8c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:33+08:00"
+      }
     },
     {
       "id": "rss-295354ff422b0d4db922748e",
@@ -5531,7 +5755,15 @@
       ],
       "collectedAt": "2026-11-05T09:26:18+08:00",
       "checkedAt": "2026-11-05T09:26:18+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "2,6 介绍图片",
+        "summary": "图像2.6带来了更快的图像生成,GIF创建,更精确的编辑,（Codex, ChatGPT）",
+        "sourceHash": "c7585b07d39f491684e1ebdcba8865bb6353419f7ab7c2b96c1dd8c0a1de31de",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:36+08:00"
+      }
     },
     {
       "id": "rss-981785a01550309d0739d8f0",
@@ -5550,7 +5782,15 @@
       ],
       "collectedAt": "2026-11-05T09:26:18+08:00",
       "checkedAt": "2026-11-05T09:26:18+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "DevRev提供GPT-6.1 Sol的自动服务",
+        "summary": "DevRev使用GPT-6.1 Sol为计算机和操作员提供动力,平衡了企业服务的推理,速度和成本.",
+        "sourceHash": "2c85406851fb08a75c2a8f1852cbc16e2f2f14cf2a7f539508576729e2f03126",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:36+08:00"
+      }
     },
     {
       "id": "rss-31346adcac7629fb844aeba1",
@@ -5626,7 +5866,15 @@
       ],
       "collectedAt": "2026-11-04T02:22:47+08:00",
       "checkedAt": "2026-11-04T02:22:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "更多的覆盖率,质量和透明度",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "1a50f51273e4202d83988dc4ff2b12483fb30b4217b6049b3fb22b9972917391",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:41+08:00"
+      }
     },
     {
       "id": "rss-996c88dfa31d64c0a9d691ce",
@@ -5645,7 +5893,15 @@
       ],
       "collectedAt": "2026-11-03T04:16:52+08:00",
       "checkedAt": "2026-11-03T04:16:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们在2026年10月宣布的最新人工智能新闻",
+        "summary": "以下是谷歌2026年10月最新的人工智能更新",
+        "sourceHash": "f95122cececd01dbea1a4516e5db751d9165400f5b3a22bd7cd13f20beba2252",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:43+08:00"
+      }
     },
     {
       "id": "rss-a6f54d325d31634f891659b5",
@@ -5664,7 +5920,15 @@
       ],
       "collectedAt": "2026-11-03T18:44:29+08:00",
       "checkedAt": "2026-11-03T18:44:29+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Transformer模型集成合同",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "8696368c59aea6f2b3805182c5bb4567ad72fc5e156bcce1aa56aaa802cfc7b3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:41+08:00"
+      }
     },
     {
       "id": "rss-fc87a45dcfbf03d417250555",
@@ -5683,7 +5947,15 @@
       ],
       "collectedAt": "2026-11-03T18:44:29+08:00",
       "checkedAt": "2026-11-03T18:44:29+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "海姆斯塔登正在使用人工智能改变住宅房地产管理",
+        "summary": "了解Himstaden如何利用OpenAI ⁇ 的ChatGPT企业和Codex来改变物业管理,降低成本,并赋予欧洲各地员工权力.",
+        "sourceHash": "de838350f430ed64a3dcbf29b362ed5aaa0d28c0d62c8888a0276d2644097f4c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:38+08:00"
+      }
     },
     {
       "id": "rss-bca108e4c77bd86b238b884f",
@@ -5702,7 +5974,15 @@
       ],
       "collectedAt": "2026-11-03T18:44:29+08:00",
       "checkedAt": "2026-11-03T18:44:29+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "奖励守护者更大的昆虫奖励",
+        "summary": "开通AI正在提高安全漏洞奖励,并为独立的安全研究人员提供报告质量,忠诚度和优先活动奖励.（OpenAI）",
+        "sourceHash": "2ef301df2903719c4a2f5eaea85de0a1c04a40492835ff7421b6ce5783e9a9ad",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:43+08:00"
+      }
     },
     {
       "id": "rss-0d297090385ad5a7245151aa",
@@ -5721,7 +6001,15 @@
       ],
       "collectedAt": "2026-11-03T18:44:29+08:00",
       "checkedAt": "2026-11-03T18:44:29+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "准备我们的下一个安全冲刺来加强OpenAI",
+        "summary": "开通AI正在与大教堂系统一起准备下一次内部安全冲刺,（OpenAI）",
+        "sourceHash": "39774a743f5d3725ac246673a3469c53c2b05a1136d1986d9c1dd77b0af6a3db",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:43+08:00"
+      }
     },
     {
       "id": "rss-1b989df1def36719d220f438",
@@ -5911,7 +6199,15 @@
       ],
       "collectedAt": "2026-11-04T07:37:59+08:00",
       "checkedAt": "2026-11-04T07:37:59+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "加速物理世界的工程",
+        "summary": "了解ChatGPT和Codex如何帮助工程师加速CAD,PCB设计,模拟和其他工作流程.",
+        "sourceHash": "4f1093d6fbc07ecfcb9841710b2ec296cc7ac11764362964481d5a9b61e0487f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:38+08:00"
+      }
     },
     {
       "id": "rss-34e7d62615202d0de65fe802",
@@ -5930,7 +6226,15 @@
       ],
       "collectedAt": "2026-11-04T07:37:59+08:00",
       "checkedAt": "2026-11-04T07:37:59+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何使用OpenAI在机器速度防御",
+        "summary": "西斯科将网络智能与OpenAI模型结合起来,以加强企业安全. 了解它如何建立更适应性的防御系统.",
+        "sourceHash": "f3ba0d60dfd47979d5439c6e9c9a0f336ae617f32c6872ca498ed69d2c0b614d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:59+08:00"
+      }
     },
     {
       "id": "rss-019edb616369c3322f4c44a5",
@@ -5949,7 +6253,15 @@
       ],
       "collectedAt": "2026-11-04T07:37:59+08:00",
       "checkedAt": "2026-11-04T07:37:59+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI任命吉尔·哈泽尔贝克为首席企业事务官（OpenAI）",
+        "summary": "吉尔·哈泽尔贝克将加入OpenAI担任首席企业事务官,领导公司全球通信和企业定位.",
+        "sourceHash": "3a4f2be2060ffd847d8003e2b83679403530ddcf8379178b803c1c3039cfd5d5",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:41+08:00"
+      }
     },
     {
       "id": "rss-945f879ef3a469b4aebe760c",
@@ -5968,7 +6280,15 @@
       ],
       "collectedAt": "2026-11-03T10:37:38+08:00",
       "checkedAt": "2026-11-03T10:37:38+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI任命丹·迪斯科尔担任国家安全现代化高级顾问（OpenAI）",
+        "summary": "开通AI任命丹·迪斯科尔 (Dan Driscoll) 为负责国家安全现代化,网络弹性和与美国盟友合作的人工智能提供建议.（OpenAI）",
+        "sourceHash": "b4ac872c93461c9f579d682f8d72556c5db077697fae5fc6bc26a97394afd7bc",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:46+08:00"
+      }
     },
     {
       "id": "rss-277870ffc8d71544c0465c13",
@@ -5987,7 +6307,15 @@
       ],
       "collectedAt": "2026-11-03T10:37:38+08:00",
       "checkedAt": "2026-11-03T10:37:38+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在 OpenAI 中扩展 Git",
+        "summary": "如何构建Pando,一个与Git兼容的后端,（Codex, OpenAI）",
+        "sourceHash": "6e605b83b89d46421e8226c1df84d2f77eb13273cdb960cf2886fc821d5135d5",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:43+08:00"
+      }
     },
     {
       "id": "rss-c8fb213cef90e5c449ead43f",
@@ -6101,7 +6429,15 @@
       ],
       "collectedAt": "2026-11-03T04:16:52+08:00",
       "checkedAt": "2026-11-03T04:16:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入电网保护程序",
+        "summary": "开放AI ⁇ 的电网保护者计划将与公用事业合作,帮助未来的计算机校园支持电网可靠性和保护消费者电力成本.（OpenAI）",
+        "sourceHash": "db602ea2e4b4369f9fd7eee9e27d8d586b90a9e819c2aa2636ea1c8e0939f82b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:46+08:00"
+      }
     },
     {
       "id": "rss-5a014341bc3fc0f1d8b6431c",
@@ -6120,7 +6456,15 @@
       ],
       "collectedAt": "2026-11-03T04:16:52+08:00",
       "checkedAt": "2026-11-03T04:16:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "生命Val",
+        "summary": "介绍LifeVal,它是衡量人工智能如何帮助人们完成日常任务的基准,从寻找儿童保育到管理财务和政府文件.",
+        "sourceHash": "8c2387089d2bc2d3bc850667b0c5215496d1388efcf97241c168113fc13e777d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:46+08:00"
+      }
     },
     {
       "id": "rss-4094d4340f9e66f9e2fcbdf5",
@@ -6139,7 +6483,15 @@
       ],
       "collectedAt": "2026-11-03T04:16:52+08:00",
       "checkedAt": "2026-11-03T04:16:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "科多用\"Codex\"构建了AI代码审查的背景",
+        "summary": "科多将公司知识和编码标准带入Codex,帮助开发人员在打开拉取请求之前在存储库中发现P0问题.",
+        "sourceHash": "a04c0157e8ae8b71863fe891d4b650140a59485ae342951a1411c2ea8148ee00",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:46+08:00"
+      }
     },
     {
       "id": "rss-d4a3d49a591020ec4a1ebea9",
@@ -6596,7 +6948,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "社区安全报告和青少年新保护措施",
+        "summary": "通过扩大保障措施,更早的干预措施和对公众安全报告的新承诺,OpenAI正在加强ChatGPT中的暴力预防.",
+        "sourceHash": "9dfa457f0f2ed31a5c7ca31bd5af1df97be1a7172b923fd004221e21a3ae2c95",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:49+08:00"
+      }
     },
     {
       "id": "rss-574dbaf7fc8731e405753fdd",
@@ -6615,7 +6975,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "公平使用使所有人受益",
+        "summary": "开通AI分享了创作者,学者,可访问性倡导者和法律专家的法庭简报中关于公平使用如何支持人工智能训练和创新的摘录.（OpenAI）",
+        "sourceHash": "73762a00352e0b9defa53dd1bb9366ed8dd7f4c3b686501cca1521fdc049f7c0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:49+08:00"
+      }
     },
     {
       "id": "rss-9349f418e7bc7ab45091d36c",
@@ -6634,7 +7002,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为更有能力和更有益的人工智能进行更新的模型规格",
+        "summary": "更新的OpenAI模型规范概述了五项核心价值观,以指导更有能力的人工智能对良好的判断,人类代理和对人类意图的忠诚度.",
+        "sourceHash": "6891cf22a46a28428d7737a1518e11cd9053df63ad673aa64684424c6ed7aca1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:49+08:00"
+      }
     },
     {
       "id": "rss-d7a89d9676f987bb6a25809f",
@@ -6748,7 +7124,15 @@
       ],
       "collectedAt": "2026-11-03T04:16:52+08:00",
       "checkedAt": "2026-11-03T04:16:52+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过人工智能加速规划决策",
+        "summary": "谷歌DeepMind和英国政府合作缩短规划评估时间",
+        "sourceHash": "83f47c3ba4fedf3048ab3600da474902a4394076329da7a6248fc42964b6ade3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:49+08:00"
+      }
     },
     {
       "id": "rss-a7910cb6e3eece02b72a2ad1",
@@ -6898,7 +7282,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "像你更新软件一样更新模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "d7442081c0055b27a7e2fd0e202230b7640268d41ab4fe7bd9a253d781293d43",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:52+08:00"
+      }
     },
     {
       "id": "rss-718617961cab3abcc8e8a051",
@@ -6917,7 +7309,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "宣布ProtoStar项目:为公开资助的科学做出人工智能准备",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "bc73d7bafeb172fb565f656510bfabecbb34f96e93a5417004a70344217bce35",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:52+08:00"
+      }
     },
     {
       "id": "rss-b6b30743068c26272d898fb0",
@@ -7038,7 +7438,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们如何检测边境模型的错误排列",
+        "summary": "开通AI使用层次监测来检测边界模型的错误排列和未经授权的代理行为,以便响应人员在事件升级之前干预.（OpenAI）",
+        "sourceHash": "b1dc887bf525f0f6878d3b30aba45a6c06bf2ed25c53f04d6570c89bd4de338c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:52+08:00"
+      }
     },
     {
       "id": "rss-d948735545c20cf3072195db",
@@ -7057,7 +7465,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "罗普斯&格雷如何开发人工智能用于交易勤奋",
+        "summary": "与OpenAI合作,Ropes & Gray正在开发人工智能来进行交易调查. 在向客户提供建议之前,律师会审查集成的文件,摘要和报告.",
+        "sourceHash": "623bc63a4fd8d0a1bf2132ea99a84a6fc7813ed75a05fcfd6960db16b341662b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:59+08:00"
+      }
     },
     {
       "id": "rss-85f94c0fe8f02a81789bf108",
@@ -7076,7 +7492,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "信用季节在ChatGPT企业试点中实现了954%的ROI",
+        "summary": "信用季节的ChatGPT企业试点实现了954%的 ROI. 看看领导人和员工如何帮助公司整体接受结果.",
+        "sourceHash": "e6f00bcb793a42cfb47629d6396d0f3649fdb46f122f5a96932fdf0911031f00",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:59+08:00"
+      }
     },
     {
       "id": "rss-16681fd606d5f6994d060736",
@@ -7095,7 +7519,15 @@
       ],
       "collectedAt": "2026-11-04T07:37:59+08:00",
       "checkedAt": "2026-11-04T07:37:59+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "埃弗诺特将人工智能驱动的发现转化为付费订阅",
+        "summary": "埃弗诺特使用ChatGPT广告向人工智能工作者介绍其笔记应用程序. 团队追踪了免费试验频率导致付费订阅.",
+        "sourceHash": "61fa23b5f8615a35bbf858f5ac87f1ca47487f2eb9940f3a3d34c1d3af7b9f76",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:02+08:00"
+      }
     },
     {
       "id": "rss-e960e8891f7d7ad86d1b82fb",
@@ -7114,7 +7546,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Genie4:一个新一代的世界模拟",
+        "summary": "我们的新世界模型在实时模拟中揭开了前所未有的现实主义.（Genie）",
+        "sourceHash": "07cfe3706ffebc31ef1d78a75e7eed468434046384f59671595047bdcffcb39a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:57+08:00"
+      }
     },
     {
       "id": "rss-1c5b51464767c2ad29498f22",
@@ -7133,7 +7573,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "采用LFM3构建专业的多模式模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "d23ec19ffc3a20de3504cbcda9ffaba5c2672b66865564cef7ba97748e15fcd1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:57+08:00"
+      }
     },
     {
       "id": "rss-1d6c5c59e46e52b936cbc7b9",
@@ -7152,7 +7600,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们可以信任LLM来判断研究想法是否是新鲜的吗?",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "dbc4647e3297563c6efd3c470af87def5d55a58e216a2b0720a46d98c709f58f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:57+08:00"
+      }
     },
     {
       "id": "rss-a395c7da350b5086cc15f6b6",
@@ -7171,7 +7627,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI和ServiceNow在企业工作流程中扩大合作（OpenAI）",
+        "summary": "OpenAI和ServiceNow将合作伙伴关系扩大,将OpenAI模型和代理商带入ServiceNow和ServiceNow工作流入ChatGPT和Codex.",
+        "sourceHash": "b16fceb47b8a0e04f4031cc28fd7d8fa5a40e2036db7c139d2f34512e5003793",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:55+08:00"
+      }
     },
     {
       "id": "rss-e2ed7680c50ae3f074e04f96",
@@ -7190,7 +7654,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "公司的未来",
+        "summary": "人工智能如何进入我们下面,旁边和我们之间.",
+        "sourceHash": "02f4784ba717f243b495aad0da2a95cd129bbdc2f44e8eea0388abcf8b23d46e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:55+08:00"
+      }
     },
     {
       "id": "rss-709cc8e2bd467b7916899fb3",
@@ -7209,7 +7681,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "莱戈拉正在构建法律工作的代理操作系统",
+        "summary": "看看Legora如何使用OpenAI模型,ChatGPT和Codex来加速法律工作流程,扩大合同分析,",
+        "sourceHash": "6ed35a6634034135bd55e1be687e556ee8d757d5d70a330c403b3fb71679a1b3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:33:57+08:00"
+      }
     },
     {
       "id": "20261027-google-genie4",
@@ -7631,7 +8111,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "雷特尔使用OpenAI模型帮助提供100万个月通话",
+        "summary": "GPT-6 Astra超越了Retell的语音代理基准,而Codex帮助它达到每名员工每年1600万美元的收入.",
+        "sourceHash": "8ec04618a133e4680b4dcc529dd2d3efa620d5b0d45de888e2970ddab860ea47",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:00+08:00"
+      }
     },
     {
       "id": "rss-c44dc9ed271ff418b14ac5c9",
@@ -7650,7 +8138,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何通过Daybreak加速漏洞研究",
+        "summary": "通过OpenAIDaybreak,Check Point加速了新的安全保护的研究,使其分析师更快地将漏洞情报转化为客户防御.",
+        "sourceHash": "e630098d8dc9d4ee60efda1d0eb6f84b1795597ec2f1089d60c71640b870c240",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:00+08:00"
+      }
     },
     {
       "id": "rss-a9c488820a62ac4adcd9d66c",
@@ -7669,7 +8165,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "格雷普蒂尔使用GPT-6 Astra超越了代码审查的错误检测",
+        "summary": "如何使用GPT-6Astra来测试用户工作流程, Daybreak加强安全,Codex减少重复工作.",
+        "sourceHash": "4486adae5aa4ded232df75033a1b1543e9d3229f2f209af02aeead061f6ceb0b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:00+08:00"
+      }
     },
     {
       "id": "20261026-openai-gpt61-terra",
@@ -8030,7 +8534,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂的代码库中的安全性",
+        "summary": "在复杂的代码库中,CodeRabbit使用GPT-6.1 Sol研究安全风险. 它的安全代理帮助开发人员审查发现和建议的修复.",
+        "sourceHash": "b1a1df2a095033185cedaaa178b00a3fa5ccec79a50b05dfd2dc9eb279880596",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:02+08:00"
+      }
     },
     {
       "id": "rss-7e73eebe3e909303c4c59a7d",
@@ -8049,7 +8561,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "迷人和OpenAI如何简化粉丝体验",
+        "summary": "粉丝们使用OpenAI来帮助粉丝完成他们的游戏日服装. 在大约3万个MLB产品的测试中显示了10%的参与率.",
+        "sourceHash": "6620c815f85ef91e8b79e2c3d0e0d28ee8a667b1330021a1bb073d21c8328d7a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:02+08:00"
+      }
     },
     {
       "id": "rss-742d30efdc4090c11a97794f",
@@ -8068,7 +8588,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何在OpenAI从几个小时到几分钟削减事件调查",
+        "summary": "看看OpenAI工程师如何使用Codex Ultrafast在几分钟内调查事件. 探索更快的安全分析,代码重构和日常工作流程.",
+        "sourceHash": "2842aa7c9aef089e4902f207f8666b72ad3dbed070c88042cb79ab050269a637",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:02+08:00"
+      }
     },
     {
       "id": "20261025-claude-errors-resolved",
@@ -8136,7 +8664,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "快速扩大在线存储服务超过10亿的ChatGPT用户 (第二部分)",
+        "summary": "了解OpenAI如何使用可靠的多租金,全球缓存和Azure Cosmos DB来扩大Habitat的规模,（ChatGPT）",
+        "sourceHash": "99a96b9b90130aac03b4cca9389784aa12d086b837605e1cc5ba779b649bf2f8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:03+08:00"
+      }
     },
     {
       "id": "20261023-claude-enterprise",
@@ -8204,7 +8740,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "您的模型运行AWS Trainium吗? 查看看",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "313b60199221ebc64a92913315fae29e39b5b9ec712eb1f18f8e7b9db4c8c066",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:04+08:00"
+      }
     },
     {
       "id": "rss-51888f116f5b083740bce796",
@@ -8223,7 +8767,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "将数据库评级转化为RL奖励:经过训练后的代理人使用ThinkingBox",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "0d0782f3f4dbe022f369dded26ca3227cd1be9905045dc35ddcaf1d29e797445",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:06+08:00"
+      }
     },
     {
       "id": "rss-f8c156dba7886826388b35c0",
@@ -8242,7 +8794,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "确保我们的边界模式训练环境",
+        "summary": "OpenAI解释了我们如何加强对边界模型训练和评估的控制,包括离线环境和高计算红团队.",
+        "sourceHash": "d5d5e8bc58c23972b0e97c3a205bdf2018e8fc63c4bd63e8077f763a928c86ac",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:03+08:00"
+      }
     },
     {
       "id": "rss-3b5a2a6a27ab5490f80a6876",
@@ -8261,7 +8821,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过GPT-6和GPT-Live,Anima帮助诊所减少75%的电话等待时间.",
+        "summary": "阿尼玛扩大了护理团队可以使用OpenAI模型做的事情,",
+        "sourceHash": "ec31495db769b5870fb7ccec777b1402bcd91e68bf570b91f30302993e6f3525",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:06+08:00"
+      }
     },
     {
       "id": "rss-1a543055a02f9816518cc039",
@@ -8280,7 +8848,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI与波兰纳斯克合作伙伴推动人工智能安全（OpenAI）",
+        "summary": "在人工智能安全,安全和技术研究方面,OpenAI和波兰的NASK正在合作,以加强保障措施并支持更具弹性的数字生态系统.",
+        "sourceHash": "b50d3f2c73f15815a1a9d031521c528dba17fca251af336b2a9fd48b22dada15",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:06+08:00"
+      }
     },
     {
       "id": "20261022-cn-11",
@@ -8446,7 +9022,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "超越树林:绘制世界森林类型的地图",
+        "summary": "全球地图将地球上每一个10米的土地分为不同的森林类型.",
+        "sourceHash": "c6427f42e50ae814a453754d9a797d85e6a26ef4bc4ea49c74e078c89523a6ca",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:08+08:00"
+      }
     },
     {
       "id": "rss-0e5fad3ca5f8a881acf7d04b",
@@ -8465,7 +9049,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "与 IBM Granite 时间系列模型组合预测",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "0836b828495c681e8ddad48d73b8f71eae56c1421e9be898f032681d221d6c07",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:08+08:00"
+      }
     },
     {
       "id": "rss-40a01666d562060bfdf96e1b",
@@ -8484,7 +9076,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何将SLM词汇专业化可以在实际应用中降低77%的推理成本",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "b433bbb713e64be8ca2a71bae2f86085cd038d94b05feefcf8fbcd24e6cb0027",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:11+08:00"
+      }
     },
     {
       "id": "rss-5b4e08461387ba3b44832eb3",
@@ -8503,7 +9103,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在AWS Trainium上进行系统级配置.",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "916c82f21b147d92981d72ae6cf31340051a3298f6ab7d95753d47fada4a9e4d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:11+08:00"
+      }
     },
     {
       "id": "rss-6400feb681472530a689e8c5",
@@ -8522,7 +9130,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在OpenAI中FDE意味着什么",
+        "summary": "在OpenAI前进部署工程意味着什么",
+        "sourceHash": "c2d73b9391d8aaf054483ff4e6c3a01006662c30aa4a97a7d468628642faad17",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:08+08:00"
+      }
     },
     {
       "id": "rss-eda525050cea8fce4b138233",
@@ -8541,7 +9157,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "优步通过OpenAI向所有员工提供ChatGPT工作",
+        "summary": "优步正在向3万多名员工推出ChatGPT Work,帮助团队进行研究,分析数据,创建演示和完成复杂的工作流程.",
+        "sourceHash": "f0d58580587a856fbd674d84ab6f8ae19e678db2fc8d405f6fb99403da141191",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:08+08:00"
+      }
     },
     {
       "id": "rss-3f1a11956436b167380065dc",
@@ -8560,7 +9184,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过一致的标准提供广泛的访问",
+        "summary": "如何与分销合作伙伴合作,维护一致的保障措施,支持负责任的访问,并澄清我们使用政策中的期望.（OpenAI）",
+        "sourceHash": "0ec81cb613db292f0ff349ad9846a562a4bf4950cab0702c837a8ad3b5b08d68",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:11+08:00"
+      }
     },
     {
       "id": "rss-39cad894cdd240fbe2dba606",
@@ -8579,7 +9211,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "AT&T如何重新考虑与OpenAI的内部法律工作",
+        "summary": "AT&T正在与OpenAI合作,使法律知识更容易获取. 了解其法律Edge团队如何重新考虑吸收和扩大法律判断.",
+        "sourceHash": "8893888b6336c53fd8c858e5223687b940fce0dde649ea57d858b7fe84ea9626",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:04+08:00"
+      }
     },
     {
       "id": "20261021-claude-duet",
@@ -8651,7 +9291,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "随着超过10万广告商使用该平台,ChatGPT广告扩展到26个新国家",
+        "summary": "从本地企业到全球品牌,越来越多的广告商可以在探索,比较和决定在ChatGPT购买什么时,",
+        "sourceHash": "324b6c2550d389969f77832ddb034145f13377f908e7291a21532df9874dcfa4",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:14+08:00"
+      }
     },
     {
       "id": "rss-95dedf578de78f3ec264f66e",
@@ -8670,7 +9318,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开放AI模型将进入谷歌云（OpenAI）",
+        "summary": "开放AI和谷歌云将边界模型和Codex工作流带到Gemini模型花园,（OpenAI）",
+        "sourceHash": "4d71e30c01d9ad194da118c64f01e299f43de71478dd05d6e8ab98170fab1c62",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:14+08:00"
+      }
     },
     {
       "id": "rss-de9db6f384cbc788775550a9",
@@ -8689,7 +9345,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "补丁星球:全球应对协调 随着代理人发现关键漏洞",
+        "summary": "补丁星球将安全研究人员,维护人员和事件响应人员联系起来,",
+        "sourceHash": "8eddc9245126d921fbf1b524d81edd59c5125a42928aef51f207417f71f2f0c8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:14+08:00"
+      }
     },
     {
       "id": "rss-ea92da5c121ecb4527027c2b",
@@ -8708,7 +9372,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们如何构建ChatGPT ⁇ 的新型广告堆 ⁇ ,以提高用户的信任和相关性",
+        "summary": "了解OpenAI如何构建ChatGPT ⁇ 的LLM驱动广告堆 ⁇ ,以了解对话意图,将广告与答案分开,",
+        "sourceHash": "d06f06e76160c47293206dc3c1ad54fe84ab8c69f44c418d2e3a043ed8ab5adb",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:14+08:00"
+      }
     },
     {
       "id": "rss-64ddfb139fec8a1cb4597ec2",
@@ -8727,7 +9399,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用成千上万的人工智能代理来发现生物数据中的新线索",
+        "summary": "看看OpenAI,PerturbAI和Scripps研究如何使用分布式AI代理来发现数百万大脑细胞的数据中有前途的研究结果.",
+        "sourceHash": "faa3ec923426ff24c803f0b6fafb6884538d5641b2f734af9e6d53ecb3ff48e0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:17+08:00"
+      }
     },
     {
       "id": "rss-3fe372fb2e8166f0e8146fd8",
@@ -8746,7 +9426,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "云 ⁇ 将漏洞发现与防守联系到OpenAI",
+        "summary": "Cloudflare使用OpenAIDaybreak来调查漏洞,并提出修复. 它的开发人员使用Codex以更快地构建和提高代码质量.",
+        "sourceHash": "eb4e105b1d6b5c6f7b85b4fd06c933e9e554f9363a361fc4d0d4cc70a3edd1e1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:04+08:00"
+      }
     },
     {
       "id": "rss-e270f5ba4688033de075906d",
@@ -8765,7 +9453,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "边界人工智能民主治理,第二部分:赋予网络捍卫者权力",
+        "summary": "开通AI概述了向网络防卫者提供边界人工智能,更强大的保障,现代化的网络安全和更具弹性公共机构的蓝图.（OpenAI）",
+        "sourceHash": "51b8f49ec952db74dd9f25e3d7fcf333422a8542bc34fd3946a8ad3532214501",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:17+08:00"
+      }
     },
     {
       "id": "rss-78cebe09803b57417ff218b1",
@@ -8784,7 +9480,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "东南亚数字经济将达到368亿美元",
+        "summary": "广泛的人工智能采用正在推动东南亚数字经济达到2026年预计的368亿美元,2035年预计的1万亿美元.",
+        "sourceHash": "f6867508e541714423949739b1b99e785da8cfbcd00c25c92abd5d8bd599166b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:17+08:00"
+      }
     },
     {
       "id": "rss-39e60f901a735303e0c0ae9b",
@@ -8803,7 +9507,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "拥抱脸 ❤️火 ⁇ TPU:TPU,原生（Hugging Face）",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "9b53dbc2bc8d2c6d24c9f667749bb5524a8039fcb4bcec062045865ee6a1da17",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:20+08:00"
+      }
     },
     {
       "id": "rss-41fb25a47d12d204a957e1af",
@@ -8822,7 +9534,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "AnyLanguageModel 1.0: ⁇ 果平台上的本地模型一年",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "acab73151256184af99d414723f0200c6f625d8b16ea2fe69c534798d7e1d2f3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:20+08:00"
+      }
     },
     {
       "id": "rss-c2b4b68d7e0027f0e4366133",
@@ -8841,7 +9561,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在 PyTorch 2.15 中的 MPS",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "da39f62ad48bcd2ee5a1c7696edaaf155eae1d9aef8c5647e8728effb67526bf",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:23+08:00"
+      }
     },
     {
       "id": "rss-1725d137aa3debc0d8ae9b76",
@@ -8860,7 +9588,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "免许经营者与ChatGPT Work在94%的时间下调现金",
+        "summary": "独立的Schlotzsky ⁇ 和Cinnabon特许经营商将餐点重定价时间削减95%并建立了一个可以释放100万美元现金流的工作流程.",
+        "sourceHash": "9281062bb70a6f3496785da672800415747a2a7d024d272d46ba914eacf85b41",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:20+08:00"
+      }
     },
     {
       "id": "rss-aa8847d44cbae3328f3c5cbb",
@@ -8879,7 +9615,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "终端X与GPT-6.1相符88.6%的资深投资者判断",
+        "summary": "终端X ⁇ s Eval Agent对54个标准的表格进行了评级,通过GPT-6.1 Sol获得了25%更多的基金任务偏差.",
+        "sourceHash": "b937eec08bee87a64ddfcdb015c27b762e41fe1cf713354245f4b7e6343387bd",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:20+08:00"
+      }
     },
     {
       "id": "rss-1cfb6291fa158d05a5bad0e6",
@@ -8898,7 +9642,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开放AI收购了乐队生物（OpenAI）",
+        "summary": "开放AI正在收购Orchestra Bio,以将人工智能驱动的运营带入生命科学研发,帮助生物制药团队加速药物开发和推进新治疗.（OpenAI）",
+        "sourceHash": "79125be263fbfa862b331724b86ecf66a02173afc0a3dac4edaa28363c8fa279",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:23+08:00"
+      }
     },
     {
       "id": "20261019-cn-10",
@@ -8966,7 +9718,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在AWS Trainium上运行HF模型比以往任何时候都更容易",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e647486f3f1d21ee580085ad30b6562dc1445290a3fadeed7f8d67857143edbd",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:23+08:00"
+      }
     },
     {
       "id": "rss-1dbe22633003a2af4fddcdba",
@@ -8985,7 +9745,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在资源低的编程语言中促进编码",
+        "summary": "了解OpenAI如何通过软件工程,SQLite和COBOL迁移的新评估来改善低资源编程语言中的ChatGPT.",
+        "sourceHash": "568cbbe5b10f02d092d25262ec99bf94cbb61f2eeefec25671d6a9240d9fc350",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:23+08:00"
+      }
     },
     {
       "id": "rss-9732b2763df5a67ab9455b82",
@@ -9004,7 +9772,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "伊塔乌如何为其整个客户群构建生成人工智能",
+        "summary": "凭借IA.i,一个对话界面,以及IARA治理平台,Itaú正在将其AI第一战略应用于巴西最受监管的部门之一的客户和员工.",
+        "sourceHash": "6d6ec692e8377ad3f0ad7aa4505e65a5ad4a01dbc5570c413afa071cc0d2c058",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:26+08:00"
+      }
     },
     {
       "id": "20261016-kling-4",
@@ -9080,7 +9856,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过谷歌反重力加速对抗微生物 ⁇ 的搜索",
+        "summary": "通过谷歌\"反重力科学\"加速寻找新型抗微生物 ⁇ .",
+        "sourceHash": "e8d26498b9a391a11848090c555ac48b9badc2ec68456d87fbcbff4cfaa177e4",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:29+08:00"
+      }
     },
     {
       "id": "rss-c9a6184923cc1a5837b49001",
@@ -9099,7 +9883,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "欢迎光束:一个可以拥有,定制和扩展的501B开放模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "c507e616187da56d392244bfcaceed697eec67e9916b3b5b4904877e18b5d149",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:26+08:00"
+      }
     },
     {
       "id": "rss-d3b9ba6f7bd01af06315d29c",
@@ -9118,7 +9910,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "洛卡利萨如何重组人工智能工作",
+        "summary": "查看Localiza如何使用ChatGPT企业,OpenAIAPI,Codex和60多个专业代理来重组工作并构建人工智能原生移动体验.",
+        "sourceHash": "8b2761214762d32dd77061a2861acfadf0703a6b2ae51f3d38f0ae775901cc44",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:26+08:00"
+      }
     },
     {
       "id": "rss-86dbfdb5b436c283839e74a6",
@@ -9137,7 +9937,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "博蒂卡里奥集团如何利用人工智能加强人类联系",
+        "summary": "近50年后,该集团在巴拉纳的一个复合药店开始运营,该集团运营了一个专有代理平台,该平台自主解决高达80%的经销商的运营请求,使销售人员能够担任咨询角色.",
+        "sourceHash": "06369ce333608752145e7151b733fe6e09929f430da8641eb1a7499f6e91a524",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:26+08:00"
+      }
     },
     {
       "id": "rss-9e63539289a31c8631b61e2d",
@@ -9156,7 +9964,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "随着 ChatGPT 插件,代理的 Stack Overflow 将注册数量增加三倍",
+        "summary": "两位工程师在几周内使用Codex运送了代理的Stack Overflow,它的ChatGPT插件帮助推动代理创建增长10倍.",
+        "sourceHash": "b8858ee4ff2e1549e3369f6c82733338ee9b6f27b36d1b3140b86fc738ce548a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:29+08:00"
+      }
     },
     {
       "id": "rss-b6756c0a180ee554226c332b",
@@ -9175,7 +9991,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过Codex更快地回答问题",
+        "summary": "阿南特·库马尔建立工具来比较贷款估值和分析信用协议,（Codex）",
+        "sourceHash": "cc10f5d2b9beeca9a3c6d39628e758e28da88b284cb4e78ebb7dd9ff0c1448f7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:29+08:00"
+      }
     },
     {
       "id": "rss-32165ee6af8945a5bd83e423",
@@ -9194,7 +10018,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "将GPT-Rosalind带到学术研究实验室",
+        "summary": "引入罗萨林德学术计划,提供资格的学术实验室获得GPT-罗萨林德和推进生命科学研究的工具.",
+        "sourceHash": "e587e4adc4486ae1961f6a4c27ae62bce0baac342ba752afae687445ebcf8127",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:29+08:00"
+      }
     },
     {
       "id": "20261015-cn-9",
@@ -9262,7 +10094,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Apertus 1.5 释放笔记",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "d40b0ca1817941cd18fca8e149e4a56b06f9abf46c18b8bfb58ed64b89e3e1c8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:31+08:00"
+      }
     },
     {
       "id": "rss-ff0cf28c5d7530571030bbc5",
@@ -9281,7 +10121,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "欢迎您的Muse Spark Open:Meta的开放权重跨境多模式专家混合模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "38c7175a8e01e109c66df295889634142fa9441b757a16d11100244e8c9ab84d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:31+08:00"
+      }
     },
     {
       "id": "rss-eb67409897ed2136a753e141",
@@ -9300,7 +10148,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "欢迎FLUX.3 像克莱恩在扩散器中",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "64ddfaf43f6a4cf0a41c1faaf06326057557c402278b0c80e37c99dbf7c9f41e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:31+08:00"
+      }
     },
     {
       "id": "rss-a60f4a701f887ae8f46b94e0",
@@ -9319,7 +10175,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "教导学生通过问题思考和学习",
+        "summary": "在巴西葡萄牙语中庆祝教师 ⁇ 日,并了解学习模式如何帮助教师支持积极的,步骤的学习.",
+        "sourceHash": "c53c1d11127cf089c1b0abf28bce2bef991360f3b3780782f7ca3dd9ef297489",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:31+08:00"
+      }
     },
     {
       "id": "rss-94eadcab22c41e356a1d9bf1",
@@ -9338,7 +10202,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "萨利文和克罗姆威尔将法律专业知识带入协议审查中",
+        "summary": "在与OpenAI的合作下,Sullivan & Cromwell开发了 Agreement Analyzer,这是一个用于识别协议草案中的问题的AI工具.",
+        "sourceHash": "18a4eb3e06a53d9042fe86ef42d90a54ad435ed3ca92b4ff6df14740ae04a201",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:34+08:00"
+      }
     },
     {
       "id": "rss-b76b11a1199f73b7027f051c",
@@ -9357,7 +10229,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "谷歌DeepMind和新加坡政府合作建立精细调整的AI模型来检测诈骗",
+        "summary": "了解Google DeepMind和GovTech新加坡如何使用轻量级的设备上的Gemma模型来拦截私人聊天中与零云数据输出的对话骗局.",
+        "sourceHash": "a7f181fdc1fe27da0d8989ac86e515ec13ad88e0357fc5389f5b79e0bd354bea",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:37+08:00"
+      }
     },
     {
       "id": "rss-1dc99b611b2499a3b88164db",
@@ -9376,7 +10256,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "负责和安全地开发Gemini4阿贡",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "ca3825281cf0143f7d817729ab307a0ec4237c3ef2aa35d9b3aba8a628223b48",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:37+08:00"
+      }
     },
     {
       "id": "rss-d96a2391b623b2cb26cccc90",
@@ -9395,7 +10283,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "机器人机器人的Gemini4阿贡",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f969e2f3b3e4a82efcfd083513540aa60fe3845958fd6f0347d9eddef2a3aba9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:40+08:00"
+      }
     },
     {
       "id": "rss-4e31b829ae6885914a657352",
@@ -9414,7 +10310,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini4阿贡: 为了解决你最困难的问题",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "162fed84f2d66e41a61c8d1ec159ffb98ef62361cc16174dd85e00d7cf8f1b68",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:40+08:00"
+      }
     },
     {
       "id": "rss-53911f98c21c784fce1ad32f",
@@ -9433,7 +10337,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "快速运行,私人代理在LFM2.5-24B-A2B设备上",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "1e875ab530c6fbeb25427ed0e5f596cb88cc730518f027963d6ce10c6b430eef",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:40+08:00"
+      }
     },
     {
       "id": "rss-57c3309db5bedcdec4e0532a",
@@ -9452,7 +10364,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Amp将AI代理用OpenAI模型超越代码工作",
+        "summary": "看看AMP如何推进代理可以使用GPT-6Astra,Ultrafast,GPT-Live-1,（ChatGPT）",
+        "sourceHash": "40ad94f7e8c321d7baf9eac04f6c781490b980bc298950ffcd775c91e3fe9b13",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:34+08:00"
+      }
     },
     {
       "id": "rss-004cd593adabcd24c97d9e96",
@@ -9471,7 +10391,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "SentinelOne将恶意软件分析从几个星期减少到几个小时",
+        "summary": "通过OpenAIDaybreak,SentinelOne将数周的恶意软件分析缩小到数小时,",
+        "sourceHash": "89c82282157e2247d875560c48818b74db2564fbabe1d04b57182622554fa419",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:34+08:00"
+      }
     },
     {
       "id": "rss-a8b8c31de898145e14c82e5a",
@@ -9490,7 +10418,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "第三时刻研究如何在36小时内运行1万名代理人",
+        "summary": "通过GPT-6 Astra和GPT-6.1 Sol,Codex和Daybreak用于网络安全,",
+        "sourceHash": "6abdaa509f2fd09efb19ea0a0aa8090cbce984c6b71601494e75264fa3b78cd7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:34+08:00"
+      }
     },
     {
       "id": "rss-94ee28b93f9d2d830319b5f7",
@@ -9509,7 +10445,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何用OpenAI技术构建人工智能安全",
+        "summary": "区块正在使用OpenAI构建人工智能安全. 它的安全团队更快地调查威胁,",
+        "sourceHash": "e20b22080b5a82a29bcf442f4eadb9297f1016e44e992e92cca355cef85a2a19",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:04+08:00"
+      }
     },
     {
       "id": "rss-200a5d3dd39c6bfb7a201928",
@@ -9528,7 +10472,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "人工智能的下一个章节是代理",
+        "summary": "新分析显示,在欧盟企业和中小企业中,人工智能的使用如何增长,更深入的使用可能会释放更多的价值.",
+        "sourceHash": "a4844272f7dbde30bcb06d10c4f27063f2e7faa7b0fa0a98c99e17f38ca9a234",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:37+08:00"
+      }
     },
     {
       "id": "20261013-gemini-argon",
@@ -9596,7 +10548,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "希格斯菲尔德将人工智能视频从1分钟到10分钟以上",
+        "summary": "希格斯菲尔德为创作者带来了GPT-6Astra的更长视频,GPT-Image-2.5的精确视图,以及GPT-Live的语音电影制作.",
+        "sourceHash": "13e97ce56377e91a00a1afed4e6699d95ee0924f5c95329ad62a0e9bbad94196",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:40+08:00"
+      }
     },
     {
       "id": "rss-9bf93d58cc35db9987f8bca4",
@@ -9615,7 +10575,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在GPT-6.1 Sol的浏览器测试中,Asana削减了模型成本的76倍",
+        "summary": "在Codex中使用GPT-6Astra,Asana使其浏览器代理在测试中变得76倍便宜,5倍快,以为客户提供更有能力的模型.",
+        "sourceHash": "d885c0c461105b9d357c768728eb5e07017c5bbc2f67d109fd799a2845fc9d70",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:44+08:00"
+      }
     },
     {
       "id": "rss-570fe3204556675e8dd927e7",
@@ -9634,7 +10602,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "索福斯通过OpenAIDaybreak减少了96%的威胁调查时间",
+        "summary": "了解Sophos如何使用OpenAI ⁇ 的Daybreak,以96%减少网络威胁调查时间,并自动化52%的MDR案件,同时保持人类监督.",
+        "sourceHash": "559cad38e3d2ab6222fc0b3d75171830faff964d4a244e806fc1f0abe5ecfbe0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:44+08:00"
+      }
     },
     {
       "id": "rss-db7b9e6fe248e3146f87743a",
@@ -9653,7 +10629,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过ChatGPT和Codex,Oracle如何将工作日变成分钟",
+        "summary": "在招聘,工程和运营方面,Oracle将专业知识转化为通过ChatGPT工作和Codex的快速可重复工作流程.",
+        "sourceHash": "31487be165b166acbade244d50a1a2a7dbd727429670f5fe88c26a58277e87ad",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:44+08:00"
+      }
     },
     {
       "id": "rss-ffd2818196374b7e8d985c5b",
@@ -9672,7 +10656,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "没有的模型,所以你自己做了.",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "c618c2ee0f016660904a87a3fef229e7a98e50b369c8e531876db403438e2dab",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:47+08:00"
+      }
     },
     {
       "id": "rss-855092fba1df7e8a668bec1b",
@@ -9691,7 +10683,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "波洛人工智能将创意想法转化为OpenAI的运动",
+        "summary": "通过GPT-5.6,GPT-6Astra和GPT‐Image‐2.5,Pollo AI帮助创作者将大胆的想法转化为详细的图像和电影视频广告.",
+        "sourceHash": "f9c0461d6522ab94cc94325f7b4572e71ca9866f80b290d741c800fcdb87f8e0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:44+08:00"
+      }
     },
     {
       "id": "rss-45d6a2b79938283a07ca47b3",
@@ -9710,7 +10710,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "法律在保持开发速度的情况下将Codex成本降低一半",
+        "summary": "在保持发展速度的同时,LegalOn将估计的每日Codex成本降低65%. 它将Astra,Sol和Luna与任务相匹配,",
+        "sourceHash": "befffa71cb8533d5de36a35be4524946757f698c8f5749d02e1d5b3c0555b827",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:07+08:00"
+      }
     },
     {
       "id": "rss-d9e485b409fe8517ac6e3a5b",
@@ -9729,7 +10737,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "破坏人工智能支持的假前 ⁇ 操作",
+        "summary": "开通AI破坏了两项人工智能启用的影响行动,（OpenAI）",
+        "sourceHash": "d7a6e7d91b6d5528d9000e45f1c70fa7bafeba08fc7b8fa499e96cb9461783ee",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:47+08:00"
+      }
     },
     {
       "id": "20261020-locked-chats",
@@ -9846,7 +10862,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "嵌入Gemma 2:一个开放,轻量级的多模式嵌入模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "593026f9ebedd6a0d8426ba88e2aa32922dc3e85739ae7093995afc7851aa9b7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:53+08:00"
+      }
     },
     {
       "id": "rss-16b7810afb00bdc03cf91abd",
@@ -9865,7 +10889,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入猎 ⁇ ASR",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "b35bbfdff1fe8153d17ce3569064f74c427da4d9c35f45366d3dc7ec74d57533",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:47+08:00"
+      }
     },
     {
       "id": "rss-661f64ddb5f472a2675ed75a",
@@ -9884,7 +10916,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "帮助青少年学习,计划和塑造人工智能的未来",
+        "summary": "校园规划师将来到青少年GPT聊天室,帮助学生管理大学申请,（ChatGPT）",
+        "sourceHash": "af77a3f0fa20eaf880f5c52e7c7e38232ebe6537dcb928d6be653572bdb7589c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:50+08:00"
+      }
     },
     {
       "id": "rss-4e324623ab7ca6fee0e14241",
@@ -9903,7 +10943,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "雷迪森酒店集团将酒店发现带入ChatGPT",
+        "summary": "拉迪森与Accenture合作,使用OpenAI技术构建了ChatGPT插件,帮助旅行者在计划旅行时找到,比较和预订酒店.",
+        "sourceHash": "cd8943e8695dbb62edff7d517d8d999864be4f3d3b841c06817f9c34268ed58e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:50+08:00"
+      }
     },
     {
       "id": "rss-a097ef0d441a7216b7cd0e23",
@@ -9922,7 +10970,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为所有人提供GPT-6和智能UI",
+        "summary": "在全球范围内,GPT‐6正在使用智能UI在ChatGPT中推出,通过可直接探索和使用的视觉和互动体验提供更快的响应.",
+        "sourceHash": "795f274647ae7da1195de1b478c56ee9aa56e5f7a8f5d7ac389428102943a706",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:50+08:00"
+      }
     },
     {
       "id": "rss-2896758265cec81d95898858",
@@ -9941,7 +10997,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "亚特拉松与OpenAI扩大合作,将企业知识转化为行动",
+        "summary": "亚特拉斯人和OpenAI正在扩大合作伙伴关系,将边界模型与企业知识联系起来,并帮助团队规划,构建和交付工作.",
+        "sourceHash": "cdba56a3e67c188925827665e6f02ad1714d07526dba9f1215340ba33b00a837",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:53+08:00"
+      }
     },
     {
       "id": "rss-e04d1da693503b0f1282c2e2",
@@ -9960,7 +11024,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍游戏场:创建和玩定制游戏",
+        "summary": "玩场是一个新的实验性游戏平台,",
+        "sourceHash": "5afe4ea0cdb20f3986d6c0b7bb7c13a1c5dc39d61639f9b8ac3ee101b7ea87a8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:50+08:00"
+      }
     },
     {
       "id": "20261006-nano-banana21",
@@ -10032,7 +11104,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "跳跃交易如何通过ChatGPT扩大量子研究",
+        "summary": "跳跃交易利用OpenAI扩大量化研究. 看看长期的人工智能工作流程如何将多个数据源与人类审查结合起来.",
+        "sourceHash": "630f03857d305a8338f2e0102cd5c543b1458b45e2b7ad97124b6049d0e68a94",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:07+08:00"
+      }
     },
     {
       "id": "rss-00427e47df5ef3064509e152",
@@ -10051,7 +11131,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "分享数学中的人工智能进步",
+        "summary": "在GitHub上,OpenAI发布了来自内部边界模型的数学开放问题新结果,并分享了精益证明的正式化和研究细节.",
+        "sourceHash": "7c6fb7c470432acfbcc7af25799766cabc0ef4c623251906861c5c0edf1c51c9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:53+08:00"
+      }
     },
     {
       "id": "rss-f57eff9c23a4454b476bbb26",
@@ -10070,7 +11158,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "使用 Ironclad 提升计算机使用",
+        "summary": "了解OpenAI和Ironclad如何训练和评估人工智能代理人在复杂的合同工作流程上,以促进专业工作的计算机使用.",
+        "sourceHash": "c2d922a096f775f537e34afa9c63ce8c8bddf5e761076f2c7790596d5085adaa",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:56+08:00"
+      }
     },
     {
       "id": "rss-d2b5b29b4c815525619915dc",
@@ -10089,7 +11185,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们对欧盟文本来源规则的态度",
+        "summary": "根据欧盟规则,OpenAI如何接近文本水标. 了解水标适用于哪里,检测如何工作,以及为什么从研究人员开始访问.",
+        "sourceHash": "b4a01d18b7ef27b923d8564af3f1f86bababbf55042a5d82cb69626094fde655",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:07+08:00"
+      }
     },
     {
       "id": "rss-2d8e70fb45cef7470a5baf36",
@@ -10108,7 +11212,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "建立人们使用人工智能的方式的广告",
+        "summary": "在ChatGPT中,OpenAI引入了新的视觉广告格式,并扩大了测量工具,属性合作伙伴关系和广告商的品牌适用性.",
+        "sourceHash": "701cba07105afbaf2a3d0e979244c258415c270f92da469c9a5435c548216c26",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:56+08:00"
+      }
     },
     {
       "id": "rss-bd1136d0fcfd6f1357de280a",
@@ -10127,7 +11239,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "代理说已经完成了. 数据库不同意.",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "c4c041eeeb031188a0dd60dd835782e4da4dfe72e5b6134e28ae3b63371f1a6c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:07+08:00"
+      }
     },
     {
       "id": "rss-c38af6e5cae43e23a64c1d50",
@@ -10146,7 +11266,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "对GPT-6家族的模型指南",
+        "summary": "了解创业公司如何选择GPT-6模型,调整推理努力,提高提示和技能,协调工具,并为生产做好工作流程.",
+        "sourceHash": "ac4ac29044e2966b9bd6b4c8972979cd9b7a5a655be84b3d9b75c8b829455f5c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:58+08:00"
+      }
     },
     {
       "id": "rss-56c490db040147f1def4aa82",
@@ -10165,7 +11293,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "自动综合数据:为企业代理人生成训练数据",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "5b02c2b156740b0b9a2878e4950ebf7021c6c0a764a083b34c752976c5e198d9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:58+08:00"
+      }
     },
     {
       "id": "rss-882596cbc7639eb42bf210ab",
@@ -10184,7 +11320,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "查 ⁇ 通过OpenAI扩大了其资本市场专业知识",
+        "summary": "查坦金融使用Codex和GPT-5.6构建技术和重新设计工作流程,",
+        "sourceHash": "e958661d7ad0ed42bd8994d913292a5aa3ebe1ca99d7caaa627171a540685576",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:58+08:00"
+      }
     },
     {
       "id": "rss-b8087b88cb63ae7fc829eff8",
@@ -10203,7 +11347,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "永远的补充",
+        "summary": "在突破性的想法背后的常规工作中,先进的人工智能可能最重要. 探索为什么执行可以塑造下一个经济和进步的速度.",
+        "sourceHash": "dcb5fb455295e95f2fedc3b249872865f6ffbd889c2f643375471d9db64a8384",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:10+08:00"
+      }
     },
     {
       "id": "rss-637d3dfa247fa816a4c4160f",
@@ -10222,7 +11374,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "艾尔伯森公司如何从内部重新构想零售",
+        "summary": "阿尔伯茨森公司正在使用ChatGPT企业和OpenAIAPI帮助团队更快地工作,",
+        "sourceHash": "8ddf93a1ddbe19467d9fb1c75f3158bf805b4ca74fbbce348cd6bd007cac1f76",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:01+08:00"
+      }
     },
     {
       "id": "rss-aacb8ca8a4a96bc0cfecf668",
@@ -10241,7 +11401,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们在2026年9月宣布的最新人工智能新闻",
+        "summary": "这是谷歌2026年9月最新的人工智能更新",
+        "sourceHash": "5a175b3a25bbb7436519c8ee14908c157cb76fafde445c6b4501833461662b96",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:34:58+08:00"
+      }
     },
     {
       "id": "rss-b49099cde7e97e60f531fdab",
@@ -10260,7 +11428,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini4阿贡:我们的下一个边境情报时代",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e1f0471bc1999b1d11ab9044fb4d75fa994fe776306e3b2337659e8458c22b88",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:01+08:00"
+      }
     },
     {
       "id": "rss-2167384f51e2a4466793a69c",
@@ -10279,7 +11455,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过ChatGPT工作,小屋每周释放10-15小时的时间来成长.",
+        "summary": "由于它开设了新的地点,社会俱乐部在3天的时间里准备了2个小时的补贴申请,",
+        "sourceHash": "706ecf3f3f21d379f9f99f9ce11d3fba41b841a54a6c206878193a03cf766b51",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:01+08:00"
+      }
     },
     {
       "id": "20260930-gemini-skills",
@@ -10347,7 +11531,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍SynthID生物",
+        "summary": "保护生物功能的同时,对AI生成的蛋白质进行水标的概念证明.",
+        "sourceHash": "0cf899734d6a232b95602f54aff7b82e613a0b90bc2c53b69c8ec395e9fd2246",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:03+08:00"
+      }
     },
     {
       "id": "rss-74c2ff7e2707d1f61043b51a",
@@ -10366,7 +11558,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开放的TTS排行榜:多语文语音和语音克隆的可扩展评估",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "89eeeae58722c67fcae6704925432154723e73c266c89eaa6a515f3a45c89593",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:03+08:00"
+      }
     },
     {
       "id": "rss-90249c2a3882c6d31b88e7ce",
@@ -10385,7 +11585,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "干扰协调的模型蒸 ⁇ 活动",
+        "summary": "了解OpenAI如何扰乱保护模型推理活动,并加强对抗蒸 ⁇ 的防御.",
+        "sourceHash": "84454fcc5864524c34bb99ebbdfce9b4d2097ef9b0a8b23182ace3f89733ea46",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:03+08:00"
+      }
     },
     {
       "id": "rss-061338e668ed697490e5190c",
@@ -10404,7 +11612,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "帮助小企业使用人工智能",
+        "summary": "开放AI与美国SBDC合作,扩大对小企业的实践人工智能训练和当地支持,（OpenAI）",
+        "sourceHash": "bf373d1d10a00701272a96ed62787c61db067aaee4beae50235677104ad9c11b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:03+08:00"
+      }
     },
     {
       "id": "20260929-gpt61-sol",
@@ -10521,7 +11737,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "获取正确的源头,而不仅仅是事实:MCP代理人的源头知情验证",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "5243a70570555fd32b3b813cea65699eef5d896f27092b97ae14afe3e432770a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:06+08:00"
+      }
     },
     {
       "id": "rss-dec620cb7225d2434a9b02e6",
@@ -10540,7 +11764,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入点",
+        "summary": "开放AI的点是积极的助理,可以在复杂的项目和日常任务中继续工作. 学习如何在工作前进时保持控制.（OpenAI）",
+        "sourceHash": "d37372d8643136949b9ff534afea846a1944e7876108858c95bc4f7ed02e5d38",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:10+08:00"
+      }
     },
     {
       "id": "rss-50d71cd52400f551c336b9ad",
@@ -10559,7 +11791,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们如何为澳大利亚做得更好",
+        "summary": "开通AI为涉及澳大利亚政府网站的事件道歉,（OpenAI）",
+        "sourceHash": "5487e525e81ef21d7b20496be3cf070e07cfa94b9efbc9e677ff132d7ba54c2a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:06+08:00"
+      }
     },
     {
       "id": "rss-2fc54b690d7b20a2e1432838",
@@ -10578,7 +11818,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "对边界人工智能训练的安全情况",
+        "summary": "我们对边界人工智能训练的安全案例的早期指导方针涵盖技术保障,运营实践和调查错误排列事件",
+        "sourceHash": "de1acaddcdd3458d47b3f6fc6e9b8365ef230e730667fe722711bfb0124731a1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:06+08:00"
+      }
     },
     {
       "id": "rss-7ba7170e114ec367c0aea60b",
@@ -10597,7 +11845,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "观看未来视觉XPRIZE的获奖预告片,",
+        "summary": "观看未来视觉XPRIZE的获奖预告片,",
+        "sourceHash": "3adb2f99c50471a4200e521120afabab2436a62e6b9b3fbcbf9e8303db6e1519",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:08+08:00"
+      }
     },
     {
       "id": "20260928-claude-sonnet55",
@@ -10665,7 +11921,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Holo4:电源通用计算机使用剂",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e012cb7d0ca948a5760542c73467e37a6e77961e779f4809e1514d6e05f50c49",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:08+08:00"
+      }
     },
     {
       "id": "rss-eb916b5190e379580afd8a2b",
@@ -10684,7 +11948,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "欢迎RL环境到中心",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "2414d8017fd04c6c3d84860e3de7f8617cce14920a3589de5f2129ffb0643032",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:08+08:00"
+      }
     },
     {
       "id": "rss-0adf5bb2a473897d12526e4b",
@@ -10703,7 +11975,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "伦菲斯特研究所通过扩大OpenAI支持发展了具有里程碑意义的项目",
+        "summary": "开放AI正在扩大Lenfest人工智能协作和奖学金计划,（OpenAI）",
+        "sourceHash": "48ff8bea8add16624920474c0e2df1c53f6ebe7382572dcf4c8719468f448b1b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:08+08:00"
+      }
     },
     {
       "id": "rss-833e9419a34f8836dc9d7502",
@@ -10722,7 +12002,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "你是\"Codex\"的原始书籍吗?",
+        "summary": "我们收集了建造者, ⁇ 工,研究人员和创造者的真实故事, 如果您想加入\"Codex Originals\"下一章,请详细介绍您的故事和项目.",
+        "sourceHash": "6a19896a48f85bf98f9c9652d59524c4a66646ec810ee3d8ca7d4174818f7149",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:10+08:00"
+      }
     },
     {
       "id": "rss-eb674100bb687fff764326a1",
@@ -10741,7 +12029,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "基础通过GPT-6Astra完成税务工作簿两倍快",
+        "summary": "GPT-6 Astra完成了50个标签税务工作簿的速度是GPT-5.6 Sol的两倍,",
+        "sourceHash": "bc3dfb0f02763d56db6dd677e0e251c2639821cd9ae1fe0aab855c129668e9d0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:11+08:00"
+      }
     },
     {
       "id": "rss-9de028fbe46cac8b155a7c08",
@@ -10760,7 +12056,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用Codex节省75多小时的销售额",
+        "summary": "通过Codex,GPT-Live-1,GPT-6Astra,Proaction更快地构建,运营和销售现代舰队管理.",
+        "sourceHash": "bb0acc61be6fbbb87dbf24104bca4c832c31b66c376c4a5ffc29a799f01d0909",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:11+08:00"
+      }
     },
     {
       "id": "rss-6add3dd62456569f19427e45",
@@ -10779,7 +12083,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍Gemini 3.8 现场与现场阿瓦达",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "3653e42f5bcee826cc291d29a98f671aede0fa51fbab5c29100ed74661e22f18",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:14+08:00"
+      }
     },
     {
       "id": "rss-3971cab2d7d4566fcc70a8f7",
@@ -10798,7 +12110,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过OpenAI来回答数百万个家庭改造问题",
+        "summary": "Lowe ⁇ s利用OpenAI模型为Mylow和Mylow Companion提供动力,帮助客户和合作伙伴回答25万多个问题,并推进房屋改造项目.",
+        "sourceHash": "630e67891897a897b692150cfc94431c7ea24803acf2bb4e18070fb69b8cff45",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:11+08:00"
+      }
     },
     {
       "id": "rss-6c85667bb456be979ea054b8",
@@ -10817,7 +12137,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过OpenAI,Wayfair提升了目录精度和支持速度",
+        "summary": "威费尔利用OpenAI模型提高电子商务支持和产品目录准确性,自动化票分类,提高数百万个产品属性.",
+        "sourceHash": "b7b55f6d7d4ec496db875b8f922dd563990944d66ddb467c27d51c53ade5903b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:14+08:00"
+      }
     },
     {
       "id": "rss-1043d9fe80283e6f409b90e0",
@@ -10836,7 +12164,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过安全的服务器侧内存来推进私人AI计算",
+        "summary": "引入私人,服务器侧内存到私人人工智能计算.",
+        "sourceHash": "fde99435a742012a2bf2484f42da3c0cc63bb5f7af9be9b778186c07b803052c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:14+08:00"
+      }
     },
     {
       "id": "rss-52e46e8371e1f69996c0f8fd",
@@ -10855,7 +12191,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "两年的OpenAI学院",
+        "summary": "标志着OpenAI学院成立两年,并将人工智能技能带到更多社区.",
+        "sourceHash": "2f5cd335fd3e22bbde6a99cadd5ecb1759847191a8f13914be65d4a85f3ede7b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:16+08:00"
+      }
     },
     {
       "id": "rss-8772414765b134fe3b8873da",
@@ -10874,7 +12218,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "谷歌光束扩展了新的地区,合作伙伴和客户",
+        "summary": "我们将将谷歌光束扩展到五个新国家,",
+        "sourceHash": "c9618a10439e3c6b514ecbe6929e8bd5f1f0cd77d814ee05a21332b05aed9acd",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:14+08:00"
+      }
     },
     {
       "id": "20260923-gemini38-tts",
@@ -10942,7 +12294,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini3.8短信对话说你好",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "95c35605b19b4ba35de78c88fa385b924dd1e5a88766df5305d10994b133667a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:16+08:00"
+      }
     },
     {
       "id": "rss-9328fa400dd37e6b9e773781",
@@ -10961,7 +12321,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI扩大对乌克兰的网络访问（OpenAI）",
+        "summary": "乌克兰政府正在向乌克兰政府扩大其天亮计划的访问权限,以支持民用基础设施网络防御.（OpenAI）",
+        "sourceHash": "994a7d5a8c0656f44b31460f3fd41ff5c82952f14d29b053092ed99e2187ab2d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:16+08:00"
+      }
     },
     {
       "id": "rss-52b80abd4e046c041ffbe2a4",
@@ -10980,7 +12348,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "哈维用GPT-6阿斯特拉将法律背景转化为更强的草案",
+        "summary": "GPT-6 Astra制作更有结构,更有背景的法律文件,使律师能够专注于战略.",
+        "sourceHash": "3dbbbf490b7add25df492d6a1334d36e08a7ea3fcbdfcf296fed77c0ad274a92",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:16+08:00"
+      }
     },
     {
       "id": "rss-f2ff7f76056120414cf01f1b",
@@ -10999,7 +12375,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何使用GPT‐6 Astra提高颜色分级3倍",
+        "summary": "通过GPT‐6 Astra,视频计划更精确地编辑,提高颜色校正和分级三倍,并在一天内产生50个定制效果.",
+        "sourceHash": "49a05adffd789afd002822bccde8bdc326700db0ea6a05ec7902cc84130f186e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:21+08:00"
+      }
     },
     {
       "id": "rss-4e56c7312349a760a0edf744",
@@ -11018,7 +12402,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Ringg ⁇ 的AI代理通过OpenAI解决到65%的客户电话",
+        "summary": "使用GPT-5.6,Ringg通过语音,聊天,WhatsApp和网络提供多语言代理的功能, 其他类型:",
+        "sourceHash": "5d97123e9bca96a9db1cbd16214f28aa6bf1da2f2852c379e70bfdbf5179e512",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:10+08:00"
+      }
     },
     {
       "id": "rss-347b65ce144a221e189c1995",
@@ -11037,7 +12429,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "萨姆·阿尔特曼在联合国安理会上的讲话",
+        "summary": "在联合国安理会的讲话中,OpenAI首席执行官萨姆·阿尔特曼讨论了人工智能安全,人类控制和国际合作.",
+        "sourceHash": "a59509f6228fe31c05c24b6152cab3ec9ee74bb186c18e4c649ad63cef399a1b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:21+08:00"
+      }
     },
     {
       "id": "rss-3d7b9aab56c8f4fe22c00cc0",
@@ -11056,7 +12456,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入精神健康 ⁇ 位",
+        "summary": "智力健康Bench是一个专家信息的基准来评估在现实的心理健康对话中有用和安全的人工智能反应.",
+        "sourceHash": "ce569379647917a3a55bbc7ad5c6551e6c2a1abcb1516d62aa8479ff3fa71769",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:21+08:00"
+      }
     },
     {
       "id": "rss-bb71e409dd7f29f762c233b6",
@@ -11075,7 +12483,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "聊天GPT广告扩展到东南亚和台湾（ChatGPT）",
+        "summary": "ChatGPT广告正在扩展到东南亚和台湾,",
+        "sourceHash": "0f1dfd6386d65bb62d65a9ecb05cf29ca8b529ce331178ba287acc99c2ef678b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:24+08:00"
+      }
     },
     {
       "id": "rss-0765deb144589280c16b6c38",
@@ -11094,7 +12510,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Airbnb扩大GPT-6Astra和OpenAI边境模型的访问量",
+        "summary": "了解Airbnb如何扩大GPT-6Astra和OpenAI边界模型的访问,",
+        "sourceHash": "db9450a06ad56aec947e4b52152c69840d40bca764c39634a329d92f5a45c523",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:24+08:00"
+      }
     },
     {
       "id": "rss-5ab590850491008e2cefeb69",
@@ -11113,7 +12537,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Grab和OpenAI将人工智能技术带入东南亚",
+        "summary": "开通AI和Grab推出了GO Forward with AI,这是一项帮助3万合作伙伴在东南亚建立实用人工智能技能的区域计划.（OpenAI）",
+        "sourceHash": "a0d6ae0ea62329cb38e89897274c184710e8a0d2e8d2ccb6e164d660e8a73824",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:24+08:00"
+      }
     },
     {
       "id": "rss-f9027d80e820682e90d7e8a7",
@@ -11132,7 +12564,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "最好为GPT-6提前缓存",
+        "summary": "了解GPT-6如何通过更高的缓存击率,新的诊断,明确的断点以及降低延迟和成本的控制来改善即时缓存.",
+        "sourceHash": "93d8ab5778ea7ba73f55b555b802f93aac78e7aa791a034c26bd0221ec2dc7d3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:24+08:00"
+      }
     },
     {
       "id": "20260922-claude-opus55",
@@ -11249,7 +12689,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "英国AISI和EvalEval如何使基准结果可复制",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "6c723adcd52e15540e791dd3790ed971ff16f333f6b6995269954a67a307bb6f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:26+08:00"
+      }
     },
     {
       "id": "rss-689d78c6e007ab8e2c4f1996",
@@ -11268,7 +12716,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "转变器现在运行 llama.cpp 量子",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "753f9f1678aa413f412cbaaeabf3804d15851dc6e5ba8a403615e6cf137eac8a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:26+08:00"
+      }
     },
     {
       "id": "rss-6b3083011aeb49b1cc1d670c",
@@ -11287,7 +12743,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "⁇ 金,oMLX创始人和维护者,加入拥抱面子支持MLX社区（Hugging Face）",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "d5b0fe0d2bb2b0cc8b5842e33ccce4f5c9d2f892e9ab18d485a5e3e3f0d0dc6a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:26+08:00"
+      }
     },
     {
       "id": "rss-3fcefd9c665fb2c2484965cf",
@@ -11306,7 +12770,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "与GPT-6Astra相对减少研究时间和成本",
+        "summary": "GPT‐6 亚斯特拉允许Parallel ⁇ 代理人在成本与以前的模型相比的时间半,研究和合成劳动力市场数据.",
+        "sourceHash": "1dfe8233e5a75812f9b48ea32567953a020926ff4689b42fd2d9377af3ffa6ca",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:26+08:00"
+      }
     },
     {
       "id": "rss-60efaf744a4d6c2c20e9e8f1",
@@ -11325,7 +12797,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "有效第三方评估的优先事项和原则",
+        "summary": "OpenAI概述了对边界模型和保障措施的严格,安全和独立的第三方人工智能安全评估的优先事项和原则.",
+        "sourceHash": "adc51c71a99a8bc3483cb17be39cdd4fc01d5459f7deee811ddc108eccd246ce",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:30+08:00"
+      }
     },
     {
       "id": "rss-693b3130e25cc8808f585a69",
@@ -11344,7 +12824,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "标记器 v1:编码,解码和扩展,测量",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "b2a53553dca5b912e832fd9bf35ad50fcc7cb512913c7a10a35668cdb62f381e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:32+08:00"
+      }
     },
     {
       "id": "rss-8fe4474fdbb9c4c46a22f878",
@@ -11363,7 +12851,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "希格斯菲尔德人工智能在一天内发出了新的视频功能",
+        "summary": "通过GPT-6 Astra,希格斯菲尔德人工智能使小企业更容易创建视频广告,并更快地推出新创意工具.",
+        "sourceHash": "8859848701b3b6e434ac707d0f30ba7139ff0ca8194dc74b10a3f8563fc350d1",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:30+08:00"
+      }
     },
     {
       "id": "rss-08ffdb24bebd9aa2ffda2f84",
@@ -11382,7 +12878,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "数学和人工智能咨询小组",
+        "summary": "开通AI正在与数学和人工智能独立咨询小组合作,以指导新兴人工智能结果的审查和沟通.（OpenAI）",
+        "sourceHash": "a4a722c5642439ff520d360cf3b49ba95fc1fefad9d7eede2f56f1edba15c9d9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:30+08:00"
+      }
     },
     {
       "id": "rss-10538c022345675d1abd4a83",
@@ -11401,7 +12905,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为AI下一阶段建立标准",
+        "summary": "开通AI概述了共享全球人工智能标准的道路,要求协调评估,报告和治理以提高安全性.（OpenAI）",
+        "sourceHash": "055ac880fa2f098cdd616e3013341f5c77766e7ffc7263aa7cf9322bf71fa3ad",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:30+08:00"
+      }
     },
     {
       "id": "rss-2f8d9b98fc157bb338d3eee2",
@@ -11420,7 +12932,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过新的学习途径扩大OpenAI学院",
+        "summary": "为员工,开发人员,领导者,教育人员和学生探索新的OpenAI学院学习途径,以建立和展示实际的AI技能.",
+        "sourceHash": "cc09cbe35310c79466c34d2bd8ed2d11ba04333d194417caf3f936c24bc14f96",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:32+08:00"
+      }
     },
     {
       "id": "rss-d2871d486c61275aa1831622",
@@ -11439,7 +12959,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过GPT-5.6Luna提高精度,V7削减成本为78%.",
+        "summary": "使用GPT-5.6,V7将分散的公司文件转化为文本代理,可用于完成复杂的源链工作.",
+        "sourceHash": "46d3a292c290b07c20fc25c80280489103aee66c07ea3af2291a1a60257287d5",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:32+08:00"
+      }
     },
     {
       "id": "rss-a00923bf4ddda715364788a2",
@@ -11458,7 +12986,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入澳大利亚青年安全蓝图",
+        "summary": "开放AI推出了澳大利亚青年安全蓝图,这是一个为保护和赋予年轻人更安全的人工智能体验的六支柱路线图.（OpenAI）",
+        "sourceHash": "91615cfb1a9ead99d8a29e87f98cc65999dea91515ab59dd22c11c3a60d6adcb",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:35+08:00"
+      }
     },
     {
       "id": "rss-2ad49dd9b65fe3aef9a78421",
@@ -11477,7 +13013,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "新专家加入谷歌人工智能与经济团队",
+        "summary": "我们正在扩大我们的人工智能和经济团队,包括世界级的学术顾问,同事和核心内部研究人员.",
+        "sourceHash": "11c87ab263948b460080b450596d976d21342060777d368d4c8a4f7c86fe16b7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:32+08:00"
+      }
     },
     {
       "id": "rss-332bec2b752a921dc0773eff",
@@ -11496,7 +13040,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "与谷歌共同创造时尚的未来",
+        "summary": "谷歌与设计师简·韦德和塞尔吉奥·哈德逊合作,",
+        "sourceHash": "37594fe503a20c8c2165de454ed299174831dc9a079a137f30870daab2566d9a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:35+08:00"
+      }
     },
     {
       "id": "rss-57bb3f72439b837e28ac1b35",
@@ -11515,7 +13067,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "让全球数据更容易探索",
+        "summary": "谷歌和联合国系统推出了\"联合国系统数据共享\",这是一个新的开放平台,",
+        "sourceHash": "3688ab4c0c09e80f3f0d0cc7f231d405665cf07d92828781525e9a0ff6e8bf3e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:35+08:00"
+      }
     },
     {
       "id": "rss-d22acfa5d0cc1d093c4a65f6",
@@ -11534,7 +13094,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "库利如何加快与ChatGPT的IPO合作",
+        "summary": "库利建立了GO公众与ChatGPT工作,以将情报带入IPO过程,帮助律师更早地发现问题,",
+        "sourceHash": "7958a7b9eb7d8e5957b38be4de1f9dafb9c2866f60e7bb582c625dbefaddb33c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:35+08:00"
+      }
     },
     {
       "id": "rss-192794312f979cbd50ee7eab",
@@ -11553,7 +13121,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入阿斯特拉为法律",
+        "summary": "法律的OpenAI提供法律边界情报,定制公司工作流程,连接的法律数据来源以及对客户的机密工作进行法律级别的控制.",
+        "sourceHash": "b13f5020b24725dd426c7db93d210b62a1bdf8fec20aebc4826f4cec89654f4c",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:38+08:00"
+      }
     },
     {
       "id": "rss-f3899afd4d6a0a2de4790fb5",
@@ -11572,7 +13148,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们的报告模式错误调整框架",
+        "summary": "开通AI共享了跟踪,调查和披露模型错误排列的框架,以及六份意想不到或涉及模型行为的报告.（OpenAI）",
+        "sourceHash": "cfc65a2ff4a1e873f85fb333c5aedf9eea9baaaca40a767b101c67dcc23e6405",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:38+08:00"
+      }
     },
     {
       "id": "rss-b0366f9850a9d166d4a5ba39",
@@ -11591,7 +13175,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "帮助老年人在日常生活中使用人工智能",
+        "summary": "开放AI和AARP正在为10个美国城市的1000名老年人提供免费的实践ChatGPT研讨会,（OpenAI）",
+        "sourceHash": "8e104d3b3a4009829fe46129779c413e683e51e210b1587ba7f9616bd847f373",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:38+08:00"
+      }
     },
     {
       "id": "20260916-claude-unified-conversations",
@@ -11663,7 +13255,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍Gemini 3.8 现场和 3.8 现场延长思维",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e3afcdd806a27431588338a4028a8bf10a59da8558c38d3b1674e93a9d5bccd8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:41+08:00"
+      }
     },
     {
       "id": "rss-a1d018f16fad79f97456f75b",
@@ -11682,7 +13282,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "你的经纪人接受了任务. 这将再次发生吗?",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "85ac097b6d4695ee68f99cb04035c0f96edc2cdae6c66bfa47d62985cee23901",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:12+08:00"
+      }
     },
     {
       "id": "rss-6ac27c68838b29eeea8939f0",
@@ -11701,7 +13309,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用人工智能重新想象广告",
+        "summary": "探索OpenAI的新的人工智能驱动广告体验,包括赞助代理,营销人员的工具以及与HubSpot和Shopify的集成.",
+        "sourceHash": "94de6661bb4d6f77eb523a7dfde0d8bf5aafec26e6793baf4d15f3574bb597f3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:38+08:00"
+      }
     },
     {
       "id": "rss-27cd99b1dbe3442031772f3a",
@@ -11720,7 +13336,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "赫克斯用GPT-6Astra将复杂分析转化为视觉报告",
+        "summary": "GPT-6 Astra帮助Hex ⁇ 的数据代理将答案转化为员工自豪地分享的互动可视化.",
+        "sourceHash": "68f2576438de6b0e23ad4fa50b8ad94681b7c64fd5206594ef2e0af884530eab",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:41+08:00"
+      }
     },
     {
       "id": "rss-4410122683c569258d5a0a36",
@@ -11739,7 +13363,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何将人工智能使用与业务价值联系起来",
+        "summary": "了解ChatGPT工作和Codex分析如何帮助团队了解人工智能使用和支出,识别训练需求,并将采用与业务结果联系起来.",
+        "sourceHash": "bdc3e360af99ccb3de10242eaeeb0cc1b1901ab6aed589f5f80dbb7077cd959e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:41+08:00"
+      }
     },
     {
       "id": "rss-7d2872733a614740ea67cf0d",
@@ -11758,7 +13390,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "工人如何开辟新的工作方式",
+        "summary": "新的OpenAI经济研究表明,工人如何利用人工智能超越传统角色,以及哪些新活动成为其工作的重复部分.",
+        "sourceHash": "feab835ed2f853c4b546ed5264ccfe7e6289a6d059eb57d475a131216bb707fe",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:41+08:00"
+      }
     },
     {
       "id": "rss-dfe2f7f06070ffbc61225b84",
@@ -11777,7 +13417,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "人工智能对社会影响",
+        "summary": "探索这个收藏,看看专家和当地领导者如何利用人工智能突破,",
+        "sourceHash": "20e2afff7d4d3dd25259309a81af9d79a0482e8d63e33338ed0d47b7cd9961b9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:44+08:00"
+      }
     },
     {
       "id": "rss-419a0d7bd8653188b6f438f2",
@@ -11796,7 +13444,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "建立人工智能以加速科学和改善生活",
+        "summary": "人工智能真正衡量的是它能帮助谁. 这就是它今天对生活的影响. 我们专注于先进技术可以帮助实现非凡的进步的关键领域.",
+        "sourceHash": "be40bbe6d19ce32368b6f6447d864e5f3c3dc59fee55a81808cce898f7a38127",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:12+08:00"
+      }
     },
     {
       "id": "rss-7a00acf92df0c96e97506b3b",
@@ -11815,7 +13471,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "人工智能适用于所有语言",
+        "summary": "我们正在超越传统文本翻译,",
+        "sourceHash": "7a238b56a747e4a956db6b25fade8c2837c04b6a85616f2bb730bdf1ce3873b9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:44+08:00"
+      }
     },
     {
       "id": "20260915-gemini38-live",
@@ -11883,7 +13547,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "谷歌 AI & Economy ATLAS的新见解",
+        "summary": "我们将ATLAS的数百万全球数据点转化为互动,开放式访问体验.",
+        "sourceHash": "d007443e058782959a3c034176887069228a9aa12500ae6cd7586a0e472ea89a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:47+08:00"
+      }
     },
     {
       "id": "rss-ff082bc32dcf39bfd27812ed",
@@ -11902,7 +13574,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "观看宇航员克里斯蒂娜·科赫和谷歌的詹姆斯·马尼卡讨论太空,技术和发现.",
+        "summary": "克里斯蒂娜·科赫与谷歌研究,实验室,技术和社会高级副总裁詹姆斯·马尼卡坐下来.",
+        "sourceHash": "cf20bb7a1a7b6b7e97ef729b9a7fdab93f0b18b69d239a53a5edcb7657bc613e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:47+08:00"
+      }
     },
     {
       "id": "rss-fd1baec08311b505543d5a8c",
@@ -11921,7 +13601,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "圣诞节回来了.",
+        "summary": "在人工智能时代中,我们可以建立,保护和扩展800多个全球事件中的一个.",
+        "sourceHash": "15c87fc604093628b7db1ff6ac75ba761e21f4c12b069010b3d7f6a13ff2fb4e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:47+08:00"
+      }
     },
     {
       "id": "rss-7f82d995c515e5ba429e7e06",
@@ -11940,7 +13628,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何Fyxer建立一个人工智能执行助理人信任",
+        "summary": "飞克斯使用OpenAI模型,细节调整,内存和真实用户反 ⁇ 来组织收件箱和每个用户的声音中写电子邮件.",
+        "sourceHash": "a70b0877dc8bba1fed15c9575fd45686e4cddb5fa60a5b4e145a75679f528a54",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:47+08:00"
+      }
     },
     {
       "id": "rss-968c32634dc2a1cb83f00706",
@@ -11959,7 +13655,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "复杂性信任GPT-6Astra与端到端系统",
+        "summary": "困惑使用Astra来编写通信,更改软件,监控生产系统,并且比以前的模型更少检查.",
+        "sourceHash": "040859c30d4700c9ab8d5f51e247d8236d821ed60f1afd9f90cc1614186cae42",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:50+08:00"
+      }
     },
     {
       "id": "rss-4aeb82da9975e2f5f564fba4",
@@ -11978,7 +13682,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "认知帮助Devin通过GPT-6Astra测试自己的工作",
+        "summary": "GPT‐6 Astra提升了Devin ⁇ 测试软件的能力,并证明其运行,以帮助工程师审查更少的代码,并发送更多的软件.",
+        "sourceHash": "8b32d734599f67aa45710ff821859ad7aafd37c1e938fe02fddf76ed8592dbff",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:50+08:00"
+      }
     },
     {
       "id": "20261023-cn-12",
@@ -12046,7 +13758,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "快速扩大在线存储服务超过10亿的ChatGPT用户",
+        "summary": "了解OpenAI如何将Habitat从Python图书馆发展到全球分布式存储平台,为每秒10亿ChatGPT用户和2200万请求提供服务.",
+        "sourceHash": "becd8735886db57f296fd1cea89b0c0f35f24772a48e2b3b1741fc87b68630be",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:50+08:00"
+      }
     },
     {
       "id": "rss-39842fa0b34b37cbe3f74a63",
@@ -12065,7 +13785,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "一位研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
+        "summary": "塞萨尔·德·拉·富 ⁇ 特的实验室使用Codex和ChatGPT搜索活着和灭绝的基因组,",
+        "sourceHash": "0c50748aab5ef7791171d686f8367a884753fc73e91e3f1788d7c4fc70a10015",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:50+08:00"
+      }
     },
     {
       "id": "rss-338a77b082d6e9b86e328b08",
@@ -12084,7 +13812,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在搜索中准备下一次大赛的3种方法",
+        "summary": "搜索可以帮助跑步者为比赛日做好准备,包括注册通知,定制训练计划等.",
+        "sourceHash": "0b766bcb6dffa9640b1c276cee9e03498f9f58f4cbd0ca5e9c7c6e2405ced1e4",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:53+08:00"
+      }
     },
     {
       "id": "rss-85052f9befba2c4e17fa41a5",
@@ -12103,7 +13839,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在 HF 工作中同步 GRPO 与 LoRA:一个桶,一个代理,没有 NCCL",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e96704166b5b4e57f930305ba05663419ffc94b5ae1d912e9b0cad7f3236b64f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:56+08:00"
+      }
     },
     {
       "id": "rss-075fed980e67c694db46ceda",
@@ -12122,7 +13866,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用 Gradio 工作流程重建AUTOMATIC1111",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f2b01ac2c257f7f8b7274c6cc52d305029a6e5cab33ea9fa6329bec48dfe61f0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:56+08:00"
+      }
     },
     {
       "id": "rss-6a886414536a09e3da65022e",
@@ -12141,7 +13893,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "现在每个人都可以使用数据.",
+        "summary": "见到聊天GPT工作的数据代理. 连接公司数据,发现见解,并使用自然语言构建与人工智能互动仪表板.（ChatGPT）",
+        "sourceHash": "0902f2fa02126d3e42e822ce8f5c855b25c25af2ea95f71bd6fbc3e09c1e1bc9",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:12+08:00"
+      }
     },
     {
       "id": "rss-0bb946f0c421538942e42564",
@@ -12160,7 +13920,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入金融服务的ChatGPT",
+        "summary": "引入金融服务的ChatGPT,结合内置的金融数据和研究,建模和客户准备材料的GPT-6Astra.",
+        "sourceHash": "32f8e0e7af09b9436d6d58a16f6a10aacb8faaaf74cba2debc5c3256355eb965",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:53+08:00"
+      }
     },
     {
       "id": "rss-3802aa15c4b6ae22021ae0ee",
@@ -12179,7 +13947,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "扩大联邦,州,地方和部落政府的人工智能访问和网络防御",
+        "summary": "开放AI和GSA将向有资格的联邦,州,地方和部落政府提供0美元的许可费,50%的使用折扣,（OpenAI）",
+        "sourceHash": "676085fceb2ef22ceb6888d6429101ef62dde69a90b1518d4a0052643260bd92",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:53+08:00"
+      }
     },
     {
       "id": "rss-b8a75fb67d8179220690902f",
@@ -12198,7 +13974,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在API中使用GPT‐Live‐1建立更自然的语音体验",
+        "summary": "GPT‐Live‐1 带来了自然的双重语音对话,以更强的指令,定制的语音和电话支持.",
+        "sourceHash": "6fa9edb7238c94ab8a6ac0ac5c739c1b86b4822b1b7d7d702ba8e0fb07b39070",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:56+08:00"
+      }
     },
     {
       "id": "rss-b32e9b847135398762b9f07d",
@@ -12217,7 +14001,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入代理API",
+        "summary": "用Agents API构建和发射云代理,这是由Codex带来管理的服务,用于编排,长时间的会议和工具使用.",
+        "sourceHash": "4074a4f1a686e8d5efd3ed67217b0fe436b701eabfad69f75270446df7459e08",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:56+08:00"
+      }
     },
     {
       "id": "rss-3eb3e9557eb7038ef8ad3df0",
@@ -12236,7 +14028,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "保罗·克里斯蒂亚诺加入了OpenAI基金会董事会",
+        "summary": "保罗·克里斯蒂亚诺加入了OpenAI基金会董事会及其安全与安全委员会,",
+        "sourceHash": "e2faea764dfc9f6dd3ce8f04b81703e88199df405c5c4e1889eebc2aacac5bfe",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:59+08:00"
+      }
     },
     {
       "id": "rss-77adb66885449411a18b9aff",
@@ -12255,7 +14055,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在搜索中新足球功能为比赛做好准备",
+        "summary": "追踪现场游戏流量,探索详细的统计数据,并直接在搜索中获得自定义的幻想建议.",
+        "sourceHash": "c9490747b67185911902ff8160c5300b76f56249f4c4372b8c86f52a9c60e736",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:59+08:00"
+      }
     },
     {
       "id": "rss-a7dff6d25b9078cb3b66ab9f",
@@ -12274,7 +14082,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "描绘一个70年的爱情故事",
+        "summary": "探索电影制作人和谷歌DeepMind如何利用人工智能在短片\"Love,Rendered\"中重现一对夫妇的未记录的过去.",
+        "sourceHash": "fa7e2449032da299a568f79fccbd1d1d688d1204176515426df1370d163dfed7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:35:59+08:00"
+      }
     },
     {
       "id": "20260909-workspace-cross-app-agent",
@@ -12342,7 +14158,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "人工智能政策窗口已开放. 我们必须采取行动.",
+        "summary": "克里斯·莱汉认为,更强大的人工智能能力需要更强大的安全证据,共享标准和持久的政策行动,而政策窗口仍然开放.",
+        "sourceHash": "08865bdf145958815fede6f848c2b3ea0fbfd0e9563a6aee00712076d7495a9b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:12+08:00"
+      }
     },
     {
       "id": "rss-333ccaae81484d3a4e17f3d0",
@@ -12361,7 +14185,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GPT-6 Astra:下一代工作智能",
+        "summary": "了解GPT-6Astra,OpenAI ⁇ 最具商业能力的模型,具有先进的推理,计算机使用,以及更强大的写作和设计判断力.",
+        "sourceHash": "3b515b50ef72593cccfbfd20b291d4b2578d5d6d8c7c4167b52a4aa7732a3d5a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:02+08:00"
+      }
     },
     {
       "id": "rss-503e9c2326e78f3e54698b50",
@@ -12380,7 +14212,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "如何帮助GPT-5.6 Sol运行量子计算实验",
+        "summary": "看看一个麻省理工学院的研究人员如何使用GPT-5.6 Sol与Codex来自主运行量子计算实验,分析结果和校准量子位.",
+        "sourceHash": "184fec73493a91229e86eeef94c3264009e210f30e8884a4559bdcbd31653db8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:02+08:00"
+      }
     },
     {
       "id": "20260908-images25",
@@ -12448,7 +14288,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "亚尔法基因组亚特拉斯:人类基因组中的每一个可能的DNA字母变化的预测地图",
+        "summary": "阿尔法基因组亚特拉斯在人类基因组中映射了900亿个单字母DNA变体的分子效果.",
+        "sourceHash": "67dc337f94dd88d2be9b9352340c4d1b7321c44d43d76010dc5d2d350bd01425",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:02+08:00"
+      }
     },
     {
       "id": "rss-a00fc889a2dd293b42049381",
@@ -12467,7 +14315,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "现在可以完成的工作",
+        "summary": "探索如何更有能力,更负担得起的人工智能可以扩大人们和企业可以完成的工作 ⁇ ,使经济增长更加经济.",
+        "sourceHash": "89554f173b0c3286d08a93e9481530da007f23f1260c24d1002ea73a6308a50e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:02+08:00"
+      }
     },
     {
       "id": "rss-4a36ea7ba6bb268a569ba1bd",
@@ -12486,7 +14342,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开通AI将支持新闻活动的举措从课堂扩展到新闻室（OpenAI）",
+        "summary": "开通AI正在为学生,教育工作者,记者和新闻组织提供工具,训练和合作伙伴关系,（OpenAI）",
+        "sourceHash": "871dc34290d99a20c9e6406758fca4c0a01b04eb6687e5c395c76408349dcb47",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:05+08:00"
+      }
     },
     {
       "id": "rss-2c827cba158d2f26e6e99088",
@@ -12505,7 +14369,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "关于Navier ⁇ Stokes千年奖问题",
+        "summary": "我们分享了人工智能为NavierStokes千年奖问题的解决方案,",
+        "sourceHash": "7230226bb3039b89eb1da3144d36082c3f282757089adaa0cf896398d70cc255",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:05+08:00"
+      }
     },
     {
       "id": "rss-7948c39493cbd65ea48c44d8",
@@ -12524,7 +14396,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为人工智能和青少年发展的新研究提供资金补助",
+        "summary": "现在就申请OpenAI的500万美元资助计划,支持独立研究如何产生人工智能影响青少年的发展,福祉和安全.",
+        "sourceHash": "81e3f8d26c993b9494ac2110eb5ae1d8e3a727154bde751ade33e05df032cf73",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:05+08:00"
+      }
     },
     {
       "id": "rss-a1b72811dd254b5043b516f3",
@@ -12543,7 +14423,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "1Password通过Codex提高了工程生产率21%.",
+        "summary": "在1Password的工程师使用Codex快速构建新的功能和内部工具,同时保持严格的安全政策.",
+        "sourceHash": "f5124556603df2ffc3425c8b12c15044798660e5292573dec911bc310538f36f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:05+08:00"
+      }
     },
     {
       "id": "rss-073b13b14ae0138b1424f5cc",
@@ -12562,7 +14450,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "支持乌克兰独立新闻",
+        "summary": "开通AI,AIRPPU和WAN-IFRA发起了人工智能计划,帮助乌克兰新闻机构加强创新,弹性和独立新闻.（OpenAI）",
+        "sourceHash": "3f20aaf6bba0d0086734e7a12b7e8fa1b64af190a3d8c2d6e39a4a90b7282c0a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:08+08:00"
+      }
     },
     {
       "id": "rss-e0f75446731d598ce3aa6549",
@@ -12581,7 +14477,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "一个外星人的思想",
+        "summary": "雅各布·帕乔基反思了越来越有能力的人工智能和保持它一致的挑战. 他呼吁加强保障和国际协调.",
+        "sourceHash": "4d801b304a6ac914a54c52c08edffff0b04ca2fd69717bb79215704a32e12602",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:15+08:00"
+      }
     },
     {
       "id": "rss-3784d7aba9718af9aa1923cc",
@@ -12600,7 +14504,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "研究加速:OpenAI内部的视图",
+        "summary": "在OpenAI内部,编码代理正在重塑人工智能研究. 探索有关代理使用,实验速度,任务复杂性和研究加速的早期数据.",
+        "sourceHash": "c02041aac5a9749bc764e366a96b948a3387a3870e57ea6cb62dfeacaf5a4450",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:15+08:00"
+      }
     },
     {
       "id": "20260904-lyria35-gemini-app",
@@ -12717,7 +14629,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍天气Next 3,我们的最先进和最准确的全球天气人工智能模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "6524ca77e64dded3d135a9b64c07f24d34e31dff57acf1196665cd79f2e3378a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:08+08:00"
+      }
     },
     {
       "id": "rss-bf94848b24bf5829af64116a",
@@ -12736,7 +14656,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为政府和企业提供主动网络防御",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "00ce5337734b2ddee68b64394d571e17ebfd9b865fc190901e013db2483dcd43",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:16+08:00"
+      }
     },
     {
       "id": "rss-355be2cf6d2d139c093acbd4",
@@ -12755,7 +14683,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "推出Gemini3.8闪电和3.8闪电网络",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "bb01345b411e28d4b04e2de48cb3211020d564b7cc83741b7d238f5cb486e4bf",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:16+08:00"
+      }
     },
     {
       "id": "rss-fffbcba03b0b217e48932bf1",
@@ -12774,7 +14710,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "NeoMME:一个高效的多模式原生和多语言编码器",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "1d2af20330db131f7ab1e82f5b92ba017460bbff0fa6e489ac06bf4ca20f97cb",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:11+08:00"
+      }
     },
     {
       "id": "rss-a139f80b159295ada71d0ef0",
@@ -12793,7 +14737,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在100个GRPO步骤中调整350M模型以改善结构性输出",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "75b43510b9c10354702e525f6dfcbc26d2d5a2b9b532109853425008f9fc2a3a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:13+08:00"
+      }
     },
     {
       "id": "rss-cdd1118267ee925c63286ac8",
@@ -12812,7 +14764,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "给你的编码代理人你自己的记忆",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f8be77ab165d19d1f62470157c2de119341995e448a952c8694e44fa43bf21ae",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:13+08:00"
+      }
     },
     {
       "id": "rss-b5500bc6503561c622e234c7",
@@ -12831,7 +14791,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用TRL和OpenEnv绘制水彩编码模型的训练",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "918e85a3e133a32ccc6d4708e28f89ce7ac09d970cb6f0c70b91c5032eb3ae65",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:13+08:00"
+      }
     },
     {
       "id": "rss-fc40ddafdd41e0cc6b8e9f20",
@@ -12850,7 +14818,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "前线维护人员:10亿美元用于保护基本服务",
+        "summary": "开放AI为前线捍卫者推出了天亮. 一十亿美元的承诺扩大了对边界网络人工智能的访问,训练和基本服务的支持.（OpenAI）",
+        "sourceHash": "5396fd7d0ae993ed4166a29ce03f53dcc7734d7d56dba5aa06cb0f640d2bfa4b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:15+08:00"
+      }
     },
     {
       "id": "rss-9281d6906e8350b6fb5c6bd1",
@@ -12869,7 +14845,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "雷戈拉在几分钟内通过GPT-6阿斯特拉审查了41份文件",
+        "summary": "莱戈拉使用GPT-6Astra在几分钟内审查41份文件,发现所有四项错误,并在本财务审查工作流程中提高了近40%.",
+        "sourceHash": "37417b03eee9ed70b93496fec35271b5c5a3f78da8d31fa4a7372b987821e5dd",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:11+08:00"
+      }
     },
     {
       "id": "rss-325e9dcd840a97e90ffb7c6d",
@@ -12888,7 +14872,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "用GPT-6阿斯特拉修复50%的原型游戏",
+        "summary": "使用GPT-6Astra,Playco从一个灰色盒子基础上构建了三个主题游戏原型,并且报告了比以前的模型少50%.",
+        "sourceHash": "bb1dc7f3176aa499335ceb493c577d42b4ace38b3152eec7dfafb64e6a35f804",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:11+08:00"
+      }
     },
     {
       "id": "rss-39210f987919e80e66f6bbb1",
@@ -12907,7 +14899,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "安全概述:GPT-6 Astra",
+        "summary": "GPT-6 Astra是我们最具能力的广泛部署模型,也是第一个在我们的准备框架下达到网络安全能力的关键水平.",
+        "sourceHash": "d6e144b207dd1c01a5945e859ec5e63f144bf33dd92bf69c583a0f89264674ac",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:13+08:00"
+      }
     },
     {
       "id": "rss-6bf5b05134dd23a67198b53a",
@@ -12926,7 +14926,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍与Gemini的代理视频理解",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "924396b8106993dc10a6eba9ada7d2931ec7d3641bca570dcf1c1a0adf256434",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:18+08:00"
+      }
     },
     {
       "id": "rss-ad90e6779ea3045b3b9ff330",
@@ -12945,7 +14953,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "法律法师的基准实际上是什么?",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f6876dc539c5d0da9d7b93a96980ed15814ca12441922eca8d6a68b8659f1c3e",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:18+08:00"
+      }
     },
     {
       "id": "rss-3bda12e16fd31e0e48f8154e",
@@ -12964,7 +14980,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过ChatGPT将3天的工作转化为3个小时",
+        "summary": "ATV大航空旅游使用ChatGPT工作来加快营销,商品销售等. 它甚至在15分钟内把商品照片变成了库存网站.",
+        "sourceHash": "3d6e412a07d358b9a3f495e0bb28ee2e3f624adb360ef36ebf65073dde15c449",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:37:15+08:00"
+      }
     },
     {
       "id": "rss-b0cbef382238cdd5b88df7d9",
@@ -12983,7 +15007,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "AI 原生公司如何将工作流程转化为实际运营能力",
+        "summary": "Basis、Clay 和 Exa Labs 使用 AI 智能体改进引导流程、账户管理与开发者集成。了解企业管理者可以借鉴哪些做法。",
+        "sourceHash": "d7964e0eb31d8ef8cccdda70347efeb819c499783fe1a285c9fac3ce35f81e23",
+        "engine": "assistant-translation",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:38:46+08:00"
+      }
     },
     {
       "id": "rss-445c9f3e3d31d26692ada3d2",
@@ -13002,7 +15034,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:17+08:00",
       "checkedAt": "2026-10-31T14:51:17+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为政府和企业提供主动网络防御",
+        "summary": "公平风险计划是政府和可靠的合作伙伴使用我们的网络防御工具的有限访问程序.",
+        "sourceHash": "4d02e8e3aaaf1f81288b454f10d492ae3ad1388a3161379b10dbd97937533c0b",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:16+08:00"
+      }
     },
     {
       "id": "rss-91dad0068ec24e5bcea7adc0",
@@ -13021,7 +15061,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "推出 @huggingface/kernels：供本地 AI 使用的 200 多种 WebGPU 计算内核",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "5338bef11890975164a8fbadbf9025bb9c61e831169396cceed4492f11ecff94",
+        "engine": "assistant-translation",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:38:46+08:00"
+      }
     },
     {
       "id": "rss-f2694bfa96c49e91da594bc0",
@@ -13040,7 +15088,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "进入阿斯特拉的道路:关键能力和边境保障",
+        "summary": "亚斯特拉是第一个在准备框架下达到关键网络安全能力门 ⁇ 的OpenAI模型,",
+        "sourceHash": "03c213063554002da0114c631f00a7a2dd0923bc82150dc0499919fc16959ca2",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:18+08:00"
+      }
     },
     {
       "id": "rss-c0364833b41073ca7c0ea92e",
@@ -13059,7 +15115,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "医疗机构现在可以将电子健康记录及更多行业数据接入 ChatGPT",
+        "summary": "ChatGPT 现在可以连接可信的医疗数据，帮助临床医生安全获取患者背景信息、医学研究等内容。",
+        "sourceHash": "5c9892a2191ddc918c81c9464ebcfc89b2f30973ee0a7e916f566b64ea10ccc2",
+        "engine": "assistant-translation",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:38:46+08:00"
+      }
     },
     {
       "id": "rss-330fba64551db8b49d6a895e",
@@ -13078,7 +15142,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gilbert + Tobin 律师所如何利用 OpenAI 治理并扩大 AI 应用",
+        "summary": "了解 Gilbert + Tobin 如何结合首席执行官带头投入、严格的治理和人员问责机制，在整个律所推广 ChatGPT 企业版和 Codex。",
+        "sourceHash": "d3cc732f0e878dd20aa0618d3ef60217342d9c4064cbb974af4a03b5cc555116",
+        "engine": "assistant-translation",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:38:46+08:00"
+      }
     },
     {
       "id": "rss-4862f3d2c68fb1ad680a585c",
@@ -13097,7 +15169,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "OpenAI 支持加州推进青少年 AI 安全的法案",
+        "summary": "OpenAI 支持加州 SB 1119 法案，推动为青少年建立强有力、符合年龄特点的 AI 防护措施，同时保留学习、创作和探索的机会。",
+        "sourceHash": "7d497a2eee7b3172c906920969992c7f1cd3b1806fdf83aba0f682560b15c7b6",
+        "engine": "assistant-translation",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:38:46+08:00"
+      }
     },
     {
       "id": "rss-0b5a688ac44522d6851141a8",
@@ -13116,7 +15196,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "波利米尔建造日本下一代公共人工智能基础设施",
+        "summary": "波利米尔利用OpenAI GPT模型和Codex帮助市政府寻找和使用行政知识,同时加速发展.",
+        "sourceHash": "8f7d3d4ebd8b14427cfb203cc69ffe3a11adbd331e71e7c8f4f3eb231cf5601a",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:24+08:00"
+      }
     },
     {
       "id": "rss-8a7cdd78fd48385994a8dbca",
@@ -13135,7 +15223,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "扩大人工智能获取的里程碑",
+        "summary": "通过免费和负担得起的选项,ChatGPT广告达到10亿美元的年度收入运行率,并在全球范围内扩大,支持更广泛的AI访问.",
+        "sourceHash": "11bc7595f7fbf10a68be67248448815af3e8269bd379f12c1482daf7f36be4d0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:24+08:00"
+      }
     },
     {
       "id": "rss-90ba20dc32b53edf52ab24a1",
@@ -13154,7 +15250,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GeminiOmni 1.1 闪光让你建立更多的控制",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "91728b2025b1913d6e7c60f7b955b4ca30f20ce86d2616e97c1f3b48d2db80e4",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:27+08:00"
+      }
     },
     {
       "id": "rss-4d3b17a749f42c957e926aa5",
@@ -13173,7 +15277,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开放的ASR排行榜增加了全球首个南方语言",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "c89c9b9d6fdffdb61900e4ad1f1abf878772951d1dfe2ab6bffd32f6d1a64616",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:27+08:00"
+      }
     },
     {
       "id": "rss-b42ac281ecaf56c08abb6956",
@@ -13192,7 +15304,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在SpaceX收购后,我们对Cursor的决定",
+        "summary": "在SpaceX收购后,我们决定终止向Cursor提供OpenAI模型的合同.",
+        "sourceHash": "c7fd000fd30ea036f4e3b84ceaa2e8fc265dcae3d1688f49432989344a865630",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:24+08:00"
+      }
     },
     {
       "id": "rss-cb1db0d5c74b6e9eeb890e2e",
@@ -13211,7 +15331,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "支持泰国下一代人工智能创业公司",
+        "summary": "开通AI和泰国MHESI推出了8周的加速器,帮助10家健康,健康和教育初创公司将人工智能原型转化为可靠的产品.（OpenAI）",
+        "sourceHash": "81d308c6c847ce93e39f630244a7d1b3d57b1991d70681a125bf0fabb3d503d7",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:24+08:00"
+      }
     },
     {
       "id": "20260827-model-hardware-standard",
@@ -13328,7 +15456,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "全球首个双盲人工智能评估的试点",
+        "summary": "全球首个双盲人工智能评估的试点",
+        "sourceHash": "125fb79cb5ed0dd92e10094755cc332551d341ebe4a2ee8571d22281147daeaa",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:27+08:00"
+      }
     },
     {
       "id": "rss-737331cbffc8a092b5afd218",
@@ -13347,7 +15483,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini3.5 转录的智能转录",
+        "summary": "现在你可以用Gemini3.5转录来获得更智能的语音到文字转录.",
+        "sourceHash": "62d01801056cb09ad456d6a43008134fcafe186097413393c9494eb754e43c83",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:29+08:00"
+      }
     },
     {
       "id": "rss-5c8d75ef9c12c05961137bb4",
@@ -13366,7 +15510,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "更好的答案,更广泛的思维:学生从ChatGPT和批判性思维训练中获益",
+        "summary": "一项对1000多名学生进行的随机研究检查了ChatGPT,批判性思维,原创性和学生在现实世界大学任务上的表现.",
+        "sourceHash": "a46951e8bda4631cfb01a28b3ade69cb79ad2271b55eac663dbdb5fdfe66b9c0",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:27+08:00"
+      }
     },
     {
       "id": "rss-fe23f369e01db08d4a047717",
@@ -13385,7 +15537,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "扩大OpenAI ⁇ 在巴西的存在",
+        "summary": "开通AI正在扩大其在巴西的存在,深化与开发者,企业和社区的接触,（OpenAI）",
+        "sourceHash": "70fca0b7046718f44ad358838939c1f0368612df3eebc4d0964a68f5b2b53fdb",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:29+08:00"
+      }
     },
     {
       "id": "rss-17177c100c9150295f9a783a",
@@ -13404,7 +15564,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "训练和细节调整多向量嵌入模型与句子转换器",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "4946284c03a76d01df97547d121db97879b1841cfe543655b66b7d5016e87d7f",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:33+08:00"
+      }
     },
     {
       "id": "rss-fa2791fbc9af008fbec5e3ce",
@@ -13423,7 +15591,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "带给更多美国学校地区的教师聊天GPT（ChatGPT）",
+        "summary": "对于教师的ChatGPT正在扩展到55个美国学校系统,为超过10万名教师和工作人员提供安全的AI工具,训练和支持.",
+        "sourceHash": "299e2165f4a1ed0811d0522f7eca4e9017778bafca2cbe54ce766e5a16c8e1c3",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:29+08:00"
+      }
     },
     {
       "id": "rss-832a12c8f33a104e2b49b2d1",
@@ -13442,7 +15618,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "学习永远不会停止:人工智能如何使学习持续",
+        "summary": "开放AI ⁇ 的新报告探讨了学生和教育人员如何使用ChatGPT使学习更加连续,（OpenAI）",
+        "sourceHash": "8148af3b693796ef3e8ee457356ddc4d6b1144b6c33b0a64d61cce20a04185df",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:29+08:00"
+      }
     },
     {
       "id": "rss-34e62ff4c7cf4defda5bd774",
@@ -13461,7 +15645,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "拥抱面孔事件和未来的道路（Hugging Face）",
+        "summary": "开通AI分享了\"拥抱面孔\"安全事件的发现以及我们正在采取的步骤,（Hugging Face, OpenAI）",
+        "sourceHash": "ffa787f4a03c728edc907d25af341f043ec350d73424c324f01c0df2b95b2d57",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:33+08:00"
+      }
     },
     {
       "id": "rss-76c95cd852987031f9d74cac",
@@ -13480,7 +15672,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "爱情节是如何让每个人都有Codex的建设者",
+        "summary": "了解Loveholidays如何使用OpenAI Codex使软件开发在整个业务中可访问,帮助团队更快地将想法变成产品.",
+        "sourceHash": "4d4b05a623497c19f35bfa3849da087e4cc5d07d1e02f88f1bd684339db5c297",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:33+08:00"
+      }
     },
     {
       "id": "rss-d21068479952e40383665c65",
@@ -13499,7 +15699,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "⁇ 石4.2法学:它们是如何构建的",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "00c1a5f309dd6355d8b8f8bfa253d39e499d3ae45f7fe82b323ebefe36bdd6d2",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:33+08:00"
+      }
     },
     {
       "id": "rss-f1c76f23a788b6884a2877cd",
@@ -13518,7 +15726,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "量化意识治愈:一个压缩的4位模型,其性能超过了原始的完全精确性",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "064158938a2528ace8d48afd762a527838f16577ec2cf83035c5903c69be1bff",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:36+08:00"
+      }
     },
     {
       "id": "rss-9b54a38fa1b1a3f1fc1fd60d",
@@ -13537,7 +15753,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "导线,运行,部署:人工智能在 Gradio 的工作流程",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "793ad4b1dc06c15b7974d38b4a31b4880f081470bbae21f59cf137cf81a8cac8",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:36+08:00"
+      }
     },
     {
       "id": "rss-51cfe3db04ed0bd3efb5e0e3",
@@ -13556,7 +15780,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "充足的智能背后的全堆",
+        "summary": "开放AI首席财务官Sarah Friar解释了如何在芯片,计算,模型和产品中取得进展,以更大的规模和更低成本提供更有用的智能.（OpenAI）",
+        "sourceHash": "be850180eb1fde1064f03b6cf58ab2c0243c8615aee86f2ed4a6f6e89c602e09",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:36+08:00"
+      }
     },
     {
       "id": "rss-b9406ae170bd91336ab3bb25",
@@ -13575,7 +15807,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "贾拉佩诺 ⁇ 的第一项结果显示人工智能推断的速度和效率是行业领先的",
+        "summary": "贾拉佩诺是一个来自OpenAI的定制推理芯片,它为现代模型提供更快,更节能的AI推理,",
+        "sourceHash": "a1a4e1cf723714c370226af4c58c4677c9051c069f61f7e5f450f3d28bfe9bdc",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:36+08:00"
+      }
     },
     {
       "id": "rss-62003111f3b592c56acd9673",
@@ -13594,7 +15834,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "破坏俄罗斯的新秘密影响活动",
+        "summary": "OpenAI禁止使用人工智能推广一个假的以色列智库和赞扬俄罗斯和批评西方的\"主权指数\".",
+        "sourceHash": "211c025368685e56c008c41f1d90e1ced4a274eddd3bcfb658639d90d865597d",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:39+08:00"
+      }
     },
     {
       "id": "rss-33eae878317d27dcc0386f35",
@@ -13613,7 +15861,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "引入ChatGPT工作和Codex的管理器插件",
+        "summary": "使用 ChatGPT 工作和Codex 的管理器插件来分析工作空间的使用,管理成员和权限,调整限制,并执行管理器请求.",
+        "sourceHash": "bf2e08b9d6a1c20a6969538e5e6e856f3be74b2f0b2da588918d80eebc32b352",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:39+08:00"
+      }
     },
     {
       "id": "rss-abd52c9f1dde403ea312fe1d",
@@ -13632,7 +15888,15 @@
       ],
       "collectedAt": "2026-10-31T14:51:16+08:00",
       "checkedAt": "2026-10-31T14:51:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在基罗的GPT‐5.6中提高开发商的价格效率",
+        "summary": "目前,GPT‐5.6已在Kiro中提供,帮助开发人员计划,构建,审查和测试更好的价格性能软件.",
+        "sourceHash": "6c09647b946d28bf54565d287456df3931d26be6340d8b2423d8e563e8001289",
+        "engine": "nllb-200-distilled-600M-int8",
+        "revision": "nllb-302d78f0-news-v2",
+        "translatedAt": "2026-11-23T14:36:39+08:00"
+      }
     }
   ],
   "status": {
@@ -13704,15 +15968,13 @@
     "hosting": "github-pages",
     "collectionMode": "scheduled-workflow",
     "translation": {
-      "engine": "google-translate-web",
-      "translated": 88,
-      "pending": 283,
+      "engine": "nllb-200-distilled-600M-int8",
+      "translated": 371,
+      "pending": 0,
       "total": 371,
       "scope": "title-and-feed-summary",
-      "doneThisRun": 4,
-      "failedThisRun": 4,
-      "checkedAt": "2026-11-23T14:27:33+08:00",
-      "state": "partial"
+      "checkedAt": "2026-11-23T14:38:46+08:00",
+      "state": "ready"
     }
   }
 }

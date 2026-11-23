@@ -27,11 +27,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements-translation.txt
       - name: 验证备份结构与安全边界
         run: python -m unittest discover -s tests -v
       - name: 采集公开新闻源并保留结果
         id: collect
         run: python scripts/collect.py
+      - name: 缓存离线中文翻译包
+        uses: actions/cache@v4
+        with:
+          path: work/nllb-ct2
+          key: nllb-302d78f0-int8-v1
+      - name: 准备离线翻译运行库
+        continue-on-error: true
+        run: python -m pip install -r scripts/requirements-translation.txt
+      - name: 验证离线模型实际运行
+        if: github.event_name == 'push'
+        run: python scripts/check_translation_model.py
       - name: 补译新旧外文标题与摘要
         run: python scripts/translation.py --seconds 600
       - name: 保存新的内容与来源状态

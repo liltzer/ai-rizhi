@@ -1,0 +1,25 @@
+{
+  "model": "facebook/nllb-200-distilled-600M",
+  "convertedRepository": "JustFrederik/nllb-200-distilled-600M-ct2-int8",
+  "revision": "302d78f00e6fdb50a1064059df7c392b735e9d05",
+  "license": "CC-BY-NC-4.0",
+  "source": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+  "files": [
+    {
+      "name": "config.json",
+      "sha256": "0c2f6fa2057c7264d052fb4a62ba3476eeae70487acddfa8e779a53a00cbf44c"
+    },
+    {
+      "name": "shared_vocabulary.txt",
+      "sha256": "a132a83330f45514c2476eb81d1d69b3c41762264d16ce0a7ea982e5d6c728e5"
+    },
+    {
+      "name": "sentencepiece.bpe.model",
+      "sha256": "14bb8dfb35c0ffdea7bc01e56cea38b9e3d5efcdcb9c251d6b40538e1aab555a"
+    },
+    {
+      "name": "model.bin",
+      "sha256": "ed1beaf75134de7505315a5223162f56acff397eff6b50638a500d3936fe707b"
+    }
+  ]
+}

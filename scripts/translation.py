@@ -4,8 +4,9 @@ import argparse, hashlib, json, re, time, urllib.parse, urllib.request
 from pathlib import Path
 from core import stamp
 
-MODEL = 'google-translate-web'
-REVISION = 'zh-CN-news-v1'
+MODEL = 'nllb-200-distilled-600M-int8'
+REVISION = 'nllb-302d78f0-news-v2'
+VALID_REVISIONS = {REVISION, 'zh-CN-news-v1'}
 FIELDS = ('title', 'summary')
 
 def needs_chinese(text):
@@ -19,7 +20,7 @@ def source_hash(article):
 
 def translated(article):
     value = article.get('translation', {})
-    return value.get('sourceHash') == source_hash(article) and value.get('revision') == REVISION and all(
+    return value.get('sourceHash') == source_hash(article) and value.get('revision') in VALID_REVISIONS and all(
         isinstance(value.get(k), str) and value[k].strip() and not needs_chinese(value[k])
         for k in FIELDS if needs_chinese(article.get(k)))
 
@@ -30,15 +31,44 @@ def translation_status(articles):
 
 def terminology(source, text):
     # Context-specific, deterministic name/term corrections, no invented facts.
-    mappings = [('Codex', ['法典']), ('Gemini', ['双子座','双子星']), ('ChatGPT', ['查特格普特','查特格PT']), ('MoE', ['教育部']), ('Genie', ['精灵']), ('Kling', ['克林']), ('Daybreak Red', ['黎明红']), ('Daybreak Blue', ['黎明蓝'])]
+    mappings = [('Codex', ['法典','古典']), ('Gemini', ['双子座','双子星','双胞胎']), ('ChatGPT', ['查特格普特','查特格PT']), ('MoE', ['教育部']), ('Genie', ['精灵']), ('Kling', ['克林']), ('Daybreak Red', ['黎明红']), ('Daybreak Blue', ['黎明蓝'])]
     for name, alternatives in mappings:
         if re.search(r'\b'+name+r'\b',source,re.I):
             for wrong in alternatives:text=text.replace(wrong,'混合专家（MoE）' if name=='MoE' else name)
-    if re.search(r'\bharness(?:es)?\b',source,re.I):text=text.replace('线束','运行框架')
+    if re.search(r'\bharness(?:es)?\b',source,re.I):
+        for wrong in ['线束','马具','⁇ 带','⁇带']:text=text.replace(wrong,'运行框架')
+    if re.search(r'\bTransformers?\b',source):text=text.replace('变压器','Transformer')
+    if re.search(r'\bmodels?\b',source,re.I) and not re.search(r'role model',source,re.I):text=text.replace('车型','模型').replace('模特','模型')
     if re.search(r'\btrain(?:ing)?\b',source,re.I):text=text.replace('培训','训练')
     if re.search(r'\bFLOPs?\b',source):text=text.replace('FLOP 所说的','理论计算量预估').replace('FLOPs 所说的','理论计算量预估')
+    if 'Flash' in source:text=text.replace('闪存','Flash')
     if source.strip().lower()=='perplexity and intelligence':return '困惑度与智能'
+    missing=[name for name in ['Codex','ChatGPT','Gemini','Claude','DeepSeek','Qwen','Llama','Hugging Face','OpenAI','Genie','Kling','Gemma'] if re.search(r'\b'+name+r'\b',source,re.I) and name.lower() not in text.lower()]
+    if missing:text+='（'+', '.join(missing)+'）'
     return text
+
+def sentences(text):
+    return [part.strip() for part in re.split(r'(?<=[.!?])\s+(?=[A-Z])',text.strip()) if part.strip()]
+
+class LocalTranslator:
+    """Pinned NLLB model, executed on the background runner's CPU."""
+    def __init__(self):
+        import ctranslate2, sentencepiece
+        from prepare_translation import prepare
+        directory=prepare()
+        self.tokenizer=sentencepiece.SentencePieceProcessor(model_file=str(directory/'sentencepiece.bpe.model'))
+        self.model=ctranslate2.Translator(str(directory),device='cpu',compute_type='int8',intra_threads=2,inter_threads=1)
+
+    def __call__(self,texts):
+        groups=[sentences(text) for text in texts]
+        flat=[part for group in groups for part in group]
+        pieces=[['eng_Latn']+self.tokenizer.encode(text,out_type=str)+['</s>'] for text in flat]
+        results=self.model.translate_batch(pieces,target_prefix=[['zho_Hans']]*len(flat),beam_size=4,max_decoding_length=384,max_input_length=512)
+        output=[self.tokenizer.decode([token for token in result.hypotheses[0] if token not in ('zho_Hans','</s>')]) for result in results]
+        joined=[];offset=0
+        for source,group in zip(texts,groups):
+            joined.append(terminology(source,' '.join(output[offset:offset+len(group)])));offset+=len(group)
+        return joined
 
 class WebTranslator:
     """Public web translation, not the paid Cloud Translation API or an SLA.
@@ -108,14 +138,14 @@ def translate_articles(articles, translator, max_articles=500, seconds=600, chec
     return {**translation_status(articles), 'doneThisRun':done, 'failedThisRun':failed, 'checkedAt':stamp()}
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--library',default=str(Path(__file__).resolve().parents[1]/'site/library.json'));parser.add_argument('--limit',type=int,default=500);parser.add_argument('--seconds',type=int,default=600)
+    parser=argparse.ArgumentParser();parser.add_argument('--library',default=str(Path(__file__).resolve().parents[1]/'site/library.json'));parser.add_argument('--limit',type=int,default=500);parser.add_argument('--seconds',type=int,default=600);parser.add_argument('--engine',choices=['local','web'],default='local')
     args=parser.parse_args();path=Path(args.library);data=json.loads(path.read_text());articles=data['articles']
     def save_progress():
         data.setdefault('status',{})['translation']={**translation_status(articles),'state':'partial','checkedAt':stamp()}
         temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(path)
     try:
         report=translation_status(articles)
-        if report['pending']:report=translate_articles(articles,WebTranslator(),args.limit,args.seconds,checkpoint=save_progress)
+        if report['pending']:report=translate_articles(articles,(LocalTranslator() if args.engine=='local' else WebTranslator()),args.limit,args.seconds,checkpoint=save_progress)
         else:report.update(doneThisRun=0,failedThisRun=0,checkedAt=stamp())
         report['state']='ready' if not report['pending'] else 'partial'
     except Exception as exc:
