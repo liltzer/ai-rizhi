@@ -50,6 +50,8 @@ jobs:
       - name: 后台分批整理新旧外文内容
         if: github.event_name != 'push'
         run: python scripts/translation.py --limit 24 --seconds 600
+      - name: 免费模型补齐官方模型卡中文说明
+        run: python scripts/enrich_resources.py --limit 8 --seconds 240
       - name: 保存新的内容与来源状态
         run: |
           git config user.name 'github-actions[bot]'

@@ -332,5 +332,173 @@
       "requirements": "主项目示例面向多卡 GPU 环境；各变体所需硬件和依赖要逐一核对，不能当作普通电脑的一键工具。",
       "reference": "https://github.com/Wan-Video/Wan-Animate-2"
     }
-  }
+  },
+  "hfDetails": true,
+  "hfSpaces": [
+    {
+      "repo": "Wan-AI/Wan2.2-S2V",
+      "name": "Wan2.2-S2V · 图片与音频驱动视频",
+      "category": "视频与动画",
+      "summary": "上传参考图和音频，生成随音频驱动的人物视频。该 Space 使用蒸馏版，页面另提供完整模型入口。",
+      "fit": "想先体验声音驱动视频、再决定是否本地部署的创作者。",
+      "start": "准备参考图片和可使用的音频，在 Space 选择分辨率后生成。"
+    },
+    {
+      "repo": "Qwen/Qwen3-TTS",
+      "name": "Qwen3-TTS · 语音设计与合成",
+      "category": "音频与语音",
+      "summary": "提供音色设计、参考音频克隆和预设音色合成三个入口；可输入待朗读文字并设置语言或音色描述。",
+      "fit": "需要试配音、比较不同声音控制方式的创作者。",
+      "start": "打开 Space，先选音色设计、声音克隆或预设音色，再填文本并试听。"
+    },
+    {
+      "repo": "Qwen/Qwen-Image",
+      "name": "Qwen-Image · 在线文字生图",
+      "category": "图像与设计",
+      "summary": "在浏览器输入提示词生成图像，使用 Qwen-Image 模型。适合先试文字排版和画面描述，再考虑下载权重。",
+      "fit": "想先看模型生图效果、不想立即安装本地环境的人。",
+      "start": "打开 Space，填写提示词并检查页面当前可选参数，提交后等待生成。"
+    },
+    {
+      "repo": "Qwen/Qwen-Image-Edit",
+      "name": "Qwen-Image-Edit · 上传图片做编辑",
+      "category": "图像与设计",
+      "summary": "上传图片并用文字描述修改要求，在在线演示中体验 Qwen 图像编辑模型。它是交互演示，不是 ComfyUI JSON 文件。",
+      "fit": "希望先试参考图编辑的创作者。",
+      "start": "上传你有权使用的图片，填写具体修改要求，再提交生成。"
+    },
+    {
+      "repo": "Qwen/Qwen3-Coder-WebDev",
+      "name": "Qwen3-Coder · 网页编程体验",
+      "category": "编程与 Agent",
+      "summary": "通过网页演示试验 Qwen3-Coder 的网页开发能力，用文字提出页面需求并查看生成结果。",
+      "fit": "想先试模型写网页、再选择代码模型的用户。",
+      "start": "从简单页面需求开始，检查生成代码与预览；上线前仍需自行测试。"
+    },
+    {
+      "repo": "black-forest-labs/FLUX.1-schnell",
+      "name": "FLUX.1-schnell · 在线快速生图",
+      "category": "图像与设计",
+      "summary": "FLUX.1-schnell 的官方在线演示，输入提示词即可试生成图像，无需先把模型下载到本地。",
+      "fit": "想先测试提示词和模型画风的人。",
+      "start": "打开 Space，填写提示词，按页面当前设置生成图片。"
+    },
+    {
+      "repo": "black-forest-labs/FLUX.1-Kontext-Dev",
+      "name": "FLUX.1-Kontext · 图片文字编辑",
+      "category": "图像与设计",
+      "summary": "上传参考图片，使用文字指令进行图像编辑。在线演示的代码许可与底层模型许可分别计算。",
+      "fit": "需要测试图像修改指令的创作者。",
+      "start": "上传参考图，具体描述希望改变的内容，在 Space 中生成并比较。"
+    },
+    {
+      "repo": "Lightricks/LTX-2.5",
+      "name": "LTX-2.5 · 在线视频体验",
+      "category": "视频与动画",
+      "summary": "Lightricks 的 LTX-2.5 在线演示，使用蒸馏的两阶段流程试验视频生成，配套模型为 LTX-2.5-Diffusers。",
+      "fit": "想先试 LTX 视频流程而不立即部署整套模型的创作者。",
+      "start": "打开 Space 查看当前输入项与示例，再提交自己的提示词或素材。"
+    }
+  ],
+  "hfWorkflows": [
+    {
+      "repo": "Pinkstack/LiliPixel-V1-190M",
+      "path": "comfyui-workflow/LiliPixel_V1.json",
+      "name": "LiliPixel · 像素精灵生图工作流",
+      "summary": "作者随模型发布的 ComfyUI 节点图，生成 16×16、32×32 或 64×64 像素图。小尺寸支持透明背景；64×64 不用于透明背景。",
+      "fit": "制作像素图标、游戏精灵，并希望复用作者节点连接的用户。",
+      "start": "下载 JSON，在 ComfyUI 导入；按同仓库说明安装 ComfyUI_LiliPixel.py，配齐模型后再运行。",
+      "requirements": "需要 ComfyUI、自定义 LiliPixel 节点和模型权重；文本编码器首次加载需要联网。保存图像节点默认静音，需自行启用。"
+    },
+    {
+      "repo": "lodestones/Kromoss",
+      "path": "kromoss_simple_workflow.json",
+      "name": "Kromoss · ComfyUI 图像生成流程",
+      "summary": "模型作者提供的 ComfyUI 示例节点图，配套 Kromoss 图像模型，方便检查加载模型、文本编码、采样与输出的完整连线。",
+      "fit": "想用作者示例开始测试 Kromoss，而不从空画布连节点的人。",
+      "start": "下载 JSON 并导入 ComfyUI，核对节点所用权重文件与作者给出的目录结构，再调整提示词。",
+      "requirements": "需要 Kromoss 权重、配套 Qwen3.5-9B 文本编码器与 VAE；轻量 LoRA 是可选的不同采样方案，不能把 JSON 本身当作模型。"
+    },
+    {
+      "repo": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
+      "path": "minimax_h3_gemma4_pe_fl2va.json",
+      "name": "H3 提示词增强 · 首尾帧流程",
+      "summary": "作者提供的 ComfyUI 首尾帧提示增强流程，将用户指令和任务上下文组织为 H3 的音视频描述；提示增强模型本身不生成视频。",
+      "fit": "已经使用 MiniMax-H3、希望把提示词增强步骤接进节点流程的创作者。",
+      "start": "下载 JSON 并导入 ComfyUI，选择与首尾帧任务对应的流程，按作者说明配置 PE 权重与配套模型。",
+      "requirements": "需要对应 Gemma4 PE 模型及工作流节点。标准与量化权重需匹配加载器；若后续生成视频，还需完整 H3 模型。"
+    },
+    {
+      "repo": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
+      "path": "minimax_h3_gemma4_pe_ref2va.json",
+      "name": "H3 提示词增强 · 多参考流程",
+      "summary": "作者提供的 ComfyUI 多参考提示增强流程，将用户指令和任务上下文组织为 H3 的音视频描述；提示增强模型本身不生成视频。",
+      "fit": "已经使用 MiniMax-H3、希望把提示词增强步骤接进节点流程的创作者。",
+      "start": "下载 JSON 并导入 ComfyUI，选择与多参考任务对应的流程，按作者说明配置 PE 权重与配套模型。",
+      "requirements": "需要对应 Gemma4 PE 模型及工作流节点。标准与量化权重需匹配加载器；若后续生成视频，还需完整 H3 模型。"
+    },
+    {
+      "repo": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
+      "path": "moss_sft_4step_lora_t2i_local.json",
+      "name": "MOSS 4 步 LoRA · 本地文字生图流程",
+      "summary": "作者随蒸馏 LoRA 提供的本地 ComfyUI 文字生图节点图，配套 MOSS-Image-SFT 基础模型与指定采样设置。",
+      "fit": "想使用已有节点图测试 MOSS 4 步 LoRA 的 ComfyUI 用户。",
+      "start": "下载并导入 JSON，核对基础模型、LoRA 和所有缺失节点，再按作者示例设置采样参数。",
+      "requirements": "JSON 不含模型。需要 MOSS-Image-SFT 及对应 LoRA、编码器和节点；导入后先核对节点与模型路径。"
+    },
+    {
+      "repo": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
+      "path": "moss_sft_4step_lora_edit_i2i_local.json",
+      "name": "MOSS 4 步 LoRA · 本地图像编辑流程",
+      "summary": "作者随蒸馏 LoRA 提供的本地 ComfyUI 图像编辑节点图，配套 MOSS-Image-SFT 基础模型与指定采样设置。",
+      "fit": "想使用已有节点图测试 MOSS 4 步 LoRA 的 ComfyUI 用户。",
+      "start": "下载并导入 JSON，核对基础模型、LoRA 和所有缺失节点，再按作者示例设置采样参数。",
+      "requirements": "JSON 不含模型。需要 MOSS-Image-SFT 及对应 LoRA、编码器和节点；导入后先核对节点与模型路径。"
+    }
+  ],
+  "hfModels": [
+    {
+      "repo": "tencent/WeMM-Ecom-35B-A3B",
+      "curated": true
+    },
+    {
+      "repo": "tencent/WePocketModel1.0-2B",
+      "curated": true
+    },
+    {
+      "repo": "tencent/WePocketModel1.0-2B-GGUF",
+      "curated": true
+    },
+    {
+      "repo": "tencent/WePocketModel1.0-4B",
+      "curated": true
+    },
+    {
+      "repo": "tencent/WePocketModel1.0-4B-GGUF",
+      "curated": true
+    },
+    {
+      "repo": "tencent/Hy4-flash",
+      "curated": true
+    },
+    {
+      "repo": "tencent/Hy4-flash-FP8",
+      "curated": true
+    },
+    {
+      "repo": "Comfy-Org/Wan-2.2",
+      "curated": true
+    },
+    {
+      "repo": "Pinkstack/LiliPixel-V1-190M",
+      "curated": true
+    },
+    {
+      "repo": "lodestones/Kromoss",
+      "curated": true
+    }
+  ],
+  "excludedModels": [
+    "TenStrip/10Eros-Max"
+  ]
 }

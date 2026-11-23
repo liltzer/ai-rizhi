@@ -45,14 +45,14 @@ def hf_item(raw,config):
     card=raw.get('cardData') or {};license=card.get('license') or next((tag.split(':',1)[1] for tag in raw.get('tags',[]) if tag.startswith('license:')),None)
     if isinstance(license,list):license=', '.join(map(str,license))
     if re.search(r'uncensored|nsfw|porn|erotic',name,re.I):return None
-    pipeline=raw.get('pipeline_tag') or config.get('pipeline','unknown')
+    pipeline=raw.get('pipeline_tag') or card.get('pipeline_tag') or config.get('pipeline','unknown')
     tasks={'text-generation':('开源模型','文本生成与对话'),'image-text-to-text':('开源模型','图文理解与对话'),'text-to-image':('图像与设计','根据文字生成图像'),'image-to-image':('图像与设计','图像编辑与转换'),'text-to-video':('视频与动画','根据文字生成视频'),'image-to-video':('视频与动画','根据图像生成视频'),'text-to-speech':('音频与语音','将文字合成为语音'),'text-to-audio':('音频与语音','生成声音'),'automatic-speech-recognition':('音频与语音','将语音转成文字')}
-    tasks.update({'image-text-to-video':('视频与动画','图文生成视频'),'token-classification':('数据与训练','文本标注与信息抽取')})
+    tasks.update({'video-text-to-text':('视频与动画','视频内容理解与问答'),'image-text-to-video':('视频与动画','图文生成视频'),'token-classification':('数据与训练','文本标注与信息抽取')})
     notes=config.get('notes',{}).get(name,{})
     category,purpose=tasks.get(pipeline,(config.get('category','开源模型'),config.get('purpose','其他模型资料')))
     category=notes.get('category',category);purpose=notes.get('purpose',purpose)
     gated=bool(raw.get('gated'))
-    item={'id':identifier('hf',name.lower()),'kind':'model','title':name+' · '+purpose,'originalTitle':name,'summary':('发布者未标注标准任务类型，请查看模型卡确认用途。' if purpose=='其他模型资料' else purpose+'模型。可用版本、模型大小和适用条件见模型卡。'),'category':category,'platform':'Hugging Face','url':'https://huggingface.co/'+name,'sources':[{'title':name+' · 模型卡','url':'https://huggingface.co/'+name}],'license':license_label(license),'lastActivityAt':raw.get('lastModified') or raw.get('last_modified'),'createdAt':raw.get('createdAt'),'checkedAt':stamp(),'downloads':int(raw.get('downloads',0)),'likes':int(raw.get('likes',0)),'pipeline':raw.get('pipeline_tag') or config.get('pipeline','unknown'),'tags':[t for t in raw.get('tags',[]) if not t.startswith(('arxiv:','base_model:','license:','region:'))][:8],'gated':gated,'assetType':'需申请访问的模型' if gated else '公开模型权重','mode':'resource','curated':bool(config.get('author')),'fit':'想试验'+purpose+'能力的用户。','start':'先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。','requirements':'需申请访问。' if gated else '公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。','verification':'来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。'}
+    item={'id':identifier('hf',name.lower()),'kind':'model','resourceType':'weights','title':name+' · '+purpose,'originalTitle':name,'summary':('发布者未标注标准任务类型，请查看模型卡确认用途。' if purpose=='其他模型资料' else purpose+'模型。可用版本、模型大小和适用条件见模型卡。'),'category':category,'platform':'Hugging Face','url':'https://huggingface.co/'+name,'sources':[{'title':name+' · 模型卡','url':'https://huggingface.co/'+name}],'license':license_label(license),'lastActivityAt':raw.get('lastModified') or raw.get('last_modified'),'createdAt':raw.get('createdAt'),'checkedAt':stamp(),'downloads':int(raw.get('downloads',0)),'likes':int(raw.get('likes',0)),'pipeline':pipeline,'tags':[t for t in raw.get('tags',[]) if not t.startswith(('arxiv:','base_model:','license:','region:'))][:8],'gated':gated,'assetType':'需申请访问的模型' if gated else '公开模型权重','mode':'resource','curated':bool(config.get('author') or config.get('curated')),'fit':'想试验'+purpose+'能力的用户。','start':'先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。','requirements':'需申请访问。' if gated else '公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。','verification':'来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。'}
     for key in ['summary','fit','start','requirements','assetType']:
         if notes.get(key):item[key]=notes[key]
     if safe_url(notes.get('reference')):item['sources'].append({'title':'官方用途与使用说明','url':notes['reference']})
@@ -67,12 +67,15 @@ def collect_resources(config,previous=None,client=None):
         jobs.append(('search',query,'https://api.github.com/search/repositories?'+urllib.parse.urlencode({'q':query['query'],'sort':'updated','order':'desc','per_page':12})))
     for query in config.get('huggingface',[]):
         jobs.append(('hf',query,'https://huggingface.co/api/models?'+urllib.parse.urlencode({'filter':query['pipeline'],'sort':'trendingScore','direction':-1,'limit':query.get('limit',8),'full':'true','config':'true'})))
+    for model in config.get('hfModels',[]):
+        jobs.append(('hf-model',model,'https://huggingface.co/api/models/'+model['repo']))
     for query in config.get('hfAuthors',[]):
         jobs.append(('hf',query,'https://huggingface.co/api/models?'+urllib.parse.urlencode({'author':query['author'],'sort':'lastModified','direction':-1,'limit':query.get('limit',4),'full':'true'})))
     def run(job):
         kind,cfg,url=job;raw=client(url)
         if kind=='github':values=[github_item(raw,cfg)]
         elif kind=='search':values=[github_item(row,cfg) for row in raw.get('items',[])]
+        elif kind=='hf-model':values=[hf_item(raw,{**cfg,'notes':config.get('hfNotes',{})})]
         else:values=[hf_item(row,{**cfg,'notes':config.get('hfNotes',{})}) for row in raw]
         return [a for a in values if a]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
@@ -89,7 +92,7 @@ def collect_resources(config,previous=None,client=None):
                     items[item['id']]=item
                 health.append({'name':name,'ok':True,'count':len(values),'checkedAt':stamp()})
             except Exception as exc:health.append({'name':name,'ok':False,'error':type(exc).__name__,'checkedAt':stamp()})
-    valid=[a for a in items.values() if safe_url(a.get('url')) and not re.search(r'uncensored|nsfw|porn|erotic',a.get('originalTitle',''),re.I)]
+    valid=[a for a in items.values() if a.get('originalTitle') not in config.get('excludedModels',[]) and safe_url(a.get('url')) and not re.search(r'uncensored|nsfw|porn|erotic',a.get('originalTitle',''),re.I)]
     # Keep the directory bounded; old resources remain distinguishable from fresh news.
     valid=sorted(valid,key=lambda a:(bool(a.get('curated')),a.get('lastActivityAt') or ''),reverse=True)[:240]
     ok=sum(h['ok'] for h in health)
@@ -98,6 +101,8 @@ def collect_resources(config,previous=None,client=None):
 def main():
     target=ROOT/'site/discovery.json';previous=json.loads(target.read_text()) if target.exists() else {}
     config=json.loads((ROOT/'scripts/resource_sources.json').read_text());data=collect_resources(config,previous)
+    from hf_resources import extend_catalog
+    data=extend_catalog(data,config,previous,JSONClient())
     from translation import translation_status
     data['status']['translation']=translation_status([a for a in data['items'] if a.get('platform')=='GitHub' and not a.get('curated')])
     temp=target.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(target)
