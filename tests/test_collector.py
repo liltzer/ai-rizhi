@@ -10,6 +10,12 @@ class CollectorTests(unittest.TestCase):
   sources=[{'name':'Test','url':'https://example.org/rss'}];u=Updater(self.store,sources,FeedFetcher(self.feed));self.assertEqual(u.run()['added'],1);self.assertEqual(u.run()['added'],0)
   backup=self.store.export();new=Store(Path(self.tmp.name)/'new.sqlite3');new.import_backup(backup);self.assertEqual(len(new.articles()),1)
   success=self.store.get('lastSuccessfulAt');u.fetcher=FeedFetcher(lambda url:(_ for _ in ()).throw(TimeoutError()));self.assertEqual(u.run()['status'],'failed');self.assertEqual(self.store.get('lastSuccessfulAt'),success);self.assertEqual(len(self.store.articles()),1)
+ def test_latest_news_date_excludes_tool_builds(self):
+  import datetime as dt
+  yesterday=(now().date()-dt.timedelta(days=1)).isoformat();today=now().date().isoformat()
+  self.store.upsert({'id':'news','title':'新闻','summary':'新闻摘要','eventDate':yesterday,'sources':[{'url':'https://example.org/news'}]})
+  self.store.upsert({'id':'build','title':'b12345','summary':'fix','eventDate':today,'channel':'tool-update','sources':[{'url':'https://github.com/example/tool/releases/tag/b12345'}]})
+  status=Updater(self.store,[]).status();self.assertEqual(status['latestArticleDate'],yesterday);self.assertEqual(status['articles'],2)
  def test_private_state_excluded(self):
   self.store.set('admin',{'password':'test-not-real'});self.assertNotIn('admin',self.store.export())
  def test_future_unknown_unsafe_ignored(self):

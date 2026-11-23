@@ -32,7 +32,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "Ollama 更新",
@@ -42,7 +43,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "llama.cpp 更新",
@@ -52,7 +54,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "Transformers 更新",
@@ -62,7 +65,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "Diffusers 更新",
@@ -72,7 +76,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "n8n 更新",
@@ -82,7 +87,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "Flowise 更新",
@@ -92,7 +98,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "Dify 更新",
@@ -102,7 +109,8 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   },
   {
     "name": "WhisperX 更新",
@@ -112,6 +120,7 @@
     "tags": [
       "开源更新"
     ],
-    "stableOnly": true
+    "stableOnly": true,
+    "channel": "tool-update"
   }
 ]

@@ -21,20 +21,20 @@ const move=(x,y,node=header,type='mouse')=>node.dispatchEvent(new win.PointerEve
 const visible=selector=>[...trail.querySelectorAll(selector)].filter(n=>!n.hidden);
 const select=value=>{mode.value=value;mode.dispatchEvent(new win.Event('change',{bubbles:true}));};
 assert.equal(mode.value,'soft');assert.equal(trail.hidden,true);
-move(70,40);tick(16);assert.equal(trail.hidden,false,'works without canvas, including reduced-motion default');
-assert.match(visible('.trail-dot')[0].style.transform,/70px,40px/);
-assert.ok(Number(visible('.trail-dot')[0].style.opacity)>.8,'visible opacity');
-move(95,48);tick(16);assert.ok(parseFloat(visible('.trail-streak')[0].style.width)>20,'connected trail, not just a following glow');
+move(60,38);tick(16);move(70,40);tick(16);assert.equal(trail.hidden,false,'works without canvas, including reduced-motion default');
+const curve=trail.querySelector('path');assert.match(curve.getAttribute('d'),/70 40/);assert.ok(Number(curve.style.opacity)>.7,'visible curve opacity');assert.equal(trail.querySelectorAll('.trail-dot').length,0,'no bead particles');assert.ok(parseFloat(curve.getAttribute('stroke-width'))<=1.8,'fine line');
+move(95,48);tick(16);assert.match(curve.getAttribute('d'),/Q/,'smoothed curve, not segmented beads');
 assert.ok(parseInt(win.getComputedStyle(trail).zIndex)>parseInt(win.getComputedStyle(header).zIndex),'above header');
 assert.equal(win.getComputedStyle(trail).pointerEvents,'none','does not block controls');
 tick(200);assert.equal(trail.hidden,true,'short trail expires');assert.equal(frames.size,0,'idle does not keep animating');
-select('rich');move(200,100);tick(16);move(250,105);tick(16);tick(200);assert.equal(trail.hidden,false,'rich trail lingers');tick(400);assert.equal(trail.hidden,true);
+select('rich');move(200,100);tick(16);move(250,105);tick(16);tick(60);assert.equal(trail.hidden,false,'standard trail lingers briefly');tick(240);assert.equal(trail.hidden,true);
+const toggle=doc.querySelector('#trail-enabled');toggle.checked=false;toggle.dispatchEvent(new win.Event('change'));move(280,180);tick(16);assert.equal(trail.hidden,true);assert.equal(doc.documentElement.dataset.motion,'rich','trail can be disabled without turning off page effects');assert.equal(win.localStorage.getItem('rizhi-trail'),'off');toggle.checked=true;toggle.dispatchEvent(new win.Event('change'));
 select('off');move(300,200);tick(16);assert.equal(trail.hidden,true);assert.equal(frames.size,0);
 select('rich');move(300,200,header,'touch');tick(16);assert.equal(trail.hidden,true,'touch scrolling does not create a mouse trail');
 for(let i=0;i<100;i++){move(100+i*2,90);tick(12);}
-assert.ok(visible('.trail-dot').length<=24);assert.equal(trail.children.length,48,'fixed-size node pool');
+assert.equal(trail.querySelectorAll('path').length,1,'one bounded SVG path');assert.ok((curve.getAttribute('d').match(/ Q /g)||[]).length<=12,'bounded curve history');
 const dialog=doc.querySelector('#detail');dialog.setAttribute('open','');move(100,200,dialog);tick(16);assert.equal(trail.parentElement,dialog,'follows pointer into the modal top layer');
 dialog.removeAttribute('open');move(130,240,header);tick(16);assert.equal(trail.parentElement,doc.body);
 header.dispatchEvent(new win.PointerEvent('pointerout',{bubbles:true,relatedTarget:null}));assert.equal(trail.hidden,true);assert.equal(frames.size,0);
-console.log('PASS: canvas unavailable; reduced-motion/soft trail; continuous streaks; visible sizes/opacity; header/modal layering; rich/off; expiry/idle; touch excluded; bounded node pool.');
+console.log('PASS: canvas unavailable; reduced-motion/soft trail; short curved stroke; visible opacity; header/modal layering; rich/off; expiry/idle; touch excluded; bounded path history.');
 await win.happyDOM.abort();win.close();

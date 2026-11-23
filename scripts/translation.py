@@ -2,7 +2,7 @@
 from __future__ import annotations
 import argparse, datetime as dt, hashlib, json, re, time, urllib.parse, urllib.request
 from pathlib import Path
-from core import stamp
+from core import stamp,is_tool_update
 
 MODEL = 'Qwen3-4B-Q4_K_M'
 REVISION = 'qwen3-bc640142-natural-zh-v2'
@@ -26,9 +26,9 @@ def translated(article):
         for k in FIELDS if needs_chinese(article.get(k)))
 
 def translation_status(articles):
-    foreign = [a for a in articles if any(needs_chinese(a.get(k)) for k in FIELDS)]
+    foreign = [a for a in articles if not is_tool_update(a) and any(needs_chinese(a.get(k)) for k in FIELDS)]
     done = sum(translated(a) for a in foreign)
-    return {'engine': MODEL, 'translated': done, 'pending': len(foreign)-done, 'total': len(foreign), 'scope': 'title-and-feed-summary'}
+    return {'engine': MODEL, 'translated': done, 'pending': len(foreign)-done, 'total': len(foreign), 'scope': 'news-title-and-summary; developer-release-logs-excluded'}
 
 def terminology(source, text):
     # Context-specific, deterministic name/term corrections, no invented facts.
@@ -98,7 +98,7 @@ def translate_articles(articles, translator, max_articles=500, seconds=600, chec
     def eligible(a):
         review=a.get('translationReview',{})
         return review.get('sourceHash')!=source_hash(a) or review.get('retryAfter','')<=stamp()
-    backlog = sorted((a for a in articles if any(needs_chinese(a.get(k)) for k in FIELDS) and not translated(a) and eligible(a)), key=lambda a:(a.get('platform')=='GitHub',a.get('eventDate',''),a.get('publishedAt','')), reverse=True)
+    backlog = sorted((a for a in articles if not is_tool_update(a) and any(needs_chinese(a.get(k)) for k in FIELDS) and not translated(a) and eligible(a)), key=lambda a:(a.get('platform')!='GitHub',a.get('eventDate',''),a.get('publishedAt','')), reverse=True)
     batches=[backlog[offset:min(offset+4,max_articles)] for offset in range(0,min(len(backlog),max_articles),4)]
     while batches:
         if time.monotonic()-started > seconds: break

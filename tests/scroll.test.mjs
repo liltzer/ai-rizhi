@@ -1,0 +1,24 @@
+// DOM state checks, not a native scrolling or screenshot test.
+import { Window } from '../work/domqa/node_modules/happy-dom/lib/index.js';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const win=new Window({url:'https://rizhi.test/'}),doc=win.document;
+doc.write('<html data-motion="rich"><body><select id="motion-mode"></select><div id="articles"><article class="news-card">内容</article></div><dialog id="detail" open><div class="dialog-top">详情</div></dialog></body></html>');
+Object.defineProperty(doc.documentElement,'scrollHeight',{value:4000,configurable:true});Object.defineProperty(win,'innerHeight',{value:800,configurable:true});
+let callbacks=[],intersections,observed=[],scrollCalls=[];const registered=[];
+win.requestAnimationFrame=fn=>{callbacks.push(fn);return callbacks.length;};win.cancelAnimationFrame=()=>{};
+win.IntersectionObserver=class{constructor(fn){intersections=fn;}observe(n){observed.push(n);}unobserve(){}disconnect(){}};
+win.matchMedia=()=>({matches:false});win.scrollTo=o=>scrollCalls.push(o);
+const add=win.addEventListener.bind(win);win.addEventListener=(type,fn,options)=>{registered.push({type,options});add(type,fn,options);};
+win.eval(fs.readFileSync(new URL('../site/scroll.js',import.meta.url),'utf8'));
+const flush=()=>{const work=callbacks;callbacks=[];work.forEach(fn=>fn(100));};flush();
+Object.defineProperty(win,'scrollY',{value:1000,writable:true,configurable:true});win.dispatchEvent(new win.Event('scroll'));flush();
+assert.equal(doc.querySelector('#reading-percent').textContent,'阅读 31%');assert.equal(doc.querySelector('#scroll-tools').hidden,false);assert.match(doc.querySelector('#reading-progress span').style.transform,/0.3125/);assert.notEqual(doc.documentElement.style.getPropertyValue('--scroll-turn'),'0deg');
+assert.ok(registered.some(r=>r.type==='scroll'&&r.options.passive));assert.ok(!registered.some(r=>r.type==='wheel'),'never hijacks wheel events');
+intersections([{target:observed[0],isIntersecting:true}]);assert.ok(observed[0].classList.contains('scroll-arrive'));
+doc.querySelector('#back-top').click();assert.equal(scrollCalls[0].top,0);assert.equal(scrollCalls[0].behavior,'smooth');
+doc.documentElement.dataset.motion='off';doc.querySelector('#motion-mode').dispatchEvent(new win.Event('change'));flush();assert.equal(doc.documentElement.style.getPropertyValue('--scroll-turn'),'0deg');
+const dialog=doc.querySelector('#detail');Object.defineProperty(dialog,'scrollHeight',{value:1000});Object.defineProperty(dialog,'clientHeight',{value:400});dialog.scrollTop=300;dialog.dispatchEvent(new win.Event('scroll'));flush();assert.equal(dialog.style.getPropertyValue('--dialog-progress'),'0.5','modal reading progress');
+win.scrollY=0;win.dispatchEvent(new win.Event('scroll'));flush();assert.equal(doc.querySelector('#scroll-tools').hidden,true);
+console.log('PASS: reading progress; passive scrolling; no wheel interception; card entrance; back to top; reduced decoration; top reset.');
+await win.happyDOM.abort();win.close();

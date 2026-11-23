@@ -34,6 +34,9 @@ def category(text):
       ('行业观察',['funding','acquisition','regulation','融资','监管','行业观察'])]
     return next((name for name,words in rules if any(word in text for word in words)),'产品动态')
 
+def is_tool_update(article):
+    return article.get('channel')=='tool-update' or '开源更新' in (article.get('tags') or []) or any(re.match(r'https?://github\.com/[^/]+/[^/]+/releases(?:/|$)',s.get('url',''),re.I) for s in article.get('sources',[]))
+
 def feed_date(raw):
     try: date=email.utils.parsedate_to_datetime(raw)
     except (ValueError,TypeError):
@@ -123,6 +126,7 @@ class FeedFetcher:
         results=[]
         for item in entries[:1500]:
             title=item.findtext('title') or item.findtext(atom+'title') or ''
+            if source.get('channel')=='tool-update' and clean(title).lower() in ('stable','latest','beta','nightly','next','main','master'):continue
             if source.get('stableOnly') and re.search(r'(?:^|[.\-]|\d)(?:rc|alpha|beta|dev|preview|nightly)\d*\b',title,re.I):continue
             link=item.findtext('link')
             if not link:
@@ -133,7 +137,7 @@ class FeedFetcher:
             if not link or not clean(title) or not date or date>now()+dt.timedelta(minutes=5) or date.date().isoformat()<months_ago():continue
             rawsummary=item.findtext('description') or item.findtext(atom+'summary') or item.findtext(atom+'content') or ''
             summary=clean(rawsummary,650)
-            results.append({'id':'rss-'+hashlib.sha256(canonical(link).encode()).hexdigest()[:24],'title':clean(title,180),'category':source.get('category') or category(title+' '+summary),'company':source['name'],'eventDate':date.date().isoformat(),'publishedAt':date.isoformat(),'summary':summary or '该来源未提供摘要，请打开原文阅读。','mode':'source','sources':[{'title':source['name']+' · 原文','url':link}],'collectedAt':stamp(),'checkedAt':stamp(),'sourceType':source.get('type','media'),'tags':source.get('tags',[])})
+            results.append({'id':'rss-'+hashlib.sha256(canonical(link).encode()).hexdigest()[:24],'title':clean(title,180),'category':source.get('category') or category(title+' '+summary),'company':source['name'],'eventDate':date.date().isoformat(),'publishedAt':date.isoformat(),'summary':summary or '该来源未提供摘要，请打开原文阅读。','mode':'source','sources':[{'title':source['name']+' · 原文','url':link}],'collectedAt':stamp(),'checkedAt':stamp(),'sourceType':source.get('type','media'),'channel':source.get('channel','news'),'tags':source.get('tags',[])})
         return sorted(results,key=lambda a:a['publishedAt'],reverse=True)
 
 class Updater:
@@ -142,7 +146,7 @@ class Updater:
     def status(self):
         last=self.store.get('lastRun',{})
         if last.get('status')=='running' and not self.lock.locked():last={**last,'status':'interrupted','message':'上次检查被中断，系统会重新检查。'}
-        articles=self.store.articles();latest=max((a['eventDate'] for a in articles),default=None)
+        articles=self.store.articles();latest=max((a['eventDate'] for a in articles if not is_tool_update(a)),default=None)
         checked=self.store.get('lastCheckedAt');successful=self.store.get('lastSuccessfulAt')
         return {'running':self.lock.locked(),'autoUpdateEnabled':os.environ.get('AUTO_UPDATE','1')=='1','lastRun':last,'lastCheckedAt':checked,'lastSuccessfulAt':successful,'latestArticleDate':latest,'articles':len(articles),'sources':self.store.get('sourceHealth',[]),'lastContentAt':self.store.get('lastContentAt'),'intervalMinutes':int(os.environ.get('CHECK_MINUTES','15')),'explanationsEnabled':bool(self.enricher),'stale':not successful or (now()-dt.datetime.fromisoformat(successful)).total_seconds()>3600}
     def trigger(self,force=False):

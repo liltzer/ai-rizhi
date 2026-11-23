@@ -32,11 +32,19 @@ body{background-image:radial-gradient(ellipse at 15% 0,color-mix(in srgb,var(--a
 .art-core{overflow:hidden}
 @media(max-width:760px){.theme-menu{max-height:calc(100dvh - 100px);overflow:auto}.categories button{padding:7px 10px}.interest-chip{padding:7px 11px}.hero-copy>p{font-size:16px}.resource-options label{font-size:14px}}
 
-/* Pointer-controlled ribbon above page chrome; no dependency on canvas or CSS animations. */
+/* A short single-colour curve with a fading tail. */
 #pointer-trail{position:fixed;inset:0;z-index:2147483000;pointer-events:none!important;overflow:hidden;contain:strict}
-#pointer-trail>span{position:absolute;top:0;left:0;pointer-events:none!important;will-change:transform,opacity}
-.trail-dot{border-radius:50%;background:var(--fx-accent);box-shadow:0 0 7px var(--fx-accent)}
-.trail-dot.trail-head{background:var(--surface);border:2px solid var(--fx-accent);box-shadow:0 0 4px var(--fx-accent),0 0 10px var(--fx-accent)}
-.trail-streak{border-radius:999px;transform-origin:left center;background:linear-gradient(90deg,var(--fx-secondary),var(--fx-accent));box-shadow:0 0 5px var(--fx-accent)}
-:root[data-motion=soft] #pointer-trail>span{box-shadow:none}
+#pointer-trail svg{display:block;width:100%;height:100%;overflow:visible;pointer-events:none}
+#pointer-trail path{pointer-events:none;filter:none}
 :root[data-motion=off] #pointer-trail{display:none!important}
+#reading-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:30;pointer-events:none;background:transparent}#reading-progress>span{display:block;width:100%;height:100%;transform:scaleX(0);transform-origin:left;background:var(--accent)}
+#scroll-tools{position:fixed;right:24px;bottom:20px;display:flex;gap:12px;align-items:center;padding:7px 8px 7px 14px;border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow);border-radius:14px;z-index:20;font-size:13px;color:var(--muted)}#back-top{font-size:14px;padding:6px 10px}
+.art-core{transform:translate(var(--orb-x,0px),var(--orb-y,0px)) rotate(calc(-7deg + var(--scroll-turn,0deg)))}
+.scroll-arrive{animation:card-arrive .42s ease-out}@keyframes card-arrive{from{opacity:.35;translate:0 14px}to{opacity:1;translate:0 0}}
+.reading-context{color:var(--muted);font-size:14px;margin:-8px 0 22px}.tool-group-note{font-size:13px;color:var(--muted);margin:0 0 18px}.technical-details{margin:20px 0;padding:16px;border:1px solid var(--line);border-radius:12px}.technical-details summary{cursor:pointer;font-weight:600;font-size:15px}.technical-details p{font-size:16px;line-height:1.9}.version-row{display:block;width:100%;text-align:left;margin-top:8px;font-size:14px;overflow-wrap:anywhere}.archive-tool-setting{display:flex;gap:7px;align-items:center;font-size:14px!important}.archive-tool-setting input{width:auto!important}
+@media(max-width:760px){#scroll-tools{bottom:12px;right:12px;gap:8px;padding:5px 6px 5px 10px}.tabs{gap:10px}.tabs button{font-size:14px}.technical-details{padding:12px}}
+
+.card-takeaway{font-size:14px;line-height:1.8;color:var(--ink);background:var(--surface-soft);border-radius:10px;padding:10px 12px;margin:0 0 14px}
+.dialog-top::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;transform:scaleX(var(--dialog-progress,0));transform-origin:left;background:var(--accent);pointer-events:none}
+
+.trail-control{display:flex;align-items:center;gap:8px;min-height:38px;font-size:14px;color:var(--muted);margin-top:8px}.trail-control input,.archive-tool-setting input{accent-color:var(--accent)}

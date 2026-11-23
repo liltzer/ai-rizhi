@@ -5,6 +5,17 @@ from translation import needs_chinese,source_hash,translated,translate_articles,
 
 class TranslationTests(unittest.TestCase):
     def article(self):return {'id':'one','title':'A new model for coding','summary':'The model can write code.','eventDate':'2026-11-23'}
+    def test_news_precedes_catalog_and_release_logs_are_not_translated(self):
+        news=self.article();resource={**self.article(),'id':'repo','platform':'GitHub','eventDate':'2026-11-24'}
+        release={**self.article(),'id':'release','tags':['开源更新'],'sources':[{'url':'https://github.com/example/tool/releases/tag/v1'}]}
+        calls=[]
+        class Editor:
+            def edit(self,rows):
+                calls.extend(a['id'] for a in rows)
+                return [{'id':a['id'],'title':'中文新闻标题','summary':'中文新闻摘要。','simple':'简单说明。'} for a in rows]
+        report=translate_articles([release,resource,news],Editor(),max_articles=1)
+        self.assertEqual(calls,['one']);self.assertNotIn('translation',release);self.assertEqual(report['total'],2)
+
     def test_translate_preserves_original_and_idempotent(self):
         a=self.article();original=dict(a)
         result=translate_articles([a],lambda texts:['用于编程的新模型','这款模型可以编写代码。'])
