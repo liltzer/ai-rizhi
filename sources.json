@@ -1,7 +1,117 @@
 [
-  {"name":"量子位","url":"https://www.qbitai.com/feed","type":"media"},
-  {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","type":"official"},
-  {"name":"OpenAI","url":"https://openai.com/news/rss.xml","type":"official"},
-  {"name":"Hugging Face","url":"https://huggingface.co/blog/feed.xml","type":"official"},
-  {"name":"Google AI","url":"https://blog.google/technology/ai/rss/","type":"official"}
+  {
+    "name": "量子位",
+    "url": "https://www.qbitai.com/feed",
+    "type": "media"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "type": "official"
+  },
+  {
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "official"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "type": "official"
+  },
+  {
+    "name": "Google AI",
+    "url": "https://blog.google/technology/ai/rss/",
+    "type": "official"
+  },
+  {
+    "name": "ComfyUI 更新",
+    "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
+    "category": "ComfyUI 工作流",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "Ollama 更新",
+    "url": "https://github.com/ollama/ollama/releases.atom",
+    "category": "本地部署",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "llama.cpp 更新",
+    "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+    "category": "本地部署",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "Transformers 更新",
+    "url": "https://github.com/huggingface/transformers/releases.atom",
+    "category": "开源模型",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "Diffusers 更新",
+    "url": "https://github.com/huggingface/diffusers/releases.atom",
+    "category": "图像与设计",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "n8n 更新",
+    "url": "https://github.com/n8n-io/n8n/releases.atom",
+    "category": "自动化工作流",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "Flowise 更新",
+    "url": "https://github.com/FlowiseAI/Flowise/releases.atom",
+    "category": "编程与 Agent",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "Dify 更新",
+    "url": "https://github.com/langgenius/dify/releases.atom",
+    "category": "自动化工作流",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  },
+  {
+    "name": "WhisperX 更新",
+    "url": "https://github.com/m-bain/whisperX/releases.atom",
+    "category": "音频与语音",
+    "type": "official",
+    "tags": [
+      "开源更新"
+    ],
+    "stableOnly": true
+  }
 ]

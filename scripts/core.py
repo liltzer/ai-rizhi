@@ -19,9 +19,20 @@ def canonical(value):
     return urllib.parse.urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path.rstrip('/') or '/',urllib.parse.urlencode([(k,v) for k,v in q if not k.startswith('utm_') and k not in ('fbclid','gclid')]),''))
 def category(text):
     text=text.lower()
-    for name,words in [('创作工具',['video','image','music','audio','视频','配音','音乐','图像','生图']),('编程与 Agent',['agent','code','coding','编程','智能体']),('模型进展',['model','模型','gemini','gpt','deepseek','claude'])]:
-        if any(w in text for w in words):return name
-    return '产品动态'
+    rules=[
+      ('ComfyUI 工作流',['comfyui','comfy ui','controlnet']),
+      ('自动化工作流',['n8n','dify','flowise','automation workflow','自动化工作流']),
+      ('本地部署',['ollama','llama.cpp','local inference','local deployment','本地部署']),
+      ('视频与动画',['video','animation','视频','动画']),
+      ('音频与语音',['audio','speech','music','voice','音频','语音','音乐','配音']),
+      ('图像与设计',['image','diffusion','图像','生图','图像编辑']),
+      ('数据与训练',['dataset','fine-tun','数据集','微调','post-training']),
+      ('编程与 Agent',['agent','code','coding','编程','智能体','codex']),
+      ('开源模型',['open-source model','open model','open-weight','开源模型','开放权重']),
+      ('论文与研究',['research paper','benchmark','论文','基准测试']),
+      ('模型进展',['model','模型','gemini','gpt','deepseek','claude','qwen']),
+      ('行业观察',['funding','acquisition','regulation','融资','监管','行业观察'])]
+    return next((name for name,words in rules if any(word in text for word in words)),'产品动态')
 
 def feed_date(raw):
     try: date=email.utils.parsedate_to_datetime(raw)
@@ -112,6 +123,7 @@ class FeedFetcher:
         results=[]
         for item in entries[:1500]:
             title=item.findtext('title') or item.findtext(atom+'title') or ''
+            if source.get('stableOnly') and re.search(r'(?:^|[.\-]|\d)(?:rc|alpha|beta|dev|preview|nightly)\d*\b',title,re.I):continue
             link=item.findtext('link')
             if not link:
                 links=item.findall(atom+'link');link=next((x.get('href') for x in links if x.get('rel','alternate')=='alternate'),'')
@@ -121,7 +133,7 @@ class FeedFetcher:
             if not link or not clean(title) or not date or date>now()+dt.timedelta(minutes=5) or date.date().isoformat()<months_ago():continue
             rawsummary=item.findtext('description') or item.findtext(atom+'summary') or item.findtext(atom+'content') or ''
             summary=clean(rawsummary,650)
-            results.append({'id':'rss-'+hashlib.sha256(canonical(link).encode()).hexdigest()[:24],'title':clean(title,180),'category':category(title+' '+summary),'company':source['name'],'eventDate':date.date().isoformat(),'publishedAt':date.isoformat(),'summary':summary or '该来源未提供摘要，请打开原文阅读。','mode':'source','sources':[{'title':source['name']+' · 原文','url':link}],'collectedAt':stamp(),'checkedAt':stamp(),'sourceType':source.get('type','media')})
+            results.append({'id':'rss-'+hashlib.sha256(canonical(link).encode()).hexdigest()[:24],'title':clean(title,180),'category':source.get('category') or category(title+' '+summary),'company':source['name'],'eventDate':date.date().isoformat(),'publishedAt':date.isoformat(),'summary':summary or '该来源未提供摘要，请打开原文阅读。','mode':'source','sources':[{'title':source['name']+' · 原文','url':link}],'collectedAt':stamp(),'checkedAt':stamp(),'sourceType':source.get('type','media'),'tags':source.get('tags',[])})
         return sorted(results,key=lambda a:a['publishedAt'],reverse=True)
 
 class Updater:

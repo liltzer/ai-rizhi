@@ -1,2 +1,2 @@
-ctranslate2==4.6.0
-sentencepiece==0.2.1
+# Python 3.12 standard library only.
+# Official Qwen GGUF and llama.cpp runtime are hash-verified by prepare_translation.py.

@@ -1,12 +1,12 @@
 """Cached Chinese translation of public feed text; original text is never overwritten."""
 from __future__ import annotations
-import argparse, hashlib, json, re, time, urllib.parse, urllib.request
+import argparse, datetime as dt, hashlib, json, re, time, urllib.parse, urllib.request
 from pathlib import Path
 from core import stamp
 
-MODEL = 'nllb-200-distilled-600M-int8'
-REVISION = 'nllb-302d78f0-news-v2'
-VALID_REVISIONS = {REVISION, 'zh-CN-news-v1'}
+MODEL = 'Qwen3-4B-Q4_K_M'
+REVISION = 'qwen3-bc640142-natural-zh-v2'
+VALID_REVISIONS = {REVISION}
 FIELDS = ('title', 'summary')
 
 def needs_chinese(text):
@@ -20,8 +20,8 @@ def source_hash(article):
 
 def translated(article):
     value = article.get('translation', {})
-    return value.get('sourceHash') == source_hash(article) and value.get('revision') in VALID_REVISIONS and all(
-        isinstance(value.get(k), str) and value[k].strip() and not needs_chinese(value[k])
+    return value.get('sourceHash') == source_hash(article) and value.get('revision') in VALID_REVISIONS and len(value.get('summary',''))<=320 and all(
+        isinstance(value.get(k), str) and len(re.findall(r'[\u3400-\u9fff]',value[k]))>=2
         for k in FIELDS if needs_chinese(article.get(k)))
 
 def translation_status(articles):
@@ -51,24 +51,11 @@ def sentences(text):
     return [part.strip() for part in re.split(r'(?<=[.!?])\s+(?=[A-Z])',text.strip()) if part.strip()]
 
 class LocalTranslator:
-    """Pinned NLLB model, executed on the background runner's CPU."""
     def __init__(self):
-        import ctranslate2, sentencepiece
-        from prepare_translation import prepare
-        directory=prepare()
-        self.tokenizer=sentencepiece.SentencePieceProcessor(model_file=str(directory/'sentencepiece.bpe.model'))
-        self.model=ctranslate2.Translator(str(directory),device='cpu',compute_type='int8',intra_threads=2,inter_threads=1)
-
-    def __call__(self,texts):
-        groups=[sentences(text) for text in texts]
-        flat=[part for group in groups for part in group]
-        pieces=[['eng_Latn']+self.tokenizer.encode(text,out_type=str)+['</s>'] for text in flat]
-        results=self.model.translate_batch(pieces,target_prefix=[['zho_Hans']]*len(flat),beam_size=4,max_decoding_length=384,max_input_length=512)
-        output=[self.tokenizer.decode([token for token in result.hypotheses[0] if token not in ('zho_Hans','</s>')]) for result in results]
-        joined=[];offset=0
-        for source,group in zip(texts,groups):
-            joined.append(terminology(source,' '.join(output[offset:offset+len(group)])));offset+=len(group)
-        return joined
+        from editor import QwenEditor
+        self.editor=QwenEditor()
+    def edit(self,articles):return self.editor.edit(articles)
+    def close(self):self.editor.close()
 
 class WebTranslator:
     """Public web translation, not the paid Cloud Translation API or an SLA.
@@ -107,30 +94,45 @@ class WebTranslator:
 
 def translate_articles(articles, translator, max_articles=500, seconds=600, checkpoint=None):
     started = time.monotonic(); done = 0; failed = 0; consecutive_failures = 0
-    backlog = sorted((a for a in articles if any(needs_chinese(a.get(k)) for k in FIELDS) and not translated(a)), key=lambda a:(a.get('eventDate',''),a.get('publishedAt','')), reverse=True)
-    for offset in range(0, min(len(backlog), max_articles), 4):
+    def eligible(a):
+        review=a.get('translationReview',{})
+        return review.get('sourceHash')!=source_hash(a) or review.get('retryAfter','')<=stamp()
+    backlog = sorted((a for a in articles if any(needs_chinese(a.get(k)) for k in FIELDS) and not translated(a) and eligible(a)), key=lambda a:(a.get('platform')=='GitHub',a.get('eventDate',''),a.get('publishedAt','')), reverse=True)
+    batches=[backlog[offset:min(offset+4,max_articles)] for offset in range(0,min(len(backlog),max_articles),4)]
+    while batches:
         if time.monotonic()-started > seconds: break
-        batch = backlog[offset:min(offset+4, max_articles)]
+        batch = batches.pop(0)
         work = [(a,k) for a in batch for k in FIELDS if needs_chinese(a.get(k))]
         try:
-            output = translator([str(a[k]) for a,k in work])
+            edited=translator.edit(batch) if hasattr(translator,'edit') else None
+            output = [next(row for row in edited if row['id']==a['id'])[k] for a,k in work] if edited is not None else translator([str(a[k]) for a,k in work])
             if len(output) != len(work): raise ValueError('translation count mismatch')
             results = {}
             for (a,k),text in zip(work,output):
-                if not isinstance(text,str) or not text.strip() or needs_chinese(text) or len(text)>6000 or re.search(r'(.{2,5})\1{5,}',text):
+                if not isinstance(text,str) or not text.strip() or len(re.findall(r'[\u3400-\u9fff]',text))<2 or len(text)>6000 or re.search(r'(.{2,5})\1{5,}',text):
                     raise ValueError('translation did not return Chinese')
                 results.setdefault(a['id'], {})[k] = text.strip()
             consecutive_failures = 0
             for a in batch:
-                a['translation'] = {**{k:a.get(k,'') for k in FIELDS}, **results.get(a['id'],{}), 'sourceHash':source_hash(a), 'engine':MODEL, 'revision':REVISION, 'translatedAt':stamp()}
+                if edited is not None and re.fullmatch(r'[vb]?\d[\w.\-]*',a['title'],re.I):
+                    results.setdefault(a['id'],{})['title']=next(row['title'] for row in edited if row['id']==a['id'])
+                a['translation'] = {**{k:a.get(k,'') for k in FIELDS}, **results.get(a['id'],{}), 'sourceHash':source_hash(a), 'engine':MODEL, 'revision':REVISION, 'translatedAt':stamp(),'style':'natural-zh','simple':next((row.get('simple','') for row in (edited or []) if row['id']==a['id']),'')}
+                a.pop('translationReview',None)
                 done += 1
         except Exception as exc:
             # Do not leak response bodies or credentials in public output.
-            failed += len(batch); consecutive_failures += 1
+            # Isolate malformed model output instead of blocking unrelated articles.
+            if len(batch)>1 and isinstance(exc,(ValueError,KeyError,StopIteration)):
+                batches[0:0]=[[a] for a in batch]
+                print('中文整理批次需逐条核对，继续处理。',flush=True)
+                continue
+            for a in batch:
+                a['translationReview']={'sourceHash':source_hash(a),'lastAttemptAt':stamp(),'retryAfter':(dt.datetime.fromisoformat(stamp())+dt.timedelta(hours=24)).isoformat(),'reason':'中文稿未通过自动检查，保留原文。'}
+            failed += len(batch); consecutive_failures = consecutive_failures+1 if not isinstance(exc,ValueError) else 0
             if getattr(exc,'code',None) in (403,429):
                 print('翻译入口限流，下次更新继续。',flush=True)
                 break
-            print('翻译批次失败：'+type(exc).__name__, flush=True)
+            print('翻译批次失败：'+type(exc).__name__+(' / '+str(exc)[:100] if isinstance(exc,ValueError) else ''), flush=True)
             if consecutive_failures >= 3:break
         if checkpoint:checkpoint()
         print(f'中文翻译：本次完成 {done} 条，失败 {failed} 条。', flush=True)
@@ -138,20 +140,31 @@ def translate_articles(articles, translator, max_articles=500, seconds=600, chec
     return {**translation_status(articles), 'doneThisRun':done, 'failedThisRun':failed, 'checkedAt':stamp()}
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--library',default=str(Path(__file__).resolve().parents[1]/'site/library.json'));parser.add_argument('--limit',type=int,default=500);parser.add_argument('--seconds',type=int,default=600);parser.add_argument('--engine',choices=['local','web'],default='local')
-    args=parser.parse_args();path=Path(args.library);data=json.loads(path.read_text());articles=data['articles']
+    parser=argparse.ArgumentParser();parser.add_argument('--library',default=str(Path(__file__).resolve().parents[1]/'site/library.json'));parser.add_argument('--limit',type=int,default=500);parser.add_argument('--seconds',type=int,default=600)
+    args=parser.parse_args();path=Path(args.library);data=json.loads(path.read_text());news=data['articles'];resource_path=path.parent/'discovery.json';resource_data=json.loads(resource_path.read_text()) if resource_path.exists() else {'items':[]};resource_items=resource_data.get('items',[]);articles=news+[a for a in resource_items if not a.get('curated') and a.get('platform')=='GitHub']
     def save_progress():
-        data.setdefault('status',{})['translation']={**translation_status(articles),'state':'partial','checkedAt':stamp()}
+        if resource_path.exists():
+            resource_temp=resource_path.with_suffix('.tmp');resource_temp.write_text(json.dumps(resource_data,ensure_ascii=False,indent=2));resource_temp.replace(resource_path)
+        data.setdefault('status',{})['translation']={**translation_status(news),'state':'partial','checkedAt':stamp()}
         temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(path)
+    engine=None
     try:
         report=translation_status(articles)
-        if report['pending']:report=translate_articles(articles,(LocalTranslator() if args.engine=='local' else WebTranslator()),args.limit,args.seconds,checkpoint=save_progress)
+        if report['pending']:
+            engine=LocalTranslator()
+            report=translate_articles(articles,engine,args.limit,args.seconds,checkpoint=save_progress)
         else:report.update(doneThisRun=0,failedThisRun=0,checkedAt=stamp())
         report['state']='ready' if not report['pending'] else 'partial'
     except Exception as exc:
         report={**translation_status(articles),'state':'unavailable','error':type(exc).__name__,'checkedAt':stamp()}
         print('中文翻译暂未完成：'+type(exc).__name__,flush=True)
-    data.setdefault('status',{})['translation']=report
+    finally:
+        if engine and hasattr(engine,'close'):engine.close()
+    data.setdefault('status',{})['translation']={**report,**translation_status(news)}
+    data['status']['translation']['state']='ready' if not data['status']['translation']['pending'] else 'partial'
+    if resource_path.exists():
+        resource_data.setdefault('status',{})['translation']=translation_status([a for a in resource_items if not a.get('curated') and a.get('platform')=='GitHub'])
+        resource_temp=resource_path.with_suffix('.tmp');resource_temp.write_text(json.dumps(resource_data,ensure_ascii=False,indent=2));resource_temp.replace(resource_path)
     temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(path)
     print(json.dumps(report,ensure_ascii=False),flush=True)
 

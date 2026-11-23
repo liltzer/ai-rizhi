@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -27,31 +27,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-          cache-dependency-path: scripts/requirements-translation.txt
       - name: 验证备份结构与安全边界
         run: python -m unittest discover -s tests -v
       - name: 采集公开新闻源并保留结果
         id: collect
         run: python scripts/collect.py
-      - name: 缓存离线中文翻译包
+      - name: 更新 Hugging Face 与 GitHub 资源目录
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/discover.py
+      - name: 缓存免费 Qwen 中文整理模型
         uses: actions/cache@v4
         with:
-          path: work/nllb-ct2
-          key: nllb-302d78f0-int8-v1
-      - name: 准备离线翻译运行库
-        continue-on-error: true
-        run: python -m pip install -r scripts/requirements-translation.txt
-      - name: 验证离线模型实际运行
+          path: work/qwen
+          key: qwen3-4b-bc640142-llama-b12648-${{ runner.os }}-${{ runner.arch }}
+      - name: 验证免费文字模型实际运行
         if: github.event_name == 'push'
         run: python scripts/check_translation_model.py
-      - name: 补译新旧外文标题与摘要
-        run: python scripts/translation.py --seconds 600
+      - name: 整理新旧外文标题与摘要
+        run: python scripts/translation.py --limit 24 --seconds 600
       - name: 保存新的内容与来源状态
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add site/library.json
+          git add site/library.json site/discovery.json
           if ! git diff --cached --quiet; then
             git commit -m '更新新闻与检查状态'
             git push

@@ -1,87 +1,73 @@
-# AI 日知 · GitHub 公网站
+# AI 日知 · 独立公网站
 
-手机、Windows 和 Mac 使用同一个公开网站。普通阅读不需要 GitHub 或 GPT 登录。
+手机、Windows 和 Mac 打开同一个网址阅读，不需要登录 GPT，也不需要家里的电脑一直开机。
 
-网站地址：https://liltzer.github.io/ai-rizhi/
+- 网站：[https://liltzer.github.io/ai-rizhi/](https://liltzer.github.io/ai-rizhi/)
+- 源码与运行记录：[https://github.com/liltzer/ai-rizhi](https://github.com/liltzer/ai-rizhi)
 
-源码与运行记录：https://github.com/liltzer/ai-rizhi
+## 这版有什么
 
-Windows 可双击本目录的「打开AI日知.url」；手机在浏览器打开网站地址，可添加到主屏幕。阅读无需安装本项目或保持家中电脑开机。
+- **中文整理**：免费 Qwen 文字模型把英文标题、RSS 摘要整理成简明中文，加一句通俗说明；产品名、版本号与重要数字保留。你反馈的住友生命案例按原文核对修正。支持原文对照与搜索。
+- **开源发现**：读取 Hugging Face 模型目录、维护者账号，以及 GitHub 仓库和更新记录。模型、软件、工作流／节点分别筛选，提供用途、入门路径、许可与真实项目入口。资源最近更新时间与新闻发布日期分开。
+- **10 套主题**：晴空、夜航、森林、赛博、樱花、落日、海盐、葡萄、墨白、极光；背景、强调色和首页图形随主题变化，选择保存在浏览器。
+- **实际互动**：可见的点击波纹、鼠标跟随光晕与粒子、卡片轻微倾斜、收藏反馈；首页 AI 星球可拖动或用方向键移动，双击／Home 复位。关注标签可拖动排序，也支持 Alt + 左右键，顺序在本机保存。
+- **阅读与迁移**：近一个月／三个月日期回看、分类与关键词搜索、收藏、JSON 备份导入导出。手机适配；系统减少动态效果时默认轻柔，也可在主题菜单关闭装饰动效。
 
-网页由 GitHub Pages 提供，新闻由 GitHub Actions 每小时第7和37分钟采集。定时任务可能因平台排队而延迟，不能承诺准点；页面始终显示最近成功采集时间，超过一小时会标注滞后。公开仓库60天无活动可能被平台停用定时任务，需要站长重新启用。
+首次打开新版若仍是旧页面，请刷新一次。旧的主题、收藏与备份继续兼容。收藏和偏好保存在当前浏览器，可用导出／导入迁移，不会自动跨设备同步。
 
-## 部署
+## 内容是怎么更新的
 
-1. 将本项目放入你拥有的 **公开 GitHub 仓库**，默认分支为 main。只发布源码与公开新闻，不含个人收藏、密码或密钥。
-2. 仓库 Settings → Pages → Source 选 GitHub Actions。
-3. Actions →「更新新闻并发布网站」→ Run workflow 执行首次采集与部署。
-4. 等待任务成功，用实际返回的 Pages URL 验证。默认是 GitHub 提供的 github.io 地址，不需要购买域名或服务器。
+GitHub Pages 提供网页，GitHub Actions 在每小时第 7 和 37 分钟尝试采集公开来源；可在 Actions 手动运行。GitHub 排队可能延迟，页面显示最近成功时间，超过一小时会提示滞后。“读取最新”按钮读取已经发布的数据，不能代表实时抓取外站。
 
-GitHub 的标准公共 Actions runner 和公开仓库 Pages 可使用免费方案。此项目不使用大型 runner、私有仓库、付费模型或自动升级套餐。
+新闻按 URL 去重，保留最近三个月；不把收录时间当成事件发生时间，也不为缺失日期编造新闻。开源资源有独立的 `site/discovery.json`，有数量上限；资源活跃更新不等于今天发布的新产品。HF 热度与下载量、GitHub 星标只是元数据，不是质量或实测排名。精选说明来自项目公开文档，没有逐项安装测试。开放权重、自定义许可、需申请访问的模型均应再核对模型卡。
 
-## 运行和更新
+新闻源配置在 `sources.json`，包括官方博客、媒体 RSS 和部分项目的稳定版 Release。无效日期、未来日期、预发布版本会跳过。资源目录配置在 `scripts/resource_sources.json`，涵盖文本、图像、视频、语音模型，以及 ComfyUI、自动化、Agent、本地运行等工具。抓取部分失败保留旧内容和来源状态；全部失败仍发布旧内容与失败状态，然后将任务明确标为失败。
 
-- 网站无需你的电脑常开。离开家后手机仍可以用同一个网址访问，实际连通性取决于当地网络对 GitHub Pages 的访问。
-- 页面按钮「读取最新内容」重读后台已发布的数据，不声称会现场抓取新闻。
-- 站长需要立即采集时，在 Actions 中手动运行工作流；普通访客不能远程修改公共新闻。
-- 每次运行读取来源仍提供的记录，按URL去重，保留三个月。即使来源全失败，仍发布已有新闻与失败状态，并将本次任务标为失败。
-- 采集失败时下一次计划继续尝试；GitHub 本身停用或未执行计划时无法自我唤醒，页面会通过滞后提示反映出来。
-- 运行记录可在仓库 Actions 中查看。不能把“任务配置完成”说成“未来永不漏跑”。
+## 免费中文后台
 
-## 内容
+默认使用官方 [Qwen3-4B GGUF](https://huggingface.co/Qwen/Qwen3-4B-GGUF) 的 Q4_K_M 量化模型和官方 [llama.cpp](https://github.com/ggml-org/llama.cpp) 推理程序。无需付费 API、密钥或新的模型账号。约 2.5GB 的权重仅供后台处理，不发送给阅读者、不打进网站和源码压缩包；GitHub Actions 缓存下载文件。
 
-默认以中文展示新闻标题和来源摘要，支持一键切换原文。后台使用离线 AI 神经翻译模型补译外文标题与摘要，不需要阅读者安装插件或登录 GPT。译文存入公开 JSON，阅读时不必等待翻译服务。
+模型与运行程序的版本、来源和 SHA-256 固定在 `scripts/translation-model.json`；下载后校验，安全解压。后台只把公开标题和摘要传给本机回环地址运行的模型。原文、日期、链接保持可查，中文整理另存，带来源哈希、版本和时间。输入内容按资料处理，不执行其中的指令；输出检查编号对齐、中文、数字、产品名和部分不受支持的未来计划。自动检查不能保证翻译没有语义偏差，可随时对照原文。
 
-每条译文带源文本哈希、引擎、修订号与翻译时间；源标题、摘要、日期及链接保留。翻译范围为 RSS 标题和摘要，不包含外链全文，也不冒充深度解说。产品名与术语做有限校正，机译仍可能有偏差。详情另提供“用中文阅读这篇原文”入口（跳转网页翻译服务），便于继续看完整网页。已有中文解说与原创流程图保留。
+每次自动任务最多整理 24 条、约 10 分钟；按批次保存，失败的单条不会挡住其他条。已有旧机译会逐步替换，页面保留实际状态和原文。翻译范围是标题与来源摘要，**不等于外链全文已翻译，也不冒充全文精读或产品实测**。已有通俗解说和原创流程图保留；详情另有网页中文阅读入口，外站可用性取决于网络。
 
-公开数据在 site/library.json；收藏仅在当前浏览器保存，可导出 JSON 迁移，不跨设备自动同步。
-
-## 阅读界面
-
-- 晴空、夜航、森林三种主题保存在当前浏览器，下次打开自动恢复。
-- 卡片分栏自动适配手机和电脑；列表分批加载，搜索同时匹配中文译文与原文。
-- 轻量点击波纹、卡片悬浮和收藏反馈；遵循系统“减少动态效果”设置。
-- 详情可切换中文／来源原文，带常用 AI 术语解释；往期日期筛选和备份格式兼容原版。
-
-## 翻译后台
-
-工作流先采集，再补译，最后保存并发布；每次翻译最多约 10 分钟，首次积压较多时分次处理。每批保存进度，模型准备或运行失败时保留原文和已完成译文，仍发布新闻及失败状态。前端显示实际完成数量和待翻译内容。
-
-使用 Meta 的 NLLB-200 distilled 600M 模型，CTranslate2 int8 CPU 推理；约 600MB 的模型只在后台运行，Actions cache 缓存模型，不进入前端。下载文件版本和 SHA-256 固定在 scripts/translation-model.json；加载前校验。不需要模型服务账号、API 密钥或公司的常开电脑。
-
-本机补译（Python 3.12，推荐隔离环境）：
+本机后台运行需要 Python 3.12，以及 Apple Silicon macOS 或 Linux x64。Windows 上阅读网页和修改源码无需模型；批量模型整理可交给 GitHub Actions。默认自动更新使用公开仓库标准 runner，不使用付费模型或大型 runner。
 
 ```sh
-python -m pip install -r scripts/requirements-translation.txt
-python scripts/translation.py --seconds 600
+python scripts/collect.py
+python scripts/discover.py
+python scripts/translation.py --limit 24 --seconds 600
 ```
 
-模型信息与许可：
+GitHub API 在 Actions 中使用本次任务的短期 `GH_TOKEN`；本机可使用已经授权的官方 GitHub CLI。不要把密钥、模型缓存或个人收藏提交到仓库。许可说明见 `THIRD_PARTY_NOTICES.md`。
 
-- 原模型：[Meta NLLB-200 distilled 600M](https://huggingface.co/facebook/nllb-200-distilled-600M)。
-- 转换权重：[JustFrederik / NLLB CTranslate2 int8](https://huggingface.co/JustFrederik/nllb-200-distilled-600M-ct2-int8)，固定提交 `302d78f00e6fdb50a1064059df7c392b735e9d05`。本项目增加分批缓存和术语校正。
-- 模型许可为 CC-BY-NC-4.0，本配置面向个人非商业新闻阅读。商业化前应换用许可适合的模型或服务。程序代码与模型许可分开，不将权重混入代码包。
-- 少量早期译文来自 Google 网页机译，已有合格缓存保留。`--engine web` 仅为手动备选；该网页入口可能限流，不是有可用性承诺的 Cloud Translation 付费 API。默认自动更新使用离线模型。
+## 在你自己的免费托管账号部署
 
-## 发布
+1. 把源码放入你拥有的公开 GitHub 仓库，默认分支 `main`。
+2. 仓库 Settings → Pages → Source 选择 GitHub Actions。
+3. Actions →“更新新闻并发布网站”→ Run workflow。
+4. 等任务成功，打开该仓库实际提供的 Pages URL。页面用相对路径，兼容项目子路径，无需购买域名或服务器。
 
-仓库已观察到 deploy-pages 的 Results SDK 在文件上传后返回空列表，现使用 scripts/deploy_pages.py，通过官方 REST artifact 列表和 Pages 部署接口发布。只使用当前任务的短期 GITHUB_TOKEN 和 OIDC，不保存或输出凭据；等待部署真正成功才标记发布完成。
+阅读不依赖部署账号保持登录。公开仓库的标准 Actions 和 Pages 可以使用免费方案；限额与定时任务策略以 GitHub 当时规则为准。定时任务长期未运行时需要站长查看 Actions；不能保证平台永不漏跑。
 
-## 验证
+发布使用 `scripts/deploy_pages.py`，通过官方 REST artifact 列表和 Pages 部署接口读取当前任务的上传文件，避免此前原生 deploy-pages 在此仓库错误返回空 artifact 的问题。只使用当次 `GITHUB_TOKEN` 和 OIDC，不保存凭据，等待返回成功才结束发布。
+
+## 验证与目录
 
 ```sh
 python -m unittest discover -s tests -v
-python scripts/collect.py
+python scripts/check_translation_model.py
+node --check site/app.js
+node --check site/studio.js
 ```
 
-Python 3.12标准库即可运行采集脚本；阅读网页不需要安装 Python。源码或新闻备份可重新部署到其他账号或其他托管平台。
+`tests/frontend.test.mjs` 是 Happy DOM 的交互逻辑回归，需 Node.js 和 `work/domqa/node_modules/happy-dom`（本次验证使用 21.0.4）。它检查主题、点击反馈层、拖动、排序、筛选、详情与收藏，**不能替代真实浏览器的视觉和触摸体验检查**。模型检查会启动实际模型，样例不会加入公开新闻库。
 
-## 文件
+- `site/`：发布的 HTML、样式、脚本、新闻和资源 JSON。
+- `scripts/core.py`、`collect.py`：RSS/Atom 采集、日期、去重与滚动保留。
+- `scripts/discover.py`：公开模型／软件目录采集与失败保留。
+- `scripts/editor.py`、`translation.py`：免费文字模型整理与缓存。
+- `.github/workflows/news.yml`：定时采集、保存数据、发布。
+- `tests/`：原文保留、错误输出隔离、资源失败保留与交互检查。
 
-- .github/workflows/news.yml：采集、持久化与Pages发布。
-- scripts/collect.py：从已有JSON恢复、采集、去重、滚动保留、生成公开JSON。
-- scripts/core.py：RSS/Atom读取与内部SQLite处理，临时数据库不上传。
-- site/：实际发布到公网的内容，站点使用相对路径兼容项目网址。
-- tests/：失败保留、去重、备份与不可信链接检查。
-
-外部资料：[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、[定时任务限制](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。
+源码包不包含 `.git`、账号、密钥、模型权重和临时工作目录；可以带到其他电脑继续设计，也可以迁移到支持静态网页的托管平台。

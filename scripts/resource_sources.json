@@ -1,0 +1,281 @@
+{
+  "github": [
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "software",
+      "category": "图像与设计",
+      "name": "ComfyUI · 节点式图像与视频创作",
+      "summary": "把模型、提示词和处理步骤连成节点流程，用于 AI 生图、视频和素材处理。",
+      "fit": "想把生成过程保存成可复用流程的创作者。",
+      "start": "先按官方说明安装，再导入与当前模型匹配的工作流。",
+      "requirements": "通常需要下载模型；显存需求取决于模型和分辨率。"
+    },
+    {
+      "repo": "Comfy-Org/workflow_templates",
+      "kind": "workflow",
+      "category": "ComfyUI 工作流",
+      "name": "ComfyUI 官方工作流模板",
+      "summary": "官方维护的工作流模板集合，用来学习模型如何接入，以及生成流程怎样连接。",
+      "fit": "想从可参考的节点结构开始，而不是从空白画布搭建的人。",
+      "start": "从模板目录选择任务，再核对所需模型和节点。",
+      "requirements": "模板不等于模型包，部分流程需要另装节点或模型。",
+      "assetType": "官方模板"
+    },
+    {
+      "repo": "Kijai/ComfyUI-WanVideoWrapper",
+      "kind": "workflow",
+      "category": "ComfyUI 工作流",
+      "name": "WanVideoWrapper · ComfyUI 视频节点",
+      "summary": "在 ComfyUI 中接入 Wan 视频模型的节点扩展，仓库提供接入方式和示例流程。",
+      "fit": "已经会用 ComfyUI、希望搭建视频生成流程的用户。",
+      "start": "阅读仓库兼容说明，安装节点后再按示例配套模型。",
+      "requirements": "属于节点扩展，不是独立视频软件；需核对模型版本和显存。",
+      "assetType": "节点与示例"
+    },
+    {
+      "repo": "Kosinkadink/ComfyUI-VideoHelperSuite",
+      "kind": "workflow",
+      "category": "ComfyUI 工作流",
+      "name": "VideoHelperSuite · 视频读写工具节点",
+      "summary": "为 ComfyUI 工作流补充视频载入、帧处理和视频输出等工具节点。",
+      "fit": "需要在节点流程中处理视频素材的创作者。",
+      "start": "按官方说明安装，在自己的流程中添加相应节点。",
+      "requirements": "需先安装 ComfyUI；视频编解码依赖以仓库说明为准。",
+      "assetType": "节点扩展"
+    },
+    {
+      "repo": "Fannovel16/comfyui_controlnet_aux",
+      "kind": "workflow",
+      "category": "ComfyUI 工作流",
+      "name": "ControlNet 辅助预处理节点",
+      "summary": "为图像控制工作流提供姿态、边缘、深度等预处理能力。",
+      "fit": "希望用参考图约束构图或人物姿态的 ComfyUI 用户。",
+      "start": "先选择需要的预处理器，再配合对应控制模型。",
+      "requirements": "各预处理器所需模型与依赖不同。",
+      "assetType": "节点扩展"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "kind": "software",
+      "category": "自动化工作流",
+      "name": "n8n · 可视化业务自动化",
+      "summary": "把不同应用、数据接口和 AI 步骤连起来，搭建自动运行的处理流程。",
+      "fit": "希望减少重复操作、连接多个服务的个人或团队。",
+      "start": "先搭建一个读取数据、处理数据、写回结果的小流程。",
+      "requirements": "部分服务需要自己的账号或 API；许可证有使用条件。"
+    },
+    {
+      "repo": "activepieces/activepieces",
+      "kind": "software",
+      "category": "自动化工作流",
+      "name": "Activepieces · 应用与 AI 自动化",
+      "summary": "通过可视化步骤连接应用和 AI 能力，适合搭建跨服务的自动化流程。",
+      "fit": "想直观看到流程每一步做什么的用户。",
+      "start": "根据官方文档启动，再选择所需的应用连接器。",
+      "requirements": "连接外部服务时可能需要相应账号或密钥。"
+    },
+    {
+      "repo": "FlowiseAI/Flowise",
+      "kind": "software",
+      "category": "编程与 Agent",
+      "name": "Flowise · 可视化 AI 应用搭建",
+      "summary": "用可视化组件搭建大模型应用、工具调用和 Agent 流程。",
+      "fit": "想试验 AI 应用流程、减少手写连接代码的人。",
+      "start": "从官方示例开始，配置自己的模型服务。",
+      "requirements": "模型调用成本和数据处理范围取决于所配置的服务。"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "software",
+      "category": "编程与 Agent",
+      "name": "Langflow · 大模型流程编辑器",
+      "summary": "用图形化方式连接模型、数据和工具，搭建和试验 AI 工作流。",
+      "fit": "希望边搭边理解各个 AI 组件怎样协作的人。",
+      "start": "按官方方式启动，从基础流程逐步加入数据和工具。",
+      "requirements": "部分组件需要独立服务或模型凭据。"
+    },
+    {
+      "repo": "langgenius/dify",
+      "kind": "software",
+      "category": "自动化工作流",
+      "name": "Dify · AI 应用与知识库平台",
+      "summary": "将提示词、知识库、模型调用和工作流组合成可以使用的 AI 应用。",
+      "fit": "需要搭建内部知识问答或多步骤 AI 应用的团队。",
+      "start": "按官方部署文档启动，先建立一个小型测试应用。",
+      "requirements": "需要配置模型；许可与商业使用条件需查看官方说明。"
+    },
+    {
+      "repo": "ollama/ollama",
+      "kind": "software",
+      "category": "本地部署",
+      "name": "Ollama · 本地模型运行工具",
+      "summary": "在自己的电脑上下载和运行支持的模型，并向其他应用提供模型接口。",
+      "fit": "希望本地试用模型、减少对外部模型服务依赖的人。",
+      "start": "安装后从较小的受支持模型开始。",
+      "requirements": "能运行的模型大小取决于电脑内存和硬件。"
+    },
+    {
+      "repo": "ggml-org/llama.cpp",
+      "kind": "software",
+      "category": "本地部署",
+      "name": "llama.cpp · 轻量模型推理引擎",
+      "summary": "运行 GGUF 等格式模型的推理工具，提供命令行和本机服务等使用方式。",
+      "fit": "希望精细控制本地模型运行参数的开发者。",
+      "start": "下载官方构建或按文档编译，再准备兼容模型。",
+      "requirements": "模型文件需单独准备；速度取决于硬件和量化方式。"
+    },
+    {
+      "repo": "huggingface/diffusers",
+      "kind": "software",
+      "category": "图像与设计",
+      "name": "Diffusers · 图像与视频生成开发库",
+      "summary": "用于加载和组合扩散模型管线，适合开发图像、视频等生成应用。",
+      "fit": "会写 Python、希望把生成能力接入程序的开发者。",
+      "start": "选择官方示例管线，再按模型卡准备依赖。",
+      "requirements": "属于开发库；通常需要下载模型并配置计算环境。"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "kind": "software",
+      "category": "数据与训练",
+      "name": "Transformers · 模型加载与开发库",
+      "summary": "为多种模型提供统一的加载和推理接口，是本地模型开发常用的基础库。",
+      "fit": "想用代码调用、试验或微调模型的开发者。",
+      "start": "从文档中与你的任务相符的示例开始。",
+      "requirements": "不同模型的许可、依赖和硬件要求分别查看模型卡。"
+    },
+    {
+      "repo": "danielgatis/rembg",
+      "kind": "software",
+      "category": "图像与设计",
+      "name": "rembg · 图片背景移除",
+      "summary": "通过命令行或 Python 调用去除图片背景，适合批量处理图片素材。",
+      "fit": "需要抠图或批量整理商品、人物素材的用户。",
+      "start": "按官方说明安装，先用一张样图检查边缘效果。",
+      "requirements": "实际效果依赖素材和模型，复杂边缘仍需检查。"
+    },
+    {
+      "repo": "m-bain/whisperX",
+      "kind": "software",
+      "category": "音频与语音",
+      "name": "WhisperX · 语音转写与时间对齐",
+      "summary": "围绕语音转写提供时间对齐、说话人处理等能力，便于整理音频文本。",
+      "fit": "需要字幕时间轴或访谈整理的创作者。",
+      "start": "阅读官方依赖要求，用短音频验证你的语言和设备。",
+      "requirements": "部分能力需额外模型和访问授权；结果仍需校对。"
+    },
+    {
+      "repo": "Huanshere/VideoLingo",
+      "kind": "software",
+      "category": "音频与语音",
+      "name": "VideoLingo · 视频字幕与翻译流程",
+      "summary": "面向视频字幕处理的项目，组织转写、翻译及相关制作步骤。",
+      "fit": "希望把字幕处理流程集中管理的创作者。",
+      "start": "按官方说明准备运行环境和所需服务。",
+      "requirements": "部分步骤依赖外部模型服务，具体费用取决于配置。"
+    },
+    {
+      "repo": "FunAudioLLM/CosyVoice",
+      "kind": "software",
+      "category": "音频与语音",
+      "name": "CosyVoice · 语音生成项目",
+      "summary": "提供语音生成相关代码和模型使用入口，可用于研究或搭建语音应用。",
+      "fit": "希望试验语音合成的开发者和音频创作者。",
+      "start": "选择官方支持的模型版本，按示例运行。",
+      "requirements": "代码与模型许可分别核对，硬件要求随模型变化。"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "kind": "software",
+      "category": "本地部署",
+      "name": "vLLM · 模型服务与推理部署",
+      "summary": "用于部署大模型推理服务，关注多请求处理和服务吞吐等需求。",
+      "fit": "需要向多个应用或用户提供模型接口的开发者。",
+      "start": "检查模型与硬件是否受支持，再部署测试服务。",
+      "requirements": "面向开发部署，通常需要合适的加速硬件和运行环境。"
+    }
+  ],
+  "githubSearch": [
+    {
+      "query": "topic:comfyui stars:>200 archived:false",
+      "category": "ComfyUI 工作流",
+      "kind": "workflow"
+    },
+    {
+      "query": "topic:ai-tools stars:>1000 archived:false",
+      "category": "GitHub 软件",
+      "kind": "software"
+    },
+    {
+      "query": "topic:n8n-workflows stars:>30 archived:false",
+      "category": "自动化工作流",
+      "kind": "workflow"
+    }
+  ],
+  "huggingface": [
+    {
+      "pipeline": "text-generation",
+      "category": "开源模型",
+      "limit": 10,
+      "purpose": "文本生成与对话"
+    },
+    {
+      "pipeline": "text-to-image",
+      "category": "图像与设计",
+      "limit": 8,
+      "purpose": "根据文字生成图像"
+    },
+    {
+      "pipeline": "image-to-video",
+      "category": "视频与动画",
+      "limit": 8,
+      "purpose": "根据图像生成视频"
+    },
+    {
+      "pipeline": "text-to-speech",
+      "category": "音频与语音",
+      "limit": 6,
+      "purpose": "将文字合成为语音"
+    },
+    {
+      "pipeline": "automatic-speech-recognition",
+      "category": "音频与语音",
+      "limit": 6,
+      "purpose": "将语音转成文字"
+    }
+  ],
+  "hfAuthors": [
+    {
+      "author": "Qwen",
+      "limit": 4
+    },
+    {
+      "author": "deepseek-ai",
+      "limit": 4
+    },
+    {
+      "author": "black-forest-labs",
+      "limit": 4
+    },
+    {
+      "author": "Wan-AI",
+      "limit": 4
+    },
+    {
+      "author": "Lightricks",
+      "limit": 4
+    },
+    {
+      "author": "tencent",
+      "limit": 4
+    },
+    {
+      "author": "FunAudioLLM",
+      "limit": 4
+    },
+    {
+      "author": "openai",
+      "limit": 4
+    }
+  ]
+}
