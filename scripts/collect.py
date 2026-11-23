@@ -2,6 +2,7 @@
 import json,os,sys,tempfile
 from pathlib import Path
 from core import Store,Updater,stamp
+from translation import translation_status
 ROOT=Path(__file__).resolve().parents[1]
 LIBRARY=ROOT/'site/library.json'
 def main():
@@ -17,6 +18,8 @@ def main():
   finally:updater.lock.release()
   status=updater.status();status.update(running=False,intervalMinutes=30,hosting='github-pages',collectionMode='scheduled-workflow')
   data={**store.export(),'status':status}
+  status['translation']={**oldstatus.get('translation',{}),**translation_status(data['articles'])}
+  status['translation']['state']='ready' if not status['translation']['pending'] else ('unavailable' if oldstatus.get('translation',{}).get('state')=='unavailable' else 'partial')
   target=LIBRARY.with_suffix('.tmp');target.write_text(json.dumps(data,ensure_ascii=False,indent=2));target.replace(LIBRARY)
   report=f"新闻检查：{result['status']}，新增 {result['added']} 条，来源 {result['sourcesOk']}/{result['sourcesTotal']} 成功。"
   print(report)

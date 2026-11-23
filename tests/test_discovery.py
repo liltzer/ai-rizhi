@@ -15,6 +15,10 @@ class DiscoveryTests(unittest.TestCase):
         old=github_item(self.repo(),{'name':'流程编辑器','summary':'把工作步骤连起来。','kind':'workflow'})
         result=collect_resources({'githubSearch':[{'query':'topic:workflow'}]},{'items':[old]},lambda url:{'items':[self.repo()]})
         item=result['items'][0];self.assertEqual(item['summary'],old['summary']);self.assertEqual(item['kind'],'workflow');self.assertEqual(item['lastActivityAt'],'2026-11-20T12:00:00Z');self.assertNotIn('eventDate',item)
+    def test_reviewed_model_notes_keep_live_metadata_and_reference(self):
+        raw={'id':'example/model','lastModified':'2026-11-20T12:00:00Z','downloads':45}
+        a=hf_item(raw,{'notes':{'example/model':{'purpose':'图像修复','category':'图像与设计','summary':'补画选中的区域。','reference':'https://github.com/example/docs'}}})
+        self.assertIn('图像修复',a['title']);self.assertEqual(a['downloads'],45);self.assertEqual(len(a['sources']),2);self.assertEqual(a['summary'],'补画选中的区域。')
     def test_private_forks_and_archived_not_listed(self):
         for key in ('private','fork','archived'):self.assertIsNone(github_item({**self.repo(),key:True}))
     def test_model_license_and_gated_access_are_distinct(self):

@@ -20,6 +20,10 @@ class CollectorTests(unittest.TestCase):
   plain=FeedFetcher(self.feed).fetch(source)
   compressed=FeedFetcher(lambda url:gzip.compress(self.feed(url))).fetch(source)
   self.assertEqual([(a['id'],a['title'],a['summary']) for a in plain],[(a['id'],a['title'],a['summary']) for a in compressed])
+ def test_stable_releases_keep_category_and_skip_prereleases(self):
+  data=b'<feed xmlns="http://www.w3.org/2005/Atom">'+b''.join(('<entry><title>'+title+'</title><link href="https://example.org/'+str(i)+'"/><updated>'+now().isoformat()+'</updated><summary>Details</summary></entry>').encode() for i,title in enumerate(['v2.0.0-rc1','beta','v2.0.0']))+b'</feed>'
+  result=FeedFetcher(lambda url:data).fetch({'name':'ComfyUI 更新','url':'https://example.org/feed','stableOnly':True,'category':'ComfyUI 工作流'})
+  self.assertEqual([a['title'] for a in result],['v2.0.0']);self.assertEqual(result[0]['category'],'ComfyUI 工作流')
  def test_gzip_expanded_size_is_bounded(self):
   data=gzip.compress(b'a'*(6*1024*1024+1))
   with self.assertRaisesRegex(ValueError,'来源内容过大'):

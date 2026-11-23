@@ -1,0 +1,87 @@
+{
+  "a848d2095c15eeb7fdf54c611b1d74013790e1d9e3f0ada6c64313b4763f4f31": {
+    "title": "n8n 2.49.3：修复请求分页、错误输出与界面交互",
+    "summary": "修复 HTTP 请求节点分页时遇到空响应的处理，调整内存保护等待逻辑，保留脚本节点报错时的原始输入，并修复公告交互。",
+    "simple": "这次主要修补流程运行和界面操作中的问题。"
+  },
+  "f778767fc61b1255c5d7be9f728f0fa73599fbde1c4cbd2d7581ad51d2cb334d": {
+    "title": "n8n 2.48.7：调整内存保护和脚本报错信息",
+    "summary": "内存保护机制无法释放内存时会结束等待；脚本节点报错时，错误输出会保留原始输入数据。",
+    "simple": "帮助定位流程为什么出错，也避免无效等待。"
+  },
+  "053e585992569689bc2c5bbb9cc7334cf646fb8d71b9104792cb2ea6a8d60249": {
+    "title": "n8n 2.49.1：完善权限检查与迁移报告",
+    "summary": "新安装会生成随机实例编号，调整凭据检查和错误对象处理，并在迁移报告中说明工作流上次运行的状态。",
+    "simple": "安装、权限检查和迁移提示都有调整。"
+  },
+  "f95122cececd01dbea1a4516e5db751d9165400f5b3a22bd7cd13f20beba2252": {
+    "title": "Google 汇总2026年10月的 AI 更新",
+    "summary": "Google 将2026年10月公布的 AI 更新整理在同一篇文章中。具体内容需要打开原文查看。",
+    "simple": "想补看十月消息，可以从这份官方汇总开始。"
+  },
+  "2a12bcc689b7948819c219a20e1fdced6d0c9eb626b1aefe9514ad6c3394adea": {
+    "title": "Transformers v5.22.0 加入 Mistral Large 4",
+    "summary": "此版本加入 Mistral Large 4：原生多模态的混合专家模型，总参数1万亿，每个 token 激活490亿参数，涵盖指令、推理、编程和智能体任务。",
+    "simple": "这是推理框架新增的模型支持，运行配置要另查。"
+  },
+  "f0d58580587a856fbd674d84ab6f8ae19e678db2fc8d405f6fb99403da141191": {
+    "title": "Uber 向三万多名员工推广 ChatGPT Work",
+    "summary": "Uber 与 OpenAI 合作，向超过3万名员工推广 ChatGPT Work，用于资料研究、数据分析、制作演示文稿和处理复杂工作流。",
+    "simple": "把 AI 工具用到员工的多种日常任务中。"
+  },
+  "f6867508e541714423949739b1b99e785da8cfbcd00c25c92abd5d8bd599166b": {
+    "title": "东南亚数字经济规模预计在2026年达3680亿美元",
+    "summary": "来源预计，AI 普及将推动东南亚数字经济在2026年达到3680亿美元，到2035年达到1万亿美元。",
+    "simple": "这是对未来规模的预测，不是已经实现的收入。"
+  },
+  "5a175b3a25bbb7436519c8ee14908c157cb76fafde445c6b4501833461662b96": {
+    "title": "Google 汇总2026年9月的 AI 更新",
+    "summary": "Google 将2026年9月公布的 AI 更新整理在同一篇文章中。具体内容需要打开原文查看。",
+    "simple": "想补看九月消息，可以从这份官方汇总开始。"
+  },
+  "700a74ee9259b10ad489902778fddb62f77b3b202a87fe90df31c42654d85972": {
+    "title": "Hebbia 试用 GPT-6 Astra 做金融研究",
+    "summary": "Hebbia 测试了 GPT-6 Astra 的金融研究表现。其预发布评估显示，资料覆盖、引用相关性和呈现质量有所提升。",
+    "simple": "这是企业对模型在具体工作中表现的评估。"
+  },
+  "086ffeaba9803f6e1c6910737073fbc2d7895e7da535bd72dd338de2c92918d3": {
+    "title": "OpenAI 如何防范模型能力被恶意蒸馏提取",
+    "summary": "OpenAI 结合模型训练、防护、检测和处置，防范他人通过蒸馏提取模型能力。",
+    "simple": "可以理解为防止模型能力被大量复制走。"
+  },
+  "513d616b35ddc670123cc1729af50aae72cbbbfe5cf4fde722817ed22f8d0f02": {
+    "title": "OpenAI 用 Codex 排查性能问题，保持 ChatGPT 响应速度",
+    "summary": "OpenAI 把一套由 Codex 驱动的工作流称为 Performance Factory，用它查找和修复性能问题，帮助 ChatGPT 保持响应速度。",
+    "simple": "让 AI 帮忙找出并修复拖慢产品的问题。"
+  },
+  "735ffce000a28530ef495d0f7d37a2fd4d4b38cff33f622989eaa2247e7650fd": {
+    "title": "Daybreak Blue 入门：从设置到开始使用",
+    "summary": "这段官方演示介绍如何完成 Daybreak Blue 的入门设置，以及怎样开始使用。",
+    "simple": "先跟着演示完成设置，再了解使用流程。"
+  },
+  "77a991bffd512219b7de2c41b9d089f8bb015db7f4d3a610e60f98b788e7818c": {
+    "title": "Revolut 用 OpenAI 与 Codex 提升研发和调查效率",
+    "summary": "Revolut 使用 OpenAI 模型和 Codex，将编码时间缩短30–60%，扩大金融犯罪调查的处理能力，并强调创新过程中的安全标准。",
+    "simple": "同一家公司把 AI 用于写代码和调查工作。"
+  },
+  "63176f86f4377a8e87ba0ea66e633dba4bb6b99cd6d436b3f9d70e5f2de537b9": {
+    "title": "Shield 用 OpenAI 智能体处理旧门户系统中的任务",
+    "summary": "Shield 的 Forge 智能体负责在旧门户系统中操作，让 IT 技术人员把精力留给需要判断的问题。",
+    "simple": "让智能体操作旧系统，技术人员处理需要判断的部分。"
+  },
+  "28134fedbed443fa42e879be3b2ebd35883c294aeed4408b96b3b842830ef77a": {
+    "title": "Holiday Extras 用 Codex 开发应用，提高预订转化率",
+    "summary": "Holiday Extras 借助 Codex，把客户服务经验转化为更好的应用，提高预订转化率，并探索新的增长方式。",
+    "simple": "把熟悉业务的人掌握的经验，变成可以使用的软件。"
+  },
+  "df57b9cc377b40430b9f3516664e79e2e77fb4e49c3aff3e8415d4ca3473e620": {
+    "title": "两万多名军人领取一年免费 ChatGPT Plus",
+    "summary": "已有超过2万名退役军人和即将退役的军人领取一年免费 ChatGPT Plus，用它为退役后的就业做准备。",
+    "simple": "为符合条件的军人提供一年免费 Plus 订阅。"
+  },
+  "e85d7aa026b468904980f74ea9ca10ddcb0ba6910b2f2884c6ee2865efaddb1b": {
+    "title": "住友生命保险：高管带头推广 ChatGPT 企业版",
+    "summary": "住友生命保险把 ChatGPT 企业版用于调研保险公司、准备提案和编写投资分析代码。公司高管先试用，再带动团队使用。",
+    "simple": "管理层先把工具用起来，再帮助员工用在具体工作中。"
+  }
+}

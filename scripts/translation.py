@@ -6,7 +6,8 @@ from core import stamp
 
 MODEL = 'Qwen3-4B-Q4_K_M'
 REVISION = 'qwen3-bc640142-natural-zh-v2'
-VALID_REVISIONS = {REVISION}
+REVIEW_REVISION='source-summary-review-v1'
+VALID_REVISIONS = {REVISION,REVIEW_REVISION}
 FIELDS = ('title', 'summary')
 
 def needs_chinese(text):
@@ -20,7 +21,7 @@ def source_hash(article):
 
 def translated(article):
     value = article.get('translation', {})
-    return value.get('sourceHash') == source_hash(article) and value.get('revision') in VALID_REVISIONS and len(value.get('summary',''))<=320 and all(
+    return value.get('sourceHash') == source_hash(article) and value.get('revision') in VALID_REVISIONS and len(value.get('summary',''))<=320 and len(re.findall(r'[\u3400-\u9fff]',value.get('title','')))>=2 and all(
         isinstance(value.get(k), str) and len(re.findall(r'[\u3400-\u9fff]',value[k]))>=2
         for k in FIELDS if needs_chinese(article.get(k)))
 
@@ -139,6 +140,25 @@ def translate_articles(articles, translator, max_articles=500, seconds=600, chec
         time.sleep(.25)
     return {**translation_status(articles), 'doneThisRun':done, 'failedThisRun':failed, 'checkedAt':stamp()}
 
+def apply_editorial(articles,reviews=None):
+    from editor import validate_edits,correct_plan_names
+    if reviews is None:
+        path=Path(__file__).with_name('editorial-zh.json')
+        reviews=json.loads(path.read_text()) if path.exists() else {}
+    count=0
+    for a in articles:
+        old=a.get('translation',{})
+        if old.get('sourceHash')==source_hash(a):
+            corrected=correct_plan_names(a,old)
+            if corrected!=old:a['translation']=corrected
+        reviewed=reviews.get(source_hash(a))
+        if not reviewed:continue
+        row=validate_edits([a],[{'id':a['id'],**reviewed}])[0]
+        if old.get('revision')==REVIEW_REVISION and all(old.get(k)==row.get(k) for k in ('title','summary','simple')):continue
+        a['translation']={**{k:row[k] for k in ('title','summary','simple')},'sourceHash':source_hash(a),'engine':'source-summary-review','revision':REVIEW_REVISION,'style':'natural-zh','translatedAt':stamp(),'reviewNote':'按公开来源的标题与摘要校订，未声称阅读全文或实测。'}
+        a.pop('translationReview',None);count+=1
+    return count
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--library',default=str(Path(__file__).resolve().parents[1]/'site/library.json'));parser.add_argument('--limit',type=int,default=500);parser.add_argument('--seconds',type=int,default=600)
     args=parser.parse_args();path=Path(args.library);data=json.loads(path.read_text());news=data['articles'];resource_path=path.parent/'discovery.json';resource_data=json.loads(resource_path.read_text()) if resource_path.exists() else {'items':[]};resource_items=resource_data.get('items',[]);articles=news+[a for a in resource_items if not a.get('curated') and a.get('platform')=='GitHub']
@@ -147,6 +167,8 @@ def main():
             resource_temp=resource_path.with_suffix('.tmp');resource_temp.write_text(json.dumps(resource_data,ensure_ascii=False,indent=2));resource_temp.replace(resource_path)
         data.setdefault('status',{})['translation']={**translation_status(news),'state':'partial','checkedAt':stamp()}
         temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(path)
+    reviewed=apply_editorial(articles)
+    if reviewed:print('来源摘要校订：'+str(reviewed)+' 条。',flush=True)
     engine=None
     try:
         report=translation_status(articles)

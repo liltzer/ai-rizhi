@@ -44,7 +44,11 @@ jobs:
       - name: 验证免费文字模型实际运行
         if: github.event_name == 'push'
         run: python scripts/check_translation_model.py
-      - name: 整理新旧外文标题与摘要
+      - name: 发布前补齐少量新增中文稿
+        if: github.event_name == 'push'
+        run: python scripts/translation.py --limit 8 --seconds 90
+      - name: 后台分批整理新旧外文内容
+        if: github.event_name != 'push'
         run: python scripts/translation.py --limit 24 --seconds 600
       - name: 保存新的内容与来源状态
         run: |

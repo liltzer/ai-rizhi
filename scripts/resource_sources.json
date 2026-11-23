@@ -277,5 +277,60 @@
       "author": "openai",
       "limit": 4
     }
-  ]
+  ],
+  "hfNotes": {
+    "tencent/WePocketModel1.0-2B": {
+      "category": "开源模型",
+      "purpose": "端侧图文理解与检索",
+      "summary": "微信 AI 团队面向端侧应用的图文模型，把多模态特征提取、内容生成和结构化判断放在同一模型中。",
+      "fit": "开发本地运行的图文检索或多模态应用。",
+      "start": "先看官方 WePM 推理代码，选择 CPU 或 CUDA 示例。",
+      "requirements": "需要配套 WePM 运行环境；权重大小与运行内存不是同一回事，按设备核对配置。",
+      "reference": "https://github.com/Tencent/WePocketModel"
+    },
+    "black-forest-labs/FLUX.1-Fill-dev": {
+      "category": "图像与设计",
+      "purpose": "图像局部重绘与扩图",
+      "summary": "结合原图、遮罩与文字描述，补画选中的区域，或扩展画面边缘。它是图像编辑模型。",
+      "start": "先看官方 Fill 说明，再选择支持该模型的推理程序或工作流。",
+      "requirements": "该 dev 权重有非商业许可与访问条件，使用前核对模型卡；不能把可下载等同于可任意商用。",
+      "reference": "https://github.com/black-forest-labs/flux/blob/main/docs/fill.md"
+    },
+    "Lightricks/LTX-2-Marking": {
+      "category": "视频与动画",
+      "purpose": "音视频不可见标记",
+      "summary": "用于给 LTX-2 音视频加入或检测不可见标记的权重，不是生成视频的主模型。",
+      "assetType": "音视频标记模型权重",
+      "start": "通过官方 LTX-2 marking 代码加载，查看嵌入与检测示例。",
+      "requirements": "需要配套 LTX-2 代码和完整权重文件。标记不是密码学签名，未检出标记也不能证明素材不是 AI 生成。",
+      "reference": "https://github.com/Lightricks/LTX-2/blob/main/packages/ltx-pipelines/docs/marking.md"
+    },
+    "Wan-AI/Wan2.2-Animate-2-14B": {
+      "category": "视频与动画",
+      "purpose": "角色动作驱动与动画",
+      "summary": "Wan-Animate-2 角色动画系列，使用驱动视频生成动作，并支持用文字控制输出视角。不同仓库分别提供原版或 Diffusers、蒸馏版本。",
+      "fit": "有 GPU 部署经验、想研究角色动作迁移的动画开发者。",
+      "start": "先看主项目的输入素材准备、模型版本和推理配置，再选择对应格式。",
+      "requirements": "主项目示例面向多卡 GPU 环境；各变体所需硬件和依赖要逐一核对，不能当作普通电脑的一键工具。",
+      "reference": "https://github.com/Wan-Video/Wan-Animate-2"
+    },
+    "Wan-AI/Wan2.2-Animate-2-14B-Diffusers": {
+      "category": "视频与动画",
+      "purpose": "角色动作驱动与动画",
+      "summary": "Wan-Animate-2 角色动画系列，使用驱动视频生成动作，并支持用文字控制输出视角。不同仓库分别提供原版或 Diffusers、蒸馏版本。",
+      "fit": "有 GPU 部署经验、想研究角色动作迁移的动画开发者。",
+      "start": "先看主项目的输入素材准备、模型版本和推理配置，再选择对应格式。",
+      "requirements": "主项目示例面向多卡 GPU 环境；各变体所需硬件和依赖要逐一核对，不能当作普通电脑的一键工具。",
+      "reference": "https://github.com/Wan-Video/Wan-Animate-2"
+    },
+    "Wan-AI/Wan2.2-Animate-2-14B-Distilled-Diffusers": {
+      "category": "视频与动画",
+      "purpose": "角色动作驱动与动画",
+      "summary": "Wan-Animate-2 角色动画系列，使用驱动视频生成动作，并支持用文字控制输出视角。不同仓库分别提供原版或 Diffusers、蒸馏版本。",
+      "fit": "有 GPU 部署经验、想研究角色动作迁移的动画开发者。",
+      "start": "先看主项目的输入素材准备、模型版本和推理配置，再选择对应格式。",
+      "requirements": "主项目示例面向多卡 GPU 环境；各变体所需硬件和依赖要逐一核对，不能当作普通电脑的一键工具。",
+      "reference": "https://github.com/Wan-Video/Wan-Animate-2"
+    }
+  }
 }

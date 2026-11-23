@@ -1,7 +1,7 @@
 """Natural Chinese news editing with a pinned free Qwen model, no paid API."""
 from __future__ import annotations
 import json,os,platform,re,socket,subprocess,time,urllib.error,urllib.request
-import hashlib
+from decimal import Decimal
 from pathlib import Path
 from prepare_translation import prepare,MODEL_DIR
 
@@ -42,7 +42,8 @@ class QwenEditor:
             if row['publisher'].endswith(' 更新'):
                 row['summary']=re.split(r'Official website|Attestations:|macOS Apple Silicon|## Downloads|Full Changelog|## Contributors',row['summary'],maxsplit=1,flags=re.I)[0].strip() or '该来源未提供摘要，请打开原文阅读。'
             source.append(row)
-        payload={'messages':[{'role':'system','content':SYSTEM},{'role':'user','content':json.dumps({'articles':source},ensure_ascii=False)+'/no_think'}],'temperature':.15,'top_p':.85,'max_tokens':1800,'response_format':{'type':'json_object'},'chat_template_kwargs':{'enable_thinking':False}}
+        schema={'type':'object','properties':{'articles':{'type':'array','minItems':len(source),'maxItems':len(source),'items':{'type':'object','properties':{'id':{'type':'string','enum':list(id_map)},'title':{'type':'string','minLength':3,'maxLength':140},'summary':{'type':'string','minLength':4,'maxLength':220},'simple':{'type':'string','maxLength':70}},'required':['id','title','summary','simple'],'additionalProperties':False}}},'required':['articles'],'additionalProperties':False}
+        payload={'messages':[{'role':'system','content':SYSTEM},{'role':'user','content':json.dumps({'articles':source},ensure_ascii=False)+'/no_think'}],'temperature':.15,'top_p':.85,'max_tokens':1800,'response_format':{'type':'json_object','schema':schema},'chat_template_kwargs':{'enable_thinking':False}}
         req=urllib.request.Request(self.base+'/v1/chat/completions',data=json.dumps(payload,ensure_ascii=False).encode(),headers={'Content-Type':'application/json'})
         with urllib.request.urlopen(req,timeout=240) as r:raw=json.loads(r.read(256000))
         choice=raw['choices'][0]
@@ -73,20 +74,49 @@ def validate_edits(articles,result):
         for k in ('title','summary','simple'):
             if not isinstance(row.get(k),str) or len(row[k])>{'title':160,'summary':320,'simple':100}[k]:raise ValueError('Editor field invalid')
         if not row['title'].strip() or not row['summary'].strip():raise ValueError('Editor field empty')
-        if any(p in row['title']+row['summary'] for p in ['⁇','住友生命的领导者如何帮助团队采用','早期使用有助于推动采用']):raise ValueError('Editor retained literal translation')
         original=expected[row['id']]
-        # A reviewed correction applies only to the exact source the reader reported.
-        fingerprint=hashlib.sha256(json.dumps({k:original.get(k,'') for k in ('title','summary')},ensure_ascii=False,sort_keys=True).encode()).hexdigest()
-        if fingerprint=='e85d7aa026b468904980f74ea9ca10ddcb0ba6910b2f2884c6ee2865efaddb1b':
-            row['title']='住友生命保险：高管带头推广 ChatGPT 企业版'
-            row['summary']='住友生命保险把 ChatGPT 企业版用于调研保险公司、准备提案和编写投资分析代码。公司高管先试用，再带动团队使用。'
-            row['simple']='管理层先把工具用起来，再帮助员工用在具体工作中。'
-        original_text=original['title']+' '+original['summary'];edited_text=row['title']+' '+row['summary']+' '+row['simple']
-        number=lambda text:set(re.findall(r'\d+(?:\.\d+)*',re.sub(r'(?<=\d),(?=\d)','',text)))
-        if number(edited_text)-number(original_text)-{'0','1'}:raise ValueError('Editor introduced an unsupported number')
+        row=correct_plan_names(original,row)
+        if any(p in row['title']+row['summary'] for p in ['⁇','住友生命的领导者如何帮助团队采用','早期使用有助于推动采用']):raise ValueError('Editor retained literal translation')
+        if original.get('platform')=='GitHub' and not re.search(r'[\u3400-\u9fff]',row['title']):row['title']=original['title']+' · 项目介绍'
+        publisher=original.get('company') or original.get('platform','')
+        if publisher.endswith(' 更新') and re.fullmatch(r'[vb]?\d[\w.\-]*',original['title'],re.I) and not re.search(r'[\u3400-\u9fff]',row['title']):row['title']=publisher.removesuffix(' 更新')+' '+original['title']+' 更新'
+        if row['summary']==original['summary'] and re.fullmatch(r'[A-Za-z0-9_ .:/+()\[\]\-]{1,85}',original['summary']) and re.search(r'\d',original['summary']):row['summary']='来源提及：'+original['summary']+'。详细改动请查看原文。'
+        original_text=original['title']+' '+original['summary']+' '+publisher;edited_text=row['title']+' '+row['summary']+' '+row['simple']
+        if number_values(edited_text)-number_values(original_text)-{'0','1'}:raise ValueError('Editor introduced an unsupported number')
         if not re.search(r'\bwill\b|soon|upcoming|future|planned|roadmap|later|未来|将会|即将',original_text,re.I) and re.search(r'后续版本|未来将|即将推出|将在.*推出',edited_text):raise ValueError('Editor introduced an unsupported future plan')
         if original.get('summary')=='该来源未提供摘要，请打开原文阅读。':row['summary']=original['summary'];row['simple']=''
         for name in ['Codex','ChatGPT','Gemini','Claude','DeepSeek','Qwen','OpenAI','Kling']:
             if re.search(r'\b'+name+r'\b',original['title'],re.I) and name.lower() not in (row['title']+' '+row['summary']).lower():raise ValueError('Editor lost product name')
         mapped[row['id']]=row
     return [mapped[a['id']] for a in articles]
+
+
+def number_values(text):
+    """Compare quantities across 200,000 -> 20万 and 180B -> 1800亿; keep dotted versions."""
+    words={"zero":"0","one":"1","two":"2","three":"3","four":"4","five":"5","six":"6","seven":"7","eight":"8","nine":"9","ten":"10","eleven":"11","twelve":"12"}
+    text=re.sub(r"\b(?:"+'|'.join(words)+r")\b",lambda m:words[m[0].lower()],text,flags=re.I)
+    text=re.sub(r'(?<=\d),(?=\d)','',text)
+    months={name:str(i) for i,name in enumerate(['January','February','March','April','May','June','July','August','September','October','November','December'],1)}
+    text=re.sub(r'\b(?:'+'|'.join(months)+r')\b',lambda m:months[m[0]],text)
+    units={'trillion':10**12,'万亿':10**12,'千亿':10**11,'百亿':10**10,'十亿':10**9,'亿':10**8,'千万':10**7,'百万':10**6,'十万':10**5,'万':10**4,'千':10**3,'百':100,'十':10,'billion':10**9,'million':10**6,'thousand':10**3,'b':10**9,'m':10**6,'k':10**3}
+    pattern=r'(\d+(?:\.\d+)*)(?:\s*(万亿|千亿|百亿|十亿|千万|百万|十万|亿|万|千|百|十|trillion\b|billion\b|million\b|thousand\b|[bmk](?![A-Za-z])))?'
+    values=set()
+    for number,unit in re.findall(pattern,text,re.I):
+        if number.count('.')>1:values.add(number);continue
+        value=format(Decimal(number)*units.get(unit.lower(),1),'f')
+        values.add(value.rstrip('0').rstrip('.') if '.' in value else value)
+    return values
+
+
+def correct_plan_names(article,row):
+    """Keep named ChatGPT subscription tiers faithful to the supplied source."""
+    pattern=r'ChatGPT\s*(Plus\b|Pro\b|Enterprise\b|Business\b|Team\b|Edu\b|企业版|商务版|团队版|教育版)'
+    aliases={'企业版':'Enterprise','商务版':'Business','团队版':'Team','教育版':'Edu'}
+    source=article.get('title','')+' '+article.get('summary','')
+    tiers={aliases.get(m,m) for m in re.findall(pattern,source)}
+    result=dict(row)
+    if len(tiers)>1:return result
+    tier=next(iter(tiers),'');canonical='ChatGPT'+(' 企业版' if tier=='Enterprise' else ' '+tier if tier else '')
+    for key in ('title','summary','simple'):
+        if isinstance(result.get(key),str):result[key]=re.sub(pattern,canonical,result[key]).replace('上boarding','入门设置')
+    return result
