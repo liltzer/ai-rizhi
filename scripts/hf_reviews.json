@@ -653,7 +653,14 @@
     "start": "从官方模型卡的使用与部署说明进入，在研究测试数据上验证任务和输出，再考虑接入专业工作流。",
     "cardHash": "8c254606b88b4b9053bd7a1a0d177da7f938416fd6ba229c99fff693a3ea2431",
     "engine": "official-model-card-reviewed",
-    "generatedAt": "2026-11-23T17:46:33+08:00"
+    "generatedAt": "2026-11-23T17:46:33+08:00",
+    "evidence": [
+      "560 billion total parameters",
+      "25 billion parameters per token",
+      "1-million-token context window",
+      "intended for research and evaluation",
+      "not a medical device"
+    ]
   },
   "black-forest-labs/FLUX.1-schnell": {
     "purpose": "少步数文字生图",

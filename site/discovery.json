@@ -1,7 +1,7 @@
 {
   "format": "ai-rizhi-discovery",
   "version": 1,
-  "generatedAt": "2026-11-23T17:53:14+08:00",
+  "generatedAt": "2026-11-23T18:00:52+08:00",
   "lastSuccessfulAt": "2026-11-23T17:53:14+08:00",
   "status": {
     "state": "success",
@@ -1038,7 +1038,8 @@
         "requirements": "模型卡提供 Transformers、vLLM 和 SGLang 入口；35B 总权重仍需相应内存，不能把 3B 激活参数当成全部加载量。",
         "start": "先用官方 Transformers 示例测试单张图片，随后再参考多图、视频和采样参数示例。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "b2db8a96032e376453f1cf4713c75a3c8725d5eb811bcf12bfa954fc210f1a5a"
       }
     },
     {
@@ -1258,7 +1259,8 @@
         "requirements": "Python 3.10–3.13、Git、CMake 3.20+ 和 C++17 编译器；先编译 WePM 的 libwepm_gguf。量化语言权重之外，视觉与任务权重仍是 BF16。",
         "start": "按模型卡编译 WePM CPU 运行时，下载语言 GGUF 与 multimodal-BF16.gguf 等配套文件，再运行 examples/cpu 下的示例。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "a5869b7ac5444a1427b79a4f53227f198000ee39b02fe9714059d2eaca048992"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1329,7 +1331,8 @@
         "requirements": "Python 3.10–3.13 与官方 WePM 运行时；官方建议 CUDA 推理至少 16 GB 显存，或 CPU 推理 24 GiB 系统内存，实际取决于输入与输出长度。",
         "start": "下载官方 WePM 推理代码，按对应 CPU / CUDA 安装说明准备环境，再从 generation、embedding 或 decision 示例选任务。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "db17e3e074778fbb9591d011eabda77a058bedcb3e249e442d6040a7d8f172d8"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1400,7 +1403,8 @@
         "requirements": "Python 3.10–3.13、Git、CMake 3.20+ 和 C++17 编译器；先编译 WePM 的 libwepm_gguf。量化语言权重之外，视觉与任务权重仍是 BF16。",
         "start": "按模型卡编译 WePM CPU 运行时，下载语言 GGUF 与 multimodal-BF16.gguf 等配套文件，再运行 examples/cpu 下的示例。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "bc2843e9137c954923c8b5f6e84c7c57dfcc43e654e1874ae5ec3044fa17cef1"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1479,7 +1483,8 @@
         "requirements": "Python 3.10–3.13 与官方 WePM 运行时；2B 含约 2.23B 参数、BF16 文件约 4.47 GB，运行内存另计。",
         "start": "下载官方 WePM 推理代码，按对应 CPU / CUDA 安装说明准备环境，再从 generation、embedding 或 decision 示例选任务。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "763882479e0696ad4b2277b11f7989ad2f634c92d94068ea00e1e9f0415ec0d6"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1554,7 +1559,8 @@
         "requirements": "模型规模大，需按官方 vLLM / SGLang 等部署说明核对硬件与依赖；采用腾讯自定义许可，不能仅凭开放下载判断商用条件。",
         "start": "从模型卡的 Quickstart 与 Deployment 选择支持的框架和权重精度，按其推荐参数部署后再测试图文输入。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "29cf0a818f8dbbb9ce44023da2855028ae9ea2e4c16fe47235b0413105bbedfc"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1629,7 +1635,8 @@
         "requirements": "模型规模大，需按官方 vLLM / SGLang 等部署说明核对硬件与依赖；采用腾讯自定义许可，不能仅凭开放下载判断商用条件。",
         "start": "从模型卡的 Quickstart 与 Deployment 选择支持的框架和权重精度，按其推荐参数部署后再测试图文输入。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "5a18ae4cb5b17425975d4e631ce03f2050494589ebfc544a6719e36bbf4f26e9"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -1981,7 +1988,8 @@
         "requirements": "需要兼容 Qwen2-VL 的 Transformers 与配套视觉预处理；视频时长、分辨率和上下文都会影响内存，官方未注明统一最低显存。",
         "start": "按模型卡安装依赖，从单张图片或视频的推理示例开始，使用 AutoProcessor 配合正确的视觉输入处理。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "74a9e36341dfd645f6dc4260c07d0ee21c4cf6122ac17033fd6cdc552d097f3d"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2056,7 +2064,8 @@
         "requirements": "选择官方列出的兼容推理框架；仓库没有统一的最低运行显存要求，模型权重与上下文需同时计入资源预算。",
         "start": "按模型卡的 Quick Start 加载模型，从短代码和单张截图任务验证输入方式，再接入自己的开发流程。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "5497f016ac0abbc4be8349cf6d7d893f159dca0ff845b9d5cb4303b2b3ce04b8"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2131,7 +2140,8 @@
         "requirements": "可参考 Transformers、vLLM 与 SGLang 等官方入口；未给出统一最低显存，长上下文通常增加内存需求。",
         "start": "按官方 Quick Start 选择框架，先验证短文本和单图输入，再调整上下文及工具调用设置。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "124ef747361dc6c19e6fa6c804676ff7d7919133a5260fa5ee4f7826b5b02b63"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2210,7 +2220,8 @@
         "requirements": "需兼容该架构的推理框架；MoE 的激活参数不等于总权重内存，运行开销还取决于上下文和图像输入。",
         "start": "从官方图文调用示例开始；部署服务时按所选框架的官方指南配置模型与采样。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "a26f6904a39f7203b3a1f2abd9d9c33520f0ace7ca8499edc2368b43f2ef1a40"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2285,7 +2296,8 @@
         "start": "下载ComfyUI_LiliPixel.py和LiliPixel_V1.json文件，安装依赖后在ComfyUI中运行。首次运行需联网下载模型和文本编码器。",
         "cardHash": "9603a8abe10898bb168ace2a1766a08410bf869231a5d2c4107ace5124c4e63a",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "9603a8abe10898bb168ace2a1766a08410bf869231a5d2c4107ace5124c4e63a"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2409,7 +2421,8 @@
         "start": "选择官方 ComfyUI 入口或 Diffusers FluxPipeline 示例，按其依赖与采样设置运行。",
         "cardHash": "d4832da59aafdc5f72224bd56b9f0835323cc5524d9513b2879cb16ec6a43100",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "d4832da59aafdc5f72224bd56b9f0835323cc5524d9513b2879cb16ec6a43100"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:22+08:00"
@@ -2468,7 +2481,8 @@
         "start": "先查看仓库文件与其链接的官方参考实现，选定精度及兼容运行环境后下载对应文件。",
         "cardHash": "d8d055cc8b5073e0fda9133f8d2d6156958f0f2b387c0f866a32bf9286f76ed2",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "d8d055cc8b5073e0fda9133f8d2d6156958f0f2b387c0f866a32bf9286f76ed2"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:22+08:00"
@@ -2543,7 +2557,8 @@
         "start": "从官方 FluxPipeline 示例或 ComfyUI 支持说明开始，按 dev 版本的采样配置运行。",
         "cardHash": "8e7ded4a907928c8d2fa94bb2af3805a90dd53a4b837e22df61cda2eac0a1254",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "8e7ded4a907928c8d2fa94bb2af3805a90dd53a4b837e22df61cda2eac0a1254"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:22+08:00"
@@ -2621,7 +2636,8 @@
         "start": "打开官方 Fill 使用文档，按照 FluxFillPipeline 示例传入图像、遮罩和提示词。",
         "cardHash": "c7d84852883396d7da615dedd082f4010ded0ecf795456e520c46669e09bcd92",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "c7d84852883396d7da615dedd082f4010ded0ecf795456e520c46669e09bcd92"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:22+08:00"
@@ -2687,7 +2703,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "77af588d5dc45010499416bdd77e7f1299e1c0a01b6a3bc098a9746a2c86eb39",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "77af588d5dc45010499416bdd77e7f1299e1c0a01b6a3bc098a9746a2c86eb39"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -2974,7 +2991,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "0dfcd2f48b28c076aaadc146582c4aba79c1e965dd5a42f9e23e0d251df1736b",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "0dfcd2f48b28c076aaadc146582c4aba79c1e965dd5a42f9e23e0d251df1736b"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3204,7 +3222,8 @@
         "requirements": "自行部署需核对完整模型规模与官方推理环境；不要直接套用其他模型的 chat template。",
         "start": "先查看 encoding 文件夹及测试用例，或使用官方 deepseek-recipe 处理消息与工具调用格式，再进行推理。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "b72b796e4f4c739eca5d0ad360a7679b39118ca7eb64891f7151a527b292c42a"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3306,7 +3325,8 @@
         "requirements": "官方加载器要求五份模型文件放在同一目录；需安装 ltx-pipelines 的 videoseal 与 audioseal 扩展，并核对校验和。",
         "start": "打开官方 marking.md 文档，安装标记扩展并下载完整文件，再使用对应的嵌入与检测接口。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "e6f382980dc3349110daebda75372bb1d6522c5d3972597b00d00bb23a7a9f9d"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3377,7 +3397,8 @@
         "start": "从官方 LTX-2 项目的模型版本和管线说明开始；若只想体验生成，优先查看已配置好的官方 Space，再考虑自行部署。",
         "cardHash": "850a5b6b1af7499cdd54aa642c2b335181771a01391c5064c15417ea3e61b7f1",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "850a5b6b1af7499cdd54aa642c2b335181771a01391c5064c15417ea3e61b7f1"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:24+08:00"
@@ -3452,7 +3473,8 @@
         "start": "从官方 LTX-2 项目的模型版本和管线说明开始；若只想体验生成，优先查看已配置好的官方 Space，再考虑自行部署。",
         "cardHash": "c15840bce7719e2e0bec612d12a7c0a3813d515884311ac859808b1cf8618872",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "c15840bce7719e2e0bec612d12a7c0a3813d515884311ac859808b1cf8618872"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:25+08:00"
@@ -3527,7 +3549,8 @@
         "start": "按模型卡的 ComfyUI 速度控制流程或 distilled_speed_demo.py 示例加载配套文件。",
         "cardHash": "e026833d02c76f92cbc823c47fb7127365e9763cf2894a29d47208ddcbbd6d12",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "e026833d02c76f92cbc823c47fb7127365e9763cf2894a29d47208ddcbbd6d12"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:25+08:00"
@@ -3602,7 +3625,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3719,7 +3743,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "13015672722e0a8298a60cb78673c004e519d17f9a43868a82f76fcc38db42b9",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "13015672722e0a8298a60cb78673c004e519d17f9a43868a82f76fcc38db42b9"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3825,7 +3850,8 @@
         "requirements": "需要配套视觉模块、官方提示编码与推理实现；实验版并不意味着普通电脑可以直接加载。",
         "start": "先阅读 inference/examples 中等价的 TXT / JSON 视觉提示，再按官方参考实现配置图片与消息。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "5e120ab94b1f4c1c4a9096b666b1256e96331142fd2dc649c2a0ae5fc8482606"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3908,7 +3934,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "c6cfac1332d8fdf7a63db6c148a8898b7eab63b128ef9682b95ada07ef50ae18",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "c6cfac1332d8fdf7a63db6c148a8898b7eab63b128ef9682b95ada07ef50ae18"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -3983,7 +4010,8 @@
         "requirements": "仓库未提供通用 Jinja 聊天模板，需采用官方消息编码方式；部署前核对模型文件与推理依赖。",
         "start": "阅读 encoding 参考代码与官方部署说明，先验证文本消息和工具调用格式，再接入智能体框架。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "61755d88e95789fcd7a36f50892f97bba977a30fc99d0f2907ab787ed10b0e66"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4059,7 +4087,8 @@
             "title": "Wan-Animate-2 官方能力与运行说明",
             "url": "https://github.com/Wan-Video/Wan-Animate-2"
           }
-        ]
+        ],
+        "reviewSourceCardHash": "4a42025401821a337df3a837effa8bc98b2c9dcacf44f8c52fffae697f90455f"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4135,7 +4164,8 @@
             "title": "Wan-Animate-2 官方能力与运行说明",
             "url": "https://github.com/Wan-Video/Wan-Animate-2"
           }
-        ]
+        ],
+        "reviewSourceCardHash": "86cf93daa4bce403b00d56a82063facc7313fa96eb2a5391b7ea486a5a7c66ad"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4206,7 +4236,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "4ba5edf84a02d245b93de9ff678933f51e9c4ff8b7bd5fa386a39a247d38180e",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "4ba5edf84a02d245b93de9ff678933f51e9c4ff8b7bd5fa386a39a247d38180e"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4270,7 +4301,8 @@
             "title": "Wan-Animate-2 官方能力与运行说明",
             "url": "https://github.com/Wan-Video/Wan-Animate-2"
           }
-        ]
+        ],
+        "reviewSourceCardHash": "c24072d3d7eedcc15cb5d10317c742e1abe80cc49be2218b9cd57716814a418c"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4337,7 +4369,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "38249e94fc304da13798cf4481f25b0d81afcb6e7e1a0ae32e63cbbe91efcc5f",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "38249e94fc304da13798cf4481f25b0d81afcb6e7e1a0ae32e63cbbe91efcc5f"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4412,7 +4445,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "9504fbbcd4b6d91bf4909655227143a8d24225eb3fff35d513b1fb63f4017506",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "9504fbbcd4b6d91bf4909655227143a8d24225eb3fff35d513b1fb63f4017506"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4647,7 +4681,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "48318ff48819858192dbb59f106dd709c3017e447bcc540807df66840a03a695",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "48318ff48819858192dbb59f106dd709c3017e447bcc540807df66840a03a695"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4726,7 +4761,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "1a3a493bbb99dd2935e6e61c902be60ba326d7627958f5f78279259bb77027e9",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "1a3a493bbb99dd2935e6e61c902be60ba326d7627958f5f78279259bb77027e9"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4798,7 +4834,8 @@
         "requirements": "需按研究项目安装配套推理代码；模型卡没有给出统一最低内存或显存。",
         "start": "先阅读官方 circuit_sparsity 仓库的说明，再运行此仓库提供的小型生成示例。",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "53e9d0d59eccdb7e67e04fa47a396210a1440742faab44222e0185cf4f2dbce6"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -4877,7 +4914,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "144ad44df26c573cebefb59586cd9c0e59e30d6e1a546e58986b1c01828cfc1c",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "144ad44df26c573cebefb59586cd9c0e59e30d6e1a546e58986b1c01828cfc1c"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -5164,7 +5202,26 @@
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:53:15+08:00",
       "profileAttemptHash": "99a97b09ba27ce8b35c06d59802a0f339c3a35483a77c7037ac203a9969fbf21",
-      "profileAttemptTime": 1795427718.5467618
+      "profileAttemptTime": 1795427718.5467618,
+      "profile": {
+        "purpose": "医学资料推理与研究任务",
+        "summary": "inclusionAI 基于 Ling-3.1-flash 的医学研究模型，官方标注 560B 总参数、25B 激活参数与百万 token 上下文，面向医学证据整理、专业沟通和多阶段研究流程。",
+        "difference": "这是面向医疗研究与评估的专用模型，不是医疗器械；官方明确不能作为独立诊断、处方或治疗依据。",
+        "example": "例如：在研究环境整理给定医学文献中的证据与问题，供专业人员复核。",
+        "requirements": "需要支持该大规模 MoE 模型的部署环境；模型权重和上下文都影响资源需求，官方用途边界需一并遵守。",
+        "start": "从官方模型卡的使用与部署说明进入，在研究测试数据上验证任务和输出，再考虑接入专业工作流。",
+        "cardHash": "99a97b09ba27ce8b35c06d59802a0f339c3a35483a77c7037ac203a9969fbf21",
+        "engine": "official-model-card-reviewed",
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "evidence": [
+          "560 billion total parameters",
+          "25 billion parameters per token",
+          "1-million-token context window",
+          "intended for research and evaluation",
+          "not a medical device"
+        ],
+        "reviewSourceCardHash": "8c254606b88b4b9053bd7a1a0d177da7f938416fd6ba229c99fff693a3ea2431"
+      }
     },
     {
       "id": "github-4e0f88cc765227cf817a9385",
@@ -5640,7 +5697,8 @@
         "start": "使用 vLLM 框架，通过 `vllm serve` 命令启动模型，并指定 `--mamba-ssm-cache-dtype float32` 参数。",
         "cardHash": "dc55b06edb61aad67ad36caf55d65a9c2a665898a31650d9ba2fb1c493d4ab77",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "dc55b06edb61aad67ad36caf55d65a9c2a665898a31650d9ba2fb1c493d4ab77"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -6998,7 +7056,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "0c07904b3ab4e56c1c634ee15598bf1e6d0ecf1fa57df5508580c0d0497d037b",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "0c07904b3ab4e56c1c634ee15598bf1e6d0ecf1fa57df5508580c0d0497d037b"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7116,7 +7175,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "f7606c6b42a8b960bf6ff17129d100693a0bd4ef4a89fc018892c25afea638b5",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "f7606c6b42a8b960bf6ff17129d100693a0bd4ef4a89fc018892c25afea638b5"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7180,7 +7240,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "19c74d856df32cfff2296f689d1b7f96cebed4ea05a6504a3566ffb5c1ff88fc",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "19c74d856df32cfff2296f689d1b7f96cebed4ea05a6504a3566ffb5c1ff88fc"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7255,7 +7316,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "059f4722e2e9331c8c128fd9b11e53e5afab8c002076329cfff1a12c6b3b8f2e",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "059f4722e2e9331c8c128fd9b11e53e5afab8c002076329cfff1a12c6b3b8f2e"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7338,7 +7400,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "b5d645a1874baa96a460a0e3a7d5a262811d682d04ce235878a16d5fed287fd3",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "b5d645a1874baa96a460a0e3a7d5a262811d682d04ce235878a16d5fed287fd3"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7417,7 +7480,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "111873bd76ca0c33fc3d275063cfa852415ec3be1f592b64f3d7797ace4202fc",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "111873bd76ca0c33fc3d275063cfa852415ec3be1f592b64f3d7797ace4202fc"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7500,7 +7564,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "6b45bc87784802588cd1768ba6d3b127749bfef3c34d8b057330728fd44534c0",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "6b45bc87784802588cd1768ba6d3b127749bfef3c34d8b057330728fd44534c0"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7572,7 +7637,8 @@
         "start": "从作者给出的 pocket-tts Python 示例或 Phonon 入口开始，按句生成并保持同一参考音色。",
         "cardHash": "66c29f62f4d2c208b068abd031cff10444d49fa989f338ae6206368ce13abc47",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "66c29f62f4d2c208b068abd031cff10444d49fa989f338ae6206368ce13abc47"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:25+08:00"
@@ -7636,7 +7702,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "c660ace78afdaf3e37e210c38609e1ca1e229a14ad195d1c945de247616c02c1",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "c660ace78afdaf3e37e210c38609e1ca1e229a14ad195d1c945de247616c02c1"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7702,7 +7769,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "2906bd717661e4507e5626560432ac09bfabe61be1db2c5d912d3f52a4efddf0",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "2906bd717661e4507e5626560432ac09bfabe61be1db2c5d912d3f52a4efddf0"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7781,7 +7849,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "6b06c356f57f149323d0db7b6ea2fe7f20c504054c1cc1ef1af10b0d3030cea8",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "6b06c356f57f149323d0db7b6ea2fe7f20c504054c1cc1ef1af10b0d3030cea8"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7847,7 +7916,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "d83fb36322254fb56e34db82d8800c49dd19dee67b493717d83c006b918e3437",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "d83fb36322254fb56e34db82d8800c49dd19dee67b493717d83c006b918e3437"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7926,7 +7996,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "d73a77127dd000062ed6c5c32fe924971149ca4e9d87285bfd94adb8cc5c4771",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "d73a77127dd000062ed6c5c32fe924971149ca4e9d87285bfd94adb8cc5c4771"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -7997,7 +8068,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "514f43423d624e78325dd6ab924633a11dac56b6df0eebc1da604ddc3a0488ce",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "514f43423d624e78325dd6ab924633a11dac56b6df0eebc1da604ddc3a0488ce"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8068,7 +8140,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "230f7b059105af7a0282fec2b6c21195cd4d29232c9254bae5141c75c07605ca",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "230f7b059105af7a0282fec2b6c21195cd4d29232c9254bae5141c75c07605ca"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8132,7 +8205,8 @@
         "start": "先核对仓库访问条件，再从官方 GitHub 的 Base / Distilled 推理说明中选择与你下载文件匹配的版本。",
         "cardHash": "bd5e6fbfaab5c28e746b4f4c85627988a9673706a603f7935d73735d52da5ba6",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "bd5e6fbfaab5c28e746b4f4c85627988a9673706a603f7935d73735d52da5ba6"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:27+08:00"
@@ -8207,7 +8281,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "511c02298d7115694e0d5ad3b3be87b36bdbde30fcf37eebfa7573b197d66990",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "511c02298d7115694e0d5ad3b3be87b36bdbde30fcf37eebfa7573b197d66990"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8276,7 +8351,8 @@
         "start": "通过vLLM启动OpenAI兼容服务器，具体命令见模型卡。",
         "cardHash": "0b32544c6c8aaa550aa39e567fea05b1f0817134370b183ed4ee4dd7c37c15f8",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "0b32544c6c8aaa550aa39e567fea05b1f0817134370b183ed4ee4dd7c37c15f8"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8359,7 +8435,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "39104a379f96af66acfaa9ed1ec2eb4b538afb0d297fd8caebe64e92acb3ab1e",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "39104a379f96af66acfaa9ed1ec2eb4b538afb0d297fd8caebe64e92acb3ab1e"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8434,7 +8511,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "c5dc41b76d8861b018e15b762fc873fee7d4a6a380c2aad4c15e362bc700a90c",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "c5dc41b76d8861b018e15b762fc873fee7d4a6a380c2aad4c15e362bc700a90c"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8496,7 +8574,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "af8ff74b834b2154c91f4bca640eef20b84825439d8aeb893657d8e7438fd0aa",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "af8ff74b834b2154c91f4bca640eef20b84825439d8aeb893657d8e7438fd0aa"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8571,7 +8650,8 @@
         "start": "先查看官方 Serving 与 API Quickstart，明确选择自部署权重还是托管接口；后者的服务条件另行计算。",
         "cardHash": "5daa13793292c65cf198b2f4997c69a21378a1688c40c8b3dbdf48a27dd15085",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "5daa13793292c65cf198b2f4997c69a21378a1688c40c8b3dbdf48a27dd15085"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8655,7 +8735,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "c2794534c62de4da61c1d9eeaacb4045be092d39858ba67716f6739c9c9d43a7",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "c2794534c62de4da61c1d9eeaacb4045be092d39858ba67716f6739c9c9d43a7"
       },
       "resourceType": "weights"
     },
@@ -8779,7 +8860,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "8a06cc67a204a173512f631b7eb8325c220236c543ee5007ecbecddeec272b20",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "8a06cc67a204a173512f631b7eb8325c220236c543ee5007ecbecddeec272b20"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -8850,7 +8932,8 @@
         "start": "从官方 LTX-2 项目的模型版本和管线说明开始；若只想体验生成，优先查看已配置好的官方 Space，再考虑自行部署。",
         "cardHash": "10a2027deb370758416b4d2fbae0081d5f724dffaa950cc36cbc1c89b79a759d",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "10a2027deb370758416b4d2fbae0081d5f724dffaa950cc36cbc1c89b79a759d"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:28+08:00"
@@ -8925,7 +9008,8 @@
         "start": "按官方 IndicF5 安装指南准备环境，再用模型卡的三输入示例进行生成。",
         "cardHash": "6aa0faf3807aeb572686932f410fe196a09f0d6d80748583cf1dc543743f41b6",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "6aa0faf3807aeb572686932f410fe196a09f0d6d80748583cf1dc543743f41b6"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:28+08:00"
@@ -9000,7 +9084,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "d4a8b60c83df734ea0373931ba9548f07bdcbab683d19c7f5777a6a83f0971c8",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "d4a8b60c83df734ea0373931ba9548f07bdcbab683d19c7f5777a6a83f0971c8"
       },
       "resourceType": "weights"
     },
@@ -9128,7 +9213,8 @@
         "start": "模型卡提供了使用代码；从官方 Usage / Quick Start 的示例开始，核对依赖、模型路径和示例输入后再处理自己的素材。",
         "cardHash": "7a4306a43f395e3a716e77f1d81c03db18a0a355d7b566bb1d6307213ba0302b",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "7a4306a43f395e3a716e77f1d81c03db18a0a355d7b566bb1d6307213ba0302b"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:32:32+08:00"
@@ -9295,7 +9381,8 @@
         "start": "接受相应仓库访问条件后，用 pyannote.audio 的 Pipeline 加载模型，对音频文件运行并读取说话人时间段。",
         "cardHash": "671aac905fc192f3d76c1a4c573e1a0f94cff5057f4a3e0d58e95c6766110d11",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "671aac905fc192f3d76c1a4c573e1a0f94cff5057f4a3e0d58e95c6766110d11"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:28+08:00"
@@ -9374,7 +9461,8 @@
         "start": "按模型卡的 Transformers 示例加载本仓库与聊天模板，先用短文本测试，再考虑量化或服务化部署。",
         "cardHash": "cd4086308a27a43a5f89569b2aef4f611327f3972511b5d05a5ac134046540db",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "cd4086308a27a43a5f89569b2aef4f611327f3972511b5d05a5ac134046540db"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:30+08:00"
@@ -9437,7 +9525,8 @@
         "start": "官方未提供可直接运行的示例。",
         "cardHash": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:46:33+08:00"
+        "generatedAt": "2026-11-23T17:46:33+08:00",
+        "reviewSourceCardHash": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78"
       },
       "resourceType": "weights"
     },
@@ -9499,7 +9588,8 @@
         "start": "接受相应仓库访问条件后，用 pyannote.audio 的 Pipeline 加载模型，对音频文件运行并读取说话人时间段。",
         "cardHash": "664b123a32947fb7ae43a710abc14d0083ab1df8264ba7155ca9eac20fd066d5",
         "engine": "official-model-card-reviewed",
-        "generatedAt": "2026-11-23T17:51:26+08:00"
+        "generatedAt": "2026-11-23T17:51:26+08:00",
+        "reviewSourceCardHash": "664b123a32947fb7ae43a710abc14d0083ab1df8264ba7155ca9eac20fd066d5"
       },
       "detailStatus": "available",
       "cardCheckedAt": "2026-11-23T17:48:31+08:00"

@@ -2,10 +2,16 @@ import copy,json,sys,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from hf_resources import extend_catalog,facts,model_details,space_item,workflow_item,public_card_text
+from hf_resources import extend_catalog,facts,model_details,space_item,workflow_item,public_card_text,apply_reviews
 from discover import hf_item,collect_resources
 
 class HubTests(unittest.TestCase):
+ def test_review_follows_unchanged_supporting_facts_but_rejects_changed_parameters(self):
+  name='inclusionAI/LingSante-3.1-flash';review=json.loads((Path(__file__).resolve().parents[1]/'scripts/hf_reviews.json').read_text())[name]
+  with tempfile.TemporaryDirectory() as d,patch('hf_resources.CACHE',Path(d)):
+   a={'originalTitle':name,'cardHash':'new-doc','sources':[]};cache=Path(d)/'new-doc.txt';cache.write_text('\n'.join(review['evidence'])+'\nAn installation typo was corrected.')
+   apply_reviews([a]);self.assertEqual(a['profile']['cardHash'],'new-doc')
+   cache.write_text(cache.read_text().replace('560 billion','570 billion'));b={'originalTitle':name,'cardHash':'new-doc','sources':[]};apply_reviews([b]);self.assertNotIn('profile',b)
  def test_public_card_fallback_excludes_auth_prompt_and_footer(self):
   content='<div class="prose">Login to share information</div><div class="model-card-content prose"><h2>Model overview</h2><p>'+('Public model facts. '*12)+'</p><script>ignore-this()</script></div><footer>Download advertising</footer>'
   text=public_card_text(content);self.assertIn('Public model facts',text);self.assertNotIn('Login',text);self.assertNotIn('ignore-this',text);self.assertNotIn('advertising',text)

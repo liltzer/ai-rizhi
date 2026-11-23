@@ -103,10 +103,16 @@ def workflow_item(meta,body,cfg):
 
 def apply_reviews(items):
     path=Path(__file__).with_name('hf_reviews.json');reviews=json.loads(path.read_text()) if path.exists() else {}
+    def normalize(value):return re.sub(r'\s+',' ',re.sub(r'[*_`#]','',value)).strip().lower()
     for item in items:
-        review=reviews.get(item.get('originalTitle',''),{})
-        if review.get('cardHash') and review['cardHash']==item.get('cardHash'):
-            item['profile']=dict(review)
+        review=reviews.get(item.get('originalTitle',''),{});matched=review.get('cardHash') and review['cardHash']==item.get('cardHash')
+        # A documentation-only revision need not invalidate independently reviewed facts.
+        # Carry the review forward only while every selected supporting statement remains.
+        evidence=review.get('evidence') or [];cache=CACHE/(str(item.get('cardHash',''))+'.txt')
+        if not matched and evidence and cache.exists():
+            source=normalize(cache.read_text());matched=all(normalize(text) in source for text in evidence)
+        if matched:
+            item['profile']={**review,'reviewSourceCardHash':review['cardHash'],'cardHash':item['cardHash']}
             for ref in review.get('references',[]):
                 if safe_url(ref.get('url')) and not any(s.get('url')==ref['url'] for s in item['sources']):item['sources'].append(ref)
     return items
