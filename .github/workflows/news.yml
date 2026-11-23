@@ -7,6 +7,7 @@ on:
     branches: [main]
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -15,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,6 +32,8 @@ jobs:
       - name: 采集公开新闻源并保留结果
         id: collect
         run: python scripts/collect.py
+      - name: 补译新旧外文标题与摘要
+        run: python scripts/translation.py --seconds 600
       - name: 保存新的内容与来源状态
         run: |
           git config user.name 'github-actions[bot]'
@@ -45,6 +48,24 @@ jobs:
         with:
           path: site
           retention-days: 1
+      - name: 确认发布文件已可读取
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PYTHON'
+          import json, os, time, urllib.request
+          url = os.environ['GITHUB_API_URL'] + '/repos/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID'] + '/artifacts'
+          for attempt in range(15):
+              req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  artifacts = json.load(r).get('artifacts', [])
+              if any(a.get('name') == 'github-pages' and not a.get('expired') for a in artifacts):
+                  print('发布文件已就绪')
+                  break
+              time.sleep(2)
+          else:
+              raise SystemExit('发布文件尚未可读取，请重试本次工作流')
+          PYTHON
       - name: 发布同一个网站地址
         id: deployment
         uses: actions/deploy-pages@v4

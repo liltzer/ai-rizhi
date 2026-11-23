@@ -58,7 +58,15 @@
       ],
       "collectedAt": "2026-11-23T05:42:13+08:00",
       "checkedAt": "2026-11-23T05:42:13+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "困惑度与智能",
+        "summary": "困惑度如何衡量人工智能模型的进展，以及为什么它可以帮助开发人员建立评估新兴功能的共享方法。",
+        "sourceHash": "63d38c08cbd37579e150d0c71ba99d9b4c3952157d99470d0ae708e1e80870ad",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:07+08:00"
+      }
     },
     {
       "id": "rss-0aa151cffc73bd7997158468",
@@ -267,7 +275,15 @@
       ],
       "collectedAt": "2026-11-21T06:38:36+08:00",
       "checkedAt": "2026-11-21T06:38:36+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "人工智能可以帮助科学家识别有前途的候选药物吗？",
+        "summary": "MedChemBench 评估人工智能模型解释分子结构、实验证据推理以及早期药物发现中化合物选择的能力。",
+        "sourceHash": "2333a51021f4a7fb5fa45dd1424a87674b88f92ca8083fc7c2ae1de7ea2a0592",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:07+08:00"
+      }
     },
     {
       "id": "rss-8145fefb47ff1ca9fa5560e6",
@@ -286,7 +302,15 @@
       ],
       "collectedAt": "2026-11-21T06:38:36+08:00",
       "checkedAt": "2026-11-21T06:38:36+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Hebbia 通过 GPT-6 Astra 看到了金融研究的进步",
+        "summary": "Hebbia 对 GPT-6 Astra 进行了金融研究测试。其预发布评估发现来源覆盖率、引用相关性和演示质量都有所提高。",
+        "sourceHash": "700a74ee9259b10ad489902778fddb62f77b3b202a87fe90df31c42654d85972",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:07+08:00"
+      }
     },
     {
       "id": "rss-7ad44f990f0c53ef2e2a5377",
@@ -305,7 +329,15 @@
       ],
       "collectedAt": "2026-11-21T06:38:36+08:00",
       "checkedAt": "2026-11-21T06:38:36+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "打击对抗性蒸馏",
+        "summary": "OpenAI 的分层对抗蒸馏方法结合了模型训练、防护、检测和执行，以防止能力提取。",
+        "sourceHash": "086ffeaba9803f6e1c6910737073fbc2d7895e7da535bd72dd338de2c92918d3",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:07+08:00"
+      }
     },
     {
       "id": "rss-824c03b970f1dc58cad67633",
@@ -324,7 +356,15 @@
       ],
       "collectedAt": "2026-11-21T06:38:36+08:00",
       "checkedAt": "2026-11-21T06:38:36+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "欢迎使用 Inkling 2 Mini，为您的本地设置提供尖端性能",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "8fbdf3da564acf10eb21527291cdbafa6a32c72364e388ff32d9151157e9022f",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:11+08:00"
+      }
     },
     {
       "id": "rss-15bb46163c51fe489b0a6c9f",
@@ -400,7 +440,15 @@
       ],
       "collectedAt": "2026-11-20T01:18:37+08:00",
       "checkedAt": "2026-11-20T01:18:37+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。",
+        "summary": "沃尔特·艾萨克森 (Walter Isaacson) 加入 Google，讨论历史上最伟大的创新者如何在人工智能时代激发创造力和人类判断力。观看剧集。",
+        "sourceHash": "c800a78af53f409ba4316db51aa5acc4e346a27ecbff0e1bf648dd3843502e35",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:11+08:00"
+      }
     },
     {
       "id": "rss-056cf0b58a3dbace68332c5e",
@@ -419,7 +467,15 @@
       ],
       "collectedAt": "2026-11-20T07:46:06+08:00",
       "checkedAt": "2026-11-20T07:46:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在 Gemini API 中引入工具检索",
+        "summary": "通过工具检索，您的代理可以使用更少的令牌来访问数百种工具，现在可以在 Gemini API 中预览。",
+        "sourceHash": "039a06d54e9eca579942c81ac455dcb4f92b3014b42058941a4273efc53d3554",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:11+08:00"
+      }
     },
     {
       "id": "rss-701a571706ec6c00de8bbc6a",
@@ -438,7 +494,15 @@
       ],
       "collectedAt": "2026-11-21T00:03:39+08:00",
       "checkedAt": "2026-11-21T00:03:39+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "推出运行框架适配器：使您最喜欢的模型适应您的运行框架，以提高性能和成本",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "dfe435ce9e75d6c54a7d9e5103d55d08468079cd929e6726ef8aaf6c9d7f11e5",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:11+08:00"
+      }
     },
     {
       "id": "rss-865df8f2c20f4dc3ae5406c7",
@@ -514,7 +578,15 @@
       ],
       "collectedAt": "2026-11-20T15:00:10+08:00",
       "checkedAt": "2026-11-20T15:00:10+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "部署Daybreak Red",
+        "summary": "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。",
+        "sourceHash": "68568157fbdd7990b989cc1b197ed209b610b106341f3f0798ea465335751026",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:15+08:00"
+      }
     },
     {
       "id": "rss-992a8a1d57b5b0bb49e20c2c",
@@ -533,7 +605,15 @@
       ],
       "collectedAt": "2026-11-20T01:18:38+08:00",
       "checkedAt": "2026-11-20T01:18:38+08:00",
-      "sourceType": "media"
+      "sourceType": "media",
+      "translation": {
+        "title": "好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
+        "summary": "Kling图像4.0",
+        "sourceHash": "b396e8e6ccbd067e4b9a85ddb3897166cc98ef1aea950317b2daee21250799de",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:15+08:00"
+      }
     },
     {
       "id": "rss-5e0460e77a3dc2c0815727e2",
@@ -609,7 +689,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Genie 4 现已推出",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "344787d61729b8f280d8d1a983f866a0cfa6abab870e541456e931ad2f7ebc96",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:21+08:00"
+      }
     },
     {
       "id": "rss-fd9bebbff7e692862dad0cea",
@@ -628,7 +716,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini 4 Neon 简介",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "071801432ac9ec1fa0c0121a65d6309c3351444c4481f3a49121ce68b8acc623",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:18+08:00"
+      }
     },
     {
       "id": "rss-e55c8f2df06c07ffc92b5ea2",
@@ -647,7 +743,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为什么你的微调工作花费的时间比 理论计算量预估要长",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "cdca0390620e22a1d03cc0465413415572149fa8dd7fc63e27d18f0fe8016d4a",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:21+08:00"
+      }
     },
     {
       "id": "rss-f0b81ce3c14612880642c854",
@@ -666,7 +770,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "DaisyRose-27B：突破训练后效率的前沿",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "95f1e293f99ac94971ce34cf1b56841565b89a51e072048c1b70170eed7d7aed",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:18+08:00"
+      }
     },
     {
       "id": "rss-0191a8cf5007a7e305ee6ecc",
@@ -685,7 +797,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。",
+        "summary": "Google Gemini 应用程序现在支持内存较低的 Android 设备。在手机上访问 Gemini Live 和自定义图像创建。立即下载该应用程序。",
+        "sourceHash": "12a303403748a092860c73d33ef1afab7e061a2e0f04b51f77ecb88b2a39fa3a",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:21+08:00"
+      }
     },
     {
       "id": "rss-3cb989289df448fa45e9c928",
@@ -780,7 +900,15 @@
       ],
       "collectedAt": "2026-11-20T07:46:06+08:00",
       "checkedAt": "2026-11-20T07:46:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 快速",
+        "summary": "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
+        "sourceHash": "513d616b35ddc670123cc1729af50aae72cbbbfe5cf4fde722817ed22f8d0f02",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:15+08:00"
+      }
     },
     {
       "id": "rss-82fe289fe466dcc1d4f71a60",
@@ -799,7 +927,15 @@
       ],
       "collectedAt": "2026-11-20T07:46:06+08:00",
       "checkedAt": "2026-11-20T07:46:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "探索 Codex 安全插件",
+        "summary": "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看记录中显示的结果。",
+        "sourceHash": "cb7168ade979bb42416a0302c2a8f943f509c6554b13c58e6b2dd9778e3d882d",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:15+08:00"
+      }
     },
     {
       "id": "rss-17b7a2b39f098895a2208f48",
@@ -818,7 +954,15 @@
       ],
       "collectedAt": "2026-11-20T07:46:06+08:00",
       "checkedAt": "2026-11-20T07:46:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "查看 PR 扫描的实际应用",
+        "summary": "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。",
+        "sourceHash": "268b20ba53f9a841228603367b0ce2083d88a97d822159373fd7cacc3939911e",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:18+08:00"
+      }
     },
     {
       "id": "rss-da30645137037f0052cd70ab",
@@ -837,7 +981,15 @@
       ],
       "collectedAt": "2026-11-20T07:46:06+08:00",
       "checkedAt": "2026-11-20T07:46:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "开始使用Daybreak Blue",
+        "summary": "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。",
+        "sourceHash": "735ffce000a28530ef495d0f7d37a2fd4d4b38cff33f622989eaa2247e7650fd",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:18+08:00"
+      }
     },
     {
       "id": "rss-99be0c0a7e074380d1a5d6cd",
@@ -856,7 +1008,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "管理前沿人工智能风险：从训练到部署",
+        "summary": "OpenAI 解释了它如何通过模型对齐、沙盒、阻止防护措施和监控来管理从训练到部署的前沿人工智能风险。",
+        "sourceHash": "7b0f621afa6251ff690ef1f2c5a80d3965983a4882e592ef0c7b10bdfaef6e63",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:30+08:00"
+      }
     },
     {
       "id": "rss-67952d9a918d2536a7bf3b37",
@@ -875,7 +1035,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Codex 沙箱内部",
+        "summary": "了解 Codex 如何在您的计算机上运行命令，同时强制执行您在 macOS、Linux 和 Windows 上控制的文件系统和网络限制。",
+        "sourceHash": "d4fae6b1c5b07afba9565dcb75d943156dead6e4b7d6faa2f1f93a129c719f60",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:25+08:00"
+      }
     },
     {
       "id": "rss-53d809d7420a3923e8bad7c3",
@@ -894,7 +1062,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "住友生命的领导者如何帮助团队采用 ChatGPT Enterprise",
+        "summary": "Sumitomo Life 使用 ChatGPT Enterprise 来研究保险公司、准备提案并起草投资分析代码。高管的早期使用有助于推动采用。",
+        "sourceHash": "e85d7aa026b468904980f74ea9ca10ddcb0ba6910b2f2884c6ee2865efaddb1b",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:25+08:00"
+      }
     },
     {
       "id": "rss-58da586369f33999eb920dc2",
@@ -913,7 +1089,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "研究加速：锯齿状的前沿",
+        "summary": "OpenAI 衡量编码代理如何加速人工智能研究，它们的表现仍然不平衡，以及这对于递归自我改进意味着什么。",
+        "sourceHash": "e69b74baff219335e380e0d6754814b531dafd8c61a794248740e6f8c3f3c319",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:25+08:00"
+      }
     },
     {
       "id": "rss-184d931227f2504de1a33beb",
@@ -932,7 +1116,15 @@
       ],
       "collectedAt": "2026-11-19T08:15:25+08:00",
       "checkedAt": "2026-11-19T08:15:25+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "沉默的共识",
+        "summary": "OpenAI 战略未来主管 Dean Ball 研究了更强大的人工智能如何重塑社会以及人们如何保持对其机构的控制。",
+        "sourceHash": "2c7a2124dda32e9927187db374ea509c88fd37d803b00e6757861608a1793af0",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:25+08:00"
+      }
     },
     {
       "id": "rss-dd09c1f84b47eec6ed10c516",
@@ -1084,7 +1276,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "让Gemini为你工作",
+        "summary": "Gemini 中的任务现已在六个国家/地区免费，新功能从美国开始推出，并与 Google Workspace 进行更深入的集成，以帮助您完成工作。",
+        "sourceHash": "10b6aed5856a1f80883e8bb8b55392cafb45142431a81674738152f43f61d6bd",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:34+08:00"
+      }
     },
     {
       "id": "rss-8f6af8c44a4a1bfb5de31585",
@@ -1103,7 +1303,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "GPT-6.2 Astra 和 Sol 简介",
+        "summary": "推出 GPT-6.2 Astra 和 Sol，在 ChatGPT Work、Codex 和 API 上以更低的成本提供更好的专业输出、编码、计算机使用和效率。",
+        "sourceHash": "e394587140d1af631d3416a1d11948e2afc01579b60908c09ab59f9f923d6347",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:34+08:00"
+      }
     },
     {
       "id": "rss-a1de396d3910fa2e0f79d5fc",
@@ -1122,7 +1330,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Le Groupe Figaro 和 OpenAI 合作将 Le Figaro 新闻带入 ChatGPT",
+        "summary": "Le Groupe Figaro 和 OpenAI 合作，通过摘要和摘录以及原始故事链接将 Le Figaro 的新闻报道引入 ChatGPT。",
+        "sourceHash": "446b7a06d34cf6ee3895e92d3f65778dfe3eae85165193edaf04d1c5de09f6b1",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:30+08:00"
+      }
     },
     {
       "id": "rss-68ddb817fe4001c0fc7b7140",
@@ -1141,7 +1357,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "利用 OpenAI 模型推进芯片设计",
+        "summary": "OpenAI 对 Jalapeo 芯片中使用的优化电路进行了建模，并改进了 RISC-V 核心设计，展示了 GPT-6 Astra 在 AI 辅助芯片设计方面的进展。",
+        "sourceHash": "9b3dfecdffdbc525b3ff73ec99c41a7c7dae7d98cf008ad733ccce08c2b31694",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:30+08:00"
+      }
     },
     {
       "id": "rss-aef632472a5e3af7f91b4cd9",
@@ -1160,7 +1384,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Streamhouse 中的时间序列模型：新领域和用例",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "dd369a6cef666523978e4b6b8ae730cfbe13f14302f5204a22ccae7e8794ecd4",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:21+08:00"
+      }
     },
     {
       "id": "rss-ec56b5eff9affb1c339e466c",
@@ -1179,7 +1411,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "180B 参数、32GB RAM：利用 Transformer 将 MoE 推理推向极限",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "7da9315b27957f6cf638bace6de31d8cda49f107fed317e6d62b4b0130e3a6f3",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:30+08:00"
+      }
     },
     {
       "id": "rss-5b89a2db7f60ae9099b72ca7",
@@ -1198,7 +1438,15 @@
       ],
       "collectedAt": "2026-11-19T01:58:14+08:00",
       "checkedAt": "2026-11-19T01:58:14+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Rumble-2-Flash：适用于 40 多种语言的开放 0.5B 语音模型",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "e189dcaa1d74682f8b6c1da9a0190199dfff97e22630a21cebc9ebe71fde810c",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:34+08:00"
+      }
     },
     {
       "id": "rss-17e055f95bba64f0e0baabc2",
@@ -1350,7 +1598,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Astra for Law 在法律情报方面处于领先地位",
+        "summary": "Astra for Law 在涵盖 24 个法律领域的启动评估中排名第一。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+        "sourceHash": "a9f23e9b6995180073f391c5b489c75cc23d2855c6453b0e0298a4ba0b5cf347",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:38+08:00"
+      }
     },
     {
       "id": "rss-3b3be741a87f5e2153e62660",
@@ -1369,7 +1625,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为智利推出 OpenAI",
+        "summary": "OpenAI 和智利政府正在合作支持负责任的人工智能采用、培养公共部门技能并帮助当地初创公司开发人工智能应用程序。",
+        "sourceHash": "2caaec7a7dcb08dc2c5bcb1cb42e21b492fbc280c65ecc63aa8c7b82f9d98970",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:38+08:00"
+      }
     },
     {
       "id": "rss-2d7a5d6b20fff3cd431e56c6",
@@ -1388,7 +1652,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "扩大科学家使用人工智能的机会",
+        "summary": "我们正在扩展针对学术研究人员的 ChatGPT 计划，为全球 200,000 名研究人员提供免费访问我们的前沿模型的机会。",
+        "sourceHash": "7ab3576d552f0eaff55bf82b37bc22b5625cb2d53d93b4014399c214b74d8111",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:38+08:00"
+      }
     },
     {
       "id": "rss-dd659f011024f04f24b0b918",
@@ -1407,7 +1679,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过新工具和支持加强打击网上儿童性虐待",
+        "summary": "新工具、实用指南和伙伴关系将有助于预防、发现和应对网上儿童性剥削和性虐待。",
+        "sourceHash": "d3354b21d3807cd2f7f2cac7c6f9283042e07d3f540bdd2e37bc75f66d3a0221",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:43+08:00"
+      }
     },
     {
       "id": "rss-0e7f690aa4ff229bd2e8f275",
@@ -1426,7 +1706,15 @@
       ],
       "collectedAt": "2026-11-17T17:05:44+08:00",
       "checkedAt": "2026-11-17T17:05:44+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "利用人工智能加强北约和盟国的网络防御",
+        "summary": "OpenAI 如何与北约和盟网络机构合作，帮助值得信赖的防御者发现漏洞、测试修复并保护重要系统。",
+        "sourceHash": "9841af4b7b680c3aa14544082c61be473aba93d85290445cf16a59a46983632b",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:38+08:00"
+      }
     },
     {
       "id": "rss-3047d7657748ea760feb4367",
@@ -1445,7 +1733,15 @@
       ],
       "collectedAt": "2026-11-18T09:15:54+08:00",
       "checkedAt": "2026-11-18T09:15:54+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "介绍用于销售的 ChatGPT",
+        "summary": "在 ChatGPT 中探索新的销售插件和 30 多个新的和扩展的合作伙伴插件，以研究潜在客户、准备推介、更新 CRM 并推动交易。",
+        "sourceHash": "9202d33af3f884daca074526e1f06753863cb7f723f7e5b93b0436f10d177fde",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:34+08:00"
+      }
     },
     {
       "id": "rss-3d4aeac88b69acfaa9cd944c",
@@ -1464,7 +1760,15 @@
       ],
       "collectedAt": "2026-11-17T09:01:54+08:00",
       "checkedAt": "2026-11-17T09:01:54+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在 Holiday Extras，点在任何人询问之前就开始工作",
+        "summary": "Dots 会自动发布发布报告，标记人们可能错过的问题，并在上​​班途中讨论即将召开的会议。",
+        "sourceHash": "44ad752b31c6b6739038b416bfe271dd8c399f3b740f3875d6a8b07fcfa52438",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:47+08:00"
+      }
     },
     {
       "id": "rss-2e8f421d2ee2a3dfd36bfcc5",
@@ -1483,7 +1787,15 @@
       ],
       "collectedAt": "2026-11-16T08:20:11+08:00",
       "checkedAt": "2026-11-16T08:20:11+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "在晶格上定义标准模型的一步",
+        "summary": "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+        "sourceHash": "1af66b83b5e98be26b9c6dcc4d42d4bd06e980a894f55d7be6425a19ce299243",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:52+08:00"
+      }
     },
     {
       "id": "rss-33b95c2112c46efd09554302",
@@ -1502,7 +1814,15 @@
       ],
       "collectedAt": "2026-11-16T08:20:11+08:00",
       "checkedAt": "2026-11-16T08:20:11+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们的新科学博客",
+        "summary": "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+        "sourceHash": "8cdba73f7f0590f5dcb6fae73e5140e3a940b13266a88647b6d69f931ef1dd68",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:52+08:00"
+      }
     },
     {
       "id": "rss-8ec21efa2c62273428cb36f4",
@@ -1521,7 +1841,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Hugging Face 和 OpenRouter 联手使开放重量模型易于运行",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "4ed84145b59ebdaddb542889b6460309fdf6bfd9ea10fc9932807c039a0eda3a",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:52+08:00"
+      }
     },
     {
       "id": "rss-d91fd06de7b8771ee8ad78bb",
@@ -1540,7 +1868,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "前沿科学：科学家如何使用 ChatGPT",
+        "summary": "了解 1,800 多名科学家如何在研究中使用 ChatGPT。查看有关日常工作流程的调查结果、报告的生产力以及对发现的期望。",
+        "sourceHash": "3441689ae18c535a0027f64ded6e0873e57d7110b6beb0ef30dbc228691db6f8",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:43+08:00"
+      }
     },
     {
       "id": "rss-ff7833693fa2a06713dc923a",
@@ -1559,7 +1895,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系",
+        "summary": "LVMH 媒体部门和 OpenAI 宣布建立合作伙伴关系，利用人工智能支持新闻业，并通过 ChatGPT 使其出版物更容易访问。",
+        "sourceHash": "83c49eed92b73728445397c7cb1e1ab109f71e759b3876217cc108849f9ddb20",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:47+08:00"
+      }
     },
     {
       "id": "rss-21b4758ab52123ac78ffa3db",
@@ -1578,7 +1922,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "为医疗团队推进计算机使用代理",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "b87f30e54816f899c661fe5bbbb76e5cecf5fcb5e5a6fb30a874e5246aad74a3",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:47+08:00"
+      }
     },
     {
       "id": "rss-21e886491b30cfff0403f0b9",
@@ -1597,7 +1949,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "通过 ChatGPT for Healthcare 推动护理发展的更多方式",
+        "summary": "引入计算机使用代理、改进的临床答案以及跨医疗软件工作以完成实际工作的新医疗保健插件。",
+        "sourceHash": "641de8c47daa9a297a9bd1bdd468a4a8d0636c11891d490a50cdafe8e65afab3",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:47+08:00"
+      }
     },
     {
       "id": "rss-60f3c7381bc61eae5e3d002a",
@@ -1616,7 +1976,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "国王信托基金与 OpenAI 启动价值 100 万英镑的合作伙伴关系",
+        "summary": "国王信托基金会和 OpenAI 启动了一项价值 100 万英镑的合作伙伴关系，帮助英国多达 25,000 名年轻人培养实用的工作人工智能技能。",
+        "sourceHash": "6b797a2f17c39ed691ef4040f4a385d7bea823a33067875363b0b5356f90a33a",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:52+08:00"
+      }
     },
     {
       "id": "rss-11608d311d0047796796c8a9",
@@ -1635,7 +2003,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:57+08:00",
       "checkedAt": "2026-11-17T01:23:57+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备",
+        "summary": "计划假日公路旅行、获取路线提示、查找当地约会以及使用新的“询问地图”功能搜索已保存的列表。",
+        "sourceHash": "61577c601b6c88920c1c4286640d49fffc1dc0bc0270d985b59c6cfb5f4fed61",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:43+08:00"
+      }
     },
     {
       "id": "rss-0deff323b14a8bbea27fd805",
@@ -1844,7 +2220,15 @@
       ],
       "collectedAt": "2026-11-17T17:05:44+08:00",
       "checkedAt": "2026-11-17T17:05:44+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Revolut 如何在不降低标准的情况下提高雄心",
+        "summary": "了解 Revolut 如何使用 OpenAI 模型和 Codex 将编码时间缩短 30-60%、扩大金融犯罪调查规模并在不影响安全性的情况下进行创新。",
+        "sourceHash": "77a991bffd512219b7de2c41b9d089f8bb015db7f4d3a610e60f98b788e7818c",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:43+08:00"
+      }
     },
     {
       "id": "rss-96c7f67bef86f8316048a87f",
@@ -1863,7 +2247,15 @@
       ],
       "collectedAt": "2026-11-14T05:55:53+08:00",
       "checkedAt": "2026-11-14T05:55:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "XYBench：帮助解决问题背后的问题",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "7d42907353bb293fa2db832a92151298760ee3c297732f62666fd13422ef1f2d",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:55+08:00"
+      }
     },
     {
       "id": "rss-cdc8eef67bc55a0d0fa5ca86",
@@ -1882,7 +2274,15 @@
       ],
       "collectedAt": "2026-11-14T05:55:53+08:00",
       "checkedAt": "2026-11-14T05:55:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "使用 SimReady Assets 构建机器人拾放模拟",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "725375856877dd0743032a6e805bf395ac74f1dbc108ce3b2d6f41ee51282b77",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:55+08:00"
+      }
     },
     {
       "id": "rss-eab8f98232fce370f4751943",
@@ -2015,7 +2415,15 @@
       ],
       "collectedAt": "2026-11-14T05:55:53+08:00",
       "checkedAt": "2026-11-14T05:55:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "ChatGPT 钱包简介",
+        "summary": "隆重推出 ChatGPT 钱包，这是 ChatGPT Work、Codex 和dots 中的代理在用户批准和现有卡保护的情况下完成购买的安全方式。",
+        "sourceHash": "d175dbe6f02c857c70515fdb803da2f5b490f0fc5b6ea937cb2ef9155069370f",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:55+08:00"
+      }
     },
     {
       "id": "rss-5b69826eead48a963c75ef96",
@@ -2034,7 +2442,15 @@
       ],
       "collectedAt": "2026-11-13T02:49:58+08:00",
       "checkedAt": "2026-11-13T02:49:58+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini 4 氢简介",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "4f97a4846cd20a515303f54d6996a32c478c99167f88d34a8254d8146e1dc099",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:03+08:00"
+      }
     },
     {
       "id": "rss-d6d23163b98ddfa1ea7abe70",
@@ -2053,7 +2469,15 @@
       ],
       "collectedAt": "2026-11-13T02:49:57+08:00",
       "checkedAt": "2026-11-13T02:49:57+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级",
+        "summary": "我们将 Gemini 4 Hydrogen 引入全球 Google 搜索，为您提供更有帮助、更直观的响应。",
+        "sourceHash": "9a9005009f25cebe502ea197c14d7d0e69592eefe437d9ace46de3a84fda7f2b",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:03+08:00"
+      }
     },
     {
       "id": "rss-67672a694e389b29af5588bf",
@@ -2072,7 +2496,15 @@
       ],
       "collectedAt": "2026-11-13T08:11:06+08:00",
       "checkedAt": "2026-11-13T08:11:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品",
+        "summary": "Amplitude 的主动产品代理 Wave 主要基于 OpenAI 模型构建，可确定要构建的内容、帮助团队通过编码代理交付变更并衡量影响。",
+        "sourceHash": "ad532260d589ba3bfd6eae603b429203f38267d59774b97b3d02b1de5088da21",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:59+08:00"
+      }
     },
     {
       "id": "rss-84ec87286cb35a64f463f064",
@@ -2091,7 +2523,15 @@
       ],
       "collectedAt": "2026-11-13T08:11:06+08:00",
       "checkedAt": "2026-11-13T08:11:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "LLMON：一种 LLM 原生标记语言，现在在 Granite 4.1 3B 和 8B 中",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "9f1a3dcbcfe480b59054ddbb11ab5be5e479a3f8f14d8a279fc5ad519c768657",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:59+08:00"
+      }
     },
     {
       "id": "rss-6841e619fcd7e8d9370258a2",
@@ -2110,7 +2550,15 @@
       ],
       "collectedAt": "2026-11-13T23:39:30+08:00",
       "checkedAt": "2026-11-13T23:39:30+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "0a295dff7140d9c1b1cca5ac38732622d2397bcb39308c93f150fb133752c847",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:55+08:00"
+      }
     },
     {
       "id": "rss-3ae02220e06c22767d7b696f",
@@ -2319,7 +2767,15 @@
       ],
       "collectedAt": "2026-11-14T10:16:47+08:00",
       "checkedAt": "2026-11-14T10:16:47+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Shield 帮助技术人员使用 OpenAI 移交遗留门户工作",
+        "summary": "Shield 使用 OpenAI 帮助 IT 技术人员在旧门户中移交工作。其 Forge 代理可以导航系统，以便技术人员可以专注于需要他们判断的问题。",
+        "sourceHash": "63176f86f4377a8e87ba0ea66e633dba4bb6b99cd6d436b3f9d70e5f2de537b9",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:59+08:00"
+      }
     },
     {
       "id": "rss-9fe6d2ae73e55f52b8078f18",
@@ -2338,7 +2794,15 @@
       ],
       "collectedAt": "2026-11-17T01:23:56+08:00",
       "checkedAt": "2026-11-17T01:23:56+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们第一阶段的嵌入式评估",
+        "summary": "OpenAI 开始与 Apollo Research、METR、Transluce 和 Goodfire 合作进行嵌入式评估，以独立评估模型对齐、保障措施和监控系统。",
+        "sourceHash": "8ccc5e0200fa003d34dccc674db56755d1ca16a8257a08b6efff4de2284a6516",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:15:59+08:00"
+      }
     },
     {
       "id": "rss-35bcc4b3dafe10f2abb0524c",
@@ -2357,7 +2821,15 @@
       ],
       "collectedAt": "2026-11-18T02:30:27+08:00",
       "checkedAt": "2026-11-18T02:30:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "ChatGPT Ads 扩大其在 44 个国家/地区的市场占有率",
+        "summary": "Aleph 被选为 ChatGPT Ads 在 44 个国家/地区的独家经销商，为品牌和代理商提供本地发票、现场支持和本地市场专业知识",
+        "sourceHash": "0ad7971bac889056450a95138dd91a612fbd1541b35a7b251ab57ef9a3b0fa5f",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:08+08:00"
+      }
     },
     {
       "id": "rss-8bcb3bdfd90af28177f54c42",
@@ -2414,7 +2886,15 @@
       ],
       "collectedAt": "2026-11-13T02:49:57+08:00",
       "checkedAt": "2026-11-13T02:49:57+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "3D 生成模型权威微调指南",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "7d358c3a2f89bd72fae0c495e402125ad851dc869d6a0c38f53ab227ffaf4414",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:08+08:00"
+      }
     },
     {
       "id": "rss-65b96c238445cdedc96b3e82",
@@ -2433,7 +2913,15 @@
       ],
       "collectedAt": "2026-11-12T10:52:33+08:00",
       "checkedAt": "2026-11-12T10:52:33+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gilbert + Tobin 用人工智能重新思考法律业务",
+        "summary": "与 Gilbert + Tobin 合伙人兼首席执行官 Sam Nickless 的对话。",
+        "sourceHash": "bd778067b8c6ce802b7fe03bbb375fa46ce2518f41d395379ca11fa61069ece8",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:08+08:00"
+      }
     },
     {
       "id": "rss-02bfed5e7aa817ea9dcb99d6",
@@ -2452,7 +2940,15 @@
       ],
       "collectedAt": "2026-11-12T05:53:49+08:00",
       "checkedAt": "2026-11-12T05:53:49+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini Decisions API：快速、经过校准的多模式决策",
+        "summary": "了解 Gemini Decisions API，它由我们最先进的模型 Gemini Decision 提供支持，可实现快速、校准的多模式决策。",
+        "sourceHash": "2e46faf37a29dcc898ab3c1a8848a39cdd70ba17db0f24339ba33c7365b4eace",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:12+08:00"
+      }
     },
     {
       "id": "rss-3d65ccc2f5cdce6978b37fa7",
@@ -2471,7 +2967,15 @@
       ],
       "collectedAt": "2026-11-12T05:53:49+08:00",
       "checkedAt": "2026-11-12T05:53:49+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "尝试桌面：可定制的协作空间，供团队一起计划、玩耍和做更多事情。",
+        "summary": "Tabletop 是 Google 实验室针对团队协作进行的一项新实验。与您的团队一起制定互动行程、民意调查和分组。加入候补名单。",
+        "sourceHash": "085c318634c7113484854746469304bf4f4e0dc2111536ca8b40c1a17e5cd0a7",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:12+08:00"
+      }
     },
     {
       "id": "rss-4922ca6fb0dd92994c349853",
@@ -2490,7 +2994,15 @@
       ],
       "collectedAt": "2026-11-12T18:54:53+08:00",
       "checkedAt": "2026-11-12T18:54:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Holiday Extras 正在重新思考可以使用 Codex 构建什么",
+        "summary": "通过 Codex，Holiday Extras 正在将客户专业知识转化为更好的应用程序、更高的预订转化率和新的增长可能性。",
+        "sourceHash": "28134fedbed443fa42e879be3b2ebd35883c294aeed4408b96b3b842830ef77a",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:03+08:00"
+      }
     },
     {
       "id": "rss-d7c1da8cb7dc41da688b7a99",
@@ -2509,7 +3021,15 @@
       ],
       "collectedAt": "2026-11-12T18:54:53+08:00",
       "checkedAt": "2026-11-12T18:54:53+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "支持人工智能和儿童安全研究",
+        "summary": "OpenAI 承诺投入 200 万美元用于人工智能和儿童安全研究。这项工作支持共享工具来衡量年轻人的风险和机会。",
+        "sourceHash": "338facdd192ca8814db20e079afb416a02e2092ce4b3b19350b008a5ef274ead",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:08+08:00"
+      }
     },
     {
       "id": "rss-9969dce6b540f6f5b8ee2183",
@@ -2661,7 +3181,15 @@
       ],
       "collectedAt": "2026-11-13T08:11:06+08:00",
       "checkedAt": "2026-11-13T08:11:06+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gondola 团队利用 Codex 打造更多产品，收入翻倍",
+        "summary": "Gondola 帮助创意人员获得认可并获得聘用，Codex 将其首席工程师的产出提高了 50%，而 ChatGPT 则简化了日常工作。",
+        "sourceHash": "4db79101bdb283f01ec8a815341e2eae0d4b5ba59b7e3620164ac8bb62b29241",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:03+08:00"
+      }
     },
     {
       "id": "rss-f66f87ab8e0204681dc9fcb4",
@@ -2756,7 +3284,15 @@
       ],
       "collectedAt": "2026-11-11T23:06:28+08:00",
       "checkedAt": "2026-11-11T23:06:28+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "AlphaGenome 2：破译细胞如何读取 DNA 以更好地了解疾病",
+        "summary": "预测 DNA 序列及其变异如何影响特定的人类细胞类型和疾病。",
+        "sourceHash": "128f0a24151e664301f75cfca8e7add3dfe3a957abc2c66b6df6c789da61feea",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:12+08:00"
+      }
     },
     {
       "id": "rss-e09fad6dcc25f1ba697cd45e",
@@ -2775,7 +3311,15 @@
       ],
       "collectedAt": "2026-11-11T23:06:27+08:00",
       "checkedAt": "2026-11-11T23:06:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "体验 Esther Mahlangu 博士的艺术和遗产",
+        "summary": "埃丝特·马兰古 (Esther Mahlangu) 的生活和艺术的新在线档案现已发布在 Google 艺术与文化上。",
+        "sourceHash": "329060763bc4c4c9da80727824bcf116a07f5b3733e87812c4c8dd78846337eb",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:12+08:00"
+      }
     },
     {
       "id": "rss-11568aa8dfcf9a3c07504fe2",
@@ -2794,7 +3338,15 @@
       ],
       "collectedAt": "2026-11-11T23:06:27+08:00",
       "checkedAt": "2026-11-11T23:06:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "多向量嵌入模型的令牌池感知训练",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "c140b571c2ec011909c637814b6a13d23ae84c45ec3bc35cf3c1e5e15f09d13c",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:15+08:00"
+      }
     },
     {
       "id": "rss-ac94b61a25ade5edbf713f08",
@@ -2813,7 +3365,15 @@
       ],
       "collectedAt": "2026-11-11T23:06:27+08:00",
       "checkedAt": "2026-11-11T23:06:27+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "面向退伍军人和现役军人的 ChatGPT Plus",
+        "summary": "超过 20,000 名退伍军人和转业军人已申请免费一年的 ChatGPT Plus。看看他们如何利用它为平民职业做好准备。",
+        "sourceHash": "df57b9cc377b40430b9f3516664e79e2e77fb4e49c3aff3e8415d4ca3473e620",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:15+08:00"
+      }
     },
     {
       "id": "rss-fafff4292c09fd9370c59269",
@@ -2832,7 +3392,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini Intelligence：新功能，适用于更多设备",
+        "summary": "Gemini Intelligence 正在向更多设备推出。了解这些设备的扩展功能如何帮助您完成更多工作。",
+        "sourceHash": "6cd1a1f1542237c17b9943214157de29e52e9be591353c5fb9a16c19146c2b07",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:19+08:00"
+      }
     },
     {
       "id": "rss-55cb0588b3e8436e78b20ba9",
@@ -2851,7 +3419,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Gemini 4 Carbon 现已上市",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "4c46a881d556e4cd520b98e8d3b7b18eb257aaf5d57efb2d7c61dac5258468cc",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:19+08:00"
+      }
     },
     {
       "id": "rss-19b4fcb1faac9c9bdbccd358",
@@ -2870,7 +3446,15 @@
       ],
       "collectedAt": "2026-11-11T15:04:35+08:00",
       "checkedAt": "2026-11-11T15:04:35+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "BotPsy：具有数十亿参数代理语言模型的设备上个人助理",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "f86d5b857bc05e9de9ffa92ddd67d3f7ff96fcf37c5d92edd0c5005bf49e57fe",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:15+08:00"
+      }
     },
     {
       "id": "rss-55ff14dc4213127df72a8039",
@@ -2889,7 +3473,15 @@
       ],
       "collectedAt": "2026-11-12T05:53:48+08:00",
       "checkedAt": "2026-11-12T05:53:48+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "JioStar 5 亿用户规模 AI 发现首席架构师",
+        "summary": "JioStar 的 Vijay Seshadri 解释了 5 亿用户规模的人工智能发现。阅读他关于评估、护栏和将人工智能投入生产的课程。",
+        "sourceHash": "9a15c7094a25f830951f8f344c9be2435c6a6a6384151b3d547713cc0e66f603",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:15+08:00"
+      }
     },
     {
       "id": "rss-f5e6b2458743ecbedfc9789c",
@@ -3174,7 +3766,15 @@
       ],
       "collectedAt": "2026-11-10T19:41:36+08:00",
       "checkedAt": "2026-11-10T19:41:36+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "缩小人工智能在教育指导方面的差距",
+        "summary": "OpenAI 的 EMEA 教育合作伙伴关系和 ThinkYoung 新研究的经验教训。支持教师、人工智能素养和自主学习。",
+        "sourceHash": "a210db82032059a03d1989c81300005d463c6d01d23fe5c49e04a83a976a93cb",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:28+08:00"
+      }
     },
     {
       "id": "rss-caa9073cefb43725f1a58e80",
@@ -3212,7 +3812,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "帮助护理人员在日常生活中使用人工智能",
+        "summary": "OpenAI Academy 正在为美国五个城市的护理人员举办免费的 ChatGPT 实践研讨会，帮助他们培养日常生活中实用的人工智能技能。",
+        "sourceHash": "887f40625940cf9f62c7f130bbad3c9e20c5eac59abd3067d41bf616f33adce5",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:23+08:00"
+      }
     },
     {
       "id": "rss-991ad48e8559b2fefa9ff7bc",
@@ -3231,7 +3839,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "ChatGPT 中介绍业务",
+        "summary": "在 ChatGPT 中管理您的业务信息、了解您的业务如何展示并将兴趣转化为行动。",
+        "sourceHash": "f89aa1bb4ca33f16936a1d0127e4bcab31ad37a26f57046509ec3ab16c4e8cb3",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:23+08:00"
+      }
     },
     {
       "id": "rss-f3fc54cd1d78c100d666a9c2",
@@ -3250,7 +3866,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "前沿工作：人工智能对自由职业的影响",
+        "summary": "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。",
+        "sourceHash": "804d0e91cfae233bac5b8d3745b7b59359f98aa0e67bda13a75b93a2405ff3ed",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:28+08:00"
+      }
     },
     {
       "id": "rss-cb93d68b445c05b0e3dc3bb4",
@@ -3269,7 +3893,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "使用您的 Google Cloud 帐户支付 Hugging Face Hub 费用",
+        "summary": "该来源未提供摘要，请打开原文阅读。",
+        "sourceHash": "1d3d45b8187b4d77eecceb9d93b496268c42aff5d84ca4f220791e872ff20b11",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:28+08:00"
+      }
     },
     {
       "id": "rss-5f3963726dbe36e6ccf9753b",
@@ -3307,7 +3939,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。",
+        "summary": "Google 和 Adob​​e 正在整合创意和生产力工具。在 Drive 中编辑 PDF 并在 Gemini 中使用 Adob​​e AI。了解此合作伙伴关系中有哪些新内容。",
+        "sourceHash": "7e286127166103dcb635a14776d847c10b8392b61d0cbed9508661adb00e2a1c",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:19+08:00"
+      }
     },
     {
       "id": "rss-c979be8e72cc92b8a0fbd6a0",
@@ -3326,7 +3966,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "Google Cloud 推出用于医疗保健的 Gemini。",
+        "summary": "Google Cloud 推出面向医疗保健的 Gemini，以统一临床数据并实现工作流程自动化。减少行政倦怠。看看它是如何工作的。",
+        "sourceHash": "7603f662200f9053a74847e761c7621e8cd702197793d25b0204b4a9b8afae5f",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:19+08:00"
+      }
     },
     {
       "id": "rss-0e9fb0eb84f13acffdc59012",
@@ -3345,7 +3993,15 @@
       ],
       "collectedAt": "2026-11-11T03:39:16+08:00",
       "checkedAt": "2026-11-11T03:39:16+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "AlphaProof Code 简介：深度验证复杂软件的突破",
+        "summary": "AlphaProof Code 代理用 Lean 编写了 300 万行证明来验证 Signal 的核心加密。",
+        "sourceHash": "7fa11074d96fc4aec9c733382f593005844fa0178444cdb05a535ba75869ffaf",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:23+08:00"
+      }
     },
     {
       "id": "rss-6b6709b612e5913e3ffca54a",
@@ -3383,7 +4039,15 @@
       ],
       "collectedAt": "2026-11-11T15:04:35+08:00",
       "checkedAt": "2026-11-11T15:04:35+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "新加坡航空利用 OpenAI 技术提升旅行和工作水平",
+        "summary": "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。",
+        "sourceHash": "9c606144337011e0a55276395cd7d710588e2a3530ac516934981dcefe4844d1",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:28+08:00"
+      }
     },
     {
       "id": "rss-37e4452e64c861cffe83ba46",
@@ -3421,7 +4085,15 @@
       ],
       "collectedAt": "2026-11-13T23:39:30+08:00",
       "checkedAt": "2026-11-13T23:39:30+08:00",
-      "sourceType": "official"
+      "sourceType": "official",
+      "translation": {
+        "title": "打开人工智能天气模型背后的数据集",
+        "summary": "基础降水和对地静止卫星数据集可清晰观察地球。",
+        "sourceHash": "5fb9fe8c365abbee2c14772e4e2268c806d0a9791fbe7567bc9de9b483117a38",
+        "engine": "google-translate-web",
+        "revision": "zh-CN-news-v1",
+        "translatedAt": "2026-11-23T14:16:23+08:00"
+      }
     },
     {
       "id": "rss-81209450b91a7acb6d820b20",
@@ -12998,6 +13670,17 @@
     "explanationsEnabled": false,
     "stale": false,
     "hosting": "github-pages",
-    "collectionMode": "scheduled-workflow"
+    "collectionMode": "scheduled-workflow",
+    "translation": {
+      "engine": "google-translate-web",
+      "translated": 84,
+      "pending": 287,
+      "total": 371,
+      "scope": "title-and-feed-summary",
+      "doneThisRun": 0,
+      "failedThisRun": 4,
+      "checkedAt": "2026-11-23T14:19:56+08:00",
+      "state": "partial"
+    }
   }
 }
