@@ -10,7 +10,7 @@
 - **中文整理**：免费 Qwen 文字模型把英文标题、RSS 摘要整理成简明中文，加一句通俗说明；产品名、版本号与重要数字保留。你反馈的住友生命案例以及少量边界条目，按来源摘要校订；校订结果由来源哈希限定，源文变化后不会套用旧稿。支持原文对照与搜索。
 - **开源发现**：读取 Hugging Face 模型目录、维护者账号，以及 GitHub 仓库和更新记录。模型、软件、工作流／节点分别筛选，提供用途、入门路径、许可与真实项目入口。资源最近更新时间与新闻发布日期分开。
 - **10 套主题**：晴空、夜航、森林、赛博、樱花、落日、海盐、葡萄、墨白、极光；背景、强调色和首页图形随主题变化，选择保存在浏览器。
-- **实际互动**：可见的点击波纹、鼠标跟随光晕与粒子、卡片轻微倾斜、收藏反馈；首页 AI 星球可拖动或用方向键移动，双击／Home 复位。关注标签可拖动排序，也支持 Alt + 左右键，顺序在本机保存。
+- **实际互动**：可见的点击波纹、清晰的连续鼠标流光拖尾（轻柔模式保留短拖尾），点击粒子、卡片轻微倾斜、收藏反馈；首页 AI 星球可拖动或用方向键移动，双击／Home 复位。关注标签可拖动排序，也支持 Alt + 左右键，顺序在本机保存。
 - **阅读与迁移**：近一个月／三个月日期回看、分类与关键词搜索、收藏、JSON 备份导入导出。手机适配；系统减少动态效果时默认轻柔，也可在主题菜单关闭装饰动效。
 
 首次打开新版若仍是旧页面，请刷新一次。旧的主题、收藏与备份继续兼容。收藏和偏好保存在当前浏览器，可用导出／导入迁移，不会自动跨设备同步。
@@ -69,9 +69,11 @@ python -m unittest discover -s tests -v
 python scripts/check_translation_model.py
 node --check site/app.js
 node --check site/studio.js
+node tests/frontend.test.mjs
+node tests/trail.test.mjs
 ```
 
-`tests/frontend.test.mjs` 是 Happy DOM 的交互逻辑回归，需 Node.js 和 `work/domqa/node_modules/happy-dom`（本次验证使用 21.0.4）。可用 `npm install --prefix work/domqa --no-save happy-dom@21.0.4` 安装。它检查主题、点击反馈层、拖动、排序、筛选、详情与收藏，**不能替代真实浏览器的视觉和触摸体验检查**。模型检查会启动实际模型，样例不会加入公开新闻库。
+`tests/frontend.test.mjs` 是 Happy DOM 的交互逻辑回归，需 Node.js 和 `work/domqa/node_modules/happy-dom`（本次验证使用 21.0.4）。可用 `npm install --prefix work/domqa --no-save happy-dom@21.0.4` 安装。它检查主题、点击反馈层、拖动、排序、筛选、详情与收藏；另有拖尾检查，覆盖无 Canvas、轻柔／丰富／关闭模式、页头与弹窗层级、停止移动后的清理，**不能替代真实浏览器的视觉和触摸体验检查**。模型检查会启动实际模型，样例不会加入公开新闻库。
 
 - `site/`：发布的 HTML、样式、脚本、新闻和资源 JSON。
 - `scripts/core.py`、`collect.py`：RSS/Atom 采集、日期、去重与滚动保留。

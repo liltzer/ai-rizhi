@@ -21,8 +21,42 @@
   ctx.globalAlpha=1;particles=particles.filter(p=>p.life>0);rings=rings.filter(r=>r.life>0);if(particles.length||rings.length)wake();
  }
  document.addEventListener('visibilitychange',()=>{if(document.hidden&&raf){cancelAnimationFrame(raf);raf=0;}else wake();});
- let trailAt=0;
- document.addEventListener('pointermove',event=>{if(mode!=='rich'||event.pointerType==='touch')return;pointer={x:event.clientX,y:event.clientY};glow.style.transform=`translate3d(${pointer.x}px,${pointer.y}px,0)`;glow.style.opacity='1';const now=performance.now();if(now-trailAt>35){trailAt=now;particles.push({x:pointer.x,y:pointer.y,vx:(Math.random()-.5)*.5,vy:-.4,life:.6,size:1.5,color:accent});if(particles.length>100)particles.shift();wake();}
+ // A DOM trail stays visible even when 2D canvas is unavailable.
+ const trail=document.createElement('div');trail.id='pointer-trail';trail.hidden=true;trail.setAttribute('aria-hidden','true');document.body.append(trail);
+ const trailDots=[],trailLines=[];let trailPoints=[],trailRaf=null,trailSampleAt=-Infinity;
+ for(let i=0;i<24;i++){const line=document.createElement('span'),dot=document.createElement('span');line.className='trail-streak';dot.className='trail-dot';line.hidden=dot.hidden=true;trail.append(line,dot);trailLines.push(line);trailDots.push(dot);}
+ function clearTrail(){trailPoints=[];trail.hidden=true;if(trailRaf!==null){cancelAnimationFrame(trailRaf);trailRaf=null;}for(const n of [...trailDots,...trailLines])n.hidden=true;}
+ function paintTrail(now){
+  trailRaf=null;const duration=mode==='rich'?520:180;
+  trailPoints=trailPoints.filter(p=>now-p.at<duration);
+  if(mode==='off'||document.hidden||!trailPoints.length){clearTrail();return;}
+  trail.hidden=false;
+  for(let i=0;i<trailDots.length;i++){
+   const dot=trailDots[i],line=trailLines[i],p=trailPoints[i];dot.hidden=!p;line.hidden=true;if(!p)continue;
+   const life=Math.max(0,1-(now-p.at)/duration),head=i===trailPoints.length-1,size=(mode==='rich'?3:2)+life*(head?5:3);
+   dot.classList.toggle('trail-head',head);dot.style.width=dot.style.height=size+'px';dot.style.transform=`translate3d(${p.x}px,${p.y}px,0) translate(-50%,-50%)`;dot.style.opacity=(life*(head?1:.85)).toFixed(3);
+   const next=trailPoints[i+1];if(!next)continue;
+   const dx=next.x-p.x,dy=next.y-p.y,distance=Math.hypot(dx,dy);if(distance<1||distance>180)continue;
+   line.hidden=false;line.style.width=distance+'px';line.style.height=((mode==='rich'?1.5:1)+life*2)+'px';line.style.transform=`translate3d(${p.x}px,${p.y}px,0) rotate(${Math.atan2(dy,dx)}rad)`;line.style.opacity=(life*(mode==='rich'?.82:.65)).toFixed(3);
+  }
+  trailRaf=requestAnimationFrame(paintTrail);
+ }
+ function followTrail(event){
+  if(mode==='off'||event.pointerType==='touch')return;
+  const now=performance.now(),host=event.target.closest?.('dialog[open]')||document.body;
+  if(trail.parentNode!==host){host.append(trail);trailPoints=[];}
+  if(now-trailSampleAt<8&&trailPoints.length)return;
+  trailSampleAt=now;trailPoints.push({x:event.clientX,y:event.clientY,at:now});
+  const max=mode==='rich'?24:8;if(trailPoints.length>max)trailPoints.splice(0,trailPoints.length-max);
+  if(trailRaf===null)trailRaf=requestAnimationFrame(paintTrail);
+ }
+ modeSelect.addEventListener('change',clearTrail);
+ document.addEventListener('pointermove',followTrail,{passive:true});
+ document.addEventListener('pointerout',event=>{if(!event.relatedTarget)clearTrail();},{passive:true});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)clearTrail();});
+ addEventListener('blur',clearTrail);
+
+ document.addEventListener('pointermove',event=>{if(mode!=='rich'||event.pointerType==='touch')return;pointer={x:event.clientX,y:event.clientY};glow.style.transform=`translate3d(${pointer.x}px,${pointer.y}px,0)`;glow.style.opacity='1';
   const card=event.target.closest('.news-card');if(card){const r=card.getBoundingClientRect(),x=(event.clientX-r.left)/r.width-.5,y=(event.clientY-r.top)/r.height-.5;card.style.setProperty('--tilt-x',(-y*5).toFixed(2)+'deg');card.style.setProperty('--tilt-y',(x*5).toFixed(2)+'deg');card.style.setProperty('--spot-x',((x+.5)*100)+'%');card.style.setProperty('--spot-y',((y+.5)*100)+'%');}
  },{passive:true});
  document.addEventListener('pointerout',event=>{const card=event.target.closest?.('.news-card');if(card&&(!(event.relatedTarget instanceof Node)||!card.contains(event.relatedTarget))){card.style.removeProperty('--tilt-x');card.style.removeProperty('--tilt-y');}if(!event.relatedTarget)glow.style.opacity='0';},{passive:true});

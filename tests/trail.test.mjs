@@ -1,0 +1,40 @@
+// Render-state regression, not a real-browser screenshot test.
+import { Window } from '../work/domqa/node_modules/happy-dom/lib/index.js';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..'),read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const win=new Window({url:'https://rizhi.test/'}),doc=win.document;
+doc.write(read('site/index.html').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<link[^>]+rel="stylesheet"[^>]*>/gi,''));
+const style=doc.createElement('style');style.textContent=read('site/styles.css');doc.head.append(style);
+// Reduced motion used to disable the trail entirely. It should now give a short trail.
+win.matchMedia=()=>({matches:true,addEventListener(){},removeEventListener(){}});
+win.HTMLCanvasElement.prototype.getContext=()=>null;
+let now=1000,nextId=0;const frames=new Map();
+win.performance.now=()=>now;
+win.requestAnimationFrame=cb=>{const id=++nextId;frames.set(id,cb);return id;};
+win.cancelAnimationFrame=id=>frames.delete(id);
+win.eval(read('site/studio.js'));
+const trail=doc.querySelector('#pointer-trail'),header=doc.querySelector('.top'),mode=doc.querySelector('#motion-mode');
+const tick=ms=>{now+=ms;const callbacks=[...frames.values()];frames.clear();callbacks.forEach(cb=>cb(now));};
+const move=(x,y,node=header,type='mouse')=>node.dispatchEvent(new win.PointerEvent('pointermove',{bubbles:true,pointerType:type,clientX:x,clientY:y}));
+const visible=selector=>[...trail.querySelectorAll(selector)].filter(n=>!n.hidden);
+const select=value=>{mode.value=value;mode.dispatchEvent(new win.Event('change',{bubbles:true}));};
+assert.equal(mode.value,'soft');assert.equal(trail.hidden,true);
+move(70,40);tick(16);assert.equal(trail.hidden,false,'works without canvas, including reduced-motion default');
+assert.match(visible('.trail-dot')[0].style.transform,/70px,40px/);
+assert.ok(Number(visible('.trail-dot')[0].style.opacity)>.8,'visible opacity');
+move(95,48);tick(16);assert.ok(parseFloat(visible('.trail-streak')[0].style.width)>20,'connected trail, not just a following glow');
+assert.ok(parseInt(win.getComputedStyle(trail).zIndex)>parseInt(win.getComputedStyle(header).zIndex),'above header');
+assert.equal(win.getComputedStyle(trail).pointerEvents,'none','does not block controls');
+tick(200);assert.equal(trail.hidden,true,'short trail expires');assert.equal(frames.size,0,'idle does not keep animating');
+select('rich');move(200,100);tick(16);move(250,105);tick(16);tick(200);assert.equal(trail.hidden,false,'rich trail lingers');tick(400);assert.equal(trail.hidden,true);
+select('off');move(300,200);tick(16);assert.equal(trail.hidden,true);assert.equal(frames.size,0);
+select('rich');move(300,200,header,'touch');tick(16);assert.equal(trail.hidden,true,'touch scrolling does not create a mouse trail');
+for(let i=0;i<100;i++){move(100+i*2,90);tick(12);}
+assert.ok(visible('.trail-dot').length<=24);assert.equal(trail.children.length,48,'fixed-size node pool');
+const dialog=doc.querySelector('#detail');dialog.setAttribute('open','');move(100,200,dialog);tick(16);assert.equal(trail.parentElement,dialog,'follows pointer into the modal top layer');
+dialog.removeAttribute('open');move(130,240,header);tick(16);assert.equal(trail.parentElement,doc.body);
+header.dispatchEvent(new win.PointerEvent('pointerout',{bubbles:true,relatedTarget:null}));assert.equal(trail.hidden,true);assert.equal(frames.size,0);
+console.log('PASS: canvas unavailable; reduced-motion/soft trail; continuous streaks; visible sizes/opacity; header/modal layering; rich/off; expiry/idle; touch excluded; bounded node pool.');
+await win.happyDOM.abort();win.close();

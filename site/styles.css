@@ -31,3 +31,12 @@ body{background-image:radial-gradient(ellipse at 15% 0,color-mix(in srgb,var(--a
 :root[data-motion=off] .news-card{transform:none!important}:root[data-motion=off] .click-wave{display:none}
 .art-core{overflow:hidden}
 @media(max-width:760px){.theme-menu{max-height:calc(100dvh - 100px);overflow:auto}.categories button{padding:7px 10px}.interest-chip{padding:7px 11px}.hero-copy>p{font-size:16px}.resource-options label{font-size:14px}}
+
+/* Pointer-controlled ribbon above page chrome; no dependency on canvas or CSS animations. */
+#pointer-trail{position:fixed;inset:0;z-index:2147483000;pointer-events:none!important;overflow:hidden;contain:strict}
+#pointer-trail>span{position:absolute;top:0;left:0;pointer-events:none!important;will-change:transform,opacity}
+.trail-dot{border-radius:50%;background:var(--fx-accent);box-shadow:0 0 7px var(--fx-accent)}
+.trail-dot.trail-head{background:var(--surface);border:2px solid var(--fx-accent);box-shadow:0 0 4px var(--fx-accent),0 0 10px var(--fx-accent)}
+.trail-streak{border-radius:999px;transform-origin:left center;background:linear-gradient(90deg,var(--fx-secondary),var(--fx-accent));box-shadow:0 0 5px var(--fx-accent)}
+:root[data-motion=soft] #pointer-trail>span{box-shadow:none}
+:root[data-motion=off] #pointer-trail{display:none!important}
