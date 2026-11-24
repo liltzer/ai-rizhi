@@ -1,8 +1,8 @@
 {
   "format": "ai-rizhi-discovery",
   "version": 1,
-  "generatedAt": "2026-11-24T14:54:48+08:00",
-  "lastSuccessfulAt": "2026-11-24T14:54:48+08:00",
+  "generatedAt": "2026-11-25T02:50:16+08:00",
+  "lastSuccessfulAt": "2026-11-25T02:50:16+08:00",
   "status": {
     "state": "success",
     "sourcesOk": 45,
@@ -12,894 +12,1201 @@
         "name": "Comfy-Org/ComfyUI",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "Comfy-Org/Wan-2.2",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "Comfy-Org/workflow_templates",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "Fannovel16/comfyui_controlnet_aux",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "FlowiseAI/Flowise",
         "ok": true,
         "count": 0,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "FunAudioLLM",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "FunAudioLLM/CosyVoice",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "Huanshere/VideoLingo",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "Kijai/ComfyUI-WanVideoWrapper",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "Kosinkadink/ComfyUI-VideoHelperSuite",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "Lightricks",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "Pinkstack/LiliPixel-V1-190M",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "Qwen",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "Wan-AI",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "activepieces/activepieces",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "automatic-speech-recognition",
         "ok": true,
         "count": 6,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "black-forest-labs",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "danielgatis/rembg",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "deepseek-ai",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "ggml-org/llama.cpp",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "huggingface/diffusers",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "huggingface/transformers",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "image-to-video",
         "ok": true,
         "count": 8,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "langflow-ai/langflow",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "langgenius/dify",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "lodestones/Kromoss",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "m-bain/whisperX",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "n8n-io/n8n",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:13+08:00"
       },
       {
         "name": "ollama/ollama",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:46+08:00"
+        "checkedAt": "2026-11-25T02:50:14+08:00"
       },
       {
         "name": "openai",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent",
         "ok": true,
         "count": 4,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/Hy4-flash",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/Hy4-flash-FP8",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/WeMM-Ecom-35B-A3B",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "tencent/WePocketModel1.0-2B",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/WePocketModel1.0-2B-GGUF",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/WePocketModel1.0-4B",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "tencent/WePocketModel1.0-4B-GGUF",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "text-generation",
         "ok": true,
         "count": 10,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "text-to-image",
         "ok": true,
         "count": 7,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "text-to-speech",
         "ok": true,
         "count": 6,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "topic:ai-tools stars:>1000 archived:false",
         "ok": true,
         "count": 12,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "topic:comfyui stars:>200 archived:false",
         "ok": true,
         "count": 12,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       },
       {
         "name": "topic:n8n-workflows stars:>30 archived:false",
         "ok": true,
         "count": 5,
-        "checkedAt": "2026-11-24T14:54:48+08:00"
+        "checkedAt": "2026-11-25T02:50:16+08:00"
       },
       {
         "name": "vllm-project/vllm",
         "ok": true,
         "count": 1,
-        "checkedAt": "2026-11-24T14:54:47+08:00"
+        "checkedAt": "2026-11-25T02:50:15+08:00"
       }
     ],
     "huggingfaceDetails": {
-      "ok": 101,
-      "total": 101,
+      "ok": 107,
+      "total": 107,
       "sources": [
-        {
-          "name": "tencent/OmniEVIE-4B",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:48+08:00"
-        },
         {
           "name": "tencent/WeMM-Ecom-9B-GGUF",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:48+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
-          "name": "tencent/WeMM-Ecom-9B-FP8",
+          "name": "tencent/OmniEVIE-4B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:48+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WeMM-Ecom-9B-GPTQ",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:48+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
-          "name": "tencent/WeMM-Ecom-35B-A3B",
+          "name": "tencent/TiMiHOKGameTranslator",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WeMM-Ecom-0.8B-GGUF",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
-          "name": "tencent/WeMM-Ecom-4B",
+          "name": "tencent/WeMM-Ecom-35B-A3B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
+        },
+        {
+          "name": "tencent/WeMM-Ecom-9B-FP8",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WeMM-Ecom-9B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WePocketModel1.0-4B-GGUF",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
-        },
-        {
-          "name": "tencent/WePocketModel1.0-2B-GGUF",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WePocketModel1.0-4B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
+        },
+        {
+          "name": "tencent/WePocketModel1.0-2B-GGUF",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WePocketModel1.0-2B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
-          "name": "Qwen/Qwen2-VL-2B-Instruct",
+          "name": "tencent/WeMM-Ecom-4B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
-        },
-        {
-          "name": "tencent/Hy4-flash",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/Hy4-flash-FP8",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
+        },
+        {
+          "name": "Qwen/Qwen2-VL-2B-Instruct",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "tencent/WeMM-Ecom-2B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
+        },
+        {
+          "name": "tencent/Hy4-flash",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
           "name": "Qwen/Qwen3.6-27B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:16+08:00"
         },
         {
-          "name": "Qwen/Qwen3.5-35B-A3B",
+          "name": "Pinkstack/LiliPixel-V1-190M",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Qwen/Qwen3.5-27B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "Qwen/Qwen3.5-35B-A3B",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-schnell",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-schnell-onnx",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-dev",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
-        },
-        {
-          "name": "Pinkstack/LiliPixel-V1-190M",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-Fill-dev",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
-        },
-        {
-          "name": "lodestones/Kromoss",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Comfy-Org/Wan-2.2",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
-          "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "name": "lodestones/Kromoss",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Lightricks/LTX-2-Marking",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Lightricks/LTX-2.5-Pre-Trained",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Lightricks/LTX-2.5-Diffusers",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Lightricks/LTX-2.5-22b-LoRA-Slow-Motion-Control",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "deepseek-ai/DeepSeek-V4.1-Flash",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "FunAudioLLM/Fun-ASR-Nano-2512-hf",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "FunAudioLLM/Fun-ASR-Nano-2512-vllm",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Wan-AI/Wan2.2-Animate-2-14B-Diffusers",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Wan-AI/Wan2.2-Animate-2-14B-Distilled-Diffusers",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "FunAudioLLM/SenseVoiceSmall-GGUF-audiocpp",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Wan-AI/Wan2.2-Animate-2-14B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "FunAudioLLM/Fun-ASR-MLT-Nano-2512",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "Wan-AI/Wan-Dancer-14B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "openai/privacy-filter",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "openai/circuit-sparsity",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "openai/gpt-oss-safeguard-20b",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "openai/gpt-oss-safeguard-120b",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:49+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
-          "name": "StudioYebisu-ship-it/Drama-3-Japanese-speech-cpp-gguf",
+          "name": "Aleph-Alpha/Kolibri-1.1",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "MiniMaxAI/MiniMax-H3",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "baidu/ERNIE-5.5-Flash-Preview",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "software-mansion/Reverb-TTS",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "inclusionAI/LingSante-3.1-flash",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "OVHaiLLM/Olala-v1.0-mini-7A1B",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "Comfy-Org/MiniMax-H3-Image",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "MemTensor/MemT-1.0-Pro",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "Nebsh/Seedreamstyle-H3-6K",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
         },
         {
           "name": "maxwell-model/Maxwell-V1-Flash",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "mehdi-hf/tiny-ava",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "StudioYebisu-ship-it/Drama-3-Japanese-speech-cpp-gguf",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "inclusionAI/LingSante-3.1-flash",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "Comfy-Org/MiniMax-H3-Image",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "OVHaiLLM/Olala-v1.0-mini-7A1B",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:17+08:00"
+        },
+        {
+          "name": "OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "MemTensor/MemT-1.0-Pro",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "Nebsh/Seedreamstyle-H3-6K",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "n4ze3m/tiny-voca",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "k2-fsa/OmniVoice",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "sensenova/SenseNova-Loop-9B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Reson8/Rumble-2-Flash",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "mehdi-hf/cilla-mini",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "linlinlinlinsdada/Jeveration",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Comfy-Org/LongCat-Video-Avatar",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "microsoft/Aion-1.0-Instruct-2.3B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "inclusionAI/Ming-3.0-audio-flash",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Zyphra/ZONOS3-Mini",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "yunyangge/MovieRoll",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "MiniMaxAI/MiniMax-H3-Image",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "yunyangge/MovieRoll",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "FluidVoice-Labs/fluid-speech-pro",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "IFM/PAN2",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "thejagstudio/tessera-small",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "moonshotai/Kimi-K3.1-Pro",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Pika-Labs/Pika-H3-Flex",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Lightricks/LTX-2.5",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Comfy-Org/Krea-2",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "ai4bharat/IndicF5",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "nvidia/parakeet-tdt-0.6b-v3",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
-        },
-        {
-          "name": "pyannote/speaker-diarization-community-1",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "moondream/parakeet-ultra",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "nvidia/parakeet-tdt-0.6b-v3",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "pyannote/speaker-diarization-community-1",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "meta-llama/Meta-Llama-3-8B-Instruct",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "hexgrad/Kokoro-82M",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Qwen/Qwen3-ASR-1.7B",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:50+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "pyannote/speaker-diarization-3.1",
           "type": "model",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
-        },
-        {
-          "name": "openai/whisper-large-v3",
-          "type": "model",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
-        },
-        {
-          "name": "Qwen/Qwen3-TTS",
-          "type": "space",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Wan-AI/Wan2.2-S2V",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "openai/whisper-large-v3",
+          "type": "model",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Qwen/Qwen-Image",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
+        },
+        {
+          "name": "Qwen/Qwen3-TTS",
+          "type": "space",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Qwen/Qwen-Image-Edit",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Qwen/Qwen3-Coder-WebDev",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-schnell",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "black-forest-labs/FLUX.1-Kontext-Dev",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
           "name": "Lightricks/LTX-2.5",
           "type": "space",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:18+08:00"
         },
         {
-          "name": "lodestones/Kromoss",
+          "name": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
           "type": "workflow-file",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:19+08:00"
         },
         {
           "name": "Pinkstack/LiliPixel-V1-190M",
           "type": "workflow-file",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:19+08:00"
+        },
+        {
+          "name": "lodestones/Kromoss",
+          "type": "workflow-file",
+          "ok": true,
+          "checkedAt": "2026-11-25T02:50:19+08:00"
         },
         {
           "name": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
           "type": "workflow-file",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
-        },
-        {
-          "name": "Wuli-art/Gemma4-for-MiniMax-H3-Prompt-Extend",
-          "type": "workflow-file",
-          "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:19+08:00"
         },
         {
           "name": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
           "type": "workflow-file",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:19+08:00"
         },
         {
           "name": "lvladikov/MOSS-SFT-Distill-4step-LoRA",
           "type": "workflow-file",
           "ok": true,
-          "checkedAt": "2026-11-24T14:54:51+08:00"
+          "checkedAt": "2026-11-25T02:50:19+08:00"
         }
       ]
     },
     "translation": {
       "engine": "Qwen3-4B-Q4_K_M",
-      "translated": 59,
+      "translated": 67,
       "pending": 0,
-      "total": 59,
+      "total": 67,
       "scope": "news-title-and-summary; developer-release-logs-excluded"
     }
   },
   "items": [
+    {
+      "id": "github-e411c5930cfbb1e941af483a",
+      "kind": "software",
+      "title": "Transformers · 模型加载与开发库",
+      "originalTitle": "huggingface/transformers",
+      "summary": "为多种模型提供统一的加载和推理接口，是本地模型开发常用的基础库。",
+      "originalSummary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "category": "数据与训练",
+      "platform": "GitHub",
+      "url": "https://github.com/huggingface/transformers",
+      "sources": [
+        {
+          "title": "huggingface/transformers · 项目主页",
+          "url": "https://github.com/huggingface/transformers"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T18:49:24Z",
+      "createdAt": "2018-10-29T13:56:00Z",
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 169257,
+      "language": "Python",
+      "tags": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "想用代码调用、试验或微调模型的开发者。",
+      "start": "从文档中与你的任务相符的示例开始。",
+      "requirements": "不同模型的许可、依赖和硬件要求分别查看模型卡。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-f67861791956f8ffb3253ace",
+      "kind": "software",
+      "title": "llama.cpp · 轻量模型推理引擎",
+      "originalTitle": "ggml-org/llama.cpp",
+      "summary": "运行 GGUF 等格式模型的推理工具，提供命令行和本机服务等使用方式。",
+      "originalSummary": "LLM inference in C/C++",
+      "category": "本地部署",
+      "platform": "GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "sources": [
+        {
+          "title": "ggml-org/llama.cpp · 项目主页",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T18:47:36Z",
+      "createdAt": "2023-03-10T18:58:00Z",
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 136120,
+      "language": "C++",
+      "tags": [
+        "ggml"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "希望精细控制本地模型运行参数的开发者。",
+      "start": "下载官方构建或按文档编译，再准备兼容模型。",
+      "requirements": "模型文件需单独准备；速度取决于硬件和量化方式。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-658041d9da6acb1a573f6a1f",
+      "kind": "software",
+      "title": "Ollama · 本地模型运行工具",
+      "originalTitle": "ollama/ollama",
+      "summary": "在自己的电脑上下载和运行支持的模型，并向其他应用提供模型接口。",
+      "originalSummary": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "本地部署",
+      "platform": "GitHub",
+      "url": "https://github.com/ollama/ollama",
+      "sources": [
+        {
+          "title": "ollama/ollama · 项目主页",
+          "url": "https://github.com/ollama/ollama"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T18:47:29Z",
+      "createdAt": "2023-06-26T19:39:32Z",
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 187988,
+      "language": "Go",
+      "tags": [
+        "deepseek",
+        "gemma",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llm"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "希望本地试用模型、减少对外部模型服务依赖的人。",
+      "start": "安装后从较小的受支持模型开始。",
+      "requirements": "能运行的模型大小取决于电脑内存和硬件。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-7da69635176c3b46af22ec6e",
+      "kind": "software",
+      "title": "n8n · 可视化业务自动化",
+      "originalTitle": "n8n-io/n8n",
+      "summary": "把不同应用、数据接口和 AI 步骤连起来，搭建自动运行的处理流程。",
+      "originalSummary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "category": "自动化工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "sources": [
+        {
+          "title": "n8n-io/n8n · 项目主页",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T18:47:10Z",
+      "createdAt": "2019-06-22T09:24:21Z",
+      "checkedAt": "2026-11-25T02:50:13+08:00",
+      "stars": 211999,
+      "language": "TypeScript",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "希望减少重复操作、连接多个服务的个人或团队。",
+      "start": "先搭建一个读取数据、处理数据、写回结果的小流程。",
+      "requirements": "部分服务需要自己的账号或 API；许可证有使用条件。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-53c16fc7c5624952c766f1d9",
+      "kind": "software",
+      "title": "ComfyUI · 节点式图像与视频创作",
+      "originalTitle": "Comfy-Org/ComfyUI",
+      "summary": "把模型、提示词和处理步骤连成节点流程，用于 AI 生图、视频和素材处理。",
+      "originalSummary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "category": "图像与设计",
+      "platform": "GitHub",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "sources": [
+        {
+          "title": "Comfy-Org/ComfyUI · 项目主页",
+          "url": "https://github.com/Comfy-Org/ComfyUI"
+        }
+      ],
+      "license": "GPL-3.0",
+      "lastActivityAt": "2026-11-24T18:44:51Z",
+      "createdAt": "2023-01-17T03:15:56Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 148434,
+      "language": "Python",
+      "tags": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "stable-diffusion"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "想把生成过程保存成可复用流程的创作者。",
+      "start": "先按官方说明安装，再导入与当前模型匹配的工作流。",
+      "requirements": "通常需要下载模型；显存需求取决于模型和分辨率。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-8d5490de58c11c785d613640",
+      "kind": "software",
+      "title": "vLLM · 模型服务与推理部署",
+      "originalTitle": "vllm-project/vllm",
+      "summary": "用于部署大模型推理服务，关注多请求处理和服务吞吐等需求。",
+      "originalSummary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "category": "本地部署",
+      "platform": "GitHub",
+      "url": "https://github.com/vllm-project/vllm",
+      "sources": [
+        {
+          "title": "vllm-project/vllm · 项目主页",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T18:31:37Z",
+      "createdAt": "2023-02-09T11:23:20Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 97490,
+      "language": "Python",
+      "tags": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "gpt",
+        "gpt-oss",
+        "inference"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "需要向多个应用或用户提供模型接口的开发者。",
+      "start": "检查模型与硬件是否受支持，再部署测试服务。",
+      "requirements": "面向开发部署，通常需要合适的加速硬件和运行环境。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-2b67d6e6165529b4df2b71a8",
+      "kind": "software",
+      "title": "Activepieces · 应用与 AI 自动化",
+      "originalTitle": "activepieces/activepieces",
+      "summary": "通过可视化步骤连接应用和 AI 能力，适合搭建跨服务的自动化流程。",
+      "originalSummary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "category": "自动化工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/activepieces/activepieces",
+      "sources": [
+        {
+          "title": "activepieces/activepieces · 项目主页",
+          "url": "https://github.com/activepieces/activepieces"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T18:28:35Z",
+      "createdAt": "2022-12-03T02:52:46Z",
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 25704,
+      "language": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "想直观看到流程每一步做什么的用户。",
+      "start": "根据官方文档启动，再选择所需的应用连接器。",
+      "requirements": "连接外部服务时可能需要相应账号或密钥。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
     {
       "id": "github-0fac45359c2058b499648b5e",
       "kind": "software",
@@ -917,10 +1224,10 @@
         }
       ],
       "license": "自定义或未明确许可，查看原项目",
-      "lastActivityAt": "2026-11-24T06:49:56Z",
+      "lastActivityAt": "2026-11-24T18:28:10Z",
       "createdAt": "2023-04-12T07:40:24Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 161797,
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 161839,
       "language": "Python",
       "tags": [
         "agent",
@@ -957,10 +1264,10 @@
         }
       ],
       "license": "MIT",
-      "lastActivityAt": "2026-11-24T06:44:54Z",
+      "lastActivityAt": "2026-11-24T17:50:52Z",
       "createdAt": "2023-02-08T22:28:03Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 156896,
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 156909,
       "language": "Python",
       "tags": [
         "agents",
@@ -976,159 +1283,6 @@
       "fit": "希望边搭边理解各个 AI 组件怎样协作的人。",
       "start": "按官方方式启动，从基础流程逐步加入数据和工具。",
       "requirements": "部分组件需要独立服务或模型凭据。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-8d5490de58c11c785d613640",
-      "kind": "software",
-      "title": "vLLM · 模型服务与推理部署",
-      "originalTitle": "vllm-project/vllm",
-      "summary": "用于部署大模型推理服务，关注多请求处理和服务吞吐等需求。",
-      "originalSummary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "category": "本地部署",
-      "platform": "GitHub",
-      "url": "https://github.com/vllm-project/vllm",
-      "sources": [
-        {
-          "title": "vllm-project/vllm · 项目主页",
-          "url": "https://github.com/vllm-project/vllm"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T06:42:45Z",
-      "createdAt": "2023-02-09T11:23:20Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 97449,
-      "language": "Python",
-      "tags": [
-        "amd",
-        "blackwell",
-        "cuda",
-        "deepseek",
-        "deepseek-v3",
-        "gpt",
-        "gpt-oss",
-        "inference"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "需要向多个应用或用户提供模型接口的开发者。",
-      "start": "检查模型与硬件是否受支持，再部署测试服务。",
-      "requirements": "面向开发部署，通常需要合适的加速硬件和运行环境。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-f67861791956f8ffb3253ace",
-      "kind": "software",
-      "title": "llama.cpp · 轻量模型推理引擎",
-      "originalTitle": "ggml-org/llama.cpp",
-      "summary": "运行 GGUF 等格式模型的推理工具，提供命令行和本机服务等使用方式。",
-      "originalSummary": "LLM inference in C/C++",
-      "category": "本地部署",
-      "platform": "GitHub",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "sources": [
-        {
-          "title": "ggml-org/llama.cpp · 项目主页",
-          "url": "https://github.com/ggml-org/llama.cpp"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T06:28:37Z",
-      "createdAt": "2023-03-10T18:58:00Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 136114,
-      "language": "C++",
-      "tags": [
-        "ggml"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "希望精细控制本地模型运行参数的开发者。",
-      "start": "下载官方构建或按文档编译，再准备兼容模型。",
-      "requirements": "模型文件需单独准备；速度取决于硬件和量化方式。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-e411c5930cfbb1e941af483a",
-      "kind": "software",
-      "title": "Transformers · 模型加载与开发库",
-      "originalTitle": "huggingface/transformers",
-      "summary": "为多种模型提供统一的加载和推理接口，是本地模型开发常用的基础库。",
-      "originalSummary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "category": "数据与训练",
-      "platform": "GitHub",
-      "url": "https://github.com/huggingface/transformers",
-      "sources": [
-        {
-          "title": "huggingface/transformers · 项目主页",
-          "url": "https://github.com/huggingface/transformers"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T06:23:13Z",
-      "createdAt": "2018-10-29T13:56:00Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 169276,
-      "language": "Python",
-      "tags": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "想用代码调用、试验或微调模型的开发者。",
-      "start": "从文档中与你的任务相符的示例开始。",
-      "requirements": "不同模型的许可、依赖和硬件要求分别查看模型卡。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-7da69635176c3b46af22ec6e",
-      "kind": "software",
-      "title": "n8n · 可视化业务自动化",
-      "originalTitle": "n8n-io/n8n",
-      "summary": "把不同应用、数据接口和 AI 步骤连起来，搭建自动运行的处理流程。",
-      "originalSummary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "category": "自动化工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/n8n-io/n8n",
-      "sources": [
-        {
-          "title": "n8n-io/n8n · 项目主页",
-          "url": "https://github.com/n8n-io/n8n"
-        }
-      ],
-      "license": "自定义或未明确许可，查看原项目",
-      "lastActivityAt": "2026-11-24T06:19:58Z",
-      "createdAt": "2019-06-22T09:24:21Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 211896,
-      "language": "TypeScript",
-      "tags": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "希望减少重复操作、连接多个服务的个人或团队。",
-      "start": "先搭建一个读取数据、处理数据、写回结果的小流程。",
-      "requirements": "部分服务需要自己的账号或 API；许可证有使用条件。",
       "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
     },
     {
@@ -1148,10 +1302,10 @@
         }
       ],
       "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T05:09:17Z",
+      "lastActivityAt": "2026-11-24T16:16:53Z",
       "createdAt": "2022-05-30T16:04:02Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 34968,
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 34970,
       "language": "Python",
       "tags": [
         "deep-learning",
@@ -1172,6 +1326,72 @@
       "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
     },
     {
+      "id": "github-58e42d36257ec3f05d34f531",
+      "kind": "workflow",
+      "title": "ComfyUI 官方工作流模板",
+      "originalTitle": "Comfy-Org/workflow_templates",
+      "summary": "官方维护的工作流模板集合，用来学习模型如何接入，以及生成流程怎样连接。",
+      "originalSummary": "ComfyUI template workflows",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/Comfy-Org/workflow_templates",
+      "sources": [
+        {
+          "title": "Comfy-Org/workflow_templates · 项目主页",
+          "url": "https://github.com/Comfy-Org/workflow_templates"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T15:59:57Z",
+      "createdAt": "2025-02-28T21:39:51Z",
+      "checkedAt": "2026-11-25T02:50:13+08:00",
+      "stars": 1539,
+      "language": "TypeScript",
+      "tags": [],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "官方模板",
+      "fit": "想从可参考的节点结构开始，而不是从空白画布搭建的人。",
+      "start": "从模板目录选择任务，再核对所需模型和节点。",
+      "requirements": "模板不等于模型包，部分流程需要另装节点或模型。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
+      "id": "github-16ca0aba58ecaeda9ffed6fd",
+      "kind": "software",
+      "title": "rembg · 图片背景移除",
+      "originalTitle": "danielgatis/rembg",
+      "summary": "通过命令行或 Python 调用去除图片背景，适合批量处理图片素材。",
+      "originalSummary": "Rembg is a tool to remove images background",
+      "category": "图像与设计",
+      "platform": "GitHub",
+      "url": "https://github.com/danielgatis/rembg",
+      "sources": [
+        {
+          "title": "danielgatis/rembg · 项目主页",
+          "url": "https://github.com/danielgatis/rembg"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T13:54:32Z",
+      "createdAt": "2020-08-10T14:38:24Z",
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 25664,
+      "language": "Python",
+      "tags": [
+        "background-removal",
+        "image-processing",
+        "python"
+      ],
+      "mode": "resource",
+      "curated": true,
+      "assetType": "软件项目",
+      "fit": "需要抠图或批量整理商品、人物素材的用户。",
+      "start": "按官方说明安装，先用一张样图检查边缘效果。",
+      "requirements": "实际效果依赖素材和模型，复杂边缘仍需检查。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+    },
+    {
       "id": "hf-460965a4d4c58278ffe8189c",
       "kind": "model",
       "resourceType": "weights",
@@ -1188,11 +1408,11 @@
         }
       ],
       "license": "apache-2.0",
-      "lastActivityAt": "2026-11-24T04:27:21.000Z",
+      "lastActivityAt": "2026-11-24T13:17:25.000Z",
       "createdAt": "2026-11-24T03:16:57.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 0,
-      "likes": 3,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 7,
+      "likes": 8,
       "pipeline": "feature-extraction",
       "tags": [
         "safetensors",
@@ -1212,8 +1432,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "27e79d72d399a7ef0cb3e41e89948a955356a2b1",
-      "cardHash": "365954797b4119e507028cbed0845baac8bb6361e83a35e865edac435bc447e0",
+      "cardSha": "ecf05da45a5a68ae05597a26d537bd751dd174d7",
+      "cardHash": "d2c08bb243670e88d34cfde8d24f8fab58fa9885139cab608852f37a7cb395e1",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -1233,93 +1453,45 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:48+08:00",
-      "profileAttemptHash": "365954797b4119e507028cbed0845baac8bb6361e83a35e865edac435bc447e0",
-      "profileAttemptTime": 1795503441.3360736,
-      "profile": {
-        "purpose": "多模态文档与视频的精确检索",
-        "summary": "OmniEVIE-4B 是一个基于 Qwen3.5 的 4.5B 参数多模态统一检索模型，支持对文档和视频的精细定位。它通过双向全注意力层、Prefix-MRL 投影、时空 Ward 聚类（ST-HAC）和学习的查询显著性门控，将文档压缩为最多 128 × 64D int8 向量，实现每秒检索百万级记录，且能精确定位到文档中的具体行或视频中的时间点。",
-        "difference": "本版本基于 Qwen3.5 架构，采用 int8 量化和 ST-HAC 聚类，支持多模态检索，且提供查询显著性门控和精细定位功能。",
-        "example": "例如：在视频中检索特定时间点的片段，并定位到文档中的具体行。",
-        "requirements": "需要安装 flash-attn>=2.7.0，且需使用 CUDA 设备。官方未注明最低运行内存或显存。",
-        "start": "官方提供的开始方式为：从 GitHub 安装推理和索引包，并使用提供的 Python 代码示例启动模型。",
-        "cardHash": "365954797b4119e507028cbed0845baac8bb6361e83a35e865edac435bc447e0",
-        "engine": "Qwen3-4B / official-model-card",
-        "generatedAt": "2026-11-24T14:58:38+08:00"
-      }
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00"
     },
     {
-      "id": "github-16ca0aba58ecaeda9ffed6fd",
-      "kind": "software",
-      "title": "rembg · 图片背景移除",
-      "originalTitle": "danielgatis/rembg",
-      "summary": "通过命令行或 Python 调用去除图片背景，适合批量处理图片素材。",
-      "originalSummary": "Rembg is a tool to remove images background",
-      "category": "图像与设计",
-      "platform": "GitHub",
-      "url": "https://github.com/danielgatis/rembg",
+      "id": "hf-22329dd247e976cf9526c9e5",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "tencent/TiMiHOKGameTranslator · 其他模型资料",
+      "originalTitle": "tencent/TiMiHOKGameTranslator",
+      "summary": "发布者未标注标准任务类型，请查看模型卡确认用途。",
+      "category": "开源模型",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/tencent/TiMiHOKGameTranslator",
       "sources": [
         {
-          "title": "danielgatis/rembg · 项目主页",
-          "url": "https://github.com/danielgatis/rembg"
+          "title": "tencent/TiMiHOKGameTranslator · 模型卡",
+          "url": "https://huggingface.co/tencent/TiMiHOKGameTranslator"
         }
       ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T04:14:29Z",
-      "createdAt": "2020-08-10T14:38:24Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 25652,
-      "language": "Python",
-      "tags": [
-        "background-removal",
-        "image-processing",
-        "python"
-      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T10:55:55.000Z",
+      "createdAt": "2026-11-16T08:55:23.000Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 0,
+      "likes": 5,
+      "pipeline": "unknown",
+      "tags": [],
+      "gated": false,
+      "assetType": "公开模型权重",
       "mode": "resource",
       "curated": true,
-      "assetType": "软件项目",
-      "fit": "需要抠图或批量整理商品、人物素材的用户。",
-      "start": "按官方说明安装，先用一张样图检查边缘效果。",
-      "requirements": "实际效果依赖素材和模型，复杂边缘仍需检查。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-53c16fc7c5624952c766f1d9",
-      "kind": "software",
-      "title": "ComfyUI · 节点式图像与视频创作",
-      "originalTitle": "Comfy-Org/ComfyUI",
-      "summary": "把模型、提示词和处理步骤连成节点流程，用于 AI 生图、视频和素材处理。",
-      "originalSummary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "category": "图像与设计",
-      "platform": "GitHub",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "sources": [
-        {
-          "title": "Comfy-Org/ComfyUI · 项目主页",
-          "url": "https://github.com/Comfy-Org/ComfyUI"
-        }
-      ],
-      "license": "GPL-3.0",
-      "lastActivityAt": "2026-11-24T04:10:12Z",
-      "createdAt": "2023-01-17T03:15:56Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 148346,
-      "language": "Python",
-      "tags": [
-        "ai",
-        "comfy",
-        "comfyui",
-        "python",
-        "pytorch",
-        "stable-diffusion"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "想把生成过程保存成可复用流程的创作者。",
-      "start": "先按官方说明安装，再导入与当前模型匹配的工作流。",
-      "requirements": "通常需要下载模型；显存需求取决于模型和分辨率。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+      "fit": "想试验其他模型资料能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "4af172ce9761d06c200dd0a35f35ffdf6db58555",
+      "cardHash": "e807332969e52e7b25279a86629bae9d2709875e305a47c63157f5cf5d9d88cb",
+      "modelFacts": [],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00"
     },
     {
       "id": "hf-80355458401ad474cf970078",
@@ -1338,11 +1510,11 @@
         }
       ],
       "license": "apache-2.0",
-      "lastActivityAt": "2026-11-24T02:26:04.000Z",
+      "lastActivityAt": "2026-11-24T07:52:14.000Z",
       "createdAt": "2026-11-23T02:02:17.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 0,
-      "likes": 3,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 227,
+      "likes": 5,
       "pipeline": "image-text-to-text",
       "tags": [
         "llama.cpp",
@@ -1362,8 +1534,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "96d937dcf9d403ad59b34ae26ac83c7fdf223856",
-      "cardHash": "028adb8e126595a42747f85f404f4302402191c3a6dde5ca5f196d9b4fbeb253",
+      "cardSha": "33b36b1ec87c85c002a0f09c1482d649b18492b0",
+      "cardHash": "71ce3e3f82525f1d44a925f1b78ddd59ddf19cf959961d34b5d9e776eb249e46",
       "modelFacts": [
         {
           "label": "权重格式",
@@ -1383,19 +1555,19 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:48+08:00",
-      "profileAttemptHash": "028adb8e126595a42747f85f404f4302402191c3a6dde5ca5f196d9b4fbeb253",
-      "profileAttemptTime": 1795503518.38215,
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00",
+      "profileAttemptHash": "71ce3e3f82525f1d44a925f1b78ddd59ddf19cf959961d34b5d9e776eb249e46",
+      "profileAttemptTime": 1795546561.0921345,
       "profile": {
         "purpose": "多模态电商理解与推理",
         "summary": "WeMM-Ecom-9B-GGUF 是腾讯开发的多模态模型，基于 WeMM-Ecom-9B，采用 Q4_K_M 量化和 F16 多模态投影器，支持 llama.cpp 部署。该模型在电商理解任务中表现优异，平均基准得分优于 Qwen3.5-9B 和 Valley3-8B。支持图像、视频理解，适用于电商场景中的产品属性、OCR、检索等任务。",
-        "difference": "本版本为 GGUF 格式，包含 Q4_K_M 量化语言模型权重和 F16 多模态投影器，支持命令行推理和本地 OpenAI 兼容服务器，配套文件包含语言模型 GGUF 和投影器 GGUF。",
+        "difference": "本版本为 GGUF 格式，包含 Q4_K_M 量化语言模型权重和 F16 多模态投影器，支持命令行推理和本地 OpenAI 兼容服务器，配套文件包括语言模型 GGUF 和投影器 GGUF。",
         "example": "例如：理解电商场景中的产品属性描述和图像内容，判断产品是否符合描述。",
-        "requirements": "需要 llama.cpp 框架，支持 NVIDIA CUDA 或 CPU。需安装 FFmpeg 用于视频理解。官方未注明最低运行内存或显存。",
-        "start": "使用 llama.cpp 框架，下载模型和投影器文件，替换本地图像和视频路径，通过命令行进行推理。",
-        "cardHash": "028adb8e126595a42747f85f404f4302402191c3a6dde5ca5f196d9b4fbeb253",
+        "requirements": "需安装 llama.cpp，支持 NVIDIA CUDA 或 CPU。需提供本地图像和视频路径，且需配置 FFmpeg 用于视频理解。",
+        "start": "使用 llama.cpp 运行命令，加载模型 GGUF 和投影器 GGUF，通过命令行进行推理，支持多图像和视频输入。",
+        "cardHash": "71ce3e3f82525f1d44a925f1b78ddd59ddf19cf959961d34b5d9e776eb249e46",
         "engine": "Qwen3-4B / official-model-card",
-        "generatedAt": "2026-11-24T15:00:08+08:00"
+        "generatedAt": "2026-11-25T02:57:33+08:00"
       }
     },
     {
@@ -1415,11 +1587,11 @@
         }
       ],
       "license": "apache-2.0",
-      "lastActivityAt": "2026-11-24T02:26:04.000Z",
+      "lastActivityAt": "2026-11-24T07:52:14.000Z",
       "createdAt": "2026-11-23T06:04:47.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 0,
-      "likes": 2,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 334,
+      "likes": 4,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -1439,8 +1611,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "25dce75a06fc47611d625ed57349e707d8f4c5e9",
-      "cardHash": "7cfd39159f19786e62b4a49d44101a6b2790bda9048e1d538f145f7fc1c98b41",
+      "cardSha": "e5328ed1244f23300443c41a9578449a15e7cd9d",
+      "cardHash": "79b44df43d49c0563d922aec9045c989de534d5dda588fae6af51dadf70b1380",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -1468,19 +1640,104 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:48+08:00",
-      "profileAttemptHash": "7cfd39159f19786e62b4a49d44101a6b2790bda9048e1d538f145f7fc1c98b41",
-      "profileAttemptTime": 1795503608.7350037,
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00",
+      "profileAttemptHash": "79b44df43d49c0563d922aec9045c989de534d5dda588fae6af51dadf70b1380",
+      "profileAttemptTime": 1795546473.6294491,
       "profile": {
         "purpose": "电商场景下的多模态理解与生成",
-        "summary": "该模型是基于WeMM-Ecom-9B的GPTQ量化版本，支持文本、图像、多图和视频输入，适用于电商场景下的细粒度理解与生成。其特色在于支持多种部署格式，如BF16、FP8、GPTQ和GGUF，并在电商理解与通用能力方面表现优异。",
-        "difference": "本版本采用GPTQ W4A16量化格式，使用Safetensors存储，适用于vLLM的compressed-tensors后端，支持多种输入类型和部署格式。",
-        "example": "例如：处理电商场景中的商品属性识别和图像检索任务。",
-        "requirements": "需要安装vLLM并配置环境，支持Python 3.11及以上版本，官方未注明最低运行内存或显存。",
+        "summary": "该模型是基于WeMM-Ecom-9B的GPTQ量化版本，支持文本、图像、多图和视频输入，适用于电商场景下的多模态理解与生成。其特色在于在电商理解、通用能力等方面表现优异，且支持多种部署格式，如BF16、FP8、GPTQ和GGUF。",
+        "difference": "本版本为GPTQ W4A16量化版本，使用Safetensors格式存储，适配transformers框架，支持中文和英文标注语言，基于WeMM-Ecom-9B架构。",
+        "example": "例如：在电商场景中，模型能够理解商品属性、进行OCR识别、检索商品信息并进行推理判断。",
+        "requirements": "需要安装vLLM框架，使用Python 3.11环境，官方未注明最低运行内存或显存。",
         "start": "官方未提供可直接运行的示例。",
-        "cardHash": "7cfd39159f19786e62b4a49d44101a6b2790bda9048e1d538f145f7fc1c98b41",
+        "cardHash": "79b44df43d49c0563d922aec9045c989de534d5dda588fae6af51dadf70b1380",
         "engine": "Qwen3-4B / official-model-card",
-        "generatedAt": "2026-11-24T15:01:33+08:00"
+        "generatedAt": "2026-11-25T02:56:01+08:00"
+      }
+    },
+    {
+      "id": "hf-0f0b5f0f95c0ade7d7b0a8b8",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "tencent/WeMM-Ecom-35B-A3B · 图文理解与对话",
+      "originalTitle": "tencent/WeMM-Ecom-35B-A3B",
+      "summary": "图文理解与对话模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "开源模型",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B",
+      "sources": [
+        {
+          "title": "tencent/WeMM-Ecom-35B-A3B · 模型卡",
+          "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B"
+        }
+      ],
+      "license": "apache-2.0",
+      "lastActivityAt": "2026-11-24T07:52:00.000Z",
+      "createdAt": "2026-11-18T09:54:14.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 490,
+      "likes": 18,
+      "pipeline": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "wemm",
+        "multimodal",
+        "e-commerce",
+        "conversational"
+      ],
+      "gated": false,
+      "assetType": "公开模型权重",
+      "mode": "resource",
+      "curated": true,
+      "fit": "想试验图文理解与对话能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "0cdd0771547284fb8627c5ea707b2ef444970aec",
+      "cardHash": "6e35c2c9975cb0b90549b2cbcc8f528281c1190e49cf364a1aa8e23d8c675127",
+      "modelFacts": [
+        {
+          "label": "仓库参数统计",
+          "value": "35.11B"
+        },
+        {
+          "label": "权重格式",
+          "value": "Safetensors"
+        },
+        {
+          "label": "适配框架",
+          "value": "transformers"
+        },
+        {
+          "label": "标注语言",
+          "value": "zh / en"
+        },
+        {
+          "label": "基于模型",
+          "value": "Qwen/Qwen3.5-35B-A3B"
+        },
+        {
+          "label": "架构标记",
+          "value": "qwen3_5_moe"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00",
+      "profileAttemptHash": "6e35c2c9975cb0b90549b2cbcc8f528281c1190e49cf364a1aa8e23d8c675127",
+      "profileAttemptTime": 1795546379.168152,
+      "profile": {
+        "purpose": "多模态电商理解与推理",
+        "summary": "WeMM-Ecom-35B-A3B 是腾讯开发的多专家模型，专为电商场景设计，支持文本、图像、多图和视频输入，具备强大的电商理解与通用能力。模型基于 Qwen3.5-35B-A3B，采用 MoE 架构，参数量 35B，支持 BF16、FP8、GPTQ 和 GGUF 格式。在电商理解任务中，相比其他模型有显著优势。",
+        "difference": "本版本为 35B-A3B 规格，支持多种输入格式，采用 Safetensors 权重格式，适配 transformers 框架，标注语言为中文和英文。",
+        "example": "例如：描述电商场景中的商品属性和图像内容，判断商品是否符合描述。",
+        "requirements": "官方未注明最低运行内存或显存。",
+        "start": "官方未提供可直接运行的示例。",
+        "cardHash": "6e35c2c9975cb0b90549b2cbcc8f528281c1190e49cf364a1aa8e23d8c675127",
+        "engine": "Qwen3-4B / official-model-card",
+        "generatedAt": "2026-11-25T02:54:33+08:00"
       }
     },
     {
@@ -1524,8 +1781,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "1dc7f486b2dd727a5f20f281c019a117f19aefc0",
-      "cardHash": "af4078db4d38bc55d632f73b6a61d4264de10d4d7ea5ad442390e4d75420fab6",
+      "cardSha": "45ed5667932384198fa2cbe104b57bff70ae92f5",
+      "cardHash": "945baab9b4157feb89ca058c4c95991cb54472087e52ade4dc4f39cf7ff9e58b",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -1553,190 +1810,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:48+08:00"
-    },
-    {
-      "id": "hf-0f0b5f0f95c0ade7d7b0a8b8",
-      "kind": "model",
-      "resourceType": "weights",
-      "title": "tencent/WeMM-Ecom-35B-A3B · 图文理解与对话",
-      "originalTitle": "tencent/WeMM-Ecom-35B-A3B",
-      "summary": "图文理解与对话模型。可用版本、模型大小和适用条件见模型卡。",
-      "category": "开源模型",
-      "platform": "Hugging Face",
-      "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B",
-      "sources": [
-        {
-          "title": "tencent/WeMM-Ecom-35B-A3B · 模型卡",
-          "url": "https://huggingface.co/tencent/WeMM-Ecom-35B-A3B"
-        }
-      ],
-      "license": "apache-2.0",
-      "lastActivityAt": "2026-11-24T02:25:49.000Z",
-      "createdAt": "2026-11-18T09:54:14.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 0,
-      "likes": 10,
-      "pipeline": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "wemm",
-        "multimodal",
-        "e-commerce",
-        "conversational"
-      ],
-      "gated": false,
-      "assetType": "公开模型权重",
-      "mode": "resource",
-      "curated": true,
-      "fit": "想试验图文理解与对话能力的用户。",
-      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
-      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
-      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "805897aae72e4d37db276bc2f3906119fb6d84a8",
-      "cardHash": "3c59167c0625cb441446aa03e06444b580520b62a3f769680f9e3c3a11fd820e",
-      "modelFacts": [
-        {
-          "label": "仓库参数统计",
-          "value": "35.11B"
-        },
-        {
-          "label": "权重格式",
-          "value": "Safetensors"
-        },
-        {
-          "label": "适配框架",
-          "value": "transformers"
-        },
-        {
-          "label": "标注语言",
-          "value": "zh / en"
-        },
-        {
-          "label": "基于模型",
-          "value": "Qwen/Qwen3.5-35B-A3B"
-        },
-        {
-          "label": "架构标记",
-          "value": "qwen3_5_moe"
-        }
-      ],
-      "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:49+08:00"
-    },
-    {
-      "id": "github-658041d9da6acb1a573f6a1f",
-      "kind": "software",
-      "title": "Ollama · 本地模型运行工具",
-      "originalTitle": "ollama/ollama",
-      "summary": "在自己的电脑上下载和运行支持的模型，并向其他应用提供模型接口。",
-      "originalSummary": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "category": "本地部署",
-      "platform": "GitHub",
-      "url": "https://github.com/ollama/ollama",
-      "sources": [
-        {
-          "title": "ollama/ollama · 项目主页",
-          "url": "https://github.com/ollama/ollama"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T01:41:26Z",
-      "createdAt": "2023-06-26T19:39:32Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 187949,
-      "language": "Go",
-      "tags": [
-        "deepseek",
-        "gemma",
-        "glm",
-        "go",
-        "golang",
-        "gpt-oss",
-        "llama",
-        "llm"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "希望本地试用模型、减少对外部模型服务依赖的人。",
-      "start": "安装后从较小的受支持模型开始。",
-      "requirements": "能运行的模型大小取决于电脑内存和硬件。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-58e42d36257ec3f05d34f531",
-      "kind": "workflow",
-      "title": "ComfyUI 官方工作流模板",
-      "originalTitle": "Comfy-Org/workflow_templates",
-      "summary": "官方维护的工作流模板集合，用来学习模型如何接入，以及生成流程怎样连接。",
-      "originalSummary": "ComfyUI template workflows",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/Comfy-Org/workflow_templates",
-      "sources": [
-        {
-          "title": "Comfy-Org/workflow_templates · 项目主页",
-          "url": "https://github.com/Comfy-Org/workflow_templates"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-23T21:07:32Z",
-      "createdAt": "2025-02-28T21:39:51Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 1539,
-      "language": "TypeScript",
-      "tags": [],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "官方模板",
-      "fit": "想从可参考的节点结构开始，而不是从空白画布搭建的人。",
-      "start": "从模板目录选择任务，再核对所需模型和节点。",
-      "requirements": "模板不等于模型包，部分流程需要另装节点或模型。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
-    },
-    {
-      "id": "github-2b67d6e6165529b4df2b71a8",
-      "kind": "software",
-      "title": "Activepieces · 应用与 AI 自动化",
-      "originalTitle": "activepieces/activepieces",
-      "summary": "通过可视化步骤连接应用和 AI 能力，适合搭建跨服务的自动化流程。",
-      "originalSummary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
-      "category": "自动化工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/activepieces/activepieces",
-      "sources": [
-        {
-          "title": "activepieces/activepieces · 项目主页",
-          "url": "https://github.com/activepieces/activepieces"
-        }
-      ],
-      "license": "自定义或未明确许可，查看原项目",
-      "lastActivityAt": "2026-11-23T20:19:15Z",
-      "createdAt": "2022-12-03T02:52:46Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 25697,
-      "language": "TypeScript",
-      "tags": [
-        "ai-agent",
-        "ai-agent-tools",
-        "ai-agents",
-        "ai-agents-framework",
-        "mcp",
-        "mcp-server",
-        "mcp-tools",
-        "mcps"
-      ],
-      "mode": "resource",
-      "curated": true,
-      "assetType": "软件项目",
-      "fit": "想直观看到流程每一步做什么的用户。",
-      "start": "根据官方文档启动，再选择所需的应用连接器。",
-      "requirements": "连接外部服务时可能需要相应账号或密钥。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。"
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00"
     },
     {
       "id": "hf-29490e3a4e61d88f64919bde",
@@ -1779,8 +1853,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "0fc8bac5d09c2033b22e4409d172c6c4d195bcfb",
-      "cardHash": "311ff81d8a6906cc0e28f64022fe90f9e0ac086ac99df1990b356fce73a73e6b",
+      "cardSha": "210056bf10048c230c8637411976ce791bef962d",
+      "cardHash": "f7526d5408a3edefa1c694b9b27eae12ed8bc591a067ecd1a14eb9b65f680359",
       "modelFacts": [
         {
           "label": "权重格式",
@@ -1796,7 +1870,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:49+08:00",
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00",
       "profileAttemptHash": "816faaca436db63d54e85a9d0e78e40c5281656d425f06a5dd781d76f80e17f4",
       "profileAttemptTime": 1795474716.538581,
       "profile": {
@@ -1852,8 +1926,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "ff90a13d83a1c562d93a7b37bbf9f27a7efd82b3",
-      "cardHash": "56da4ec475a09a37088f7fef03c64adbac25ab3f44b8698fde8f6c6194e41676",
+      "cardSha": "9761812e30c6948ebcbde818caafc26f5a6ea89d",
+      "cardHash": "3c0e22ca3b7478cda81e542966c1f2a39525482cc38496c292a874478c4f4bbe",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -1881,7 +1955,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:49+08:00",
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00",
       "profileAttemptHash": "b9811d8651eaa2100e15cefaf9b2ca34b8c1f7ec4a6520abc5fe0cddee4f3d43",
       "profileAttemptTime": 1795474899.568419,
       "profile": {
@@ -1937,8 +2011,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "ef6eec0ebde56031989a5934319ea725232d2bc5",
-      "cardHash": "c43a57a6db40aaf2a5f3c22144ccef87d4e71216ef3eeee66883a60ba1d882d7",
+      "cardSha": "6b89c780d51a52fe1e178ae9d7499d5ad0393586",
+      "cardHash": "677a44c3da0321814dac54d95084534084a03fa0b23c64f0636609a98176dc08",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -1966,7 +2040,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:49+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00"
     },
     {
       "id": "hf-777b535fbd3daf1ceb0b0139",
@@ -1987,9 +2061,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-23T11:23:11.000Z",
       "createdAt": "2026-11-17T06:40:59.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 96,
-      "likes": 3,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 563,
+      "likes": 4,
       "pipeline": "image-text-to-text",
       "tags": [
         "gguf",
@@ -2059,9 +2133,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-23T11:23:08.000Z",
       "createdAt": "2026-11-17T06:22:47.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 35,
-      "likes": 9,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 280,
+      "likes": 10,
       "pipeline": "image-text-to-text",
       "tags": [
         "safetensors",
@@ -2131,9 +2205,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-23T11:22:34.000Z",
       "createdAt": "2026-11-17T06:40:45.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 79,
-      "likes": 2,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 464,
+      "likes": 4,
       "pipeline": "unknown",
       "tags": [
         "gguf",
@@ -2207,9 +2281,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-23T11:22:30.000Z",
       "createdAt": "2026-11-16T11:50:56.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 25,
-      "likes": 2,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 153,
+      "likes": 3,
       "pipeline": "unknown",
       "tags": [
         "safetensors",
@@ -2305,8 +2379,8 @@
       "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
       "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
       "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
-      "cardSha": "89badf2577c2b15321cbe68ac1773c1c29ea9710",
-      "cardHash": "2372144ffb1d8f72f9ae3cfe4c92751013d1e612b89d26dab925a93e082e2aea",
+      "cardSha": "6ae63ecd178805abb367b489ce2c9723b5ba2a23",
+      "cardHash": "4ec51292a52349739c0ce09547707e32ab67888501bd93c23ee705f2f2504ef6",
       "modelFacts": [
         {
           "label": "仓库参数统计",
@@ -2334,7 +2408,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:49+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:16+08:00"
     },
     {
       "id": "hf-c94896eab5e33d0a12541229",
@@ -2355,9 +2429,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-23T06:53:30.000Z",
       "createdAt": "2026-11-17T03:45:14.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1949,
-      "likes": 28,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 2239,
+      "likes": 29,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -2431,9 +2505,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-23T06:53:19.000Z",
       "createdAt": "2026-11-17T03:44:46.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 7696,
-      "likes": 659,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 9167,
+      "likes": 670,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -2507,8 +2581,8 @@
       "license": "BSD-2-Clause",
       "lastActivityAt": "2026-11-21T12:32:21Z",
       "createdAt": "2022-12-09T02:34:23Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 25633,
+      "checkedAt": "2026-11-25T02:50:14+08:00",
+      "stars": 25651,
       "language": "Python",
       "tags": [
         "asr",
@@ -2548,7 +2622,7 @@
       ],
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T16:06:34.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -2610,7 +2684,7 @@
       ],
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T16:06:34.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -2667,8 +2741,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T06:46:42.000Z",
       "createdAt": "2024-08-28T09:02:15.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 890810,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 893378,
       "likes": 533,
       "pipeline": "image-text-to-text",
       "tags": [
@@ -2751,8 +2825,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T06:46:39.000Z",
       "createdAt": "2026-04-21T07:50:43.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 2324489,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 2306581,
       "likes": 2364,
       "pipeline": "image-text-to-text",
       "tags": [
@@ -2827,8 +2901,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T06:46:35.000Z",
       "createdAt": "2026-02-24T09:41:56.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1532385,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 1493887,
       "likes": 1098,
       "pipeline": "image-text-to-text",
       "tags": [
@@ -2903,8 +2977,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T06:46:32.000Z",
       "createdAt": "2026-02-24T09:39:25.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1186531,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 1110922,
       "likes": 1564,
       "pipeline": "image-text-to-text",
       "tags": [
@@ -2983,9 +3057,9 @@
       "license": "openmdw-1.1 · 使用前核对条款",
       "lastActivityAt": "2026-11-19T21:10:09.000Z",
       "createdAt": "2026-11-19T16:48:00.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 330,
-      "likes": 69,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 429,
+      "likes": 71,
       "pipeline": "text-to-image",
       "tags": [
         "diffusers",
@@ -3063,7 +3137,7 @@
       ],
       "license": "openmdw-1.1 · 使用前核对条款",
       "lastActivityAt": "2026-11-19T21:10:09.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -3108,9 +3182,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-19T14:49:47.000Z",
       "createdAt": "2024-07-31T19:58:05.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 284992,
-      "likes": 6916,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 284972,
+      "likes": 6923,
       "pipeline": "text-to-image",
       "tags": [
         "diffusers",
@@ -3184,7 +3258,7 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-19T14:49:41.000Z",
       "createdAt": "2025-01-28T00:14:17.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "downloads": 0,
       "likes": 57,
       "pipeline": "text-to-image",
@@ -3244,9 +3318,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-19T14:41:01.000Z",
       "createdAt": "2024-07-31T21:13:44.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 395939,
-      "likes": 16324,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 388650,
+      "likes": 16331,
       "pipeline": "text-to-image",
       "tags": [
         "diffusers",
@@ -3324,9 +3398,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-19T14:40:54.000Z",
       "createdAt": "2024-11-20T19:45:33.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 53529,
-      "likes": 1387,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 51139,
+      "likes": 1390,
       "pipeline": "unknown",
       "tags": [
         "diffusers",
@@ -3399,9 +3473,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-18T22:00:05.000Z",
       "createdAt": "2025-07-27T06:56:12.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 10401750,
-      "likes": 1065,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 10464961,
+      "likes": 1067,
       "pipeline": "image-to-video",
       "tags": [
         "diffusion-single-file",
@@ -3466,7 +3540,7 @@
       ],
       "license": "mit（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-11-18T18:53:48.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 1674,
       "tags": [
         "HF Spaces",
@@ -3505,7 +3579,7 @@
       ],
       "license": "mit（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-11-18T17:17:49.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 5166,
       "tags": [
         "HF Spaces",
@@ -3548,7 +3622,7 @@
       ],
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-18T08:02:24.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -3614,7 +3688,7 @@
       ],
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-18T08:02:24.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -3676,9 +3750,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-17T10:25:16.000Z",
       "createdAt": "2026-10-19T01:34:35.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 58881,
-      "likes": 486,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 57857,
+      "likes": 488,
       "pipeline": "text-to-image",
       "tags": [
         "diffusers",
@@ -3758,7 +3832,7 @@
       ],
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-17T10:25:16.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:19+08:00",
       "tags": [
         "ComfyUI",
         "工作流 JSON"
@@ -3810,8 +3884,8 @@
       "license": "Apache-2.0",
       "lastActivityAt": "2026-11-17T07:02:59Z",
       "createdAt": "2023-08-17T10:05:38Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 4297,
+      "checkedAt": "2026-11-25T02:50:13+08:00",
+      "stars": 4299,
       "language": "Python",
       "tags": [],
       "mode": "resource",
@@ -3841,8 +3915,8 @@
       "license": "Apache-2.0",
       "lastActivityAt": "2026-11-13T10:58:15Z",
       "createdAt": "2024-08-09T11:19:52Z",
-      "checkedAt": "2026-11-24T14:54:47+08:00",
-      "stars": 19367,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 19378,
       "language": "Python",
       "tags": [
         "ai-translation",
@@ -3878,8 +3952,8 @@
       "license": "Apache-2.0",
       "lastActivityAt": "2026-11-13T01:07:15Z",
       "createdAt": "2025-02-25T18:03:11Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 6829,
+      "checkedAt": "2026-11-25T02:50:13+08:00",
+      "stars": 6831,
       "language": "Python",
       "tags": [],
       "mode": "resource",
@@ -3909,9 +3983,9 @@
       "license": "mit",
       "lastActivityAt": "2026-11-10T02:22:56.000Z",
       "createdAt": "2026-10-17T02:40:38.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 524232,
-      "likes": 6625,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 536179,
+      "likes": 6648,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -3989,7 +4063,7 @@
       "license": "mit",
       "lastActivityAt": "2026-10-28T09:26:32.000Z",
       "createdAt": "2026-10-28T09:26:19.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "downloads": 0,
       "likes": 1,
       "pipeline": "unknown",
@@ -4053,8 +4127,8 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-10-22T08:58:40.000Z",
       "createdAt": "2026-08-10T11:03:11.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 403,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 397,
       "likes": 40,
       "pipeline": "image-to-video",
       "tags": [
@@ -4125,9 +4199,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-10-22T08:58:38.000Z",
       "createdAt": "2026-07-26T06:42:34.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 32400,
-      "likes": 152,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 32232,
+      "likes": 154,
       "pipeline": "text-to-video",
       "tags": [
         "diffusers",
@@ -4201,9 +4275,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-10-22T08:58:37.000Z",
       "createdAt": "2026-09-15T12:39:39.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 5726,
-      "likes": 34,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 5764,
+      "likes": 35,
       "pipeline": "image-to-video",
       "tags": [
         "ltx",
@@ -4277,9 +4351,9 @@
       "license": "mit",
       "lastActivityAt": "2026-10-16T09:27:28.000Z",
       "createdAt": "2026-09-10T02:17:58.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1217500,
-      "likes": 5065,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 1141846,
+      "likes": 5067,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -4353,7 +4427,7 @@
       ],
       "license": "自定义或未明确许可，查看原项目（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-10-11T11:32:46.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 107,
       "tags": [
         "HF Spaces",
@@ -4391,8 +4465,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-09-10T11:07:45.000Z",
       "createdAt": "2026-05-24T11:25:24.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 37039,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 35350,
       "likes": 23,
       "pipeline": "automatic-speech-recognition",
       "tags": [
@@ -4471,8 +4545,8 @@
       "license": "GPL-3.0",
       "lastActivityAt": "2026-09-02T06:48:06Z",
       "createdAt": "2023-09-23T23:57:29Z",
-      "checkedAt": "2026-11-24T14:54:46+08:00",
-      "stars": 1931,
+      "checkedAt": "2026-11-25T02:50:13+08:00",
+      "stars": 1932,
       "language": "Python",
       "tags": [],
       "mode": "resource",
@@ -4502,9 +4576,9 @@
       "license": "mit",
       "lastActivityAt": "2026-09-01T09:22:10.000Z",
       "createdAt": "2026-08-31T06:16:18.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 28436,
-      "likes": 971,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 28132,
+      "likes": 972,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -4578,8 +4652,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-29T23:36:13.000Z",
       "createdAt": "2026-08-29T23:35:49.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 16185,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 16642,
       "likes": 4,
       "pipeline": "automatic-speech-recognition",
       "tags": [
@@ -4662,8 +4736,8 @@
       "license": "mit",
       "lastActivityAt": "2026-08-13T16:28:28.000Z",
       "createdAt": "2026-08-13T03:05:06.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 40344,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 40748,
       "likes": 926,
       "pipeline": "text-generation",
       "tags": [
@@ -4742,8 +4816,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-13T02:20:09.000Z",
       "createdAt": "2026-08-06T06:09:59.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 28853,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 28353,
       "likes": 19,
       "pipeline": "unknown",
       "tags": [
@@ -4819,8 +4893,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-13T02:19:44.000Z",
       "createdAt": "2026-08-06T06:12:58.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 14431,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 14346,
       "likes": 16,
       "pipeline": "unknown",
       "tags": [
@@ -4892,8 +4966,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-12T17:52:18.000Z",
       "createdAt": "2026-08-12T17:49:43.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 69333,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 67341,
       "likes": 4,
       "pipeline": "automatic-speech-recognition",
       "tags": [
@@ -4968,7 +5042,7 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-09T04:09:19.000Z",
       "createdAt": "2026-07-14T09:16:12.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "downloads": 0,
       "likes": 397,
       "pipeline": "unknown",
@@ -5029,8 +5103,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-08-05T03:36:52.000Z",
       "createdAt": "2025-12-15T03:48:02.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 9864,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 9876,
       "likes": 72,
       "pipeline": "automatic-speech-recognition",
       "tags": [
@@ -5097,8 +5171,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-07-17T09:01:53.000Z",
       "createdAt": "2026-07-10T08:41:49.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 2692,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 2703,
       "likes": 193,
       "pipeline": "image-to-video",
       "tags": [
@@ -5173,8 +5247,8 @@
       ],
       "license": "apache-2.0（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-06-09T06:13:30.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
-      "likes": 2431,
+      "checkedAt": "2026-11-25T02:50:18+08:00",
+      "likes": 2435,
       "tags": [
         "HF Spaces",
         "在线体验",
@@ -5213,8 +5287,8 @@
       ],
       "license": "自定义或未明确许可，查看原项目（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-06-05T06:37:46.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
-      "likes": 935,
+      "checkedAt": "2026-11-25T02:50:18+08:00",
+      "likes": 936,
       "tags": [
         "HF Spaces",
         "在线体验",
@@ -5252,7 +5326,7 @@
       ],
       "license": "自定义或未明确许可，查看原项目（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2026-06-05T06:37:33.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 875,
       "tags": [
         "HF Spaces",
@@ -5293,8 +5367,8 @@
       "license": "Apache-2.0",
       "lastActivityAt": "2026-05-25T18:15:40Z",
       "createdAt": "2024-07-03T02:59:22Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 24492,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 24497,
       "language": "Python",
       "tags": [
         "audio-generation",
@@ -5333,9 +5407,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-04-22T16:50:17.000Z",
       "createdAt": "2026-04-17T21:38:35.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 119554,
-      "likes": 1847,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 123314,
+      "likes": 1848,
       "pipeline": "token-classification",
       "tags": [
         "transformers",
@@ -5409,8 +5483,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-01-14T18:38:05.000Z",
       "createdAt": "2025-09-18T18:51:08.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 38562,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 40007,
       "likes": 294,
       "pipeline": "text-generation",
       "tags": [
@@ -5489,8 +5563,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2025-12-12T07:36:26.000Z",
       "createdAt": "2025-12-11T22:39:34.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1687,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 1718,
       "likes": 221,
       "pipeline": "text-generation",
       "tags": [
@@ -5562,8 +5636,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2025-10-29T11:13:59.000Z",
       "createdAt": "2025-09-18T18:50:45.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 20989,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "downloads": 21618,
       "likes": 128,
       "pipeline": "text-generation",
       "tags": [
@@ -5642,7 +5716,7 @@
       ],
       "license": "apache-2.0（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2025-09-01T07:36:07.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 451,
       "tags": [
         "HF Spaces",
@@ -5680,7 +5754,7 @@
       ],
       "license": "apache-2.0（Space 代码，模型许可另看模型卡）",
       "lastActivityAt": "2025-07-30T09:42:56.000Z",
-      "checkedAt": "2026-11-24T14:54:51+08:00",
+      "checkedAt": "2026-11-25T02:50:18+08:00",
       "likes": 1205,
       "tags": [
         "HF Spaces",
@@ -5696,102 +5770,6 @@
       "runtimeStage": "RUNNING",
       "relatedModels": [],
       "verification": "已核对公开 Space 元数据；在线状态会变化，未逐项执行生成。"
-    },
-    {
-      "id": "github-06def2a3a8acb128f4b35d38",
-      "kind": "software",
-      "title": "rlaope/oh-my-hermes",
-      "originalTitle": "rlaope/oh-my-hermes",
-      "summary": "⚚ The ultrawork agent with AI coworkers wired into you",
-      "originalSummary": "⚚ The ultrawork agent with AI coworkers wired into you",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/rlaope/oh-my-hermes",
-      "sources": [
-        {
-          "title": "rlaope/oh-my-hermes · 项目主页",
-          "url": "https://github.com/rlaope/oh-my-hermes"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T06:48:36Z",
-      "createdAt": "2026-06-03T13:00:34Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 5989,
-      "language": "Python",
-      "tags": [
-        "agent",
-        "ai",
-        "ai-agent",
-        "ai-tools",
-        "claude-code",
-        "codex",
-        "hermes-agent",
-        "hermes-skill"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "AI 智能体与 AI 同事无缝连接",
-        "summary": "该工具提供一个超高效的工作智能体，AI 同事直接与你连接协作",
-        "sourceHash": "1051c0d77456a9fee1992481ca8be92db9223b43ce52c9e3b66c31352b0b353c",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:40:17+08:00",
-        "style": "natural-zh",
-        "simple": "AI 智能体与 AI 同事无缝连接"
-      }
-    },
-    {
-      "id": "github-0fcf5e15048aee8ca9e73cb4",
-      "kind": "workflow",
-      "title": "Comfy-Org/comfy-cli",
-      "originalTitle": "Comfy-Org/comfy-cli",
-      "summary": "CLI for using ComfyUI",
-      "originalSummary": "CLI for using ComfyUI",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/Comfy-Org/comfy-cli",
-      "sources": [
-        {
-          "title": "Comfy-Org/comfy-cli · 项目主页",
-          "url": "https://github.com/Comfy-Org/comfy-cli"
-        }
-      ],
-      "license": "GPL-3.0",
-      "lastActivityAt": "2026-11-24T06:47:22Z",
-      "createdAt": "2024-04-14T01:08:32Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 1061,
-      "language": "Python",
-      "tags": [
-        "ai",
-        "comfyui",
-        "command-line",
-        "stable-diffusion"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "社区流程 / 组件",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "Comfy-Org/comfy-cli · 项目介绍",
-        "summary": "用于使用ComfyUI的命令行工具",
-        "sourceHash": "c9af38d7e925411ae325a75ee9ade10c15b2b0a92a442ef8484063500b1e1a93",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:42:45+08:00",
-        "style": "natural-zh",
-        "simple": "ComfyUI的命令行操作工具。"
-      }
     },
     {
       "id": "github-2d4d3afa6fb542f6e11751f7",
@@ -5810,10 +5788,10 @@
         }
       ],
       "license": "MIT",
-      "lastActivityAt": "2026-11-24T06:47:10Z",
+      "lastActivityAt": "2026-11-24T18:50:04Z",
       "createdAt": "2026-03-02T15:01:51Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 116465,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 116661,
       "language": "TypeScript",
       "tags": [
         "acpx",
@@ -5860,10 +5838,10 @@
         }
       ],
       "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T06:46:57Z",
+      "lastActivityAt": "2026-11-24T18:48:52Z",
       "createdAt": "2026-06-19T20:27:39Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 2391,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 2401,
       "language": "Zig",
       "tags": [
         "ai",
@@ -5889,6 +5867,1178 @@
         "style": "natural-zh",
         "simple": "TensorFold 是一个支持多种图形API的LLM推理引擎。"
       }
+    },
+    {
+      "id": "github-4e0f88cc765227cf817a9385",
+      "kind": "software",
+      "title": "lexmount/moli",
+      "originalTitle": "lexmount/moli",
+      "summary": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "originalSummary": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/lexmount/moli",
+      "sources": [
+        {
+          "title": "lexmount/moli · 项目主页",
+          "url": "https://github.com/lexmount/moli"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T18:39:57Z",
+      "createdAt": "2026-08-10T13:20:30Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 24430,
+      "language": "Rust",
+      "tags": [
+        "ai-agents",
+        "ai-tools",
+        "browser",
+        "browser-automation",
+        "cloud-browser",
+        "headless",
+        "headless-browser",
+        "kitesurf"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "moli：最佳无头浏览器用于AI智能体",
+        "summary": "最佳无头浏览器用于AI智能体。轻量、快速、高兼容性。用Rust编写",
+        "sourceHash": "d5f58c7cdf993f51022eb1c29a2cb8e533ea9975dafbf0661d5d69cb2f568a44",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:34:33+08:00",
+        "style": "natural-zh",
+        "simple": "一款专为AI智能体设计的轻量级无头浏览器"
+      }
+    },
+    {
+      "id": "github-b01197ef8034bdbf0b2cbff4",
+      "kind": "workflow",
+      "title": "licyk/sd-webui-all-in-one",
+      "originalTitle": "licyk/sd-webui-all-in-one",
+      "summary": "支持安装、下载、启动和管理多种 AI WebUI / 训练工具的一体化项目，提供 Installer、整合包下载器、Launcher、CLI 与 Colab / Kaggle Notebook。",
+      "originalSummary": "支持安装、下载、启动和管理多种 AI WebUI / 训练工具的一体化项目，提供 Installer、整合包下载器、Launcher、CLI 与 Colab / Kaggle Notebook。",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/licyk/sd-webui-all-in-one",
+      "sources": [
+        {
+          "title": "licyk/sd-webui-all-in-one · 项目主页",
+          "url": "https://github.com/licyk/sd-webui-all-in-one"
+        }
+      ],
+      "license": "GPL-3.0",
+      "lastActivityAt": "2026-11-24T18:25:42Z",
+      "createdAt": "2024-05-08T10:28:50Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 275,
+      "language": "Python",
+      "tags": [
+        "comfyui",
+        "fooocus",
+        "install",
+        "invokeai",
+        "jupyer-notebook",
+        "linux",
+        "macos",
+        "powershell-script"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "licyk/sd-webui-all-in-one · 项目介绍",
+        "summary": "支持安装、下载、启动和管理多种 AI WebUI / 训练工具的一体化项目，提供 Installer、整合包下载器、Launcher、CLI 与 Colab / Kaggle Notebook。",
+        "sourceHash": "c1eec9cd5af0f53c9233aa00a722e7d77cecef00b559e707f05d3cdaa79a0a12",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:51:38+08:00",
+        "style": "natural-zh",
+        "simple": "一个集成了多种 AI 工具的项目，方便安装和管理。"
+      }
+    },
+    {
+      "id": "github-0fcf5e15048aee8ca9e73cb4",
+      "kind": "workflow",
+      "title": "Comfy-Org/comfy-cli",
+      "originalTitle": "Comfy-Org/comfy-cli",
+      "summary": "CLI for using ComfyUI",
+      "originalSummary": "CLI for using ComfyUI",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/Comfy-Org/comfy-cli",
+      "sources": [
+        {
+          "title": "Comfy-Org/comfy-cli · 项目主页",
+          "url": "https://github.com/Comfy-Org/comfy-cli"
+        }
+      ],
+      "license": "GPL-3.0",
+      "lastActivityAt": "2026-11-24T18:23:24Z",
+      "createdAt": "2024-04-14T01:08:32Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 1062,
+      "language": "Python",
+      "tags": [
+        "ai",
+        "comfyui",
+        "command-line",
+        "stable-diffusion"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "Comfy-Org/comfy-cli · 项目介绍",
+        "summary": "用于使用ComfyUI的命令行工具",
+        "sourceHash": "c9af38d7e925411ae325a75ee9ade10c15b2b0a92a442ef8484063500b1e1a93",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:42:45+08:00",
+        "style": "natural-zh",
+        "simple": "ComfyUI的命令行操作工具。"
+      }
+    },
+    {
+      "id": "github-5cffdd644825b66d51587c5c",
+      "kind": "software",
+      "title": "open-webui/open-terminal",
+      "originalTitle": "open-webui/open-terminal",
+      "summary": "A remote machine API 👾",
+      "originalSummary": "A remote machine API 👾",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/open-webui/open-terminal",
+      "sources": [
+        {
+          "title": "open-webui/open-terminal · 项目主页",
+          "url": "https://github.com/open-webui/open-terminal"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T18:16:52Z",
+      "createdAt": "2026-02-10T21:57:30Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 3643,
+      "language": "Python",
+      "tags": [
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "open-webui"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "open-webui/open-terminal · 项目介绍",
+        "summary": "远程机器API 👾",
+        "sourceHash": "e8c1eb3f45fbd031ed6194b2ea683a1c7e4d7c4308be5b2c16147181862cbcec",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:15+08:00",
+        "style": "natural-zh",
+        "simple": "提供远程机器的API接口。"
+      }
+    },
+    {
+      "id": "github-06def2a3a8acb128f4b35d38",
+      "kind": "software",
+      "title": "rlaope/oh-my-hermes",
+      "originalTitle": "rlaope/oh-my-hermes",
+      "summary": "⚚ The ultrawork agent with AI coworkers wired into you",
+      "originalSummary": "⚚ The ultrawork agent with AI coworkers wired into you",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "sources": [
+        {
+          "title": "rlaope/oh-my-hermes · 项目主页",
+          "url": "https://github.com/rlaope/oh-my-hermes"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T18:00:35Z",
+      "createdAt": "2026-06-03T13:00:34Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 6005,
+      "language": "Python",
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "hermes-agent",
+        "hermes-skill"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "AI 智能体与 AI 同事无缝连接",
+        "summary": "该工具提供一个超高效的工作智能体，AI 同事直接与你连接协作",
+        "sourceHash": "1051c0d77456a9fee1992481ca8be92db9223b43ce52c9e3b66c31352b0b353c",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:40:17+08:00",
+        "style": "natural-zh",
+        "simple": "AI 智能体与 AI 同事无缝连接"
+      }
+    },
+    {
+      "id": "github-0b169f2deb705ad5c7ebdef4",
+      "kind": "software",
+      "title": "pydantic/logfire",
+      "originalTitle": "pydantic/logfire",
+      "summary": "AI observability platform for production LLM and agent systems.",
+      "originalSummary": "AI observability platform for production LLM and agent systems.",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/pydantic/logfire",
+      "sources": [
+        {
+          "title": "pydantic/logfire · 项目主页",
+          "url": "https://github.com/pydantic/logfire"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T17:47:25Z",
+      "createdAt": "2024-04-23T11:50:23Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 4566,
+      "language": "Python",
+      "tags": [
+        "agent-observability",
+        "ai",
+        "ai-observability",
+        "ai-tools",
+        "evals",
+        "fastapi",
+        "llm-observability",
+        "logging"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "pydantic/logfire · 项目介绍",
+        "summary": "用于生产环境LLM和AI智能体系统的AI可观测性平台。",
+        "sourceHash": "e88289feabafd11cbe6cec7ab6b571f53cf181dd55af5fe16f56ee843ee78c8a",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:42:51+08:00",
+        "style": "natural-zh",
+        "simple": "提供生产环境LLM和AI智能体系统的可观测性工具。"
+      }
+    },
+    {
+      "id": "github-179615a9e21bab02dfc0d603",
+      "kind": "workflow",
+      "title": "ralksta/ComfyUI-Photoshoot",
+      "originalTitle": "ralksta/ComfyUI-Photoshoot",
+      "summary": "Build a person once, then shoot a whole series: framing, pose, placement, expression and aspect ratio vary while the person stays the same. ComfyUI nodes.",
+      "originalSummary": "Build a person once, then shoot a whole series: framing, pose, placement, expression and aspect ratio vary while the person stays the same. ComfyUI nodes.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/ralksta/ComfyUI-Photoshoot",
+      "sources": [
+        {
+          "title": "ralksta/ComfyUI-Photoshoot · 项目主页",
+          "url": "https://github.com/ralksta/ComfyUI-Photoshoot"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T17:44:32Z",
+      "createdAt": "2026-08-21T19:49:50Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 255,
+      "language": "Python",
+      "tags": [
+        "character-consistency",
+        "comfyui",
+        "comfyui-custom-nodes",
+        "comfyui-nodes",
+        "prompt-engineering",
+        "stable-diffusion"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "ralksta/ComfyUI-Photoshoot · 项目介绍",
+        "summary": "一次构建人物，多次拍摄系列：构图、姿势、位置、表情和比例可变，人物保持不变。ComfyUI节点。",
+        "sourceHash": "bf751fea730a133d73d12563fab1fb5b909c02f36b83a05c6f55e87d2dba29c4",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:15+08:00",
+        "style": "natural-zh",
+        "simple": "允许构建一个人物并多次拍摄不同风格的系列照片。"
+      }
+    },
+    {
+      "id": "github-03c2bfaed7d2d6149f88aaca",
+      "kind": "software",
+      "title": "zzet/gortex",
+      "originalTitle": "zzet/gortex",
+      "summary": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+      "originalSummary": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/zzet/gortex",
+      "sources": [
+        {
+          "title": "zzet/gortex · 项目主页",
+          "url": "https://github.com/zzet/gortex"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T17:37:13Z",
+      "createdAt": "2026-04-06T13:47:15Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 2097,
+      "language": "Go",
+      "tags": [
+        "ai-tools",
+        "claude-code",
+        "code-analysis",
+        "code-assistant",
+        "codex",
+        "context-window",
+        "context-window-optimization",
+        "context-window-optimizer"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "gortex：高性能代码智能引擎",
+        "summary": "gortex 是一款高性能代码智能引擎，用于 AI 智能体和 IDE，支持 257 种语言，多仓库管理，基于图结构，可通过 CLI、MCP 服务器和 API 访问。AI 编码智能体团队成员 - 仅暴露必要信息，可将 token 使用量减少 50 倍。100% 本地运行。Discord：https://discord.gg/39MFHu3J5d",
+        "sourceHash": "035e191c1686e1eae6efddafd6825a6a7207e01f289c1171be029f3d7969f14c",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:40:45+08:00",
+        "style": "natural-zh",
+        "simple": "gortex 是一个支持多种语言的 AI 编码助手，能高效处理代码任务。"
+      }
+    },
+    {
+      "id": "github-1f558a05748b6768eaa65580",
+      "kind": "software",
+      "title": "ReScienceLab/opc-skills",
+      "originalTitle": "ReScienceLab/opc-skills",
+      "summary": "Agent Skills for Solopreneurs",
+      "originalSummary": "Agent Skills for Solopreneurs",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "sources": [
+        {
+          "title": "ReScienceLab/opc-skills · 项目主页",
+          "url": "https://github.com/ReScienceLab/opc-skills"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T17:16:43Z",
+      "createdAt": "2026-01-17T06:43:21Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 1936,
+      "language": "Python",
+      "tags": [
+        "agent-skills",
+        "ai-tools",
+        "claude-code",
+        "geo",
+        "llm-tools",
+        "opc",
+        "seo"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "AI智能体技能包",
+        "summary": "为独立创业者提供AI智能体技能支持",
+        "sourceHash": "0c90df8898cd54d7d1c2f3aae2a1d2bd3f34b14028c2d0ebe144f28d1ee7825d",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:40:54+08:00",
+        "style": "natural-zh",
+        "simple": "为独立创业者提供AI智能体技能支持"
+      }
+    },
+    {
+      "id": "github-ef019c07dc2234a1eb23f353",
+      "kind": "software",
+      "title": "JetBrains/thinkrail",
+      "originalTitle": "JetBrains/thinkrail",
+      "summary": "ThinkRail is the agentic IDE that gets better every time you use it",
+      "originalSummary": "ThinkRail is the agentic IDE that gets better every time you use it",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "sources": [
+        {
+          "title": "JetBrains/thinkrail · 项目主页",
+          "url": "https://github.com/JetBrains/thinkrail"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T17:12:00Z",
+      "createdAt": "2026-07-08T07:40:43Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 8430,
+      "language": "TypeScript",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "JetBrains/thinkrail · 项目介绍",
+        "summary": "一款不断改进的AI智能体IDE",
+        "sourceHash": "c1a7c01d6fefa58a300d76984ef05ab366bcc24518520f9abe0fc8fecdcc812b",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:42:40+08:00",
+        "style": "natural-zh",
+        "simple": "AI智能体工具不断优化"
+      }
+    },
+    {
+      "id": "github-f17f27c22980fffcc5be0189",
+      "kind": "workflow",
+      "title": "zanllp/infinite-image-browsing",
+      "originalTitle": "zanllp/infinite-image-browsing",
+      "summary": "A full-featured image/video management app with AI-powered organization and semantic search. Supports metadata from SD-webui, ComfyUI, Fooocus, NovelAI, StableSwarmUI, and more. Available as standalone app, SD-webui extension, or library.",
+      "originalSummary": "A full-featured image/video management app with AI-powered organization and semantic search. Supports metadata from SD-webui, ComfyUI, Fooocus, NovelAI, StableSwarmUI, and more. Available as standalone app, SD-webui extension, or library.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/zanllp/infinite-image-browsing",
+      "sources": [
+        {
+          "title": "zanllp/infinite-image-browsing · 项目主页",
+          "url": "https://github.com/zanllp/infinite-image-browsing"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T17:10:37Z",
+      "createdAt": "2023-03-07T18:26:27Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 1378,
+      "language": "Python",
+      "tags": [
+        "audio",
+        "comfyui",
+        "extension",
+        "file-explorer",
+        "file-server",
+        "fooocus",
+        "gallery",
+        "image-previewer"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "zanllp/infinite-image-browsing · 项目介绍",
+        "summary": "功能齐全的图片/视频管理应用，支持AI驱动的组织和语义搜索。支持从SD-webui、ComfyUI、Fooocus、NovelAI、StableSwarmUI等来源的元数据。可作为独立应用、SD-webui扩展或库使用。",
+        "sourceHash": "e1c5fbf058fb8dc829bb454f94a79d5879d0235872fbb4e8a4334aedab414c5e",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:15+08:00",
+        "style": "natural-zh",
+        "simple": "支持AI组织和搜索的图片视频管理工具。"
+      }
+    },
+    {
+      "id": "github-b72383cdf2766c3a1e7f1ab9",
+      "kind": "software",
+      "title": "medusajs/medusa",
+      "originalTitle": "medusajs/medusa",
+      "summary": "The world's most flexible commerce platform for agents and developers",
+      "originalSummary": "The world's most flexible commerce platform for agents and developers",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/medusajs/medusa",
+      "sources": [
+        {
+          "title": "medusajs/medusa · 项目主页",
+          "url": "https://github.com/medusajs/medusa"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T16:54:45Z",
+      "createdAt": "2020-01-18T13:39:04Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 37391,
+      "language": "TypeScript",
+      "tags": [
+        "ai-coding",
+        "ai-tools",
+        "commerce",
+        "e-commerce",
+        "ecommerce",
+        "framework",
+        "javascript",
+        "medusa"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "medusajs/medusa · 项目介绍",
+        "summary": "世界上最具灵活性的面向代理和开发者的电商平台",
+        "sourceHash": "ed0add4e874ee0268a5f8a67f77250df7b896b751a392638df3e5e2f446671d3",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:51:53+08:00",
+        "style": "natural-zh",
+        "simple": "灵活的电商开发平台"
+      }
+    },
+    {
+      "id": "github-cdb233d13d02d30bc3c59c96",
+      "kind": "software",
+      "title": "HarnessMD/munder-difflin",
+      "originalTitle": "HarnessMD/munder-difflin",
+      "summary": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+      "originalSummary": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/HarnessMD/munder-difflin",
+      "sources": [
+        {
+          "title": "HarnessMD/munder-difflin · 项目主页",
+          "url": "https://github.com/HarnessMD/munder-difflin"
+        }
+      ],
+      "license": "MIT",
+      "lastActivityAt": "2026-11-24T16:47:16Z",
+      "createdAt": "2026-05-31T15:25:05Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 9719,
+      "language": "TypeScript",
+      "tags": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-team",
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistant",
+        "ai-tools"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "HarnessMD/munder-difflin · 项目介绍",
+        "summary": "最酷的使用Agent的本地应用，支持多提供商和开源Grok bot替代品。可为Claude代码和Codex-like Agent构建定制世界。",
+        "sourceHash": "b4def30a7f9e96ea155a152c7d172344635f8e9ce274e4ed749bf1b90b36fc47",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-24T06:57:45+08:00",
+        "style": "natural-zh",
+        "simple": "开源工具可帮助用户构建和使用AI助手。"
+      }
+    },
+    {
+      "id": "github-53598144f57597315e7580c8",
+      "kind": "software",
+      "title": "steel-dev/steel-browser",
+      "originalTitle": "steel-dev/steel-browser",
+      "summary": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+      "originalSummary": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+      "category": "GitHub 软件",
+      "platform": "GitHub",
+      "url": "https://github.com/steel-dev/steel-browser",
+      "sources": [
+        {
+          "title": "steel-dev/steel-browser · 项目主页",
+          "url": "https://github.com/steel-dev/steel-browser"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T16:32:40Z",
+      "createdAt": "2024-11-01T18:15:29Z",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 8009,
+      "language": "TypeScript",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "browser-use",
+        "computer-use",
+        "headless-browser",
+        "llm"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "软件项目",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "steel-dev/steel-browser · 项目介绍",
+        "summary": "🔥 开源浏览器API，用于AI智能体和应用。Steel Browser是一个包含所有功能的浏览器沙箱，可自动化网页操作，无需担心基础设施。",
+        "sourceHash": "0dc4e56b9d2282972a44f2c9cd2568bb526364667a76b3fbb2afb1d8fc40237c",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:15+08:00",
+        "style": "natural-zh",
+        "simple": "提供浏览器API，支持AI智能体自动化网页操作。"
+      }
+    },
+    {
+      "id": "github-6f891a86d995f0aac7b5b84c",
+      "kind": "workflow",
+      "title": "AbrahamPaulJ/nightmare-mobile",
+      "originalTitle": "AbrahamPaulJ/nightmare-mobile",
+      "summary": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image, Anima, Qwen Image 2.1, Krea 2 & MOSS Image. Inpainting, outpainting, ControlNet, LoRA, IP-Adapter & LivePortrait. Fully offline, no server, no account.",
+      "originalSummary": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image, Anima, Qwen Image 2.1, Krea 2 & MOSS Image. Inpainting, outpainting, ControlNet, LoRA, IP-Adapter & LivePortrait. Fully offline, no server, no account.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/AbrahamPaulJ/nightmare-mobile",
+      "sources": [
+        {
+          "title": "AbrahamPaulJ/nightmare-mobile · 项目主页",
+          "url": "https://github.com/AbrahamPaulJ/nightmare-mobile"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T15:48:36Z",
+      "createdAt": "2026-09-07T10:08:28Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 315,
+      "language": "Kotlin",
+      "tags": [
+        "android",
+        "comfyui",
+        "edge-ai",
+        "image-generation",
+        "inpainting",
+        "jetpack-compose",
+        "kotlin",
+        "local-ai"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "AbrahamPaulJ/nightmare-mobile · 项目介绍",
+        "summary": "Android设备上基于ComfyUI风格的节点图，用于图像和视频扩散。支持在高通Hexagon NPU上运行MiniMax H3和WAN 2.2 14B。支持SD1.5、SDXL、Flux、Z-Image、Anima、Qwen Image 2.1、Krea 2及MOSS Image等模型，支持图像修复、扩展、ControlNet、LoRA、IP-Adapter和LivePortrait等功能，完全离线，无需服务器或账号。",
+        "sourceHash": "5e9a210a90408bc0ea70c149c6c504072cd100c55747636dac37d65653f0ebf1",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:53+08:00",
+        "style": "natural-zh",
+        "simple": "Android设备上可运行图像生成模型，无需网络或账号。"
+      }
+    },
+    {
+      "id": "github-523db86be2b7245cc3dedcba",
+      "kind": "workflow",
+      "title": "shanliuling/dsh-image-gen",
+      "originalTitle": "shanliuling/dsh-image-gen",
+      "summary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
+      "originalSummary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/shanliuling/dsh-image-gen",
+      "sources": [
+        {
+          "title": "shanliuling/dsh-image-gen · 项目主页",
+          "url": "https://github.com/shanliuling/dsh-image-gen"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T15:37:31Z",
+      "createdAt": "2026-08-17T10:16:37Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 1721,
+      "language": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "ai-image-generation-api",
+        "comfyui",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "gemini",
+        "image-generation"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "DeepSeek Harness 图像生成工具",
+        "summary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
+        "sourceHash": "d4e842433c4588638e2da6cf1762002df6613168d80ced7bbb5d911bf83f9406",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:40:57+08:00",
+        "style": "natural-zh",
+        "simple": "AI工具可在对话中生成和编辑图像。"
+      }
+    },
+    {
+      "id": "github-014d9d7d558f41cd24b4c204",
+      "kind": "workflow",
+      "title": "wjluoxiao/XB_ToolBox",
+      "originalTitle": "wjluoxiao/XB_ToolBox",
+      "summary": "XB_ToolBox: An easy-to-use ComfyUI custom node suite that streamlines workflow generation. Featuring exclusive data-flow logic and pioneering experimental kernel optimizations dedicated to the native AMD GPU ecosystem.",
+      "originalSummary": "XB_ToolBox: An easy-to-use ComfyUI custom node suite that streamlines workflow generation. Featuring exclusive data-flow logic and pioneering experimental kernel optimizations dedicated to the native AMD GPU ecosystem.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/wjluoxiao/XB_ToolBox",
+      "sources": [
+        {
+          "title": "wjluoxiao/XB_ToolBox · 项目主页",
+          "url": "https://github.com/wjluoxiao/XB_ToolBox"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T15:20:44Z",
+      "createdAt": "2026-04-11T17:42:30Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 477,
+      "language": "Python",
+      "tags": [
+        "amd",
+        "comfyui",
+        "custom-nodes",
+        "rocm",
+        "tool-box",
+        "workflows"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "wjluoxiao/XB_ToolBox · 项目介绍",
+        "summary": "XB_ToolBox：一个易于使用的ComfyUI自定义节点套件，可简化工作流生成。该工具包含独家的数据流逻辑和针对原生AMD GPU生态系统的开创性实验性内核优化。",
+        "sourceHash": "7c9d1d7f2599664cccdbc25af39fbcf04686c8d018d49cd4a0bd0a00db711c8d",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-24T06:56:31+08:00",
+        "style": "natural-zh",
+        "simple": "XB_ToolBox 是一个简化工作流生成的ComfyUI自定义节点套件。"
+      }
+    },
+    {
+      "id": "github-1ebed9ce7c3af3c9515f5e0c",
+      "kind": "workflow",
+      "title": "gokayfem/ComfyUI-fal-API",
+      "originalTitle": "gokayfem/ComfyUI-fal-API",
+      "summary": "Production-ready ComfyUI custom nodes for 1,400+ fal.ai models, auto-updated image, video, audio, LLM and VLM APIs with native media, caching and cost controls.",
+      "originalSummary": "Production-ready ComfyUI custom nodes for 1,400+ fal.ai models, auto-updated image, video, audio, LLM and VLM APIs with native media, caching and cost controls.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/gokayfem/ComfyUI-fal-API",
+      "sources": [
+        {
+          "title": "gokayfem/ComfyUI-fal-API · 项目主页",
+          "url": "https://github.com/gokayfem/ComfyUI-fal-API"
+        }
+      ],
+      "license": "Apache-2.0",
+      "lastActivityAt": "2026-11-24T14:57:44Z",
+      "createdAt": "2024-08-02T17:23:12Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 229,
+      "language": "Python",
+      "tags": [
+        "ai-api",
+        "audio-generation",
+        "comfyui",
+        "comfyui-custom-nodes",
+        "fal",
+        "fal-ai",
+        "flux",
+        "generative-ai"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "gokayfem/ComfyUI-fal-API · 项目介绍",
+        "summary": "为1400多个fal.ai模型定制的ComfyUI节点，支持自动更新的图像、视频、音频、LLM和VLM API，内置原生媒体、缓存和成本控制功能。",
+        "sourceHash": "34dac1101d1c264440f29173b7ae78fb1fabf4cfe4d0f639446fd1435794a95b",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:53+08:00",
+        "style": "natural-zh",
+        "simple": "ComfyUI支持更多模型，自动更新并控制成本。"
+      }
+    },
+    {
+      "id": "github-1f356db0a7446070786065a5",
+      "kind": "workflow",
+      "title": "lucianosb/awesome-comfyui",
+      "originalTitle": "lucianosb/awesome-comfyui",
+      "summary": "An awesome & curated list of cool tools for ComfyUI.",
+      "originalSummary": "An awesome & curated list of cool tools for ComfyUI.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/lucianosb/awesome-comfyui",
+      "sources": [
+        {
+          "title": "lucianosb/awesome-comfyui · 项目主页",
+          "url": "https://github.com/lucianosb/awesome-comfyui"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T13:13:02Z",
+      "createdAt": "2023-07-30T16:46:17Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 217,
+      "language": "多语言 / 未标注",
+      "tags": [
+        "comfyui",
+        "stable-diffusion"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "lucianosb/awesome-comfyui · 项目介绍",
+        "summary": "一个精选的ComfyUI工具列表，包含各种酷炫工具。",
+        "sourceHash": "d745332ac9f5ab100cf96299c0e3f2274c50def0ad4db307526e6b7abc005779",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-25T02:52:53+08:00",
+        "style": "natural-zh",
+        "simple": "ComfyUI工具集，包含多种实用工具。"
+      }
+    },
+    {
+      "id": "github-cd45d8adfda3c4348e9408dd",
+      "kind": "workflow",
+      "title": "Tenney95/AI-Canvas-tauri",
+      "originalTitle": "Tenney95/AI-Canvas-tauri",
+      "summary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
+      "originalSummary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/Tenney95/AI-Canvas-tauri",
+      "sources": [
+        {
+          "title": "Tenney95/AI-Canvas-tauri · 项目主页",
+          "url": "https://github.com/Tenney95/AI-Canvas-tauri"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-24T12:16:46Z",
+      "createdAt": "2026-05-27T12:26:15Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 402,
+      "language": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "ai-canvas",
+        "ai-short-drama",
+        "ai-workflow",
+        "asset-management",
+        "blender",
+        "comfyui",
+        "creative-tools"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "AI画布、AI短剧创作工具：免费、轻量的无限画布",
+        "summary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
+        "sourceHash": "d1d2cb8374238e1c7c409ce66aa14f31f76e1b04d822a617e10da0119af93411",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:40:40+08:00",
+        "style": "natural-zh",
+        "simple": "一款免费轻量的AI工具，支持短剧创作和视频生成。"
+      }
+    },
+    {
+      "id": "github-4b5552a954f12ba904674001",
+      "kind": "workflow",
+      "title": "Mooshieblob1/MooshieUI",
+      "originalTitle": "Mooshieblob1/MooshieUI",
+      "summary": "A front-end UI for ComfyUI made for beginner level users.",
+      "originalSummary": "A front-end UI for ComfyUI made for beginner level users.",
+      "category": "ComfyUI 工作流",
+      "platform": "GitHub",
+      "url": "https://github.com/Mooshieblob1/MooshieUI",
+      "sources": [
+        {
+          "title": "Mooshieblob1/MooshieUI · 项目主页",
+          "url": "https://github.com/Mooshieblob1/MooshieUI"
+        }
+      ],
+      "license": "AGPL-3.0",
+      "lastActivityAt": "2026-11-24T11:41:58Z",
+      "createdAt": "2026-03-16T08:33:49Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "stars": 234,
+      "language": "TypeScript",
+      "tags": [
+        "ai-art",
+        "comfyui",
+        "desktop-app",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "inpainting",
+        "rust"
+      ],
+      "mode": "resource",
+      "curated": false,
+      "assetType": "社区流程 / 组件",
+      "fit": "按仓库说明判断是否适合你的任务。",
+      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
+      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
+      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
+      "translation": {
+        "title": "Mooshieblob1/MooshieUI · 项目介绍",
+        "summary": "为初学者设计的ComfyUI前端界面",
+        "sourceHash": "3447aa4f8a94cce8035a3547991780528acabeec9b9a7f2fa0ae70021b94e415",
+        "engine": "Qwen3-4B-Q4_K_M",
+        "revision": "qwen3-bc640142-natural-zh-v2",
+        "translatedAt": "2026-11-23T15:42:40+08:00",
+        "style": "natural-zh",
+        "simple": "为新手设计的AI工具界面"
+      }
+    },
+    {
+      "id": "hf-0d7545310851d4c9ce5e9074",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "Aleph-Alpha/Kolibri-1.1 · 文本生成与对话",
+      "originalTitle": "Aleph-Alpha/Kolibri-1.1",
+      "summary": "文本生成与对话模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "开源模型",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+      "sources": [
+        {
+          "title": "Aleph-Alpha/Kolibri-1.1 · 模型卡",
+          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1"
+        }
+      ],
+      "license": "apache-2.0",
+      "lastActivityAt": "2026-11-24T10:51:37.000Z",
+      "createdAt": "2026-11-20T09:01:10.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 272,
+      "likes": 91,
+      "pipeline": "text-generation",
+      "tags": [
+        "vllm",
+        "safetensors",
+        "kolibri1_1",
+        "reasoning",
+        "moe",
+        "text-generation",
+        "conversational",
+        "de"
+      ],
+      "gated": false,
+      "assetType": "公开模型权重",
+      "mode": "resource",
+      "curated": false,
+      "fit": "想试验文本生成与对话能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "bfc33150d363f55a86cd4f0f7f79711deb9e0361",
+      "cardHash": "eeca6817a5d682c7235aff6668bc88577a753b36b71052eba8e7918278304d8a",
+      "modelFacts": [
+        {
+          "label": "仓库参数统计",
+          "value": "75.11B"
+        },
+        {
+          "label": "权重格式",
+          "value": "Safetensors"
+        },
+        {
+          "label": "适配框架",
+          "value": "vllm"
+        },
+        {
+          "label": "标注语言",
+          "value": "de / en"
+        },
+        {
+          "label": "架构标记",
+          "value": "kolibri1_1"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
+    },
+    {
+      "id": "hf-e1ca91300ed007f7d7429108",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "baidu/ERNIE-5.5-Flash-Preview · 文本生成与对话",
+      "originalTitle": "baidu/ERNIE-5.5-Flash-Preview",
+      "summary": "文本生成与对话模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "开源模型",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "sources": [
+        {
+          "title": "baidu/ERNIE-5.5-Flash-Preview · 模型卡",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
+        }
+      ],
+      "license": "apache-2.0",
+      "lastActivityAt": "2026-11-24T07:17:13.000Z",
+      "createdAt": "2026-11-23T09:00:29.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 75,
+      "likes": 220,
+      "pipeline": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "ernie5_5_moe",
+        "text-generation",
+        "ERNIE5.5",
+        "MoE",
+        "agent",
+        "en"
+      ],
+      "gated": false,
+      "assetType": "公开模型权重",
+      "mode": "resource",
+      "curated": false,
+      "fit": "想试验文本生成与对话能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "ace1100dcde7bf4eb06add6ae11ce4f43a11ddfe",
+      "cardHash": "331044aa8749d3c7df1c1f73ecd469c94357a18730ce8164956af7dbf9ebd0a9",
+      "modelFacts": [
+        {
+          "label": "仓库参数统计",
+          "value": "299.56B"
+        },
+        {
+          "label": "权重格式",
+          "value": "Safetensors"
+        },
+        {
+          "label": "适配框架",
+          "value": "transformers"
+        },
+        {
+          "label": "标注语言",
+          "value": "en / zh"
+        },
+        {
+          "label": "基于模型",
+          "value": "baidu/ERNIE-5.5-Flash-Base"
+        },
+        {
+          "label": "架构标记",
+          "value": "ernie5_5_moe"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
     },
     {
       "id": "github-d4101855d876634e93554b1b",
@@ -5938,106 +7088,6 @@
         "translatedAt": "2026-11-23T15:41:17+08:00",
         "style": "natural-zh",
         "simple": "开源 AI 视频工作台支持任何模型，可本地生成视频并保留数据。"
-      }
-    },
-    {
-      "id": "github-4e0f88cc765227cf817a9385",
-      "kind": "software",
-      "title": "lexmount/moli",
-      "originalTitle": "lexmount/moli",
-      "summary": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
-      "originalSummary": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/lexmount/moli",
-      "sources": [
-        {
-          "title": "lexmount/moli · 项目主页",
-          "url": "https://github.com/lexmount/moli"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T06:27:15Z",
-      "createdAt": "2026-08-10T13:20:30Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 24391,
-      "language": "Rust",
-      "tags": [
-        "ai-agents",
-        "ai-tools",
-        "browser",
-        "browser-automation",
-        "cloud-browser",
-        "headless",
-        "headless-browser",
-        "kitesurf"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "moli：最佳无头浏览器用于AI智能体",
-        "summary": "最佳无头浏览器用于AI智能体。轻量、快速、高兼容性。用Rust编写",
-        "sourceHash": "d5f58c7cdf993f51022eb1c29a2cb8e533ea9975dafbf0661d5d69cb2f568a44",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:34:33+08:00",
-        "style": "natural-zh",
-        "simple": "一款专为AI智能体设计的轻量级无头浏览器"
-      }
-    },
-    {
-      "id": "github-cd45d8adfda3c4348e9408dd",
-      "kind": "workflow",
-      "title": "Tenney95/AI-Canvas-tauri",
-      "originalTitle": "Tenney95/AI-Canvas-tauri",
-      "summary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
-      "originalSummary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/Tenney95/AI-Canvas-tauri",
-      "sources": [
-        {
-          "title": "Tenney95/AI-Canvas-tauri · 项目主页",
-          "url": "https://github.com/Tenney95/AI-Canvas-tauri"
-        }
-      ],
-      "license": "自定义或未明确许可，查看原项目",
-      "lastActivityAt": "2026-11-24T06:24:53Z",
-      "createdAt": "2026-05-27T12:26:15Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 401,
-      "language": "TypeScript",
-      "tags": [
-        "ai-agent",
-        "ai-canvas",
-        "ai-short-drama",
-        "ai-workflow",
-        "asset-management",
-        "blender",
-        "comfyui",
-        "creative-tools"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "社区流程 / 组件",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "AI画布、AI短剧创作工具：免费、轻量的无限画布",
-        "summary": "AI画布、AI短剧创作工具：免费、轻量的无限画布，支持短剧剧本、角色管理、分镜、图像/视频生成和短剧剪辑，集成 ComfyUI、Agent、MCP。Free AI canvas and short drama maker.",
-        "sourceHash": "d1d2cb8374238e1c7c409ce66aa14f31f76e1b04d822a617e10da0119af93411",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:40:40+08:00",
-        "style": "natural-zh",
-        "simple": "一款免费轻量的AI工具，支持短剧创作和视频生成。"
       }
     },
     {
@@ -6138,56 +7188,6 @@
         "translatedAt": "2026-11-23T15:40:20+08:00",
         "style": "natural-zh",
         "simple": "多模型一体化桌面助手支持Claude Code等"
-      }
-    },
-    {
-      "id": "github-0b169f2deb705ad5c7ebdef4",
-      "kind": "software",
-      "title": "pydantic/logfire",
-      "originalTitle": "pydantic/logfire",
-      "summary": "AI observability platform for production LLM and agent systems.",
-      "originalSummary": "AI observability platform for production LLM and agent systems.",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/pydantic/logfire",
-      "sources": [
-        {
-          "title": "pydantic/logfire · 项目主页",
-          "url": "https://github.com/pydantic/logfire"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T05:43:58Z",
-      "createdAt": "2024-04-23T11:50:23Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 4566,
-      "language": "Python",
-      "tags": [
-        "agent-observability",
-        "ai",
-        "ai-observability",
-        "ai-tools",
-        "evals",
-        "fastapi",
-        "llm-observability",
-        "logging"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "pydantic/logfire · 项目介绍",
-        "summary": "用于生产环境LLM和AI智能体系统的AI可观测性平台。",
-        "sourceHash": "e88289feabafd11cbe6cec7ab6b571f53cf181dd55af5fe16f56ee843ee78c8a",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:42:51+08:00",
-        "style": "natural-zh",
-        "simple": "提供生产环境LLM和AI智能体系统的可观测性工具。"
       }
     },
     {
@@ -6309,9 +7309,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-24T05:17:55.000Z",
       "createdAt": "2026-10-05T04:26:43.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 206652,
-      "likes": 1486,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 196409,
+      "likes": 1497,
       "pipeline": "text-generation",
       "tags": [
         "transformers",
@@ -6351,8 +7351,6 @@
           "value": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16"
         }
       ],
-      "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00",
       "profile": {
         "purpose": "低内存环境下的对话生成与工具使用",
         "summary": "NVIDIA 在 Gemma-4-E4B-it 基础上继续后训练的小语言模型，面向本地语音或设备助手的文字推理部分，强调多轮工具使用、指令跟随与上下文关联。",
@@ -6364,7 +7362,9 @@
         "engine": "official-model-card-reviewed",
         "generatedAt": "2026-11-23T17:46:33+08:00",
         "reviewSourceCardHash": "8a06cc67a204a173512f631b7eb8325c220236c543ee5007ecbecddeec272b20"
-      }
+      },
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
     },
     {
       "id": "github-27fc8686ff3c53d323922ed4",
@@ -6532,9 +7532,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-24T04:56:04.000Z",
       "createdAt": "2026-07-28T10:45:18.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 5853241,
-      "likes": 7287,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 5911687,
+      "likes": 7307,
       "pipeline": "image-text-to-video",
       "tags": [
         "minimax-h3",
@@ -6574,8 +7574,6 @@
           "value": "sv / en / fr / de / es / nl"
         }
       ],
-      "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00",
       "profile": {
         "purpose": "多模态视频生成与处理",
         "summary": "MiniMax-H3 是一个通用的多模态生成系统，支持文本、图像、视频和音频的统一理解和生成，可生成分辨率达到2K、时长不超过15秒的视频，并带有原生立体音频。该模型支持多种语言输入，并通过H3-Context-IR模块进行复杂多模态指令的处理和生成，生成的视频具有更高的视觉保真度和细节准确性。",
@@ -6587,7 +7585,9 @@
         "engine": "official-model-card-reviewed",
         "generatedAt": "2026-11-23T17:46:33+08:00",
         "reviewSourceCardHash": "059f4722e2e9331c8c128fd9b11e53e5afab8c002076329cfff1a12c6b3b8f2e"
-      }
+      },
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
     },
     {
       "id": "github-5efd0767c1524ba4e6137c5c",
@@ -6689,56 +7689,6 @@
       }
     },
     {
-      "id": "github-cdb233d13d02d30bc3c59c96",
-      "kind": "software",
-      "title": "HarnessMD/munder-difflin",
-      "originalTitle": "HarnessMD/munder-difflin",
-      "summary": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
-      "originalSummary": "Coolest app to use agents, local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/HarnessMD/munder-difflin",
-      "sources": [
-        {
-          "title": "HarnessMD/munder-difflin · 项目主页",
-          "url": "https://github.com/HarnessMD/munder-difflin"
-        }
-      ],
-      "license": "MIT",
-      "lastActivityAt": "2026-11-24T04:11:13Z",
-      "createdAt": "2026-05-31T15:25:05Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 9707,
-      "language": "TypeScript",
-      "tags": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-team",
-        "agentic-ai",
-        "ai-agent",
-        "ai-agents",
-        "ai-assistant",
-        "ai-tools"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "HarnessMD/munder-difflin · 项目介绍",
-        "summary": "最酷的使用Agent的本地应用，支持多提供商和开源Grok bot替代品。可为Claude代码和Codex-like Agent构建定制世界。",
-        "sourceHash": "b4def30a7f9e96ea155a152c7d172344635f8e9ce274e4ed749bf1b90b36fc47",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-24T06:57:45+08:00",
-        "style": "natural-zh",
-        "simple": "开源工具可帮助用户构建和使用AI助手。"
-      }
-    },
-    {
       "id": "hf-bba246a18e718a46f83fbdab",
       "kind": "model",
       "resourceType": "weights",
@@ -6757,9 +7707,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-24T03:07:33.000Z",
       "createdAt": "2026-10-13T07:53:39.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 3639,
-      "likes": 394,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 4056,
+      "likes": 399,
       "pipeline": "text-generation",
       "tags": [
         "safetensors",
@@ -6794,57 +7744,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
-    },
-    {
-      "id": "github-523db86be2b7245cc3dedcba",
-      "kind": "workflow",
-      "title": "shanliuling/dsh-image-gen",
-      "originalTitle": "shanliuling/dsh-image-gen",
-      "summary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
-      "originalSummary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/shanliuling/dsh-image-gen",
-      "sources": [
-        {
-          "title": "shanliuling/dsh-image-gen · 项目主页",
-          "url": "https://github.com/shanliuling/dsh-image-gen"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T02:39:54Z",
-      "createdAt": "2026-08-17T10:16:37Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 1715,
-      "language": "TypeScript",
-      "tags": [
-        "ai-agent",
-        "ai-image-generation-api",
-        "comfyui",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "gemini",
-        "image-generation"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "社区流程 / 组件",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "DeepSeek Harness 图像生成工具",
-        "summary": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
-        "sourceHash": "d4e842433c4588638e2da6cf1762002df6613168d80ced7bbb5d911bf83f9406",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:40:57+08:00",
-        "style": "natural-zh",
-        "simple": "AI工具可在对话中生成和编辑图像。"
-      }
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
     },
     {
       "id": "github-d991c88fffabebfc9be47234",
@@ -6915,9 +7815,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-24T00:54:26.000Z",
       "createdAt": "2026-11-23T02:03:26.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 0,
-      "likes": 22,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 4458,
+      "likes": 44,
       "pipeline": "text-to-speech",
       "tags": [
         "speech.cpp",
@@ -6958,7 +7858,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
     },
     {
       "id": "github-2333224ea3eac9b659e94f3d",
@@ -7011,54 +7911,6 @@
       }
     },
     {
-      "id": "github-014d9d7d558f41cd24b4c204",
-      "kind": "workflow",
-      "title": "wjluoxiao/XB_ToolBox",
-      "originalTitle": "wjluoxiao/XB_ToolBox",
-      "summary": "XB_ToolBox: An easy-to-use ComfyUI custom node suite that streamlines workflow generation. Featuring exclusive data-flow logic and pioneering experimental kernel optimizations dedicated to the native AMD GPU ecosystem.",
-      "originalSummary": "XB_ToolBox: An easy-to-use ComfyUI custom node suite that streamlines workflow generation. Featuring exclusive data-flow logic and pioneering experimental kernel optimizations dedicated to the native AMD GPU ecosystem.",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/wjluoxiao/XB_ToolBox",
-      "sources": [
-        {
-          "title": "wjluoxiao/XB_ToolBox · 项目主页",
-          "url": "https://github.com/wjluoxiao/XB_ToolBox"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-24T00:11:17Z",
-      "createdAt": "2026-04-11T17:42:30Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 476,
-      "language": "Python",
-      "tags": [
-        "amd",
-        "comfyui",
-        "custom-nodes",
-        "rocm",
-        "tool-box",
-        "workflows"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "社区流程 / 组件",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "wjluoxiao/XB_ToolBox · 项目介绍",
-        "summary": "XB_ToolBox：一个易于使用的ComfyUI自定义节点套件，可简化工作流生成。该工具包含独家的数据流逻辑和针对原生AMD GPU生态系统的开创性实验性内核优化。",
-        "sourceHash": "7c9d1d7f2599664cccdbc25af39fbcf04686c8d018d49cd4a0bd0a00db711c8d",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-24T06:56:31+08:00",
-        "style": "natural-zh",
-        "simple": "XB_ToolBox 是一个简化工作流生成的ComfyUI自定义节点套件。"
-      }
-    },
-    {
       "id": "github-17bdae61eac014891545ecd8",
       "kind": "workflow",
       "title": "1038lab/ComfyUI-RMBG",
@@ -7105,106 +7957,6 @@
         "translatedAt": "2026-11-24T06:58:32+08:00",
         "style": "natural-zh",
         "simple": "用于图像背景去除的 ComfyUI 自定义节点，整合多个模型实现高级分割。"
-      }
-    },
-    {
-      "id": "github-4b5552a954f12ba904674001",
-      "kind": "workflow",
-      "title": "Mooshieblob1/MooshieUI",
-      "originalTitle": "Mooshieblob1/MooshieUI",
-      "summary": "A front-end UI for ComfyUI made for beginner level users.",
-      "originalSummary": "A front-end UI for ComfyUI made for beginner level users.",
-      "category": "ComfyUI 工作流",
-      "platform": "GitHub",
-      "url": "https://github.com/Mooshieblob1/MooshieUI",
-      "sources": [
-        {
-          "title": "Mooshieblob1/MooshieUI · 项目主页",
-          "url": "https://github.com/Mooshieblob1/MooshieUI"
-        }
-      ],
-      "license": "AGPL-3.0",
-      "lastActivityAt": "2026-11-23T22:08:26Z",
-      "createdAt": "2026-03-16T08:33:49Z",
-      "checkedAt": "2026-11-24T06:53:58+08:00",
-      "stars": 233,
-      "language": "TypeScript",
-      "tags": [
-        "ai-art",
-        "comfyui",
-        "desktop-app",
-        "flux",
-        "generative-ai",
-        "image-generation",
-        "inpainting",
-        "rust"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "社区流程 / 组件",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "Mooshieblob1/MooshieUI · 项目介绍",
-        "summary": "为初学者设计的ComfyUI前端界面",
-        "sourceHash": "3447aa4f8a94cce8035a3547991780528acabeec9b9a7f2fa0ae70021b94e415",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:42:40+08:00",
-        "style": "natural-zh",
-        "simple": "为新手设计的AI工具界面"
-      }
-    },
-    {
-      "id": "github-03c2bfaed7d2d6149f88aaca",
-      "kind": "software",
-      "title": "zzet/gortex",
-      "originalTitle": "zzet/gortex",
-      "summary": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
-      "originalSummary": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/zzet/gortex",
-      "sources": [
-        {
-          "title": "zzet/gortex · 项目主页",
-          "url": "https://github.com/zzet/gortex"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-23T22:06:42Z",
-      "createdAt": "2026-04-06T13:47:15Z",
-      "checkedAt": "2026-11-24T06:53:58+08:00",
-      "stars": 2096,
-      "language": "Go",
-      "tags": [
-        "ai-tools",
-        "claude-code",
-        "code-analysis",
-        "code-assistant",
-        "codex",
-        "context-window",
-        "context-window-optimization",
-        "context-window-optimizer"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "gortex：高性能代码智能引擎",
-        "summary": "gortex 是一款高性能代码智能引擎，用于 AI 智能体和 IDE，支持 257 种语言，多仓库管理，基于图结构，可通过 CLI、MCP 服务器和 API 访问。AI 编码智能体团队成员 - 仅暴露必要信息，可将 token 使用量减少 50 倍。100% 本地运行。Discord：https://discord.gg/39MFHu3J5d",
-        "sourceHash": "035e191c1686e1eae6efddafd6825a6a7207e01f289c1171be029f3d7969f14c",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:40:45+08:00",
-        "style": "natural-zh",
-        "simple": "gortex 是一个支持多种语言的 AI 编码助手，能高效处理代码任务。"
       }
     },
     {
@@ -7255,56 +8007,6 @@
         "translatedAt": "2026-11-24T06:57:45+08:00",
         "style": "natural-zh",
         "simple": "免费工具可帮助用户构建和训练LoRA模型。"
-      }
-    },
-    {
-      "id": "github-ef019c07dc2234a1eb23f353",
-      "kind": "software",
-      "title": "JetBrains/thinkrail",
-      "originalTitle": "JetBrains/thinkrail",
-      "summary": "ThinkRail is the agentic IDE that gets better every time you use it",
-      "originalSummary": "ThinkRail is the agentic IDE that gets better every time you use it",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "sources": [
-        {
-          "title": "JetBrains/thinkrail · 项目主页",
-          "url": "https://github.com/JetBrains/thinkrail"
-        }
-      ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-23T21:19:00Z",
-      "createdAt": "2026-07-08T07:40:43Z",
-      "checkedAt": "2026-11-24T06:53:58+08:00",
-      "stars": 8417,
-      "language": "TypeScript",
-      "tags": [
-        "agent",
-        "agent-skills",
-        "agentic-ai",
-        "agentic-workflow",
-        "ai-coding",
-        "ai-tools",
-        "pi-agent",
-        "pi-agent-extension"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "JetBrains/thinkrail · 项目介绍",
-        "summary": "一款不断改进的AI智能体IDE",
-        "sourceHash": "c1a7c01d6fefa58a300d76984ef05ab366bcc24518520f9abe0fc8fecdcc812b",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:42:40+08:00",
-        "style": "natural-zh",
-        "simple": "AI智能体工具不断优化"
       }
     },
     {
@@ -7608,56 +8310,6 @@
       }
     },
     {
-      "id": "github-b72383cdf2766c3a1e7f1ab9",
-      "kind": "software",
-      "title": "medusajs/medusa",
-      "originalTitle": "medusajs/medusa",
-      "summary": "The world's most flexible commerce platform for agents and developers",
-      "originalSummary": "The world's most flexible commerce platform for agents and developers",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/medusajs/medusa",
-      "sources": [
-        {
-          "title": "medusajs/medusa · 项目主页",
-          "url": "https://github.com/medusajs/medusa"
-        }
-      ],
-      "license": "自定义或未明确许可，查看原项目",
-      "lastActivityAt": "2026-11-23T18:35:52Z",
-      "createdAt": "2020-01-18T13:39:04Z",
-      "checkedAt": "2026-11-24T06:53:58+08:00",
-      "stars": 37380,
-      "language": "TypeScript",
-      "tags": [
-        "ai-coding",
-        "ai-tools",
-        "commerce",
-        "e-commerce",
-        "ecommerce",
-        "framework",
-        "javascript",
-        "medusa"
-      ],
-      "mode": "resource",
-      "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "medusajs/medusa · 项目介绍",
-        "summary": "世界上最具灵活性的面向代理和开发者的电商平台",
-        "sourceHash": "ed0add4e874ee0268a5f8a67f77250df7b896b751a392638df3e5e2f446671d3",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:51:53+08:00",
-        "style": "natural-zh",
-        "simple": "灵活的电商开发平台"
-      }
-    },
-    {
       "id": "github-72bf935e4db998c8cfc74d22",
       "kind": "workflow",
       "title": "guaardvark/guaardvark",
@@ -7755,6 +8407,61 @@
       }
     },
     {
+      "id": "hf-371eb8315701b38ba3f1eacb",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "mehdi-hf/tiny-ava · 将文字合成为语音",
+      "originalTitle": "mehdi-hf/tiny-ava",
+      "summary": "将文字合成为语音模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "音频与语音",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/mehdi-hf/tiny-ava",
+      "sources": [
+        {
+          "title": "mehdi-hf/tiny-ava · 模型卡",
+          "url": "https://huggingface.co/mehdi-hf/tiny-ava"
+        }
+      ],
+      "license": "cc-by-4.0 · 使用前核对条款",
+      "lastActivityAt": "2026-11-23T14:34:16.000Z",
+      "createdAt": "2026-11-23T05:26:32.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 42,
+      "likes": 22,
+      "pipeline": "text-to-speech",
+      "tags": [
+        "onnx",
+        "text-to-speech",
+        "persian",
+        "farsi",
+        "tiny-voca",
+        "cpu",
+        "fa"
+      ],
+      "gated": false,
+      "assetType": "公开模型权重",
+      "mode": "resource",
+      "curated": false,
+      "fit": "想试验将文字合成为语音能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "cd2a2217ac31447763cbb500bdc2433973e6e4f4",
+      "cardHash": "0ec5da40027b7f413ac57c68acbdc398a2bda359b1decc5238936e303a88a22e",
+      "modelFacts": [
+        {
+          "label": "权重格式",
+          "value": "ONNX"
+        },
+        {
+          "label": "标注语言",
+          "value": "fa"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
+    },
+    {
       "id": "hf-6ffb06d4913dc17e64798a20",
       "kind": "model",
       "resourceType": "weights",
@@ -7773,9 +8480,9 @@
       "license": "cc-by-nc-4.0 · 使用前核对条款",
       "lastActivityAt": "2026-11-23T12:01:45.000Z",
       "createdAt": "2026-10-01T21:47:49.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1607,
-      "likes": 168,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 1929,
+      "likes": 174,
       "pipeline": "text-to-speech",
       "tags": [
         "reverb-tts",
@@ -7983,7 +8690,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:17+08:00"
     },
     {
       "id": "github-2c78a659fad6718742f2777e",
@@ -8104,9 +8811,9 @@
       "license": "mit",
       "lastActivityAt": "2026-11-23T09:55:51.000Z",
       "createdAt": "2026-11-19T04:30:30.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 397,
-      "likes": 123,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 1070,
+      "likes": 141,
       "pipeline": "text-generation",
       "tags": [
         "safetensors",
@@ -8694,53 +9401,68 @@
       }
     },
     {
-      "id": "github-1f558a05748b6768eaa65580",
-      "kind": "software",
-      "title": "ReScienceLab/opc-skills",
-      "originalTitle": "ReScienceLab/opc-skills",
-      "summary": "Agent Skills for Solopreneurs",
-      "originalSummary": "Agent Skills for Solopreneurs",
-      "category": "GitHub 软件",
-      "platform": "GitHub",
-      "url": "https://github.com/ReScienceLab/opc-skills",
+      "id": "hf-156063c6715c6541a66634de",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "orcarouter/Inkling-2-Mini-abliterated-GGUF · 文本生成与对话",
+      "originalTitle": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
+      "summary": "文本生成与对话模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "开源模型",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
       "sources": [
         {
-          "title": "ReScienceLab/opc-skills · 项目主页",
-          "url": "https://github.com/ReScienceLab/opc-skills"
+          "title": "orcarouter/Inkling-2-Mini-abliterated-GGUF · 模型卡",
+          "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF"
         }
       ],
-      "license": "Apache-2.0",
-      "lastActivityAt": "2026-11-23T05:09:15Z",
-      "createdAt": "2026-01-17T06:43:21Z",
-      "checkedAt": "2026-11-23T15:09:38+08:00",
-      "stars": 1928,
-      "language": "Python",
+      "license": "apache-2.0",
+      "lastActivityAt": "2026-11-23T06:07:16.000Z",
+      "createdAt": "2026-11-23T05:14:32.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 5446,
+      "likes": 131,
+      "pipeline": "text-generation",
       "tags": [
-        "agent-skills",
-        "ai-tools",
-        "claude-code",
-        "geo",
-        "llm-tools",
-        "opc",
-        "seo"
+        "gguf",
+        "llama.cpp",
+        "local",
+        "inkling",
+        "inkling-2-mini",
+        "moe",
+        "abliterated",
+        "uncensored"
       ],
+      "gated": true,
+      "assetType": "需申请访问的模型",
       "mode": "resource",
       "curated": false,
-      "assetType": "软件项目",
-      "fit": "按仓库说明判断是否适合你的任务。",
-      "start": "先看项目 README、最近提交和 Issues，再决定是否安装。",
-      "requirements": "需要的模型、账号、硬件和许可条件以原项目说明为准。",
-      "verification": "根据项目公开说明与 API 整理，未逐项安装或实测。",
-      "translation": {
-        "title": "AI智能体技能包",
-        "summary": "为独立创业者提供AI智能体技能支持",
-        "sourceHash": "0c90df8898cd54d7d1c2f3aae2a1d2bd3f34b14028c2d0ebe144f28d1ee7825d",
-        "engine": "Qwen3-4B-Q4_K_M",
-        "revision": "qwen3-bc640142-natural-zh-v2",
-        "translatedAt": "2026-11-23T15:40:54+08:00",
-        "style": "natural-zh",
-        "simple": "为独立创业者提供AI智能体技能支持"
-      }
+      "fit": "想试验文本生成与对话能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "需申请访问。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "20b83559fef0b641145603d089210269ae721a74",
+      "cardHash": "45a336f43355b145ce0be614385dea76c1a91e9f9f81e2c15856ecbc5e857a10",
+      "modelFacts": [
+        {
+          "label": "权重格式",
+          "value": "GGUF"
+        },
+        {
+          "label": "适配框架",
+          "value": "gguf"
+        },
+        {
+          "label": "标注语言",
+          "value": "en"
+        },
+        {
+          "label": "基于模型",
+          "value": "thinkingmachines/Inkling-2-Mini"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "github-327ddbbb4f437001d6d6047e",
@@ -8890,6 +9612,65 @@
       }
     },
     {
+      "id": "hf-187aeadb6fc39a9e42591e36",
+      "kind": "model",
+      "resourceType": "weights",
+      "title": "OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge · 根据图像生成视频",
+      "originalTitle": "OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge",
+      "summary": "根据图像生成视频模型。可用版本、模型大小和适用条件见模型卡。",
+      "category": "视频与动画",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge",
+      "sources": [
+        {
+          "title": "OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge · 模型卡",
+          "url": "https://huggingface.co/OliviaRossi/Minimax-H3-Sulphur3-10Erosmax-Merge"
+        }
+      ],
+      "license": "自定义或未明确许可，查看原项目",
+      "lastActivityAt": "2026-11-22T16:27:30.000Z",
+      "createdAt": "2026-11-22T11:58:03.000Z",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 0,
+      "likes": 28,
+      "pipeline": "image-to-video",
+      "tags": [
+        "comfyui",
+        "minimax-h3",
+        "text-to-video",
+        "image-to-video",
+        "model-merge",
+        "int8",
+        "convrot"
+      ],
+      "gated": false,
+      "assetType": "公开模型权重",
+      "mode": "resource",
+      "curated": false,
+      "fit": "想试验根据图像生成视频能力的用户。",
+      "start": "先阅读模型卡中的使用示例、许可和硬件要求，再选择适合的版本。",
+      "requirements": "公开权重不代表任意商用；具体许可、依赖和硬件要求以模型卡为准。",
+      "verification": "来自 Hugging Face 公开模型元数据与维护者目录；不是本项目的实测排行。",
+      "cardSha": "92989bd86874f6c7793d9bbad834b73dd4592918",
+      "cardHash": "b3d3e1491d7caa7321fe34b82a1f9e3d35010d38757b68cd6500863afd369cb4",
+      "modelFacts": [
+        {
+          "label": "权重格式",
+          "value": "Safetensors"
+        },
+        {
+          "label": "适配框架",
+          "value": "comfyui"
+        },
+        {
+          "label": "基于模型",
+          "value": "MiniMaxAI/MiniMax-H3 / SulphurAI/Sulphur-3"
+        }
+      ],
+      "detailStatus": "available",
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
+    },
+    {
       "id": "github-c2f3776ce41cdff2d3bddd95",
       "kind": "workflow",
       "title": "Deno2026/comfyui-deno-custom-nodes",
@@ -8958,8 +9739,8 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-21T21:01:56Z",
       "createdAt": "2025-11-12T11:44:04Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 2553,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 2554,
       "language": "多语言 / 未标注",
       "tags": [
         "n8n",
@@ -9007,9 +9788,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-21T11:33:21.000Z",
       "createdAt": "2026-11-20T13:14:57.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 31,
-      "likes": 75,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 397,
+      "likes": 89,
       "pipeline": "text-generation",
       "tags": [
         "transformers",
@@ -9054,7 +9835,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "hf-23211aea7bf2bcea132abcb4",
@@ -9075,8 +9856,8 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-20T19:14:36.000Z",
       "createdAt": "2026-11-19T18:53:04.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 6436,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 7195,
       "likes": 149,
       "pipeline": "text-to-image",
       "tags": [
@@ -9118,7 +9899,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "hf-ae8d09eeaa903d0862134378",
@@ -9209,8 +9990,8 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T16:00:45.000Z",
       "createdAt": "2026-11-14T15:46:27.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 12310,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 13673,
       "likes": 436,
       "pipeline": "text-to-speech",
       "tags": [
@@ -9274,9 +10055,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-20T08:11:48.000Z",
       "createdAt": "2026-03-30T13:43:33.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 4309131,
-      "likes": 1741,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 4309464,
+      "likes": 1744,
       "pipeline": "text-to-speech",
       "tags": [
         "omnivoice",
@@ -9358,9 +10139,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-20T05:34:36.000Z",
       "createdAt": "2026-11-17T10:16:41.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 2036,
-      "likes": 652,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 2696,
+      "likes": 672,
       "pipeline": "image-text-to-text",
       "tags": [
         "transformers",
@@ -9438,9 +10219,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-19T20:29:37.000Z",
       "createdAt": "2026-10-14T19:47:55.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 2978,
-      "likes": 370,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 3313,
+      "likes": 372,
       "pipeline": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -9595,9 +10376,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-19T06:25:09.000Z",
       "createdAt": "2026-11-18T03:56:49.000Z",
-      "checkedAt": "2026-11-24T06:53:58+08:00",
-      "downloads": 336,
-      "likes": 97,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 425,
+      "likes": 102,
       "pipeline": "text-to-image",
       "tags": [
         "text-to-image",
@@ -9660,9 +10441,9 @@
       "license": "mit",
       "lastActivityAt": "2026-11-18T23:03:58.000Z",
       "createdAt": "2026-11-18T21:17:14.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 16508,
-      "likes": 27,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 18859,
+      "likes": 28,
       "pipeline": "image-to-video",
       "tags": [
         "diffusion-single-file",
@@ -9807,9 +10588,9 @@
       "license": "mit",
       "lastActivityAt": "2026-11-18T08:26:48.000Z",
       "createdAt": "2026-09-03T11:49:27.000Z",
-      "checkedAt": "2026-11-23T19:13:40+08:00",
-      "downloads": 2638,
-      "likes": 140,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 2696,
+      "likes": 143,
       "pipeline": "audio-to-audio",
       "tags": [
         "transformers",
@@ -9887,9 +10668,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-18T08:02:24.000Z",
       "createdAt": "2026-11-16T02:49:24.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 2748,
-      "likes": 25,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 2882,
+      "likes": 30,
       "pipeline": "image-to-video",
       "tags": [
         "diffusers",
@@ -9959,9 +10740,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-17T19:41:37.000Z",
       "createdAt": "2026-11-09T05:03:57.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 176069,
-      "likes": 653,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 185626,
+      "likes": 656,
       "pipeline": "text-to-speech",
       "tags": [
         "zonos3",
@@ -10031,9 +10812,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-17T06:23:27.000Z",
       "createdAt": "2026-11-12T12:47:35.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
       "downloads": 0,
-      "likes": 32,
+      "likes": 34,
       "pipeline": "image-to-video",
       "tags": [
         "safetensors",
@@ -10096,9 +10877,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-16T10:00:08.000Z",
       "createdAt": "2026-11-03T06:34:36.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 972272,
-      "likes": 2496,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 1003202,
+      "likes": 2512,
       "pipeline": "text-to-image",
       "tags": [
         "minimax-h3",
@@ -10172,9 +10953,9 @@
       "license": "cc-by-4.0 · 使用前核对条款",
       "lastActivityAt": "2026-11-13T11:38:29.000Z",
       "createdAt": "2026-10-30T08:20:49.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 9925,
-      "likes": 182,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 10082,
+      "likes": 184,
       "pipeline": "automatic-speech-recognition",
       "tags": [
         "transformers",
@@ -10256,9 +11037,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-11-12T10:41:23.000Z",
       "createdAt": "2026-10-07T23:42:01.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 847,
-      "likes": 357,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 892,
+      "likes": 358,
       "pipeline": "image-text-to-video",
       "tags": [
         "diffusers",
@@ -10332,7 +11113,7 @@
       "license": "cc-by-nc-4.0 · 使用前核对条款",
       "lastActivityAt": "2026-11-09T22:46:00.000Z",
       "createdAt": "2026-11-09T22:42:57.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:15+08:00",
       "downloads": 0,
       "likes": 239,
       "pipeline": "text-to-image",
@@ -10437,7 +11218,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "hf-66c1aae520b7679a15d2ad11",
@@ -10534,9 +11315,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-11-02T10:31:06.000Z",
       "createdAt": "2026-06-16T22:31:20.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 4608838,
-      "likes": 890,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 4619387,
+      "likes": 896,
       "pipeline": "text-to-image",
       "tags": [
         "diffusion-single-file",
@@ -10568,7 +11349,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "hf-232bdcec3bc3770ec5ba873a",
@@ -10673,8 +11454,8 @@
       "license": "MIT",
       "lastActivityAt": "2026-10-24T05:51:26Z",
       "createdAt": "2026-03-12T23:34:21Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "stars": 123,
+      "checkedAt": "2026-11-25T02:50:16+08:00",
+      "stars": 124,
       "language": "Astro",
       "tags": [
         "ai-agents",
@@ -10723,9 +11504,9 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2026-10-11T07:00:53.000Z",
       "createdAt": "2026-07-23T07:55:24.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 3002698,
-      "likes": 13217,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 3024745,
+      "likes": 13286,
       "pipeline": "image-to-video",
       "tags": [
         "diffusion-single-file",
@@ -10946,7 +11727,7 @@
       "license": "MIT",
       "lastActivityAt": "2026-09-07T17:16:09Z",
       "createdAt": "2025-08-04T04:55:26Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "stars": 55,
       "language": "Python",
       "tags": [
@@ -11076,7 +11857,7 @@
       "license": "MIT",
       "lastActivityAt": "2026-04-12T15:24:53Z",
       "createdAt": "2025-12-01T18:42:53Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "stars": 102,
       "language": "TypeScript",
       "tags": [
@@ -11126,9 +11907,9 @@
       "license": "apache-2.0",
       "lastActivityAt": "2026-01-30T03:00:12.000Z",
       "createdAt": "2026-01-28T03:22:40.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 1673667,
-      "likes": 1280,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 1723225,
+      "likes": 1282,
       "pipeline": "automatic-speech-recognition",
       "tags": [
         "safetensors",
@@ -11163,7 +11944,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:50+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "github-620a090e9b8db54b2ac84a04",
@@ -11184,7 +11965,7 @@
       "license": "自定义或未明确许可，查看原项目",
       "lastActivityAt": "2025-12-05T03:43:14Z",
       "createdAt": "2025-12-05T02:46:16Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
+      "checkedAt": "2026-11-25T02:50:16+08:00",
       "stars": 31,
       "language": "Makefile",
       "tags": [
@@ -11234,9 +12015,9 @@
       "license": "cc-by-4.0 · 使用前核对条款",
       "lastActivityAt": "2025-09-29T08:43:24.000Z",
       "createdAt": "2025-04-15T21:31:35.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 4688356,
-      "likes": 4998,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 4731247,
+      "likes": 5021,
       "pipeline": "automatic-speech-recognition",
       "tags": [
         "pyannote-audio",
@@ -11492,7 +12273,7 @@
         }
       ],
       "detailStatus": "available",
-      "cardCheckedAt": "2026-11-24T14:54:51+08:00"
+      "cardCheckedAt": "2026-11-25T02:50:18+08:00"
     },
     {
       "id": "hf-a2d6f9cd1a2cfc9f119d3615",
@@ -11513,9 +12294,9 @@
       "license": "mit",
       "lastActivityAt": "2024-05-10T19:43:23.000Z",
       "createdAt": "2023-11-16T08:19:01.000Z",
-      "checkedAt": "2026-11-24T14:54:48+08:00",
-      "downloads": 5903663,
-      "likes": 5535,
+      "checkedAt": "2026-11-25T02:50:15+08:00",
+      "downloads": 5921936,
+      "likes": 5552,
       "pipeline": "automatic-speech-recognition",
       "tags": [
         "pyannote-audio",
